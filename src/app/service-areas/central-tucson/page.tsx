@@ -16,7 +16,20 @@ export const metadata: Metadata = {
     url: 'https://tucsonslableakpros.com/service-areas/central-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
-    type: 'website',
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Slab Leak Detection Central Tucson, AZ",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Slab Leak Detection Central Tucson, AZ",
+    description: "Request slab leak detection and repair across Downtown, Midtown, Blenman-Elm and the University area, including ZIPs 85701, 85712, 85716 and 85719.",
+    images: ["/images/services_hub_hero.jpg"],
   },
 };
 

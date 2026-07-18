@@ -19,7 +19,20 @@ export const metadata: Metadata = {
     url: 'https://tucsonslableakpros.com/slab-leak-faq/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
-    type: 'website',
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Slab Leak FAQ | 70 Tucson Questions Answered",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Slab Leak FAQ | 70 Tucson Questions Answered",
+    description: "Find clear answers to 70 common questions about slab leak symptoms, detection, repair, costs, emergencies, insurance and Tucson service areas.",
+    images: ["/images/services_hub_hero.jpg"],
   },
 };
 

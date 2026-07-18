@@ -15,7 +15,20 @@ export const metadata: Metadata = {
     url: 'https://tucsonslableakpros.com/water-line-rerouting-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
-    type: 'website',
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Water-Line Rerouting Tucson | Slab Leak Pipe Bypass",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Water-Line Rerouting Tucson | Slab Leak Pipe Bypass",
+    description: "Explore water-line rerouting in Tucson to bypass a leaking under-slab pipe through a more accessible wall, ceiling or attic route.",
+    images: ["/images/services_hub_hero.jpg"],
   },
 };
 

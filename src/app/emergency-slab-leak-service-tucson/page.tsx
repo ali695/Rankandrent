@@ -15,7 +15,20 @@ export const metadata: Metadata = {
     url: 'https://tucsonslableakpros.com/emergency-slab-leak-service-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
-    type: 'website',
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Emergency Slab Leak Service Tucson, AZ",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Emergency Slab Leak Service Tucson, AZ",
+    description: "Get help with active water spreading, rapid meter movement, sudden pressure loss or another urgent suspected slab leak in Tucson.",
+    images: ["/images/services_hub_hero.jpg"],
   },
 };
 

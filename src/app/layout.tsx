@@ -5,8 +5,31 @@ import "./globals.css";
 const montserrat = Montserrat({ subsets: ["latin"], weight: ["400", "600", "700", "800", "900"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://tucsonslableakpros.com"),
   title: "Tucson Slab Leak Detection & Repair | AZ",
   description: "Expert slab leak detection and repair in Tucson, AZ. We find hidden leaks under concrete without unnecessary damage. Request an inspection today.",
+  openGraph: {
+    title: "Tucson Slab Leak Detection & Repair | AZ",
+    description: "Expert slab leak detection and repair in Tucson, AZ. We find hidden leaks under concrete without unnecessary damage. Request an inspection today.",
+    url: "https://tucsonslableakpros.com/",
+    siteName: "Tucson Leak Pros",
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Tucson Slab Leak Detection & Repair",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Tucson Slab Leak Detection & Repair | AZ",
+    description: "Expert slab leak detection and repair in Tucson, AZ. We find hidden leaks under concrete without unnecessary damage. Request an inspection today.",
+    images: ["/images/services_hub_hero.jpg"],
+  },
 };
 
 const organizationSchema = {

@@ -16,7 +16,20 @@ export const metadata: Metadata = {
     url: 'https://tucsonslableakpros.com/service-areas/rita-ranch/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
-    type: 'website',
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Slab Leak Detection Rita Ranch & Southeast Tucson",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Slab Leak Detection Rita Ranch & Southeast Tucson",
+    description: "Find slab leak detection, water-line testing and repair services across Rita Ranch and Southeast Tucson, including ZIPs 85730 and 85747.",
+    images: ["/images/services_hub_hero.jpg"],
   },
 };
 

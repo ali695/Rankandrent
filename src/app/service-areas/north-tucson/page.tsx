@@ -16,7 +16,20 @@ export const metadata: Metadata = {
     url: 'https://tucsonslableakpros.com/service-areas/north-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
-    type: 'website',
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Slab Leak Detection North Tucson & Casas Adobes",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Slab Leak Detection North Tucson & Casas Adobes",
+    description: "Find slab leak detection, pressure testing and pipe repair services across North Tucson, Flowing Wells and Casas Adobes.",
+    images: ["/images/services_hub_hero.jpg"],
   },
 };
 

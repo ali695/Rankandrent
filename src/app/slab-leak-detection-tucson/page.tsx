@@ -15,7 +15,20 @@ export const metadata: Metadata = {
     url: 'https://tucsonslableakpros.com/slab-leak-detection-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
-    type: 'website',
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Slab Leak Detection Tucson, AZ | Locate Hidden Leaks",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Slab Leak Detection Tucson, AZ | Locate Hidden Leaks",
+    description: "Locate suspected water-line leaks beneath concrete using pressure testing, line isolation and professional leak detection methods in Tucson.",
+    images: ["/images/services_hub_hero.jpg"],
   },
 };
 

@@ -19,7 +19,20 @@ export const metadata: Metadata = {
     url: 'https://tucsonslableakpros.com/cold-water-slab-leak-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
-    type: 'website',
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Cold-Water Slab Leak Tucson | Detection & Repair",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Cold-Water Slab Leak Tucson | Detection & Repair",
+    description: "Investigate unexplained water use, pressure loss or damp flooring caused by a possible cold-water line leak beneath a Tucson home.",
+    images: ["/images/services_hub_hero.jpg"],
   },
 };
 

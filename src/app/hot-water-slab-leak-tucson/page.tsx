@@ -19,7 +19,20 @@ export const metadata: Metadata = {
     url: 'https://tucsonslableakpros.com/hot-water-slab-leak-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
-    type: 'website',
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Hot-Water Slab Leak Tucson | Warm Floor Detection",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hot-Water Slab Leak Tucson | Warm Floor Detection",
+    description: "Warm flooring or frequent water-heater operation may point to a hidden hot-water line leak. Explore detection and repair options in Tucson.",
+    images: ["/images/services_hub_hero.jpg"],
   },
 };
 

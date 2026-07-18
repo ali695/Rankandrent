@@ -15,7 +15,20 @@ export const metadata: Metadata = {
     url: 'https://tucsonslableakpros.com/partial-repiping-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
-    type: 'website',
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Partial Repiping Tucson | Replace Damaged Water Lines",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Partial Repiping Tucson | Replace Damaged Water Lines",
+    description: "Replace selected plumbing branches or recurring problem sections without automatically repiping the entire Tucson home.",
+    images: ["/images/services_hub_hero.jpg"],
   },
 };
 

@@ -13,7 +13,20 @@ export const metadata: Metadata = {
     url: 'https://tucsonslableakpros.com/contact/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
-    type: 'website',
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Contact Tucson Leak Pros | Request Slab Leak Help",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Tucson Leak Pros | Request Slab Leak Help",
+    description: "Contact Tucson Leak Pros about a suspected slab leak. Provide your ZIP code and symptoms to check local service availability.",
+    images: ["/images/services_hub_hero.jpg"],
   },
 };
 

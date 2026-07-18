@@ -15,7 +15,20 @@ export const metadata: Metadata = {
     url: 'https://tucsonslableakpros.com/electronic-leak-detection-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
-    type: 'website',
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Electronic Leak Detection Tucson | Acoustic Testing",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Electronic Leak Detection Tucson | Acoustic Testing",
+    description: "Learn how electronic and acoustic testing can help narrow down hidden pressurized water-line leaks beneath tile and concrete floors.",
+    images: ["/images/services_hub_hero.jpg"],
   },
 };
 

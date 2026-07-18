@@ -16,7 +16,20 @@ export const metadata: Metadata = {
     url: 'https://tucsonslableakpros.com/service-areas/catalina-foothills/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
-    type: 'website',
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Slab Leak Detection Catalina Foothills, Tucson",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Slab Leak Detection Catalina Foothills, Tucson",
+    description: "Find slab leak detection and repair services across Catalina Foothills, Sabino Canyon, Tanque Verde and Northeast Tucson.",
+    images: ["/images/services_hub_hero.jpg"],
   },
 };
 

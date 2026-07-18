@@ -15,7 +15,20 @@ export const metadata: Metadata = {
     url: 'https://tucsonslableakpros.com/water-line-pressure-testing-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
-    type: 'website',
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Water-Line Pressure Testing Tucson | Leak Isolation",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Water-Line Pressure Testing Tucson | Leak Isolation",
+    description: "Confirm hidden water loss and isolate affected hot or cold plumbing lines with residential water-line pressure testing in Tucson.",
+    images: ["/images/services_hub_hero.jpg"],
   },
 };
 

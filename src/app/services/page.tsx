@@ -15,7 +15,20 @@ export const metadata: Metadata = {
     url: 'https://tucsonslableakpros.com/services/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
-    type: 'website',
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Slab Leak Services Tucson, AZ | Detection & Repair",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Slab Leak Services Tucson, AZ | Detection & Repair",
+    description: "Explore slab leak detection, pipe repair, pressure testing, under-slab repair and water-line rerouting services available across Tucson.",
+    images: ["/images/services_hub_hero.jpg"],
   },
 };
 

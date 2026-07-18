@@ -16,7 +16,20 @@ export const metadata: Metadata = {
     url: 'https://tucsonslableakpros.com/service-areas/east-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
-    type: 'website',
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Slab Leak Detection East Tucson, AZ",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Slab Leak Detection East Tucson, AZ",
+    description: "Request pressure testing, hidden leak locating, slab leak repair and water-line rerouting across East and Far East Tucson.",
+    images: ["/images/services_hub_hero.jpg"],
   },
 };
 

@@ -15,7 +15,20 @@ export const metadata: Metadata = {
     url: 'https://tucsonslableakpros.com/slab-leak-repair-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
-    type: 'website',
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Slab Leak Repair Tucson | Pipe Repair & Rerouting",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Slab Leak Repair Tucson | Pipe Repair & Rerouting",
+    description: "Review slab leak repair options in Tucson, including controlled pipe access, spot repair, water-line rerouting and partial pipe replacement.",
+    images: ["/images/services_hub_hero.jpg"],
   },
 };
 

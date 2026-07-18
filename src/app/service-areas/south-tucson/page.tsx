@@ -16,7 +16,20 @@ export const metadata: Metadata = {
     url: 'https://tucsonslableakpros.com/service-areas/south-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
-    type: 'website',
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Slab Leak Detection South Tucson, AZ",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Slab Leak Detection South Tucson, AZ",
+    description: "Request hidden water-line detection, under-slab pipe repair and urgent leak assistance across South Tucson, Sunnyside and nearby communities.",
+    images: ["/images/services_hub_hero.jpg"],
   },
 };
 

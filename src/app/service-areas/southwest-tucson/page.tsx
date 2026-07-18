@@ -16,7 +16,20 @@ export const metadata: Metadata = {
     url: 'https://tucsonslableakpros.com/service-areas/southwest-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
-    type: 'website',
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Slab Leak Detection Southwest Tucson, AZ",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Slab Leak Detection Southwest Tucson, AZ",
+    description: "Check slab leak service availability across Drexel Heights, Tucson Estates, Three Points and Valencia West in Southwest Tucson.",
+    images: ["/images/services_hub_hero.jpg"],
   },
 };
 

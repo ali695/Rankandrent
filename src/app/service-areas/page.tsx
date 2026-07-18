@@ -14,7 +14,20 @@ export const metadata: Metadata = {
     url: 'https://tucsonslableakpros.com/service-areas/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
-    type: 'website',
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Slab Leak Service Areas in Tucson, AZ",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Slab Leak Service Areas in Tucson, AZ",
+    description: "Check slab leak service availability across Tucson, Oro Valley, Catalina Foothills, Rita Ranch and surrounding ZIP codes.",
+    images: ["/images/services_hub_hero.jpg"],
   },
 };
 

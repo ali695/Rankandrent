@@ -13,7 +13,20 @@ export const metadata: Metadata = {
     url: 'https://tucsonslableakpros.com/how-slab-leak-detection-works/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
-    type: 'website',
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "How Slab Leak Detection Works in Tucson",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "How Slab Leak Detection Works in Tucson",
+    description: "See how meter checks, pressure testing, line isolation and electronic locating help identify hidden water-line leaks beneath concrete.",
+    images: ["/images/services_hub_hero.jpg"],
   },
 };
 

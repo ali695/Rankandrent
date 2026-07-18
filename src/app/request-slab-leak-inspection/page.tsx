@@ -13,7 +13,20 @@ export const metadata: Metadata = {
     url: 'https://tucsonslableakpros.com/request-slab-leak-inspection/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
-    type: 'website',
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Request Slab Leak Detection in Tucson, AZ",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Request Slab Leak Detection in Tucson, AZ",
+    description: "Request help with warm flooring, hidden water loss, meter movement or a suspected pipe leak beneath your Tucson home’s concrete slab.",
+    images: ["/images/services_hub_hero.jpg"],
   },
 };
 
