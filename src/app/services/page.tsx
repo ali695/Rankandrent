@@ -1,7 +1,5 @@
 import React from 'react';
 import { Metadata } from 'next';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
 import FaqCategory from '@/components/FaqCategory';
 import Link from 'next/link';
@@ -152,8 +150,7 @@ const servicesList = [
 export default function ServicesPage() {
   return (
     <>
-      <Header />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Services Tucson, AZ | Detection & Repair", "description": "Explore slab leak detection, pipe repair, pressure testing, under-slab repair and water-line rerouting services available across Tucson.", "url": "https://tucsonslableakpros.com/services/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Services Tucson, AZ | Detection & Repair", "description": "Explore slab leak detection, pipe repair, pressure testing, under-slab repair and water-line rerouting services available across Tucson.", "url": "https://tucsonslableakpros.com/services/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>
@@ -390,8 +387,6 @@ export default function ServicesPage() {
           </div>
         </section>
       </main>
-
-      <Footer />
-    </>
+</>
   );
 }

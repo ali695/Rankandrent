@@ -1,7 +1,5 @@
 import React from 'react';
 import { Metadata } from 'next';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import ZigZagBlocks from '@/components/ZigZagBlocks';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
 import Breadcrumbs from '@/components/Breadcrumbs';
@@ -110,8 +108,7 @@ const faqSchema = {
 export default function ColdWaterSlabLeak() {
   return (
     <>
-      <Header />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Cold-Water Slab Leak Tucson | Detection & Repair", "description": "Investigate unexplained water use, pressure loss or damp flooring caused by a possible cold-water line leak beneath a Tucson home.", "url": "https://tucsonslableakpros.com/cold-water-slab-leak-tucson/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Cold-Water Slab Leak Tucson | Detection & Repair", "description": "Investigate unexplained water use, pressure loss or damp flooring caused by a possible cold-water line leak beneath a Tucson home.", "url": "https://tucsonslableakpros.com/cold-water-slab-leak-tucson/"}) }} />
       <Breadcrumbs items={[
         { label: 'Slab Leak Guide', href: '/slab-leak-faq/' },
         { label: 'Cold-Water Slab Leaks' }
@@ -421,7 +418,6 @@ export default function ColdWaterSlabLeak() {
         </section>
 
       </main>
-      <Footer />
-    </>
+</>
   );
 }

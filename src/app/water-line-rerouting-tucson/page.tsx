@@ -1,7 +1,5 @@
 import React from 'react';
 import { Metadata } from 'next';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import FaqCategory from '@/components/FaqCategory';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
 import ZigZagBlocks from '@/components/ZigZagBlocks';
@@ -97,8 +95,7 @@ const faqSchema = {
 export default function WaterLineRerouting() {
   return (
     <>
-      <Header />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Water-Line Rerouting Tucson | Slab Leak Pipe Bypass", "description": "Explore water-line rerouting in Tucson to bypass a leaking under-slab pipe through a more accessible wall, ceiling or attic route.", "url": "https://tucsonslableakpros.com/water-line-rerouting-tucson/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Water-Line Rerouting Tucson | Slab Leak Pipe Bypass", "description": "Explore water-line rerouting in Tucson to bypass a leaking under-slab pipe through a more accessible wall, ceiling or attic route.", "url": "https://tucsonslableakpros.com/water-line-rerouting-tucson/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>
@@ -261,8 +258,6 @@ export default function WaterLineRerouting() {
           </div>
         </section>
       </main>
-
-      <Footer />
-    </>
+</>
   );
 }

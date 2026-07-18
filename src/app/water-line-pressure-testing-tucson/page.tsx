@@ -1,7 +1,5 @@
 import React from 'react';
 import { Metadata } from 'next';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import FaqCategory from '@/components/FaqCategory';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
 import ZigZagBlocks from '@/components/ZigZagBlocks';
@@ -89,8 +87,7 @@ const faqSchema = {
 export default function WaterLinePressureTesting() {
   return (
     <>
-      <Header />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Water-Line Pressure Testing Tucson | Leak Isolation", "description": "Confirm hidden water loss and isolate affected hot or cold plumbing lines with residential water-line pressure testing in Tucson.", "url": "https://tucsonslableakpros.com/water-line-pressure-testing-tucson/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Water-Line Pressure Testing Tucson | Leak Isolation", "description": "Confirm hidden water loss and isolate affected hot or cold plumbing lines with residential water-line pressure testing in Tucson.", "url": "https://tucsonslableakpros.com/water-line-pressure-testing-tucson/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>
@@ -230,7 +227,6 @@ export default function WaterLinePressureTesting() {
           </div>
         </section>
       </main>
-      <Footer />
-    </>
+</>
   );
 }

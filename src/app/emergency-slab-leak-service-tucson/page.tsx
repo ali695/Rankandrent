@@ -1,7 +1,5 @@
 import React from 'react';
 import { Metadata } from 'next';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import ZigZagBlocks from '@/components/ZigZagBlocks';
 import FaqCategory from '@/components/FaqCategory';
 import ContactForm from '@/components/ContactForm';
@@ -89,8 +87,7 @@ const faqSchema = {
 export default function EmergencySlabLeakService() {
   return (
     <>
-      <Header />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Emergency Slab Leak Service Tucson, AZ", "description": "Get help with active water spreading, rapid meter movement, sudden pressure loss or another urgent suspected slab leak in Tucson.", "url": "https://tucsonslableakpros.com/emergency-slab-leak-service-tucson/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Emergency Slab Leak Service Tucson, AZ", "description": "Get help with active water spreading, rapid meter movement, sudden pressure loss or another urgent suspected slab leak in Tucson.", "url": "https://tucsonslableakpros.com/emergency-slab-leak-service-tucson/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>
@@ -255,7 +252,6 @@ export default function EmergencySlabLeakService() {
           </div>
         </section>
       </main>
-      <Footer />
-    </>
+</>
   );
 }

@@ -1,7 +1,5 @@
 import React from 'react';
 import { Metadata } from 'next';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
 import FaqCategory from '@/components/FaqCategory';
 import Link from 'next/link';
@@ -91,8 +89,7 @@ const faqSchema = {
 export default function RitaRanchSoutheastTucson() {
   return (
     <>
-      <Header />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection Rita Ranch & Southeast Tucson", "description": "Find slab leak detection, water-line testing and repair services across Rita Ranch and Southeast Tucson, including ZIPs 85730 and 85747.", "url": "https://tucsonslableakpros.com/service-areas/rita-ranch/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection Rita Ranch & Southeast Tucson", "description": "Find slab leak detection, water-line testing and repair services across Rita Ranch and Southeast Tucson, including ZIPs 85730 and 85747.", "url": "https://tucsonslableakpros.com/service-areas/rita-ranch/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>
         {/* Hero Section */}
@@ -354,8 +351,7 @@ export default function RitaRanchSoutheastTucson() {
         </section>
 
       </main>
-      <Footer />
-      <style dangerouslySetInnerHTML={{__html: `
+<style dangerouslySetInnerHTML={{__html: `
         .hover-lift:hover {
           transform: translateY(-5px);
           box-shadow: 0 10px 20px rgba(0,0,0,0.1);

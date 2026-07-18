@@ -1,7 +1,5 @@
 import React from 'react';
 import { Metadata } from 'next';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
 import FaqCategory from '@/components/FaqCategory';
 import Link from 'next/link';
@@ -91,8 +89,7 @@ const faqSchema = {
 export default function OroValleyNorthwestTucson() {
   return (
     <>
-      <Header />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection Oro Valley & Northwest Tucson", "description": "Request hidden water-line detection, slab leak repair and rerouting across Oro Valley, Rancho Vistoso and Northwest Tucson ZIP codes.", "url": "https://tucsonslableakpros.com/service-areas/oro-valley/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection Oro Valley & Northwest Tucson", "description": "Request hidden water-line detection, slab leak repair and rerouting across Oro Valley, Rancho Vistoso and Northwest Tucson ZIP codes.", "url": "https://tucsonslableakpros.com/service-areas/oro-valley/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>
         {/* Hero Section */}
@@ -354,8 +351,7 @@ export default function OroValleyNorthwestTucson() {
         </section>
 
       </main>
-      <Footer />
-      <style dangerouslySetInnerHTML={{__html: `
+<style dangerouslySetInnerHTML={{__html: `
         .hover-lift:hover {
           transform: translateY(-5px);
           box-shadow: 0 10px 20px rgba(0,0,0,0.1);

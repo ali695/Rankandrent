@@ -1,7 +1,5 @@
 import React from 'react';
 import { Metadata } from 'next';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import FaqCategory from '@/components/FaqCategory';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
 import ZigZagBlocks from '@/components/ZigZagBlocks';
@@ -97,8 +95,7 @@ const faqSchema = {
 export default function UnderSlabPipeRepair() {
   return (
     <>
-      <Header />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Under-Slab Pipe Repair Tucson, AZ", "description": "Repair a confirmed leaking water line beneath concrete using controlled access, pipe-section replacement and post-repair pressure testing.", "url": "https://tucsonslableakpros.com/under-slab-pipe-repair-tucson/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Under-Slab Pipe Repair Tucson, AZ", "description": "Repair a confirmed leaking water line beneath concrete using controlled access, pipe-section replacement and post-repair pressure testing.", "url": "https://tucsonslableakpros.com/under-slab-pipe-repair-tucson/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>
@@ -268,8 +265,6 @@ export default function UnderSlabPipeRepair() {
           </div>
         </section>
       </main>
-
-      <Footer />
-    </>
+</>
   );
 }

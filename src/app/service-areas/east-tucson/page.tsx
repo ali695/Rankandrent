@@ -1,7 +1,5 @@
 import React from 'react';
 import { Metadata } from 'next';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
 import FaqCategory from '@/components/FaqCategory';
 import Link from 'next/link';
@@ -91,8 +89,7 @@ const faqSchema = {
 export default function EastTucson() {
   return (
     <>
-      <Header />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection East Tucson, AZ", "description": "Request pressure testing, hidden leak locating, slab leak repair and water-line rerouting across East and Far East Tucson.", "url": "https://tucsonslableakpros.com/service-areas/east-tucson/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection East Tucson, AZ", "description": "Request pressure testing, hidden leak locating, slab leak repair and water-line rerouting across East and Far East Tucson.", "url": "https://tucsonslableakpros.com/service-areas/east-tucson/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>
         {/* Hero Section */}
@@ -354,8 +351,7 @@ export default function EastTucson() {
         </section>
 
       </main>
-      <Footer />
-      <style dangerouslySetInnerHTML={{__html: `
+<style dangerouslySetInnerHTML={{__html: `
         .hover-lift:hover {
           transform: translateY(-5px);
           box-shadow: 0 10px 20px rgba(0,0,0,0.1);

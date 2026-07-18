@@ -1,7 +1,5 @@
 import React from 'react';
 import { Metadata } from 'next';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { Home, Droplets, AlertTriangle, ArrowRight, CheckCircle2, XCircle, Search, MessageCircleQuestion } from 'lucide-react';
@@ -88,8 +86,7 @@ const faqSchema = {
 export default function SlabLeakVsFoundation() {
   return (
     <>
-      <Header />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak vs. Foundation Problem | Know the Difference", "description": "Compare plumbing slab leak symptoms with structural foundation problems and learn whether to contact a plumber or foundation specialist.", "url": "https://tucsonslableakpros.com/slab-leak-vs-foundation-problem/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak vs. Foundation Problem | Know the Difference", "description": "Compare plumbing slab leak symptoms with structural foundation problems and learn whether to contact a plumber or foundation specialist.", "url": "https://tucsonslableakpros.com/slab-leak-vs-foundation-problem/"}) }} />
       <Breadcrumbs items={[
         { label: 'Slab Leak Guide', href: '/slab-leak-faq/' },
         { label: 'Slab Leak vs. Foundation Problem' }
@@ -412,7 +409,6 @@ export default function SlabLeakVsFoundation() {
         </section>
 
       </main>
-      <Footer />
-    </>
+</>
   );
 }

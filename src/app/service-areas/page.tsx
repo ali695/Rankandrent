@@ -1,7 +1,5 @@
 import React from 'react';
 import { Metadata } from 'next';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
 import ZipCodeDirectory from '@/components/ZipCodeDirectory';
 
@@ -50,8 +48,7 @@ const areaSchema = {
 export default function ServiceAreas() {
   return (
     <>
-      <Header />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Service Areas in Tucson, AZ", "description": "Check slab leak service availability across Tucson, Oro Valley, Catalina Foothills, Rita Ranch and surrounding ZIP codes.", "url": "https://tucsonslableakpros.com/service-areas/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Service Areas in Tucson, AZ", "description": "Check slab leak service availability across Tucson, Oro Valley, Catalina Foothills, Rita Ranch and surrounding ZIP codes.", "url": "https://tucsonslableakpros.com/service-areas/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(areaSchema) }} />
       <main>
         {/* 1. Hero Section (FCS Style) */}
@@ -241,8 +238,6 @@ export default function ServiceAreas() {
           </div>
         </section>
       </main>
-
-      <Footer />
-    </>
+</>
   );
 }

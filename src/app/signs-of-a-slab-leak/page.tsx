@@ -1,7 +1,5 @@
 import React from 'react';
 import { Metadata } from 'next';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { Thermometer, Droplets, Gauge, Volume2, ArrowDownToLine, Activity, Search, AlertTriangle, MessageCircleQuestion } from 'lucide-react';
@@ -88,8 +86,7 @@ const faqSchema = {
 export default function SignsOfSlabLeak() {
   return (
     <>
-      <Header />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Signs of a Slab Leak | Tucson Homeowner Guide", "description": "Learn the warning signs of a slab leak, including warm floors, meter movement, damp flooring, running-water sounds and pressure loss.", "url": "https://tucsonslableakpros.com/signs-of-a-slab-leak/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Signs of a Slab Leak | Tucson Homeowner Guide", "description": "Learn the warning signs of a slab leak, including warm floors, meter movement, damp flooring, running-water sounds and pressure loss.", "url": "https://tucsonslableakpros.com/signs-of-a-slab-leak/"}) }} />
       <Breadcrumbs items={[
         { label: 'Slab Leak Guide', href: '/slab-leak-faq/' },
         { label: 'Signs of a Slab Leak' }
@@ -491,7 +488,6 @@ export default function SignsOfSlabLeak() {
         </section>
 
       </main>
-      <Footer />
-    </>
+</>
   );
 }

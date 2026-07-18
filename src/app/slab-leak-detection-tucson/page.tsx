@@ -1,7 +1,5 @@
 import React from 'react';
 import { Metadata } from 'next';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
 import ZigZagBlocks from '@/components/ZigZagBlocks';
 import FaqCategory from '@/components/FaqCategory';
@@ -97,8 +95,7 @@ const faqSchema = {
 export default function SlabLeakDetection() {
   return (
     <>
-      <Header />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection Tucson, AZ | Locate Hidden Leaks", "description": "Locate suspected water-line leaks beneath concrete using pressure testing, line isolation and professional leak detection methods in Tucson.", "url": "https://tucsonslableakpros.com/slab-leak-detection-tucson/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection Tucson, AZ | Locate Hidden Leaks", "description": "Locate suspected water-line leaks beneath concrete using pressure testing, line isolation and professional leak detection methods in Tucson.", "url": "https://tucsonslableakpros.com/slab-leak-detection-tucson/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>
@@ -288,8 +285,6 @@ export default function SlabLeakDetection() {
           </div>
         </section>
       </main>
-
-      <Footer />
-    </>
+</>
   );
 }

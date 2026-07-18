@@ -1,7 +1,5 @@
 import React from 'react';
 import { Metadata } from 'next';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
 
 export const metadata: Metadata = {
@@ -62,8 +60,7 @@ const howToSchema = {
 export default function HowItWorks() {
   return (
     <>
-      <Header />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "How Slab Leak Detection Works in Tucson", "description": "See how meter checks, pressure testing, line isolation and electronic locating help identify hidden water-line leaks beneath concrete.", "url": "https://tucsonslableakpros.com/how-slab-leak-detection-works/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "How Slab Leak Detection Works in Tucson", "description": "See how meter checks, pressure testing, line isolation and electronic locating help identify hidden water-line leaks beneath concrete.", "url": "https://tucsonslableakpros.com/how-slab-leak-detection-works/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }} />
       <main>
         {/* Hero Section */}
@@ -200,8 +197,6 @@ export default function HowItWorks() {
           </div>
         </section>
       </main>
-
-      <Footer />
-    </>
+</>
   );
 }

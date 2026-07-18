@@ -1,7 +1,5 @@
 import React from 'react';
 import { Metadata } from 'next';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import ContactForm from '@/components/ContactForm';
 
 export const metadata: Metadata = {
@@ -40,8 +38,7 @@ const contactSchema = {
 export default function Contact() {
   return (
     <>
-      <Header />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Contact Tucson Leak Pros | Request Slab Leak Help", "description": "Contact Tucson Leak Pros about a suspected slab leak. Provide your ZIP code and symptoms to check local service availability.", "url": "https://tucsonslableakpros.com/contact/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Contact Tucson Leak Pros | Request Slab Leak Help", "description": "Contact Tucson Leak Pros about a suspected slab leak. Provide your ZIP code and symptoms to check local service availability.", "url": "https://tucsonslableakpros.com/contact/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }} />
       <main>
         {/* Hero Section */}
@@ -138,8 +135,6 @@ export default function Contact() {
         </section>
 
       </main>
-
-      <Footer />
-    </>
+</>
   );
 }

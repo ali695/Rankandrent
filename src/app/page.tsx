@@ -1,7 +1,5 @@
 import React from 'react';
 import { Metadata } from 'next';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
 import HeroSlideshow from '@/components/HeroSlideshow';
 
@@ -67,8 +65,7 @@ const localBusinessSchema = {
 export default function Home() {
   return (
     <>
-      <Header />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection & Repair Tucson, AZ | Tucson Leak Pros", "description": "Suspect a hidden pipe leak? Request slab leak detection, pressure testing, pipe repair or water-line rerouting across Tucson, Arizona.", "url": "https://tucsonslableakpros.com/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection & Repair Tucson, AZ | Tucson Leak Pros", "description": "Suspect a hidden pipe leak? Request slab leak detection, pressure testing, pipe repair or water-line rerouting across Tucson, Arizona.", "url": "https://tucsonslableakpros.com/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
       <main>
         {/* 1. New Hero Section with Dark Overlay & Form Box */}
@@ -351,8 +348,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-
-      <Footer />
-    </>
+</>
   );
 }

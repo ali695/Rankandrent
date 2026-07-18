@@ -1,7 +1,5 @@
 import React from 'react';
 import { Metadata } from 'next';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
 import { Search, SearchCheck, Thermometer, Gauge, Clock, ShieldAlert, Calculator, Hammer, MessageCircleQuestion, Phone, Mail, Droplets, Wrench, MapPin, Home } from 'lucide-react';
@@ -39,8 +37,7 @@ export const metadata: Metadata = {
 export default function SlabLeakFaq() {
   return (
     <>
-      <Header />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak FAQ | 70 Tucson Questions Answered", "description": "Find clear answers to 70 common questions about slab leak symptoms, detection, repair, costs, emergencies, insurance and Tucson service areas.", "url": "https://tucsonslableakpros.com/slab-leak-faq/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak FAQ | 70 Tucson Questions Answered", "description": "Find clear answers to 70 common questions about slab leak symptoms, detection, repair, costs, emergencies, insurance and Tucson service areas.", "url": "https://tucsonslableakpros.com/slab-leak-faq/"}) }} />
       <Breadcrumbs items={[
         { label: 'Slab Leak Guide', href: '/slab-leak-faq/' },
         { label: 'FAQs' }
@@ -301,7 +298,6 @@ export default function SlabLeakFaq() {
         </section>
 
       </main>
-      <Footer />
-    </>
+</>
   );
 }
