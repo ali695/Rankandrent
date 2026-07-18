@@ -95,7 +95,7 @@ export default function WestTucsonPictureRocks() {
         {/* Hero Section */}
         <section style={{ position: "relative", padding: "8rem 0 6rem", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <Image title="Slab leak detection West Tucson" src="/images/hero_home.jpg" alt="Slab leak technician serving West Tucson and Picture Rocks" fill sizes="100vw" style={{ objectFit: "cover", opacity: 0.4 }} priority />
+            <Image title="Slab leak detection West Tucson" src="/images/west_tucson_hero.jpg" alt="Slab leak technician serving West Tucson and Picture Rocks" fill sizes="100vw" style={{ objectFit: "cover", opacity: 0.4 }} priority />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
@@ -137,7 +137,7 @@ export default function WestTucsonPictureRocks() {
             
             
             <div style={{ position: "relative", width: "100%", height: "300px", marginBottom: "2rem", borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.05)" }}>
-              <Image src="/images/hero_home.jpg" alt="Residential slab leak service area in West Tucson and Picture Rocks" fill sizes="(max-width: 768px) 100vw, 1200px" style={{ objectFit: "cover" }} />
+              <Image src="/images/west_tucson_hero.jpg" alt="Residential slab leak service area in West Tucson and Picture Rocks" fill sizes="(max-width: 768px) 100vw, 1200px" style={{ objectFit: "cover" }} />
             </div>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "1rem" }}>
               {['West Tucson', 'Starr Pass', 'Menlo Park', 'A-Mountain area', 'Barrio Hollywood', 'El Rio Acres', 'Tucson Park West', 'Ironwood Hills', 'Picture Rocks', 'Avra Valley fringe', 'West Marana area'].map((area) => (

@@ -95,7 +95,7 @@ export default function SouthwestTucson() {
         {/* Hero Section */}
         <section style={{ position: "relative", padding: "8rem 0 6rem", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <Image title="Slab leak detection Southwest Tucson" src="/images/hero_home.jpg" alt="Slab leak technician serving Southwest Tucson" fill sizes="100vw" style={{ objectFit: "cover", opacity: 0.4 }} priority />
+            <Image title="Slab leak detection Southwest Tucson" src="/images/southwest_tucson_hero.jpg" alt="Slab leak technician serving Southwest Tucson" fill sizes="100vw" style={{ objectFit: "cover", opacity: 0.4 }} priority />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
@@ -137,7 +137,7 @@ export default function SouthwestTucson() {
             
             
             <div style={{ position: "relative", width: "100%", height: "300px", marginBottom: "2rem", borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.05)" }}>
-              <Image src="/images/hero_home.jpg" alt="Residential slab leak service area in Southwest Tucson" fill sizes="(max-width: 768px) 100vw, 1200px" style={{ objectFit: "cover" }} />
+              <Image src="/images/southwest_tucson_hero.jpg" alt="Residential slab leak service area in Southwest Tucson" fill sizes="(max-width: 768px) 100vw, 1200px" style={{ objectFit: "cover" }} />
             </div>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "1rem" }}>
               {['Drexel Heights', 'Valencia West', 'Tucson Estates', 'Three Points', 'Robles Ranch', 'Robles Junction', 'Southwest Tucson', 'rural properties west of Tucson'].map((area) => (
