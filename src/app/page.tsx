@@ -172,7 +172,7 @@ export default function Home() {
                 { name: "East Tucson", img: "slab_leak_repair.jpg", link: "/service-areas/east-tucson/", desc: "Fast-response hot and cold water slab leak repair and repiping in East Tucson." },
                 { name: "Rita Ranch", img: "under_slab_pipe_repair.jpg", link: "/service-areas/rita-ranch/", desc: "Precision leak locating and non-invasive pipe rerouting solutions for Rita Ranch homes." }
               ].map(area => (
-                <div key={area.name} className="location-card" style={{ backgroundColor: "var(--white)", border: "1px solid var(--border-light)", borderRadius: "8px", overflow: "hidden", display: "flex", flexDirection: "column", borderTop: "4px solid var(--brand-red)", boxShadow: "0 4px 6px rgba(0,0,0,0.05)" }}>
+                <div key={area.name} className="premium-card location-card" style={{ overflow: "hidden", display: "flex", flexDirection: "column", borderTop: "4px solid var(--brand-red)" }}>
                   <div style={{ position: "relative", paddingTop: "60%" }}>
                     <img title="Under Slab Pipe Repair Tucson" src={`/images/${area.img}`} alt={area.name} style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", backgroundColor: "#e4e4e7" }} />
                   </div>
@@ -231,7 +231,7 @@ export default function Home() {
                 { title: 'Cold Water Slab Leaks', desc: "Tracking hidden water loss and unexplained meter movement.", img: "cold_water_slab_leak.jpg", link: "/cold-water-slab-leak-tucson/" },
                 { title: 'Pressure Testing', desc: "Confirms whether a line is actively losing pressure before opening floors.", img: "pressure_testing.jpg", link: "/water-line-pressure-testing-tucson/" }
               ].map(svc => (
-                <div key={svc.title} className="location-card" style={{ backgroundColor: "var(--white)", border: "1px solid var(--border-light)", borderRadius: "8px", overflow: "hidden", display: "flex", flexDirection: "column", boxShadow: "0 4px 6px rgba(0,0,0,0.05)" }}>
+                <div key={svc.title} className="premium-card location-card" style={{ overflow: "hidden", display: "flex", flexDirection: "column" }}>
                   <img title="Emergency Slab Leak Service Tucson" src={`/images/${svc.img}`} alt={svc.title} style={{ width: "100%", height: "200px", objectFit: "cover", borderBottom: "4px solid var(--dark-charcoal)" }} />
                   <div style={{ padding: "1.5rem", display: "flex", flexDirection: "column", flexGrow: 1 }}>
                     <h3 style={{ marginBottom: "1rem", color: "var(--dark-charcoal)", fontSize: "1.25rem" }}>{svc.title}</h3>

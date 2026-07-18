@@ -725,3 +725,7 @@ img {
 .blog-card:hover { transform: translateY(-5px); }
 .blog-image { transition: transform 0.5s ease; }
 .blog-card:hover .blog-image { transform: scale(1.05); }
+
+/* Premium UI Cards */
+.premium-card { background-color: var(--white); border: 1px solid #e2e8f0; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.premium-card:hover { transform: translateY(-5px); box-shadow: 0 15px 35px rgba(0,0,0,0.1); }

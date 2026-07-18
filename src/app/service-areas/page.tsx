@@ -176,25 +176,25 @@ export default function ServiceAreas() {
             <h2 style={{ textAlign: "center", fontSize: "2.2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "3rem" }}>Our Process for Tucson Homeowners</h2>
             
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "1.5rem" }}>
-              <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", backgroundColor: "#fafafa", textAlign: "center" }}>
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--brand-red)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginBottom: "1rem" }}><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
-                <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>1. Symptom Review</h3>
-                <p style={{ color: "#64748b", fontSize: "0.95rem", lineHeight: "1.6" }}>We look at the specific signs of damage in your home.</p>
+              <div className="premium-card" style={{ padding: "2.5rem 2rem", textAlign: "center" }}>
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--brand-red)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginBottom: "1.5rem" }}><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                <h3 style={{ fontSize: "1.3rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>Symptom Review</h3>
+                <p style={{ color: "#64748b", fontSize: "1rem", lineHeight: "1.6" }}>We look at the specific signs of damage in your home.</p>
               </div>
-              <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", backgroundColor: "#fafafa", textAlign: "center" }}>
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--brand-red)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginBottom: "1rem" }}><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>2. <a href="/water-line-pressure-testing-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>Pressure Testing</a></h3>
-                <p style={{ color: "#64748b", fontSize: "0.95rem", lineHeight: "1.6" }}>We connect gauges to confirm if the system is actively losing water.</p>
+              <div className="premium-card" style={{ padding: "2.5rem 2rem", textAlign: "center" }}>
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--brand-red)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginBottom: "1.5rem" }}><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <h3 style={{ fontSize: "1.3rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1rem" }}><a href="/water-line-pressure-testing-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline" }}>Pressure Testing</a></h3>
+                <p style={{ color: "#64748b", fontSize: "1rem", lineHeight: "1.6" }}>We connect gauges to confirm if the system is actively losing water.</p>
               </div>
-              <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", backgroundColor: "#fafafa", textAlign: "center" }}>
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--brand-red)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginBottom: "1rem" }}><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"></path><path d="M12 12v9"></path><path d="m8 17 4 4 4-4"></path></svg>
-                <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>3. Line Isolation</h3>
-                <p style={{ color: "#64748b", fontSize: "0.95rem", lineHeight: "1.6" }}>We isolate the hot and cold sides to determine which branch is compromised.</p>
+              <div className="premium-card" style={{ padding: "2.5rem 2rem", textAlign: "center" }}>
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--brand-red)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginBottom: "1.5rem" }}><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"></path><path d="M12 12v9"></path><path d="m8 17 4 4 4-4"></path></svg>
+                <h3 style={{ fontSize: "1.3rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>Line Isolation</h3>
+                <p style={{ color: "#64748b", fontSize: "1rem", lineHeight: "1.6" }}>We isolate the hot and cold sides to determine which branch is compromised.</p>
               </div>
-              <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", backgroundColor: "#fafafa", textAlign: "center" }}>
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--brand-red)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginBottom: "1rem" }}><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
-                <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>4. Acoustic Locating</h3>
-                <p style={{ color: "#64748b", fontSize: "0.95rem", lineHeight: "1.6" }}>We use electronic equipment to pinpoint the exact failure beneath the concrete.</p>
+              <div className="premium-card" style={{ padding: "2.5rem 2rem", textAlign: "center" }}>
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--brand-red)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginBottom: "1.5rem" }}><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+                <h3 style={{ fontSize: "1.3rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>Acoustic Locating</h3>
+                <p style={{ color: "#64748b", fontSize: "1rem", lineHeight: "1.6" }}>We use electronic equipment to pinpoint the exact failure beneath the concrete.</p>
               </div>
             </div>
           </div>

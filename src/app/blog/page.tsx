@@ -1,6 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
+import { Search } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Blog | Tucson Slab Leak Resources & Tips',
@@ -98,9 +99,20 @@ export default function BlogLandingPage() {
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
             <h1 style={{ fontSize: "3.5rem", fontWeight: "800", marginBottom: "1rem" }}>Our Blog & Resources</h1>
-            <p style={{ fontSize: "1.2rem", color: "#cbd5e1", maxWidth: "700px", margin: "0 auto", lineHeight: "1.6" }}>
+            <p style={{ fontSize: "1.2rem", color: "#cbd5e1", maxWidth: "700px", margin: "0 auto 3rem", lineHeight: "1.6" }}>
               Expert insights, guides, and tips on identifying, repairing, and preventing slab leaks in Tucson, Arizona.
             </p>
+            <div style={{ position: "relative", maxWidth: "600px", margin: "0 auto", display: "flex" }}>
+              <input 
+                type="text" 
+                placeholder="Search articles (e.g. 'rerouting', 'cost', 'signs')..." 
+                style={{ width: "100%", padding: "1.25rem 1.5rem", fontSize: "1.1rem", borderRadius: "8px 0 0 8px", border: "none", outline: "none", color: "var(--dark-charcoal)" }}
+                aria-label="Search articles"
+              />
+              <button style={{ backgroundColor: "var(--brand-red)", border: "none", padding: "0 1.5rem", borderRadius: "0 8px 8px 0", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }} aria-label="Submit search">
+                <Search size={24} color="var(--white)" />
+              </button>
+            </div>
           </div>
         </section>
 

@@ -39,7 +39,35 @@ export default function ContactForm() {
         <div className="responsive-flex">
           <div style={{ flex: 1 }}>
             <label style={{ display: "block", marginBottom: "0.25rem", fontWeight: "bold", fontSize: "0.9rem" }}>ZIP code</label>
-            <input type="text" name="zip" className="form-control" style={{ marginBottom: 0 }} placeholder="e.g. 85710" value={formData.zip} onChange={handleChange} required />
+            <select name="zip" className="form-control" style={{ marginBottom: 0 }} value={formData.zip} onChange={handleChange} required>
+              <option value="">Select ZIP code...</option>
+              <option value="85701">85701 (Central Tucson)</option>
+              <option value="85704">85704 (Casas Adobes)</option>
+              <option value="85705">85705 (Flowing Wells)</option>
+              <option value="85706">85706 (Sunnyside)</option>
+              <option value="85710">85710 (East Side)</option>
+              <option value="85711">85711 (Midtown)</option>
+              <option value="85712">85712 (Midtown)</option>
+              <option value="85713">85713 (South Tucson)</option>
+              <option value="85714">85714 (Southside)</option>
+              <option value="85715">85715 (Northeast)</option>
+              <option value="85716">85716 (Midtown)</option>
+              <option value="85718">85718 (Catalina Foothills)</option>
+              <option value="85719">85719 (University)</option>
+              <option value="85730">85730 (East Side)</option>
+              <option value="85737">85737 (Oro Valley)</option>
+              <option value="85741">85741 (Northwest)</option>
+              <option value="85742">85742 (Cortaro)</option>
+              <option value="85743">85743 (Picture Rocks)</option>
+              <option value="85745">85745 (West Side)</option>
+              <option value="85746">85746 (Southwest)</option>
+              <option value="85747">85747 (Rita Ranch)</option>
+              <option value="85748">85748 (East Side)</option>
+              <option value="85749">85749 (Tanque Verde)</option>
+              <option value="85750">85750 (Catalina Foothills)</option>
+              <option value="85756">85756 (Airport / South)</option>
+              <option value="other">Other (Still call us!)</option>
+            </select>
           </div>
           <div style={{ flex: 1 }}>
             <label style={{ display: "block", marginBottom: "0.25rem", fontWeight: "bold", fontSize: "0.9rem" }}>Main symptom</label>

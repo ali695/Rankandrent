@@ -101,7 +101,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 style={{ margin: 0, fontSize: "1.2rem", fontWeight: "bold", color: "var(--text-color)" }}>Service Area</h4>
-                      <p style={{ margin: 0, color: "#475569", fontSize: "1.1rem" }}>Greater Tucson Area, <a href="/service-areas/oro-valley/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>Oro Valley</a>, Marana, Sahuarita</p>
+                      <p style={{ margin: 0, color: "#475569", fontSize: "1.1rem" }}>All of Tucson</p>
                     </div>
                   </div>
 
@@ -112,7 +112,6 @@ export default function Contact() {
                     <div>
                       <h4 style={{ margin: 0, fontSize: "1.2rem", fontWeight: "bold", color: "var(--text-color)" }}>Address</h4>
                       <p style={{ margin: 0, color: "#475569", fontSize: "1.1rem" }}>4751 S Irving Ave, Tucson, AZ 85714, United States.</p>
-                      <p style={{ margin: 0, color: "#475569", fontSize: "1.1rem", marginTop: "0.5rem" }}>We also handle <a href="/slab-leak-repair-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>slab leak repair</a> and assess <a href="/slab-leak-vs-foundation-problem/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>foundation problems</a> caused by water damage.</p>
                     </div>
                   </div>
                 </div>

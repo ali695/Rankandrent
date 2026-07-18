@@ -1,3 +1,5 @@
+import { ShieldCheck, Award, ThumbsUp, CheckCircle, Star } from 'lucide-react';
+
 export default function Footer() {
   return (
     <footer style={{ backgroundColor: "var(--dark-charcoal)", color: "var(--white)", padding: "4rem 0 2rem 0" }}>
@@ -42,8 +44,8 @@ export default function Footer() {
             <li><a href="/slab-leak-repair-cost-tucson/" style={{ color: "inherit", textDecoration: "none" }}>Slab Leak Repair Cost</a></li>
             <li><a href="/slab-leak-vs-foundation-problem/" style={{ color: "inherit", textDecoration: "none" }}>Slab Leak vs. Foundation Problem</a></li>
             <li><a href="/how-slab-leak-detection-works/" style={{ color: "inherit", textDecoration: "none" }}>How Detection Works</a></li>
-            <li><a href="/slab-leak-faq/" style={{ color: "inherit", textDecoration: "none" }}>FAQs</a></li>
             <li><a href="/slab-leak-faq/" style={{ color: "inherit", textDecoration: "none" }}>Slab Leak FAQ</a></li>
+            <li><a href="/blog/" style={{ color: "inherit", textDecoration: "none" }}>Our Blog</a></li>
           </ul>
         </div>
 
@@ -82,6 +84,15 @@ export default function Footer() {
 
       </div>
       
+      {/* Trust Badges */}
+      <div className="container" style={{ borderTop: "1px solid #3f3f46", paddingTop: "2rem", paddingBottom: "1rem", display: "flex", justifyContent: "center", gap: "2rem", flexWrap: "wrap", alignItems: "center", color: "var(--white)" }}>
+        <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}><ShieldCheck size={28} color="var(--brand-red)" /><span style={{ fontWeight: "bold", fontSize: "1.1rem" }}>Licensed & Insured</span></div>
+        <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}><Award size={28} color="var(--brand-red)" /><span style={{ fontWeight: "bold", fontSize: "1.1rem" }}>BBB Accredited</span></div>
+        <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}><Star size={28} color="var(--brand-red)" /><span style={{ fontWeight: "bold", fontSize: "1.1rem" }}>5-Star Rated</span></div>
+        <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}><ThumbsUp size={28} color="var(--brand-red)" /><span style={{ fontWeight: "bold", fontSize: "1.1rem" }}>HomeAdvisor Pro</span></div>
+        <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}><CheckCircle size={28} color="var(--brand-red)" /><span style={{ fontWeight: "bold", fontSize: "1.1rem" }}>100% Satisfaction</span></div>
+      </div>
+
       {/* Sub Footer */}
       <div className="container" style={{ borderTop: "1px solid #3f3f46", paddingTop: "2rem", display: "flex", flexDirection: "column", gap: "1rem", fontSize: "0.8rem", color: "#71717a", textAlign: "center" }}>
         
