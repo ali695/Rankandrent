@@ -321,10 +321,10 @@ export default function ServicesPage() {
             
             <div className="card-grid" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "2rem" }}>
               {servicesList.map(svc => (
-                 <div key={svc.title} className="location-card" style={{ backgroundColor: "var(--white)", border: "1px solid var(--border-light)", borderRadius: "8px", overflow: "hidden", display: "flex", flexDirection: "column", boxShadow: "0 4px 15px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
+                 <div key={svc.title} className="premium-card location-card" style={{ overflow: "hidden", display: "flex", flexDirection: "column" }}>
                   <img title="Water Line Rerouting Tucson" src={`/images/${svc.img}`} alt={svc.title} style={{ width: "100%", height: "220px", objectFit: "cover" }} />
                   <div style={{ padding: "1.5rem", display: "flex", flexDirection: "column", flexGrow: 1 }}>
-                    <h3 style={{ marginBottom: "1rem", color: "var(--dark-charcoal)", fontSize: "1.3rem", fontWeight: "700" }}>{svc.title}</h3>
+                    <h3 style={{ marginBottom: "1rem", color: "var(--brand-red)", fontSize: "1.3rem", fontWeight: "800" }}>{svc.title}</h3>
                     <p style={{ fontSize: "1rem", color: "#4a4a4a", marginBottom: "1.5rem", flexGrow: 1, lineHeight: "1.6" }}>{svc.desc}</p>
                     <Link href={svc.link} style={{ color: "var(--brand-red)", fontWeight: "bold", fontSize: "0.95rem", textDecoration: "none" }}>Learn More →</Link>
                   </div>

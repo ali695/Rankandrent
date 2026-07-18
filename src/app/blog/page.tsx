@@ -122,7 +122,7 @@ export default function BlogLandingPage() {
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: "2.5rem" }}>
               
               {blogPosts.map((post) => (
-                <article key={post.id} className="blog-card" style={{ backgroundColor: "var(--white)", borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 15px rgba(0,0,0,0.05)", display: "flex", flexDirection: "column", cursor: "pointer" }}>
+                <article key={post.id} className="premium-card blog-card" style={{ display: "flex", flexDirection: "column", cursor: "pointer" }}>
                   <Link href={post.link} style={{ textDecoration: "none", color: "inherit", display: "flex", flexDirection: "column", height: "100%" }}>
                     
                     {/* Image Placeholder / Wrapper */}

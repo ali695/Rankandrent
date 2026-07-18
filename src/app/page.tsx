@@ -234,7 +234,7 @@ export default function Home() {
                 <div key={svc.title} className="premium-card location-card" style={{ overflow: "hidden", display: "flex", flexDirection: "column" }}>
                   <img title="Emergency Slab Leak Service Tucson" src={`/images/${svc.img}`} alt={svc.title} style={{ width: "100%", height: "200px", objectFit: "cover", borderBottom: "4px solid var(--dark-charcoal)" }} />
                   <div style={{ padding: "1.5rem", display: "flex", flexDirection: "column", flexGrow: 1 }}>
-                    <h3 style={{ marginBottom: "1rem", color: "var(--dark-charcoal)", fontSize: "1.25rem" }}>{svc.title}</h3>
+                    <h3 style={{ marginBottom: "1rem", color: "var(--brand-red)", fontSize: "1.25rem", fontWeight: "800" }}>{svc.title}</h3>
                     <p style={{ fontSize: "0.95rem", color: "#4a4a4a", marginBottom: "1.5rem", flexGrow: 1 }}>{svc.desc}</p>
                     <a href={svc.link} className="btn-primary" style={{ textAlign: "center", padding: "0.75rem", fontSize: "0.85rem", textDecoration: "none" }}>Learn More</a>
                   </div>

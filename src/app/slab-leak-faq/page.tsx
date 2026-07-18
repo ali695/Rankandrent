@@ -102,42 +102,42 @@ export default function SlabLeakFaq() {
           <div className="container">
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "1.5rem" }}>
               <Link href="/signs-of-a-slab-leak/" style={{ textDecoration: "none", color: "inherit" }}>
-                <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", boxShadow: "0 10px 15px -3px rgba(0,0,0,0.1)", height: "100%", transition: "transform 0.2s" }} className="hover-lift">
+                <div className="premium-card" style={{ padding: "2rem", height: "100%", display: "flex", flexDirection: "column" }}>
                   <Thermometer size={32} color="var(--brand-red)" style={{ marginBottom: "1rem" }} />
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Signs & Symptoms</h3>
                   <p style={{ color: "#64748b", margin: 0 }}>Learn about warm floors, moving meters, and other hidden symptoms.</p>
                 </div>
               </Link>
               <Link href="/slab-leak-detection-tucson/" style={{ textDecoration: "none", color: "inherit" }}>
-                <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", boxShadow: "0 10px 15px -3px rgba(0,0,0,0.1)", height: "100%", transition: "transform 0.2s" }} className="hover-lift">
+                <div className="premium-card" style={{ padding: "2rem", height: "100%", display: "flex", flexDirection: "column" }}>
                   <SearchCheck size={32} color="var(--brand-red)" style={{ marginBottom: "1rem" }} />
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Detection & Testing</h3>
                   <p style={{ color: "#64748b", margin: 0 }}>Understand pressure testing, isolation, and acoustic locating.</p>
                 </div>
               </Link>
               <Link href="/slab-leak-repair-tucson/" style={{ textDecoration: "none", color: "inherit" }}>
-                <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", boxShadow: "0 10px 15px -3px rgba(0,0,0,0.1)", height: "100%", transition: "transform 0.2s" }} className="hover-lift">
+                <div className="premium-card" style={{ padding: "2rem", height: "100%", display: "flex", flexDirection: "column" }}>
                   <Wrench size={32} color="var(--brand-red)" style={{ marginBottom: "1rem" }} />
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Repair Options</h3>
                   <p style={{ color: "#64748b", margin: 0 }}>Review spot repair, direct access, and rerouting methods.</p>
                 </div>
               </Link>
               <Link href="/slab-leak-repair-cost-tucson/" style={{ textDecoration: "none", color: "inherit" }}>
-                <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", boxShadow: "0 10px 15px -3px rgba(0,0,0,0.1)", height: "100%", transition: "transform 0.2s" }} className="hover-lift">
+                <div className="premium-card" style={{ padding: "2rem", height: "100%", display: "flex", flexDirection: "column" }}>
                   <Calculator size={32} color="var(--brand-red)" style={{ marginBottom: "1rem" }} />
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Cost & Insurance</h3>
                   <p style={{ color: "#64748b", margin: 0 }}>Review the factors that determine detection and repair pricing.</p>
                 </div>
               </Link>
               <Link href="/emergency-slab-leak-service-tucson/" style={{ textDecoration: "none", color: "inherit" }}>
-                <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", boxShadow: "0 10px 15px -3px rgba(0,0,0,0.1)", height: "100%", transition: "transform 0.2s" }} className="hover-lift">
+                <div className="premium-card" style={{ padding: "2rem", height: "100%", display: "flex", flexDirection: "column" }}>
                   <ShieldAlert size={32} color="var(--brand-red)" style={{ marginBottom: "1rem" }} />
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Emergencies</h3>
                   <p style={{ color: "#64748b", margin: 0 }}>What to do when water is actively spreading.</p>
                 </div>
               </Link>
               <Link href="/service-areas/" style={{ textDecoration: "none", color: "inherit" }}>
-                <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", boxShadow: "0 10px 15px -3px rgba(0,0,0,0.1)", height: "100%", transition: "transform 0.2s" }} className="hover-lift">
+                <div className="premium-card" style={{ padding: "2rem", height: "100%", display: "flex", flexDirection: "column" }}>
                   <MapPin size={32} color="var(--brand-red)" style={{ marginBottom: "1rem" }} />
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Service Areas</h3>
                   <p style={{ color: "#64748b", margin: 0 }}>View ZIP codes and communities we cover.</p>
