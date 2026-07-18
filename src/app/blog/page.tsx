@@ -90,10 +90,15 @@ export default function BlogLandingPage() {
     <>
       <main>
         {/* Hero Section */}
-        <section style={{ backgroundColor: "#1e293b", padding: "6rem 0", textAlign: "center", color: "var(--white)" }}>
-          <div className="container">
+        <section style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "400px", display: "flex", alignItems: "center", textAlign: "center", color: "var(--white)" }}>
+          {/* Dark Overlay Background */}
+          <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
+            <img title="Blog Hero" src="/images/services_hub_hero.jpg" alt="Tucson Slab Leak Blog" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+          </div>
+          
+          <div className="container" style={{ position: "relative", zIndex: 10 }}>
             <h1 style={{ fontSize: "3.5rem", fontWeight: "800", marginBottom: "1rem" }}>Our Blog & Resources</h1>
-            <p style={{ fontSize: "1.2rem", color: "#cbd5e1", maxWidth: "700px", margin: "0 auto 2rem auto", lineHeight: "1.6" }}>
+            <p style={{ fontSize: "1.2rem", color: "#cbd5e1", maxWidth: "700px", margin: "0 auto", lineHeight: "1.6" }}>
               Expert insights, guides, and tips on identifying, repairing, and preventing slab leaks in Tucson, Arizona.
             </p>
           </div>
