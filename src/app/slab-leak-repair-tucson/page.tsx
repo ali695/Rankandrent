@@ -179,39 +179,38 @@ export default function SlabLeakRepair() {
           </div>
         </section>
 
-        <ZigZagBlocks blocks={[
+                <ZigZagBlocks blocks={[
           {
-            kicker: "OUR EXPERTISE",
-            heading: "Tucson Slab Leak Repair Process",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Every <strong>slab leak repair in Tucson</strong> begins with a verified detection report that tells us exactly where the pipe has failed beneath your foundation. We use that data to plan the smallest possible concrete opening, minimizing disruption to your flooring and reducing the overall project cost.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The repair itself involves cutting a controlled access point through the concrete, exposing the damaged pipe section, and replacing it with new copper or PEX fittings rated for under-slab applications. Once the new section is soldered or crimped in place, we run a full <strong><a href="/water-line-pressure-testing-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>pressure test</a></strong> to confirm the line holds at normal operating pressure before closing up.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>For Tucson homes with tile, travertine, or decorative concrete floors, we coordinate the access cut carefully to align with grout lines when possible. This makes the eventual floor restoration significantly easier and less expensive. We also document the exact location and depth of the repair for your home records and any future plumbing work.</p></>,
+            heading: "Our Under-Slab Repair Process",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Every slab leak repair in Tucson begins with a verified detection report that tells us exactly where the pipe has failed beneath your foundation. We use that data to plan the smallest possible concrete opening, minimizing disruption to your flooring and reducing the overall project cost.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The repair itself involves cutting a controlled access point through the concrete, exposing the damaged pipe section, and replacing it with new copper or PEX fittings rated for under-slab applications. Once the new section is soldered or crimped in place, we run a full pressure test to confirm the line holds at normal operating pressure before closing up.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>For homes with tile, travertine, or decorative concrete floors, we coordinate the access cut carefully to align with grout lines when possible. This makes the eventual floor restoration significantly easier and less expensive. We also document the exact location and depth of the repair for your home records.</p></>,
             imageSrc: "/images/slab_leak_repair.jpg",
-            imageAlt: "Slab leak repair",
+            imageAlt: "Under-slab repair process",
             imageOnLeft: true,
-            backgroundColor: "var(--dark-charcoal)",
-            buttonText: "REQUEST A QUOTE",
-            buttonLink: "/contact"
+            backgroundColor: "#f8fafc"
           },
           {
-            kicker: "SPOT REPAIR",
-            heading: "Slab Leak Spot Repair Tucson AZ",
-            content: <><p style={{ fontSize: '1.1rem', color: '#4a4a4a', marginBottom: '1.5rem', lineHeight: '1.7' }}>In many cases, a direct <strong>slab leak spot repair Tucson AZ</strong> is the most efficient solution. We break a small, controlled access point in the concrete to replace the damaged pipe.</p><p style={{ fontSize: '1.1rem', color: '#4a4a4a', marginBottom: '1.5rem', lineHeight: '1.7' }}>This method helps keep the <strong>cost to fix pipe beneath concrete</strong> manageable. However, a <strong>Tucson slab leak repair for tile-floor home</strong> may require tile restoration afterward. We work meticulously to keep the access hole as small as absolutely necessary, reducing your final restoration costs.</p></>,
-            imageSrc: "/images/slab_leak_service_process.jpg",
-            imageAlt: "Spot repair",
+            heading: "Evaluating Spot Repair vs. Rerouting",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A direct spot repair—breaking the concrete and fixing the pipe where it failed—is often the fastest way to restore your water. However, it is not always the smartest long-term investment. If your home's copper lines are severely pitted from Tucson's hard water, fixing one pinhole leak today might just mean another leak will appear a few feet away next month.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We evaluate the exposed pipe during the repair. If we see heavy green oxidation, thinning pipe walls, or signs of electrolysis, we will show it to you. In these cases, we strongly recommend abandoning the underground line entirely and rerouting a new PEX line through your attic or walls to permanently eliminate the risk.</p></>,
+            imageSrc: "/images/slab_leak_detection_vs_repair.jpg",
+            imageAlt: "Spot repair versus rerouting",
             imageOnLeft: false,
-            backgroundColor: "var(--white)",
-            buttonText: "LEARN ABOUT SPOT REPAIR",
-            buttonLink: "/how-slab-leak-detection-works"
+            backgroundColor: "var(--white)"
           },
           {
-            kicker: "REROUTING OPTIONS",
-            heading: "Transparent Water-Line Rerouting Cost Tucson",
-            content: <><p style={{ fontSize: '1.1rem', color: '#4a4a4a', marginBottom: '1.5rem', lineHeight: '1.7' }}>If your plumbing is failing in multiple spots, we will evaluate the <strong>Water-line rerouting cost Tucson</strong> to bypass the slab entirely.</p><p style={{ fontSize: '1.1rem', color: '#4a4a4a', marginBottom: '1.5rem', lineHeight: '1.7' }}>We will provide a detailed <strong>slab leak plumber estimate Tucson</strong> comparing the spot repair against the reroute, empowering you to make the best choice for your home. By running new PEX piping through your walls or attic, you permanently eliminate the risk of future slab leaks on that line.</p></>,
-            imageSrc: "/images/water_line_reroute.jpg",
-            imageAlt: "Water line rerouting",
+            heading: "Minimizing Dust and Disruption",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Breaking concrete inside a finished home is a messy process, but we take extensive precautions to protect your property. Before we make a single cut, we establish containment zones using heavy-duty plastic sheeting and floor protection to keep concrete dust from spreading into your HVAC system or coating your furniture.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We use wet-cutting techniques or specialized dust-extraction vacuums attached directly to our concrete saws. This dramatically reduces airborne particulates. Once the plumbing repair is finished and tested, we clean the work area thoroughly before backfilling and pouring the new concrete patch.</p></>,
+            imageSrc: "/images/section_damp_floor.jpg",
+            imageAlt: "Dust containment during repair",
             imageOnLeft: true,
-            backgroundColor: "#f8fafc",
-            buttonText: "DISCUSS REROUTING",
-            buttonLink: "/contact"
+            backgroundColor: "#f8fafc"
+          },
+          {
+            heading: "Post-Repair Testing and Warranty",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We never pour concrete over a repair until we are absolutely certain the fix is permanent. After splicing in the new pipe section, we repressurize your entire plumbing system and monitor our gauges. This ensures the new joints are watertight and that there aren't secondary leaks further down the line.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We stand behind our workmanship. Every slab leak repair we perform comes with a robust labor warranty covering the connections we made. We provide you with a written invoice detailing the work, the pressure test results, and the warranty information for your records.</p></>,
+            imageSrc: "/images/pressure_testing.jpg",
+            imageAlt: "Post-repair pressure testing",
+            imageOnLeft: false,
+            backgroundColor: "var(--white)"
           }
         ]} />
 

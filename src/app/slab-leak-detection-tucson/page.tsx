@@ -197,41 +197,40 @@ export default function SlabLeakDetection() {
           </div>
         </section>
 
-        <ZigZagBlocks blocks={[
-            {
-              kicker: "DETECTION FIRST",
-              heading: "Professional Slab Leak Detection in Tucson",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Detecting a leak beneath a concrete slab is not something you can do with a visual inspection. Our <strong>slab leak detection in Tucson</strong> starts with a static pressure test that confirms whether your hot-water line, cold-water line, or both are actually losing pressure. This step alone eliminates guesswork and prevents unnecessary concrete openings.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Once the leaking line is identified, we use <strong><a href="/electronic-leak-detection-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>electronic leak detection</a></strong> equipment — including acoustic amplifiers and electromagnetic line tracers — to map the pipe route through your slab and pinpoint the exact failure location. The result is a marked spot on your floor, typically accurate to within a few inches.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>This precision matters because it determines whether a direct <strong><a href="/under-slab-pipe-repair-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>under-slab pipe repair</a></strong> is feasible or if a <strong>water-line reroute</strong> through the attic would be more cost-effective. We walk you through each option, including estimated costs and timelines, before any concrete is touched.</p></>,
-            imageSrc: "/images/slab_leak_detection.jpg",
-              imageAlt: "Leak detection",
-              imageOnLeft: true,
-              backgroundColor: "var(--dark-charcoal)",
-              buttonText: "REQUEST DETECTION",
-              buttonLink: "/contact"
-            },
-            {
-              kicker: "NON-INVASIVE",
-              heading: "Protecting Your Home: Tucson Slab Leak Repair for Tile-Floor Home",
-              content: <><p style={{ fontSize: '1.1rem', color: '#4a4a4a', marginBottom: '1.5rem', lineHeight: '1.7' }}>A non-invasive detection is vital for a <strong>Tucson slab leak repair for tile-floor home</strong>. We find the leak without blindly breaking your tiles.</p><p style={{ fontSize: '1.1rem', color: '#4a4a4a', marginBottom: '1.5rem', lineHeight: '1.7' }}>Once located, we can calculate the <strong>cost to fix pipe beneath concrete</strong> and discuss the benefits of a direct <strong>slab leak spot repair Tucson AZ</strong> versus other methods.</p></>,
-              imageSrc: "/images/electronic_leak_detection.jpg",
-              imageAlt: "Tile floor repair",
-              imageOnLeft: false,
-              backgroundColor: "var(--white)",
-              buttonText: "LEARN MORE",
-              buttonLink: "/how-slab-leak-detection-works"
-            },
-            {
-              kicker: "TRANSPARENCY",
-              heading: "Upfront Slab Leak Plumber Estimate Tucson",
-              content: <><p style={{ fontSize: '1.1rem', color: '#4a4a4a', marginBottom: '1.5rem', lineHeight: '1.7' }}>After detection, we provide a transparent <strong>slab leak plumber estimate Tucson</strong>. You will know exactly what the repair entails before we cut any concrete.</p><p style={{ fontSize: '1.1rem', color: '#4a4a4a', marginBottom: '1.5rem', lineHeight: '1.7' }}>We will outline the <strong><a href="/water-line-rerouting-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>Water-line rerouting</a> cost Tucson</strong> as well, so you can make an informed decision on how to repair your home's plumbing.</p></>,
-              imageSrc: "/images/slab_leak_service_process.jpg",
-              imageAlt: "Estimate process",
-              imageOnLeft: true,
-              backgroundColor: "#f8fafc",
-              buttonText: "GET AN ESTIMATE",
-              buttonLink: "/contact"
-            },
-          ]} />
+                <ZigZagBlocks blocks={[
+          {
+            heading: "Professional Slab Leak Detection in Tucson",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Detecting a leak beneath a concrete slab is not something you can do with a visual inspection. Our detection process starts with a static pressure test that confirms whether your hot-water line, cold-water line, or both are actually losing pressure. This step alone eliminates guesswork and prevents unnecessary concrete openings.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Once the leaking line is identified, we use electronic leak detection equipment — including acoustic amplifiers and electromagnetic line tracers — to map the pipe route through your slab and pinpoint the exact failure location. The result is a marked spot on your floor, typically accurate to within a few inches.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>This precision matters because it determines whether a direct under-slab pipe repair is feasible or if a water-line reroute through the attic would be more cost-effective. We walk you through each option, including estimated costs and timelines, before any concrete is touched.</p></>,
+            imageSrc: "/images/electronic_leak_detection.jpg",
+            imageAlt: "Professional Slab Leak Detection in Tucson",
+            imageOnLeft: true,
+            backgroundColor: "#f8fafc"
+          },
+          {
+            heading: "Protecting Your Home's Flooring During Detection",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>One of our primary goals during the detection phase is preserving your property. If your home has expensive tile, travertine, or custom hardwood floors, we know how stressful the idea of breaking concrete can be. That is exactly why we rely on non-invasive electronic mapping before we ever recommend picking up a jackhammer.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>By tracing the exact path of the leaking pipe acoustically and electromagnetically, we can often find the leak without removing a single tile. If the leak is located under an expensive floor finish, this precise location data allows us to recommend bypassing that specific line entirely (rerouting) rather than destroying your floor to reach the pipe.</p></>,
+            imageSrc: "/images/section_damp_floor.jpg",
+            imageAlt: "Protecting flooring during leak detection",
+            imageOnLeft: false,
+            backgroundColor: "var(--white)"
+          },
+          {
+            heading: "Understanding the Diagnostic Report",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>After we complete our detection process, we don't just hand you a bill and leave. We provide a comprehensive diagnostic report that explains exactly what we found. This report includes the verified pressure drops on your system, the exact location of the marked leak, and an assessment of the overall pipe condition we observed.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>This report is crucial for your homeowners insurance. Many insurance policies in Arizona cover the cost of accessing the leak (breaking the concrete and replacing the floor), even if they do not cover the repair of the plumbing pipe itself. Having a professional, documented detection report ensures your claim starts on solid ground.</p></>,
+            imageSrc: "/images/slab_leak_service_process.jpg",
+            imageAlt: "Diagnostic report process",
+            imageOnLeft: true,
+            backgroundColor: "#f8fafc"
+          },
+          {
+            heading: "Clear, Upfront Repair Options",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Once we know exactly where the leak is and which line is compromised, we lay out your repair options. We will provide a transparent estimate that breaks down the cost of a direct spot repair (breaking the concrete to fix the pipe) versus the cost of rerouting the line above ground.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We explain the pros and cons of each method based on the age of your plumbing and the location of the leak. Our goal is to give you all the information you need to make the best long-term decision for your home, without any high-pressure sales tactics.</p></>,
+            imageSrc: "/images/slab_leak_detection_vs_repair.jpg",
+            imageAlt: "Upfront repair options",
+            imageOnLeft: false,
+            backgroundColor: "var(--white)"
+          }
+        ]} />
 
 
         {/* FAQs */}

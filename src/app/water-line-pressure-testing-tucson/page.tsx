@@ -160,15 +160,39 @@ export default function WaterLinePressureTesting() {
           </div>
         </section>
 
-        <ZigZagBlocks blocks={[
+                <ZigZagBlocks blocks={[
           {
             heading: "Understanding Your Pressure Test Results",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>After the test, we walk you through the results in plain language. You will see the starting pressure, the duration of the test, and the final reading for each line. If a line held pressure, it is confirmed leak-free and can be ruled out. If a line dropped, we calculate the approximate rate of water loss and explain what that means for your home.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A pressure drop of more than 5 PSI over 15 minutes typically indicates a significant leak that needs prompt attention. A drop of 1 to 3 PSI over the same period suggests a smaller failure that is still wasting water but may not require emergency service. We use these numbers to help you prioritize and budget for the next steps.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The full test report is documented and provided to you in writing. This documentation is valuable for insurance claims, home sale disclosures, and future plumbing reference. It also serves as the baseline for the <strong><a href="/slab-leak-detection-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>acoustic detection phase</a></strong> that follows, giving the technician a clear target line to investigate.</p></>,
-            imageSrc: "/images/slab_leak_service_process.jpg",
-            imageAlt: "Accurate estimate",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>After the test, we walk you through the results in plain language. You will see the starting pressure, the duration of the test, and the final reading for each line. If a line held pressure, it is confirmed leak-free and can be ruled out. If a line dropped, we calculate the rate of water loss and explain what that means.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A pressure drop of more than 5 PSI over 15 minutes typically indicates a significant leak that needs prompt attention. A drop of 1 to 3 PSI over the same period suggests a smaller failure that is still wasting water but may not require emergency service. We use these numbers to help you prioritize the next steps.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The full test report is documented and provided to you in writing. This documentation is valuable for insurance claims, home sale disclosures, and future plumbing reference. It also serves as the baseline for the acoustic detection phase, giving the technician a clear target line to investigate.</p></>,
+            imageSrc: "/images/pressure_testing.jpg",
+            imageAlt: "Understanding pressure test results",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
           },
+          {
+            heading: "Isolating Hot vs. Cold Lines",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>One of the most important aspects of a professional pressure test is isolating the different branches of your plumbing. A house-wide pressure drop tells us there is a leak, but it doesn't tell us where to start looking. By isolating the system, we save hours of diagnostic time.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We first isolate the hot water system by closing the valve at your water heater. We then apply pressure to the hot lines independently. If the pressure holds, we know your hot water system is safe, and we immediately shift our focus to the cold water manifold. This isolation technique narrows the search area by 50% instantly.</p></>,
+            imageSrc: "/images/section_pressure_gauge.jpg",
+            imageAlt: "Isolating hot and cold lines",
+            imageOnLeft: false,
+            backgroundColor: "var(--white)"
+          },
+          {
+            heading: "Ruling Out Fixture Leaks First",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Not every loss of water pressure means you have a cracked pipe under your foundation. Before we attach our testing gauges, our technicians perform a thorough sweep of the exposed plumbing in your home. A running toilet flapper or a dripping shower cartridge can cause a false positive during a pressure test.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We shut off the angle stops to all toilets, washing machines, and refrigerator ice makers. By removing these common culprits from the testing equation, we ensure that any pressure drop registered on our gauge is exclusively due to a failure in the hard piping hidden in your walls or slab.</p></>,
+            imageSrc: "/images/section_water_meter.jpg",
+            imageAlt: "Ruling out fixture leaks",
+            imageOnLeft: true,
+            backgroundColor: "#f8fafc"
+          },
+          {
+            heading: "Using Gas for Micro-Leak Testing",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Sometimes, a pipe develops a pinhole leak so small that water pressure drops incredibly slowly, making acoustic detection difficult. In these micro-leak scenarios, we escalate our testing methods by draining the water from the line and injecting an inert tracer gas (usually a mix of nitrogen and hydrogen).</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Because hydrogen molecules are smaller than water molecules, the gas escapes through the tiny pipe crack and permeates up through the concrete slab and flooring. We then use highly sensitive electronic gas "sniffers" to detect where the gas is surfacing, pinpointing the leak location accurately.</p></>,
+            imageSrc: "/images/electronic_leak_detection.jpg",
+            imageAlt: "Tracer gas leak testing",
+            imageOnLeft: false,
+            backgroundColor: "var(--white)"
+          }
         ]} />
 
 

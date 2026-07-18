@@ -162,23 +162,39 @@ export default function ElectronicLeakDetection() {
           </div>
         </section>
 
-        <ZigZagBlocks blocks={[
+                <ZigZagBlocks blocks={[
           {
             heading: "Acoustic Detection for Hidden Pipe Leaks",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A <strong>hidden pipe leak</strong> beneath concrete can run for weeks before visible symptoms appear. By the time you notice damp flooring, warm spots, or an unusually high water bill, the leak may have already saturated the soil beneath your home and begun affecting your foundation. <strong>Acoustic leak detection in Tucson</strong> finds these hidden failures before the damage compounds.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Our acoustic equipment amplifies underground sounds up to 100x, allowing the technician to distinguish between a pinhole leak, a joint failure, and normal water flow through adjacent pipes. The intensity and pitch of the sound change as the microphone moves closer to the leak source, giving us a reliable gradient to follow.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>This non-invasive approach means we can locate your leak without drilling exploratory holes or tearing up flooring. For Tucson homeowners with expensive tile, stone, or polished concrete floors, this makes a significant difference — both in cost and in preserving the appearance of your home. The result is a marked location and a clear recommendation for either a <strong>spot repair</strong> or a <strong><a href="/water-line-rerouting-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>water-line reroute</a></strong>.</p></>,
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A hidden pipe leak beneath concrete can run for weeks before visible symptoms appear. By the time you notice damp flooring, warm spots, or an unusually high water bill, the leak may have already saturated the soil beneath your home and begun affecting your foundation. Acoustic leak detection finds these hidden failures before the damage compounds.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Our acoustic equipment amplifies underground sounds up to 100x, allowing the technician to distinguish between a pinhole leak, a joint failure, and normal water flow through adjacent pipes. The intensity and pitch of the sound change as the microphone moves closer to the leak source, giving us a reliable gradient to follow.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>This non-invasive approach means we can locate your leak without drilling exploratory holes or tearing up flooring. For homes with expensive tile, stone, or polished concrete floors, this makes a significant difference — both in cost and in preserving the appearance of your home.</p></>,
+            imageSrc: "/images/electronic_leak_detection.jpg",
+            imageAlt: "Acoustic detection",
+            imageOnLeft: true,
+            backgroundColor: "#f8fafc"
+          },
+          {
+            heading: "Electromagnetic Pipe Tracing",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Acoustic listening is incredibly accurate, but it works best when we know exactly where the pipes are laid beneath your foundation. Because plumbing blueprints are rarely accurate (or available) for older Tucson homes, we use electromagnetic line tracers to map your system first.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We induce a safe electrical signal into your copper water lines and use a receiver wand to trace the signal above the floor. This allows us to draw a precise map of your underground plumbing on the surface of your tile or concrete. Once we know the path of the pipe, our acoustic sweeps become significantly faster and more accurate.</p></>,
             imageSrc: "/images/slab_leak_detection.jpg",
-            imageAlt: "Slab leak detection",
+            imageAlt: "Electromagnetic pipe tracing",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
           },
           {
-            heading: "Transparent Estimates & Rerouting Options",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Depending on the condition of your plumbing, a spot repair might not be enough. If the line is heavily corroded, we will evaluate the <strong><a href="/water-line-rerouting-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>Water-line rerouting</a> cost Tucson</strong> to give you a long-term solution.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>No matter the method, you will always receive a clear, upfront <strong>slab leak plumber estimate Tucson</strong> before we begin any work.</p></>,
-            imageSrc: "/images/slab_leak_repair.jpg",
-            imageAlt: "Slab leak repair",
+            heading: "Thermal Imaging Supplements",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>When dealing with a hot-water slab leak, thermal imaging cameras are an invaluable secondary tool. Hot water escaping from a ruptured under-slab line will eventually heat the surrounding soil and transfer that thermal energy up through the concrete foundation.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>By scanning your floors with an infrared camera, our technicians can visually identify the "plume" of heat spreading beneath the surface. While thermal imaging cannot pinpoint the exact millimeter of the leak on its own (since water spreads as it rises), it immediately directs our acoustic tools to the correct 3-foot radius, drastically speeding up the detection process.</p></>,
+            imageSrc: "/images/section_thermal_camera.jpg",
+            imageAlt: "Thermal imaging leak detection",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
           },
+          {
+            heading: "Data-Driven Repair Recommendations",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The ultimate goal of electronic leak detection isn't just to find the leak; it's to gather the data needed to recommend the best repair strategy. Once we mark the exact location of the failure, we evaluate where it sits in relation to your home's layout.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>If the leak is located under a kitchen island, custom cabinetry, or an expensive hardwood floor, breaking the concrete might cost thousands in restoration fees. In those scenarios, our detection data allows us to confidently recommend abandoning the underground line and rerouting a new pipe through the attic, saving your floors and providing a permanent fix.</p></>,
+            imageSrc: "/images/slab_leak_detection_vs_repair.jpg",
+            imageAlt: "Data driven repair options",
+            imageOnLeft: false,
+            backgroundColor: "var(--white)"
+          }
         ]} />
 
 

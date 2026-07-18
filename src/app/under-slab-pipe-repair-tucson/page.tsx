@@ -174,23 +174,39 @@ export default function UnderSlabPipeRepair() {
           </div>
         </section>
 
-        <ZigZagBlocks blocks={[
+                <ZigZagBlocks blocks={[
           {
-            heading: "Concrete Access and Floor Restoration",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The most visible part of an <strong>under-slab pipe repair</strong> is the concrete opening. We use precision concrete saws to cut clean edges rather than jackhammering, which reduces vibration damage to surrounding tile and minimizes the cleanup involved. The opening is sized just large enough to access the pipe — typically 18 to 24 inches wide.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>After the plumbing repair is complete and the pressure test confirms a solid hold, we backfill the opening with clean fill material and pour new concrete to match the existing slab thickness. For homes with tile floors, we align our cuts with grout lines whenever possible so the restoration blends more naturally with the existing surface.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We coordinate with your preferred tile installer or flooring contractor if matching is needed, and we document the exact repair location and pipe depth for your records. This documentation becomes valuable for future plumbing work, home inspections, or insurance claims related to <strong><a href="/slab-leak-repair-cost-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>slab leak repair costs</a></strong>.</p></>,
-            imageSrc: "/images/slab_leak_service_process.jpg",
-            imageAlt: "Pipe beneath concrete",
+            heading: "Precision Concrete Access",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The most visible part of an under-slab pipe repair is the concrete opening. We use precision concrete saws to cut clean edges rather than recklessly jackhammering, which reduces vibration damage to surrounding tile and minimizes the messy cleanup involved. The opening is sized just large enough to safely access the pipe — typically 18 to 24 inches wide.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>For homes with tile floors, we measure carefully to align our cuts with your existing grout lines whenever possible. This foresight makes the eventual floor restoration blend much more naturally with the surrounding surface, saving your flooring contractor significant time and saving you money.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Before making any cuts, we set up heavy plastic containment barriers. Breaking concrete generates fine silica dust, and our containment protocols ensure that this dust doesn't circulate through your HVAC system or coat your furniture.</p></>,
+            imageSrc: "/images/under_slab_pipe_repair.jpg",
+            imageAlt: "Precision concrete access",
+            imageOnLeft: true,
+            backgroundColor: "#f8fafc"
+          },
+          {
+            heading: "Replacing the Failed Pipe Section",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Once the concrete is removed and the soil is excavated, we expose the leaking pipe. We cut out the damaged section entirely—we do not rely on temporary clamps, epoxy patches, or rubber sleeves. Those are band-aids, not plumbing repairs.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We splice in a brand-new section of high-grade Type L copper or flexible PEX tubing, securing the connections with code-approved methods designed for direct burial. If we are brazing copper underground, we take extreme care to flush the line and ensure the joints are flawless before they are buried again.</p></>,
+            imageSrc: "/images/slab_leak_repair.jpg",
+            imageAlt: "Replacing failed pipe",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
           },
           {
-            heading: "Accurate Slab Leak Plumber Estimate Tucson",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Before we start breaking concrete, we provide a comprehensive <strong>slab leak plumber estimate Tucson</strong>.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>If the line is too fragile, we will openly discuss the <strong>Water-line rerouting cost Tucson</strong> as an alternative to ensure you don\'t face repeated leaks.</p></>,
-            imageSrc: "/images/electronic_leak_detection.jpg",
-            imageAlt: "Plumber estimate",
+            heading: "Rigorous Pressure Testing Before Backfill",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The most critical step in an under-slab repair happens before the concrete is patched. Once the new pipe is installed, we turn the water main back on and repressurize your home's entire system. We monitor the exposed repair joint under full municipal water pressure.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We attach a sensitive pressure gauge to verify that the system is holding perfectly steady. If the needle drops even a fraction of a PSI, it means there is another leak nearby or the new joint isn't secure. We never backfill dirt or pour concrete until the pressure test passes flawlessly.</p></>,
+            imageSrc: "/images/pressure_testing.jpg",
+            imageAlt: "Pressure testing before backfill",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
           },
+          {
+            heading: "Backfilling and Concrete Restoration",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>After the plumbing repair passes inspection, we begin the restoration phase. We carefully backfill the hole using clean sand or fine gravel immediately around the pipe. This protects the new copper or PEX from sharp rocks in the native Tucson soil that could cause friction damage during thermal expansion.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Finally, we pour high-strength concrete to match the exact thickness of your existing slab. We trowel the surface smooth and level so your flooring contractor has a perfect canvas to reinstall your tile, wood, or carpeting.</p></>,
+            imageSrc: "/images/slab_leak_service_process.jpg",
+            imageAlt: "Concrete restoration",
+            imageOnLeft: false,
+            backgroundColor: "var(--white)"
+          }
         ]} />
 
 

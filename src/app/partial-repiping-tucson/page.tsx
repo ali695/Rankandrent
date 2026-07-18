@@ -162,23 +162,39 @@ export default function PartialRepiping() {
           </div>
         </section>
 
-        <ZigZagBlocks blocks={[
+                <ZigZagBlocks blocks={[
           {
             heading: "Partial Repiping Materials and Warranty",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We use PEX (cross-linked polyethylene) for the majority of partial repiping projects in Tucson. PEX offers several advantages over copper in under-slab and through-wall applications: it resists the corrosion that causes slab leaks in the first place, handles thermal expansion without stress cracking, and requires fewer joints — meaning fewer potential failure points.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>All pipe materials we use are rated for potable water and comply with current Arizona plumbing codes. Each connection is pressure-tested individually before the wall cavities are closed, and the entire new branch receives a final system-wide pressure verification before the project is considered complete.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The completed repiping work comes with a labor warranty covering our workmanship and connections, while the PEX pipe itself carries a manufacturer warranty of 25 years or more. We provide full documentation of the work performed, materials used, and test results for your records and for any future home inspections or insurance needs.</p></>,
-            imageSrc: "/images/slab_leak_service_process.jpg",
-            imageAlt: "Rerouting cost",
+            imageSrc: "/images/partial_repiping.jpg",
+            imageAlt: "Partial Repiping Materials",
+            imageOnLeft: true,
+            backgroundColor: "#f8fafc"
+          },
+          {
+            heading: "When Partial Repiping Makes Sense",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A partial repipe is the perfect middle ground between a simple spot repair and a whole-home repipe. If you have experienced a leak on a specific branch line—for instance, the hot water line feeding your master bathroom—but the rest of your home's plumbing appears healthy, a partial repipe targets the known problem area.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Instead of breaking your bathroom floor to fix one hole, we cap off the entire failing line under the slab. We then run a brand new PEX line through the attic and drop it down the wall to feed your shower and sinks. This permanently eliminates the risk of that specific line ever leaking under your foundation again.</p></>,
+            imageSrc: "/images/hero_partial_repiping.jpg",
+            imageAlt: "When partial repiping makes sense",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
           },
           {
-            heading: "Detailed Slab Leak Plumber Estimate Tucson",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Before starting a partial repipe, we provide a full <strong>slab leak plumber estimate Tucson</strong>. This covers the reroute, new PEX or copper materials, and drywall access.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>If you need help right now, our <strong><a href="/emergency-slab-leak-service-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>emergency slab leak</a> repair Tucson</strong> team is available to bypass the leaking section temporarily while we plan the full repipe.</p></>,
-            imageSrc: "/images/emergency_slab_leak_service.jpg",
-            imageAlt: "Plumber estimate",
+            heading: "Minimizing Wall Damage",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Because we are only replacing a specific section of your plumbing, the structural impact on your home is minimal. We don't need to tear out ceilings or open every wall in your house. By carefully mapping the route from the water source to the fixtures, we strategically plan small access panels.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Most of the new pipe is routed securely through the attic where it is out of sight. The only drywall that needs to be cut is typically behind toilets or inside vanity cabinets where the new line connects to your angle stops. These small cuts are easily patched and painted, leaving your home looking untouched.</p></>,
+            imageSrc: "/images/slab_leak_detection_vs_repair.jpg",
+            imageAlt: "Minimizing wall damage",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
           },
+          {
+            heading: "Future-Proofing Your Plumbing",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Every partial repipe we perform is designed with the future in mind. If we are rerouting the hot water line to your kitchen today, we install accessible manifolds and shut-off valves that make future upgrades easy.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>If another under-slab line fails in a different part of the house five years from now, our technicians can simply tie a new PEX line into the accessible manifold we built during this repair. It transforms a scattered, buried plumbing system into a modern, manageable, overhead network piece by piece.</p></>,
+            imageSrc: "/images/slab_leak_repair.jpg",
+            imageAlt: "Future proofing plumbing",
+            imageOnLeft: false,
+            backgroundColor: "var(--white)"
+          }
         ]} />
 
 

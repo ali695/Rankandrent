@@ -185,31 +185,39 @@ export default function EmergencySlabLeakService() {
           </div>
         </section>
 
-        <ZigZagBlocks blocks={[
+                <ZigZagBlocks blocks={[
           {
-            heading: "Rapid Emergency Slab Leak Repair Tucson",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>When water is actively damaging your foundation or flooring, every minute counts. An <strong>emergency <a href="/slab-leak-repair-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>slab leak repair</a> in Tucson</strong> requires a plumber who can arrive quickly, shut off the affected line, and begin damage mitigation before moisture spreads into drywall, cabinetry, or subflooring.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Our network dispatches experienced technicians who carry pressure-testing gauges, acoustic listening gear, and common repair fittings on every truck. That means the initial assessment and line isolation happen in the same visit — no waiting for a second appointment while water continues to pool beneath your slab.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Most <strong>residential slab leak emergencies</strong> in Tucson involve copper lines that have corroded at joints or developed pinhole failures. We evaluate the damaged section on-site and recommend either a direct spot repair or, when the pipe condition warrants it, a <strong><a href="/water-line-rerouting-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>water-line reroute</a></strong> through the attic to permanently bypass the failing segment.</p></>,
-            imageSrc: "/images/emergency_slab_leak_service.jpg",
-            imageAlt: "Emergency repair",
+            heading: "Rapid Emergency Slab Leak Repair",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>When water is actively damaging your foundation or flooring, every minute counts. An emergency response requires a plumber who can arrive quickly, shut off the affected line, and begin damage mitigation before moisture spreads into drywall, cabinetry, or subflooring.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We dispatch experienced technicians who carry pressure-testing gauges, acoustic listening gear, and common repair fittings on every truck. That means the initial assessment and line isolation happen in the same visit — no waiting for a second appointment while water continues to pool beneath your slab.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Most residential emergencies in Tucson involve copper lines that have corroded at joints or developed pinhole failures. We evaluate the damaged section on-site and recommend either a direct spot repair or, when the pipe condition warrants it, a water-line reroute through the attic to permanently bypass the failing segment.</p></>,
+            imageSrc: "/images/hero_emergency_leak.jpg",
+            imageAlt: "Emergency slab leak repair",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
           },
           {
-            heading: "Fast Slab Leak Spot Repair Tucson AZ",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Once the active leak is isolated and the water supply is stabilized, we assess the fastest path to a permanent fix. A <strong>slab leak spot repair in Tucson AZ</strong> involves opening a small section of concrete directly above the failure point, replacing the damaged pipe segment with new copper or PEX, and pressure-testing the line before closing up.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Spot repair works best when the leak is in a single, accessible location and the surrounding pipe is still in good condition. For homes with tile flooring, we carefully cut the concrete to minimize surface damage. Once the plumbing repair is complete, the concrete is patched and the floor can be re-tiled by your preferred contractor.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>This targeted approach keeps the overall <strong>cost to fix a pipe beneath concrete</strong> significantly lower than a full reroute. In many cases, we can complete the repair within a single day, restoring your water pressure and giving you peace of mind that the fix is backed by a workmanship warranty.</p></>,
-            imageSrc: "/images/slab_leak_repair.jpg",
-            imageAlt: "Spot repair",
+            heading: "Isolating the Leak to Restore Your Water",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The first priority in an emergency is stopping the water damage while minimizing disruption to your daily life. Shutting off the main water valve stops the leak, but it also leaves your family without running water for toilets, showers, and cooking.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Our technicians work quickly to identify exactly which line is leaking. If possible, we will cap or bypass the specific branch line feeding the leak. This allows us to turn the main water back on to the rest of the house, giving you functional bathrooms and sinks while we plan and execute the permanent repair.</p></>,
+            imageSrc: "/images/section_pressure_gauge.jpg",
+            imageAlt: "Isolating the leak",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
           },
           {
-            heading: "Accurate Tucson Slab Leak Plumber Estimates",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>During an emergency, the last thing you need is pricing surprises. We provide a detailed <strong>slab leak plumber estimate in Tucson</strong> that breaks down every cost — from the detection fee and concrete access to the pipe repair, pressure verification, and surface patching. You see exactly what you are paying for before any work begins.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Our estimates also factor in your specific flooring type. Homes with standard concrete and vinyl flooring have lower restoration costs, while custom tile, travertine, or stamped concrete may require specialized cutting and matching. We document these variables upfront so there are no hidden charges after the repair is done.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>If the pipe condition or layout makes spot repair impractical, we will present the <strong><a href="/water-line-rerouting-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>water-line rerouting</a> cost in Tucson</strong> as an alternative. Rerouting eliminates the need to break through expensive flooring by running a brand-new line through the walls or attic, which is often the smarter long-term investment for a <strong>Tucson slab leak repair on a tile-floor home</strong>.</p></>,
-            imageSrc: "/images/slab_leak_service_process.jpg",
-            imageAlt: "Plumber estimate",
+            heading: "Targeted Concrete Access and Repair",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Once the active leak is isolated and the water supply is stabilized, we assess the fastest path to a permanent fix. A direct spot repair involves opening a small section of concrete directly above the failure point, replacing the damaged pipe segment with new copper or PEX, and pressure-testing the line before closing up.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Spot repair works best when the leak is in a single, accessible location and the surrounding pipe is still in good condition. For homes with tile flooring, we carefully cut the concrete to minimize surface damage. Once the plumbing repair is complete, the concrete is patched and the floor can be re-tiled.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>This targeted approach keeps the overall cost significantly lower than a full reroute. In many cases, we can complete the repair within a single day, restoring your water pressure and giving you peace of mind.</p></>,
+            imageSrc: "/images/under_slab_pipe_repair.jpg",
+            imageAlt: "Targeted concrete access",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
           },
+          {
+            heading: "Clear Estimates During a Crisis",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>During a plumbing emergency, the last thing you need is pricing surprises. We provide a detailed estimate that breaks down every cost — from the detection fee and concrete access to the pipe repair, pressure verification, and surface patching. You see exactly what you are paying for before any concrete is cut.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Our estimates also factor in your specific flooring type. Homes with standard concrete and vinyl flooring have lower restoration costs, while custom tile, travertine, or stamped concrete may require specialized cutting. We document these variables upfront so there are no hidden charges after the repair is done.</p></>,
+            imageSrc: "/images/emergency_slab_leak_service.jpg",
+            imageAlt: "Clear emergency estimates",
+            imageOnLeft: false,
+            backgroundColor: "var(--white)"
+          }
         ]} />
 
 
