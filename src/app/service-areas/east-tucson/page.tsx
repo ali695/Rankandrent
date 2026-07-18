@@ -6,20 +6,27 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'Slab Leak Repair & Detection in East Tucson, AZ',
-  description: 'Providing accurate slab leak detection for sprawling ranch homes and estates across East Tucson. Discover the exact source of your water loss today.',
+  title: 'Slab Leak Detection East Tucson, AZ',
+  description: 'Request pressure testing, hidden leak locating, slab leak repair and water-line rerouting across East and Far East Tucson.',
   openGraph: {
-    title: 'Slab Leak Repair & Detection in East Tucson, AZ',
-    description: 'Providing accurate slab leak detection for sprawling ranch homes and estates across East Tucson. Discover the exact source of your water loss today.',
+    title: 'Slab Leak Detection East Tucson, AZ',
+    description: 'Request pressure testing, hidden leak locating, slab leak repair and water-line rerouting across East and Far East Tucson.',
     url: 'https://tucsonslableakpros.com/service-areas/east-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
-    images: [{ url: "/images/services_hub_hero.jpg", width: 1200, height: 630, alt: "Slab Leak Detection East Tucson, AZ" }],
+    images: [
+      {
+        url: "/images/services_hub_hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Slab Leak Detection East Tucson, AZ",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Slab Leak Repair & Detection in East Tucson, AZ",
-    description: "Providing accurate slab leak detection for sprawling ranch homes and estates across East Tucson.",
+    title: "Slab Leak Detection East Tucson, AZ",
+    description: "Request pressure testing, hidden leak locating, slab leak repair and water-line rerouting across East and Far East Tucson.",
     images: ["/images/services_hub_hero.jpg"],
   },
 };
@@ -30,26 +37,50 @@ const faqSchema = {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Are slab leaks common in the older ranch homes of East Tucson?",
+      "name": "Which East Tucson ZIP codes are included?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Many of the sprawling ranch-style homes built in East Tucson during the 1970s and 1980s have long, uninterrupted runs of copper plumbing under the concrete slab. Over time, friction and hard water cause these pipes to thin out and eventually leak."
+        "text": "The main page covers 85710, 85711, 85715, and 85748. Service availability is confirmed using the exact property address."
       }
     },
     {
       "@type": "Question",
-      "name": "How do I know if the leak is under my slab or in my front yard?",
+      "name": "Can a pool or irrigation leak look like a slab leak?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Because lots in East Tucson can be large, a high water bill might be caused by an exterior service line rather than a pipe under your foundation. We perform isolation pressure testing on the house lines versus the main service line to determine exactly where the water is escaping."
+        "text": "Yes. Both can create continuous meter use and higher bills. Exterior systems should be isolated or checked before an interior slab leak is diagnosed."
       }
     },
     {
       "@type": "Question",
-      "name": "Can you reroute plumbing if my home is on a large, flat slab?",
+      "name": "Can pressure testing tell whether the hot or cold line is leaking?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely. Rerouting is often the best choice. Instead of breaking through your living room floor, we can run a new, flexible PEX water line through the attic space and drop it down the walls to restore your water supply."
+        "text": "Hot and cold systems can often be isolated and tested separately. A pressure drop confirms loss in a section, but locating equipment may still be needed to identify the physical area."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if the damp area is beside an exterior wall?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The source may be an interior pipe, exterior service line, irrigation, roof drainage, or condensation. The visible moisture alone does not identify the source."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can one leak-detection visit lead directly to repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sometimes detection and repair can be completed in one visit, but equipment, access, parts, and the selected method affect scheduling. The provider should explain the next step after testing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer service near Udall Park and Broadway Northeast?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We serve these East Tucson areas. Address-level coverage is confirmed before scheduling."
       }
     }
   ]
@@ -58,37 +89,38 @@ const faqSchema = {
 export default function EastTucson() {
   return (
     <>
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection East Tucson, AZ", "description": "Request pressure testing, hidden leak locating, slab leak repair and water-line rerouting across East and Far East Tucson.", "url": "https://tucsonslableakpros.com/service-areas/east-tucson/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>
         {/* Hero Section */}
         <section style={{ position: "relative", padding: "8rem 0 6rem", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <Image title="East Tucson Slab Leak Services" src="/images/hero_home.jpg" alt="Ranch style home in East Tucson" fill sizes="100vw" style={{ objectFit: "cover", opacity: 0.4 }} priority />
+            <Image title="Slab leak detection East Tucson" src="/images/hero_home.jpg" alt="Slab leak technician serving East Tucson" fill sizes="100vw" style={{ objectFit: "cover", opacity: 0.4 }} priority />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
             <div className="hero-grid">
               <div style={{ color: "var(--white)", paddingRight: "2rem" }}>
                 <span style={{ color: "var(--brand-red)", fontWeight: "700", textTransform: "uppercase", letterSpacing: "1px", display: "block", marginBottom: "0.5rem", fontSize: "0.9rem" }}>LOCAL COVERAGE AREA</span>
-                <h1 style={{ color: "var(--white)", marginBottom: "1.5rem", fontSize: "3.5rem", lineHeight: "1.1", fontWeight: "800" }}>Slab Leak Detection & Repair in East Tucson</h1>
+                <h1 style={{ color: "var(--white)", marginBottom: "1.5rem", fontSize: "3.5rem", lineHeight: "1.1", fontWeight: "800" }}>Slab Leak Detection and Repair in East Tucson</h1>
                 <p style={{ fontSize: "1.1rem", marginBottom: "2rem", maxWidth: "600px", color: "#e4e4e7", lineHeight: "1.6" }}>
-                  The large ranch-style properties in East Tucson present unique plumbing challenges. Long, aging copper pipe runs under massive concrete slabs make finding a hidden leak difficult without the right technology.
+                  Tucson Leak Pros accepts slab leak service requests across East Tucson, including Broadway-area neighborhoods, Eastside communities, and Far East Tucson. 
                 </p>
                 <p style={{ fontSize: "1.1rem", marginBottom: "2rem", maxWidth: "600px", color: "#e4e4e7", lineHeight: "1.6" }}>
-                  Our specialized plumbers diagnose and repair slab leaks throughout East Tucson, providing state-of-the-art acoustic location and pressure testing to protect your floors and your budget.
+                  Hidden water loss may be indicated by meter movement, higher use, damp flooring, warm tile, pressure changes, or water sounds. The service process is designed to confirm the problem before a floor, wall, or ceiling is opened.
                 </p>
                 
                 <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap", marginBottom: "2rem" }}>
                   <a href="#contact" className="btn-primary" style={{ backgroundColor: "var(--brand-red)", color: "var(--white)", padding: "1rem 2rem", borderRadius: "4px", fontWeight: "bold", textDecoration: "none" }}>REQUEST LEAK DETECTION</a>
-                  <a href="tel:555-555-5555" className="btn-secondary" style={{ backgroundColor: "transparent", color: "var(--white)", border: "2px solid var(--white)", padding: "1rem 2rem", borderRadius: "4px", fontWeight: "bold", textDecoration: "none" }}>CALL 520-555-0199</a>
+                  <a href="tel:555-555-5555" className="btn-secondary" style={{ backgroundColor: "transparent", color: "var(--white)", border: "2px solid var(--white)", padding: "1rem 2rem", borderRadius: "4px", fontWeight: "bold", textDecoration: "none" }}>CALL ABOUT SUSPECTED LEAK</a>
                 </div>
               </div>
 
               <div style={{ backgroundColor: "var(--white)", padding: "2.5rem", borderRadius: "8px", boxShadow: "0 20px 40px rgba(0,0,0,0.2)" }}>
-                <h3 style={{ color: "var(--dark-charcoal)", fontSize: "1.5rem", fontWeight: "800", marginBottom: "1.5rem", textAlign: "center" }}>Check East Tucson Availability</h3>
+                <h3 style={{ color: "var(--dark-charcoal)", fontSize: "1.5rem", fontWeight: "800", marginBottom: "1.5rem", textAlign: "center" }}>Check Eastside Availability</h3>
                 <ZipCheckerForm />
                 <div style={{ marginTop: "1.5rem", paddingTop: "1.5rem", borderTop: "1px solid #e2e8f0" }}>
-                  <p style={{ margin: 0, fontSize: "0.9rem", color: "#64748b", textAlign: "center" }}>Primary ZIP Codes: 85710, 85711, 85715, 85730, 85748</p>
+                  <p style={{ margin: 0, fontSize: "0.9rem", color: "#64748b", textAlign: "center" }}>Main ZIP Codes: 85710, 85711, 85715, 85748</p>
                 </div>
               </div>
             </div>
@@ -98,13 +130,17 @@ export default function EastTucson() {
         {/* Communities Section */}
         <section style={{ padding: "4rem 0", backgroundColor: "#f8fafc" }}>
           <div className="container">
-            <h2 style={{ fontSize: "2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem", textAlign: "center" }}>Neighborhoods We Serve in East Tucson</h2>
+            <h2 style={{ fontSize: "2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem", textAlign: "center" }}>Neighborhoods Served Around East Tucson</h2>
             <p style={{ textAlign: "center", color: "#4a4a4a", marginBottom: "3rem", maxWidth: "800px", margin: "0 auto 3rem" }}>
-              From the bustling Broadway corridor to the quiet subdivisions near Saguaro National Park East, we provide rapid, professional leak diagnostics.
+              We provide professional <strong><a href="/slab-leak-detection-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>slab leak detection</a> in East Tucson AZ</strong> and surrounding areas. Our service area covers the main communities naturally without creating a separate request for every neighborhood.
             </p>
             
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "1rem" }}>
-              {['Eastside', 'Rita Ranch', 'Civano', 'Harrison East', 'Saguaro East', 'Meyers', 'Palo Verde', 'Desert Steppes'].map((area) => (
+            
+            <div style={{ position: "relative", width: "100%", height: "300px", marginBottom: "2rem", borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.05)" }}>
+              <Image src="/images/hero_home.jpg" alt="Residential slab leak service area in East Tucson" fill sizes="(max-width: 768px) 100vw, 1200px" style={{ objectFit: "cover" }} />
+            </div>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "1rem" }}>
+              {['East Tucson', 'Broadway Northeast', 'Harold Bell Wright Estates', 'Desert Palms Park', 'Eastside', 'Tierra del Sol', 'Udall Park area', 'Rancho Perdido Estates', 'Carriage Park', 'Pantano area', 'Far East Tucson'].map((area) => (
                 <div key={area} style={{ backgroundColor: "var(--white)", padding: "1.5rem", borderRadius: "8px", borderLeft: "4px solid var(--brand-red)", fontWeight: "600", color: "var(--dark-charcoal)", boxShadow: "0 2px 4px rgba(0,0,0,0.05)" }}>
                   {area}
                 </div>
@@ -117,9 +153,9 @@ export default function EastTucson() {
         <section style={{ padding: "5rem 0", backgroundColor: "var(--white)" }}>
           <div className="container split-grid" style={{ alignItems: "center" }}>
             <div>
-              <h2 style={{ fontSize: "2.2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>The Challenge of Ranch-Style Copper Plumbing</h2>
+              <h2 style={{ fontSize: "2.2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>What We Know About East Tucson Properties</h2>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                East Tucson experienced a massive housing boom from the 1960s through the 1980s. The sprawling ranch-style homes built during this era are fantastic for living, but their plumbing footprints are massive. This means there are long, uninterrupted runs of soft copper pipe buried beneath the foundation.
+                East Tucson experienced a massive housing boom from the 1960s through the 1980s. The sprawling ranch-style homes built during this era have long, uninterrupted runs of soft copper pipe buried beneath the foundation.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
                 Because these homes sit on larger lots, the first step is always determining if the leak is actually beneath your living room floor, or if it is on the main water service line running through your front yard. We utilize advanced line isolation testing to definitively prove where the water is escaping.
@@ -130,24 +166,36 @@ export default function EastTucson() {
             </div>
             <div>
               <div style={{ backgroundColor: "#18181b", padding: "3rem", borderRadius: "12px", color: "var(--white)", boxShadow: "0 20px 40px rgba(0,0,0,0.15)" }}>
-                <h3 style={{ fontSize: "1.5rem", fontWeight: "700", marginBottom: "1.5rem", color: "var(--brand-red)" }}>When to Request a Diagnostic Visit</h3>
+                <h3 style={{ fontSize: "1.5rem", fontWeight: "700", marginBottom: "1.5rem", color: "var(--brand-red)" }}>When to Request Slab Leak Detection</h3>
                 <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "1.25rem" }}>
                   <li style={{ display: "flex", alignItems: "flex-start", gap: "1rem" }}>
                     <span style={{ color: "var(--brand-red)", fontSize: "1.2rem", marginTop: "2px" }}>■</span>
                     <div>
-                      <strong>The Water Meter Keeps Turning:</strong> If you've turned off your irrigation, pool filler, and interior faucets, but the meter dial is still moving.
+                      <strong>Warm or hot flooring:</strong> A leaking hot-water line may transfer heat through concrete or tile, creating a need for <strong>warm floor leak detection in ZIP code 85710</strong>.
                     </div>
                   </li>
                   <li style={{ display: "flex", alignItems: "flex-start", gap: "1rem" }}>
                     <span style={{ color: "var(--brand-red)", fontSize: "1.2rem", marginTop: "2px" }}>■</span>
                     <div>
-                      <strong>Hot Tile in the Hallway:</strong> A leaking hot water pipe will heat the surrounding concrete, radiating warmth through your tile or carpet.
+                      <strong>Water-meter movement:</strong> Continuous movement while fixtures are off suggests water loss somewhere on the metered system.
                     </div>
                   </li>
                   <li style={{ display: "flex", alignItems: "flex-start", gap: "1rem" }}>
                     <span style={{ color: "var(--brand-red)", fontSize: "1.2rem", marginTop: "2px" }}>■</span>
                     <div>
-                      <strong>A Spike in Your Utility Bill:</strong> Don't assume a $300 water bill is just from the summer heat; it's the most common indicator of an underground leak.
+                      <strong>Damp flooring or baseboards:</strong> Moisture without an obvious source may come from an under-slab line, wall pipe, exterior service line, or drainage problem.
+                    </div>
+                  </li>
+                  <li style={{ display: "flex", alignItems: "flex-start", gap: "1rem" }}>
+                    <span style={{ color: "var(--brand-red)", fontSize: "1.2rem", marginTop: "2px" }}>■</span>
+                    <div>
+                      <strong>Running-water sound:</strong> A pressurized leak can create a hiss or flowing sound traveling through framing.
+                    </div>
+                  </li>
+                  <li style={{ display: "flex", alignItems: "flex-start", gap: "1rem" }}>
+                    <span style={{ color: "var(--brand-red)", fontSize: "1.2rem", marginTop: "2px" }}>■</span>
+                    <div>
+                      <strong>Unexplained water use:</strong> A bill increase or high-use alert should lead to checks of toilets, irrigation, pools, appliances, and the private service line before final diagnosis.
                     </div>
                   </li>
                 </ul>
@@ -156,36 +204,107 @@ export default function EastTucson() {
           </div>
         </section>
 
-        {/* Core Services */}
+        {/* Detection Process Grid */}
         <section style={{ padding: "5rem 0", backgroundColor: "#f8fafc" }}>
           <div className="container">
+            <div style={{ textAlign: "center", marginBottom: "4rem" }}>
+              <span style={{ color: "var(--brand-red)", fontWeight: "700", textTransform: "uppercase", letterSpacing: "1px", display: "block", marginBottom: "0.5rem" }}>DETECTION PROCESS</span>
+              <h2 style={{ fontSize: "2.5rem", fontWeight: "800", color: "var(--dark-charcoal)" }}>How Hidden Water-Line Testing Works</h2>
+              <p style={{ fontSize: "1.1rem", color: "#64748b", maxWidth: "700px", margin: "1rem auto 0" }}>
+                We follow a structured process on every visit instead of jumping straight to opening your floor. Here is what our detection process looks like and what you can expect at each step.
+              </p>
+            </div>
+            
+            
+            <div style={{ position: "relative", width: "100%", height: "400px", marginBottom: "3rem", borderRadius: "12px", overflow: "hidden", boxShadow: "0 10px 30px rgba(0,0,0,0.1)" }}>
+              <Image src="/images/electronic_leak_detection.jpg" alt="Plumbing technician performing electronic leak detection in East Tucson" fill sizes="(max-width: 768px) 100vw, 1200px" style={{ objectFit: "cover" }} />
+            </div>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
+              <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
+                <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>1. Review the symptoms</h3>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We ask you when the problem started, which rooms are affected, whether the floor feels warm, and whether water is actively spreading. Your observations help us target the right area fast.</p>
+              </div>
+              <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
+                <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>2. Check visible sources</h3>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We check your toilets, faucets, appliance connections, irrigation system, and any accessible service lines to rule out visible leaks before going under the slab.</p>
+              </div>
+              <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
+                <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>3. Confirm water loss</h3>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We check your water meter and perform pressure testing to determine whether a pressurized plumbing section is losing water.</p>
+              </div>
+              <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
+                <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>4. Isolate the affected system</h3>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We test your hot and cold lines separately using calibrated pressure gauges, which tells us exactly which system is losing water and how fast.</p>
+              </div>
+              <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
+                <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>5. Locate the suspected route</h3>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We deploy acoustic, electronic, and thermal detection equipment as needed. No single method works perfectly in every home, and we are upfront about that.</p>
+              </div>
+              <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
+                <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>6. Compare repair options</h3>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We walk you through your repair options — direct spot repair, water-line rerouting, or partial repiping — with honest cost comparisons so you can make the right decision for your home.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Repair Options & Available Services */}
+        <section style={{ padding: "5rem 0", backgroundColor: "var(--white)" }}>
+          <div className="container">
+            <div className="split-grid" style={{ marginBottom: "5rem" }}>
+              <div>
+                <h2 style={{ fontSize: "2.2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>Direct Pipe Repair, Rerouting, and Selected Repiping</h2>
+                <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
+                  Once we identify the affected line, we explain exactly why we recommend a specific repair method for your property. The lowest-disruption option is not always the cheapest, and we make sure you understand the trade-offs before any work begins.
+                </p>
+                <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
+                  <strong>Planning the work:</strong> Technicians may need access to side-yard meters, garages, water heaters, and rooms on opposite sides of the home. If the affected line serves several fixtures, a direct spot repair may not be the only option. Rerouting or partial branch replacement can be compared when the pipe route or condition justifies it.
+                </p>
+              </div>
+              
+              <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+                <div style={{ backgroundColor: "#f8fafc", padding: "1.5rem", borderRadius: "8px", border: "1px solid #e2e8f0" }}>
+                  <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Spot Repair</h3>
+                  <p style={{ fontSize: "0.95rem", color: "#64748b", margin: 0 }}><strong>When it fits:</strong> We confirm the failure is isolated to a single point and the surrounding pipe is still in good condition. Best for for repair. <br/><strong>Limitations:</strong> We cut a controlled opening in the floor near the damaged section — as small as possible to minimize disruption.</p>
+                </div>
+                <div style={{ backgroundColor: "#f8fafc", padding: "1.5rem", borderRadius: "8px", border: "1px solid #e2e8f0" }}>
+                  <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Water-Line Rerouting</h3>
+                  <p style={{ fontSize: "0.95rem", color: "#64748b", margin: 0 }}><strong>When it fits:</strong> We recommend this when the under-slab pipe is hard to reach, your flooring is expensive to replace, or bypassing the old line is more practical than digging through concrete. <br/><strong>Limitations:</strong> This avoids breaking through your slab but may require openings in walls, ceilings, or attic space.</p>
+                </div>
+                <div style={{ backgroundColor: "#f8fafc", padding: "1.5rem", borderRadius: "8px", border: "1px solid #e2e8f0" }}>
+                  <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Partial Repiping</h3>
+                  <p style={{ fontSize: "0.95rem", color: "#64748b", margin: 0 }}><strong>When it fits:</strong> We recommend this when the same pipe branch has failed multiple times or shows widespread corrosion that makes spot repairs a short-term fix. <br/><strong>Limitations:</strong> We plan a new pipe route through your walls or attic and reconnect all fixtures served by the failing branch.</p>
+                </div>
+              </div>
+            </div>
+
             <div style={{ textAlign: "center", marginBottom: "3rem" }}>
-              <h2 style={{ fontSize: "2.2rem", fontWeight: "800", color: "var(--dark-charcoal)" }}>East Tucson Slab Leak Services</h2>
+              <h2 style={{ fontSize: "2.2rem", fontWeight: "800", color: "var(--dark-charcoal)" }}>Slab Leak Services Offered Across East Tucson</h2>
             </div>
             
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "2rem" }}>
               <Link href="/slab-leak-detection-tucson" style={{ textDecoration: "none", color: "inherit", display: "block" }}>
                 <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", height: "100%", transition: "transform 0.2s, box-shadow 0.2s", cursor: "pointer", backgroundColor: "#fff" }} className="hover-lift">
-                  <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--brand-red)", marginBottom: "1rem" }}>Acoustic Leak Detection</h3>
-                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>Locating the exact frequency of escaping water under concrete using high-fidelity ground microphones.</p>
-                </div>
-              </Link>
-              <Link href="/water-line-rerouting-tucson" style={{ textDecoration: "none", color: "inherit", display: "block" }}>
-                <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", height: "100%", transition: "transform 0.2s, box-shadow 0.2s", cursor: "pointer", backgroundColor: "#fff" }} className="hover-lift">
-                  <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--brand-red)", marginBottom: "1rem" }}>Attic Pipe Rerouting</h3>
-                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>Protect your floors by abandoning the leaking slab pipe and routing a new, durable PEX line overhead.</p>
+                  <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--brand-red)", marginBottom: "1rem" }}>Slab Leak Detection</h3>
+                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>Confirm <strong>water leak detection 85710</strong> and narrow the affected hot or cold line.</p>
                 </div>
               </Link>
               <Link href="/slab-leak-repair-tucson" style={{ textDecoration: "none", color: "inherit", display: "block" }}>
                 <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", height: "100%", transition: "transform 0.2s, box-shadow 0.2s", cursor: "pointer", backgroundColor: "#fff" }} className="hover-lift">
-                  <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--brand-red)", marginBottom: "1rem" }}>Slab Excavation & Repair</h3>
-                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>Surgical concrete removal to expose and repair the broken pipe when a direct repair is the most logical choice.</p>
+                  <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--brand-red)", marginBottom: "1rem" }}>Slab Leak Repair</h3>
+                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>Contact a <strong>slab leak plumber 85748</strong> to bypass or repair a confirmed pipe failure beneath the slab.</p>
                 </div>
               </Link>
               <Link href="/water-line-pressure-testing-tucson" style={{ textDecoration: "none", color: "inherit", display: "block" }}>
                 <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", height: "100%", transition: "transform 0.2s, box-shadow 0.2s", cursor: "pointer", backgroundColor: "#fff" }} className="hover-lift">
-                  <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--brand-red)", marginBottom: "1rem" }}>Line Isolation Testing</h3>
-                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>Proving whether your leak is on the hot line, cold line, or the main yard service line before touching a tool.</p>
+                  <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--brand-red)", marginBottom: "1rem" }}>Pressure Testing</h3>
+                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>We run calibrated pressure tests on your hot and cold lines separately to confirm exactly which system is leaking.</p>
+                </div>
+              </Link>
+              <Link href="/water-line-rerouting-tucson" style={{ textDecoration: "none", color: "inherit", display: "block" }}>
+                <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", height: "100%", transition: "transform 0.2s, box-shadow 0.2s", cursor: "pointer", backgroundColor: "#fff" }} className="hover-lift">
+                  <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--brand-red)", marginBottom: "1rem" }}>Water-Line Rerouting</h3>
+                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>We install a brand-new water line through your walls or attic, permanently bypassing the failing under-slab pipe.</p>
                 </div>
               </Link>
             </div>
@@ -193,12 +312,12 @@ export default function EastTucson() {
         </section>
 
         {/* FAQs */}
-        <section style={{ backgroundColor: "var(--white)", padding: "5rem 0" }}>
+        <section style={{ backgroundColor: "#f8fafc", padding: "5rem 0" }}>
           <div className="container">
-            <h2 style={{ fontSize: "2.2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "3rem", textAlign: "center" }}>East Tucson FAQs</h2>
+            <h2 style={{ fontSize: "2.2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "3rem", textAlign: "center" }}>Slab Leak Questions from East Tucson Property Owners</h2>
             <div style={{ maxWidth: "800px", margin: "0 auto" }}>
               <FaqCategory 
-                title="Common Questions"
+                title="Frequently Asked Questions"
                 iconName="MessageCircleQuestion"
                 faqs={faqSchema.mainEntity.map((faq: any, idx: number) => ({
                   id: `faq-${idx}`,
@@ -207,25 +326,32 @@ export default function EastTucson() {
                 }))}
               />
             </div>
+            
+            <div style={{ textAlign: "center", marginTop: "3rem" }}>
+              <p style={{ color: "#64748b", marginBottom: "1rem" }}><strong>Related Areas:</strong> <Link href="/service-areas/central-tucson" style={{ color: "var(--brand-red)" }}>Central Tucson</Link> | <Link href="/service-areas/catalina-foothills" style={{ color: "var(--brand-red)" }}>Catalina Foothills & Northeast Tucson</Link></p>
+            </div>
           </div>
         </section>
 
         {/* Final CTA */}
         <section id="contact" style={{ backgroundColor: "#18181b", color: "var(--white)", padding: "5rem 0", textAlign: "center" }}>
           <div className="container" style={{ maxWidth: "800px" }}>
-            <h2 style={{ fontSize: "2.5rem", fontWeight: "800", marginBottom: "1.5rem", color: "var(--white)" }}>Find Out Exactly Where The Water Is Going</h2>
+            <div style={{ position: "relative", width: "100%", height: "300px", marginBottom: "2rem", borderRadius: "12px", overflow: "hidden" }}>
+              <Image src="/images/hero_emergency_leak.jpg" alt="Requesting slab leak service at a East Tucson property" fill sizes="(max-width: 768px) 100vw, 800px" style={{ objectFit: "cover" }} />
+            </div>
+            <h2 style={{ fontSize: "2.5rem", fontWeight: "800", marginBottom: "1.5rem", color: "var(--white)" }}>Request Slab Leak Service in East Tucson</h2>
             <p style={{ fontSize: "1.1rem", color: "#a1a1aa", marginBottom: "3rem", lineHeight: "1.6" }}>
-              A high water bill won't fix itself. Request an expert diagnostic visit for your East Tucson home today. We'll identify the leak and provide a transparent repair plan.
+              Provide the property address or ZIP code, the symptoms you have noticed, and whether water is actively spreading. Coverage, service availability, response time, and the appropriate next step will be confirmed before work is scheduled.
             </p>
             <div style={{ backgroundColor: "var(--white)", padding: "3rem", borderRadius: "12px", textAlign: "left", color: "var(--dark-charcoal)", boxShadow: "0 20px 40px rgba(0,0,0,0.3)" }}>
-              <h3 style={{ fontSize: "1.5rem", fontWeight: "800", marginBottom: "1.5rem", textAlign: "center" }}>Request Service Now</h3>
+              <h3 style={{ fontSize: "1.5rem", fontWeight: "800", marginBottom: "1.5rem", textAlign: "center" }}>Check Eastside Availability Now</h3>
               <ZipCheckerForm />
             </div>
           </div>
         </section>
 
       </main>
-      <style dangerouslySetInnerHTML={{__html: `
+<style dangerouslySetInnerHTML={{__html: `
         .hover-lift:hover {
           transform: translateY(-5px);
           box-shadow: 0 10px 20px rgba(0,0,0,0.1);
