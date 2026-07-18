@@ -107,7 +107,7 @@ export default function CatalinaFoothillsNortheastTucson() {
                   <a href="/slab-leak-detection-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>Slab leak detection</a> and repair services across Catalina Foothills, Sabino Canyon, Tanque Verde, Bear Canyon, and nearby Northeast Tucson communities. 
                 </p>
                 <p style={{ fontSize: "1.1rem", marginBottom: "2rem", maxWidth: "600px", color: "#e4e4e7", lineHeight: "1.6" }}>
-                  We start by confirming whether your water line is actually losing pressure. From there, we narrow down the exact location and walk you through your best repair options — whether that is a direct pipe fix, a reroute, or a targeted repipe.
+                  We start by confirming whether a water line is losing pressure. From there, we narrow the suspected route and area, then compare direct repair, rerouting, and targeted repiping based on the evidence and access conditions.
                 </p>
                 
                 <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap", marginBottom: "2rem" }}>
@@ -132,7 +132,7 @@ export default function CatalinaFoothillsNortheastTucson() {
           <div className="container">
             <h2 style={{ fontSize: "2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem", textAlign: "center" }}>Neighborhoods Served Around Catalina Foothills & Northeast Tucson</h2>
             <p style={{ textAlign: "center", color: "#4a4a4a", marginBottom: "3rem", maxWidth: "800px", margin: "0 auto 3rem" }}>
-              We provide professional <strong>slab leak detection in Catalina Foothills Tucson</strong> and surrounding Northeast areas. We proudly service the beautiful properties along the foothills without creating a separate request for every neighborhood.
+              We provide slab leak detection across Catalina Foothills and Northeast Tucson, including hillside neighborhoods and properties near Sabino Canyon. Submit one request with the full address, and we will confirm coverage without requiring a separate neighborhood-specific inquiry.
             </p>
             
             
@@ -155,13 +155,13 @@ export default function CatalinaFoothillsNortheastTucson() {
             <div>
               <h2 style={{ fontSize: "2.2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>What We Know About Catalina Foothills Properties</h2>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                Building a luxury home into the Santa Catalina Mountains involves excavating solid rock and pouring stepped, multi-level concrete foundations. When a plumbing line ruptures beneath these massive slabs, the water will take the path of least resistance through the bedrock, frequently showing up on the opposite side of the house from the actual leak.
+                Catalina Foothills includes mid-century ranch homes, later custom builds, and remodeled hillside properties. Plumbing may include original copper, replacement PEX, or a mix of materials added during renovations. Stone, tile, sloped lots, long driveways, and equipment in garages or utility rooms make access planning especially important for <strong><a href="/slab-leak-repair-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>slab leak repair</a></strong>.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                Because of the immense value of custom flooring, jackhammering to find a leak through trial and error is completely unacceptable. We use highly calibrated ground microphones and thermal imaging to verify the exact failure point.
+                For an 85718 or 85750 home, the least disruptive route may pass through a garage, utility chase, attic, or exterior wall. Detection can reduce unnecessary floor openings, but thick stone and layered finishes can affect readings. We compare direct access with <strong><a href="/water-line-rerouting-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>water-line rerouting</a></strong> before finished surfaces are disturbed.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                In almost all Foothills cases, we recommend a clean pipe reroute. By disconnecting the compromised underground line and routing a new water line through the attic and interior walls, we leave your foundation and flooring untouched.
+                Hard water is common across the Tucson region, but mineral scale alone does not prove that a pipe has failed. We separate a possible hot-water leak from recirculation systems, irrigation, appliances, and exterior drainage. The water provider should also be confirmed by address before responsibility is assigned; the private line after the meter is commonly the owner’s responsibility.
               </p>
             </div>
             <div>
@@ -222,11 +222,11 @@ export default function CatalinaFoothillsNortheastTucson() {
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>1. Review the symptoms</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We ask you when the problem started, which rooms are affected, whether the floor feels warm, and whether water is actively spreading. Your observations help us target the right area fast.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We document whether warmth follows a hallway or bathroom route, whether moisture appears downhill from the suspected source, and whether a recirculation system changes the symptom.</p>
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>2. Check visible sources</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We check your toilets, faucets, appliance connections, irrigation system, and any accessible service lines to rule out visible leaks before going under the slab.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We inspect irrigation zones, pool equipment, pressure regulators, recirculation plumbing, and long meter-to-home lines before treating moisture on a sloped lot as an under-slab failure.</p>
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>3. Confirm water loss</h3>
@@ -234,15 +234,15 @@ export default function CatalinaFoothillsNortheastTucson() {
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>4. Isolate the affected system</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We test your hot and cold lines separately using calibrated pressure gauges, which tells us exactly which system is losing water and how fast.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>Hot and cold systems are isolated at available valves, with recirculation equipment accounted for, so a pressure change is not confused with normal system movement.</p>
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>5. Locate the suspected route</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We deploy acoustic, electronic, and thermal detection equipment as needed. No single method works perfectly in every home, and we are upfront about that.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>Acoustic and thermal findings are compared with the likely pipe route; thick stone, cabinets, elevation changes, and layered floors can limit any single reading.</p>
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>6. Compare repair options</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We walk you through your repair options — direct spot repair, water-line rerouting, or partial repiping — with honest cost comparisons so you can make the right decision for your home.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We compare the cost of accessing custom flooring with routes through garages, attics, utility spaces, or exterior walls, then define which finish restoration is included.</p>
               </div>
             </div>
           </div>
@@ -265,7 +265,7 @@ export default function CatalinaFoothillsNortheastTucson() {
               <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
                 <div style={{ backgroundColor: "#f8fafc", padding: "1.5rem", borderRadius: "8px", border: "1px solid #e2e8f0" }}>
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Spot Repair</h3>
-                  <p style={{ fontSize: "0.95rem", color: "#64748b", margin: 0 }}><strong>When it fits:</strong> We confirm the failure is isolated to a single point and the surrounding pipe is still in good condition. Best for for a <strong>slab leak repair near Sabino Canyon</strong>. <br/><strong>Limitations:</strong> We cut a controlled opening in the floor near the damaged section — as small as possible to minimize disruption.</p>
+                  <p style={{ fontSize: "0.95rem", color: "#64748b", margin: 0 }}><strong>When it fits:</strong> Testing points to one repairable failure and the adjacent pipe appears serviceable. This can suit a Sabino Canyon-area home when direct access is less disruptive than rerouting. <br/><strong>Limitations:</strong> The work requires a controlled opening through the floor and concrete near the damaged pipe.</p>
                 </div>
                 <div style={{ backgroundColor: "#f8fafc", padding: "1.5rem", borderRadius: "8px", border: "1px solid #e2e8f0" }}>
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Water-Line Rerouting</h3>
@@ -273,7 +273,7 @@ export default function CatalinaFoothillsNortheastTucson() {
                 </div>
                 <div style={{ backgroundColor: "#f8fafc", padding: "1.5rem", borderRadius: "8px", border: "1px solid #e2e8f0" }}>
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Partial Repiping</h3>
-                  <p style={{ fontSize: "0.95rem", color: "#64748b", margin: 0 }}><strong>When it fits:</strong> We recommend this when the same pipe branch has failed multiple times or shows widespread corrosion that makes spot repairs a short-term fix. <br/><strong>Limitations:</strong> We plan a new pipe route through your walls or attic and reconnect all fixtures served by the failing branch.</p>
+                  <p style={{ fontSize: "0.95rem", color: "#64748b", margin: 0 }}><strong>When it fits:</strong> A branch serving several fixtures has repeated failures or mixed repairs that make another spot fix poor value. <br/><strong>Limitations:</strong> Foothills routes may cross garages, utility rooms, exterior walls, or insulated attic space and can require finish openings away from the slab.</p>
                 </div>
               </div>
             </div>
@@ -298,13 +298,13 @@ export default function CatalinaFoothillsNortheastTucson() {
               <Link href="/water-line-pressure-testing-tucson" style={{ textDecoration: "none", color: "inherit", display: "block" }}>
                 <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", height: "100%", transition: "transform 0.2s, box-shadow 0.2s", cursor: "pointer", backgroundColor: "#fff" }} className="hover-lift">
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--brand-red)", marginBottom: "1rem" }}>Pressure Testing</h3>
-                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>We run calibrated pressure tests on your hot and cold lines separately to confirm exactly which system is leaking.</p>
+                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>We pressure-test hot and cold lines separately to help confirm which system is losing pressure before locating begins.</p>
                 </div>
               </Link>
               <Link href="/water-line-rerouting-tucson" style={{ textDecoration: "none", color: "inherit", display: "block" }}>
                 <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", height: "100%", transition: "transform 0.2s, box-shadow 0.2s", cursor: "pointer", backgroundColor: "#fff" }} className="hover-lift">
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--brand-red)", marginBottom: "1rem" }}>Water-Line Rerouting</h3>
-                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>We install a brand-new water line through your walls or attic, permanently bypassing the failing under-slab pipe.</p>
+                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>Plan a replacement route around stone flooring using available garage, utility, wall, exterior, or insulated attic access.</p>
                 </div>
               </Link>
             </div>

@@ -155,13 +155,13 @@ export default function NorthTucsonCasasAdobes() {
             <div>
               <h2 style={{ fontSize: "2.2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>What We Know About North Tucson Properties</h2>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                A large percentage of homes built in North Tucson and Casas Adobes between 1985 and 2010 were constructed on post-tension concrete slabs. These foundations are reinforced with steel cables stretched under immense pressure.
+                North Tucson and Casas Adobes include mid-century ranch homes, later subdivisions, townhomes, and remodeled properties on lots of very different sizes. Plumbing may include galvanized, copper, CPVC, PEX, or mixed replacement sections, so the meter position, service-line length, water-heater location, and actual pipe route all matter.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                If a <strong>plumber</strong> guesses the location of a leak and hits one of these cables with a jackhammer, it can cause catastrophic structural damage to your home. That's why we use highly calibrated acoustic listeners and electronic pressure testing to map out exactly where the leak is occurring.
+                A Flowing Wells property with an older, altered plumbing layout requires a different access plan from a later Casas Adobes home with a garage utility area. Near Orange Grove Road, direct floor access should be compared with a wall, ceiling, garage, or attic route before <strong><a href="/slab-leak-repair-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>slab leak repair</a></strong> begins.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                For homes with post-tension slabs or aging polybutylene pipes, we frequently recommend <strong>water line rerouting</strong> through the walls or attic to completely avoid the dangers of concrete excavation altogether.
+                Tucson Water, Metro Water, and other systems can serve addresses in the broader north-side area. Responsibility must be checked with the actual provider; Tucson Water and Metro Water both distinguish utility-owned infrastructure from private plumbing associated with the property. A meter-to-house leak should not be described as an under-slab interior failure without testing.
               </p>
             </div>
             <div>
@@ -222,11 +222,11 @@ export default function NorthTucsonCasasAdobes() {
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>1. Review the symptoms</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We ask you when the problem started, which rooms are affected, whether the floor feels warm, and whether water is actively spreading. Your observations help us target the right area fast.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We record the meter location, lot length, irrigation timing, room symptoms, and whether the property has additions or remodeled wet areas.</p>
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>2. Check visible sources</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We check your toilets, faucets, appliance connections, irrigation system, and any accessible service lines to rule out visible leaks before going under the slab.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We check long private service lines, irrigation, pool equipment, evaporative cooling, toilets, and appliance connections before isolating interior branches.</p>
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>3. Confirm water loss</h3>
@@ -234,15 +234,15 @@ export default function NorthTucsonCasasAdobes() {
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>4. Isolate the affected system</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We test your hot and cold lines separately using calibrated pressure gauges, which tells us exactly which system is losing water and how fast.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>Hot and cold branches are isolated according to the available valves; older additions and mixed materials may require staged tests rather than one house-wide conclusion.</p>
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>5. Locate the suspected route</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We deploy acoustic, electronic, and thermal detection equipment as needed. No single method works perfectly in every home, and we are upfront about that.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We trace the isolated branch through the original house and any additions, using acoustic or thermal evidence only where depth, pressure, and floor materials allow.</p>
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>6. Compare repair options</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We walk you through your repair options — direct spot repair, water-line rerouting, or partial repiping — with honest cost comparisons so you can make the right decision for your home.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>The estimate compares floor access with garage, attic, ceiling, or exterior routes and accounts for long service runs, additions, and finish restoration.</p>
               </div>
             </div>
           </div>
@@ -265,7 +265,7 @@ export default function NorthTucsonCasasAdobes() {
               <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
                 <div style={{ backgroundColor: "#f8fafc", padding: "1.5rem", borderRadius: "8px", border: "1px solid #e2e8f0" }}>
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Spot Repair</h3>
-                  <p style={{ fontSize: "0.95rem", color: "#64748b", margin: 0 }}><strong>When it fits:</strong> We confirm the failure is isolated to a single point and the surrounding pipe is still in good condition. Best for for repair. <br/><strong>Limitations:</strong> We cut a controlled opening in the floor near the damaged section — as small as possible to minimize disruption.</p>
+                  <p style={{ fontSize: "0.95rem", color: "#64748b", margin: 0 }}><strong>When it fits:</strong> The leak is isolated, the pipe around it appears serviceable, and the access location will not create disproportionate finish damage. <br/><strong>Limitations:</strong> Direct repair requires opening the floor and concrete near the confirmed section, followed by clearly scoped surface restoration.</p>
                 </div>
                 <div style={{ backgroundColor: "#f8fafc", padding: "1.5rem", borderRadius: "8px", border: "1px solid #e2e8f0" }}>
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Water-Line Rerouting</h3>
@@ -273,7 +273,7 @@ export default function NorthTucsonCasasAdobes() {
                 </div>
                 <div style={{ backgroundColor: "#f8fafc", padding: "1.5rem", borderRadius: "8px", border: "1px solid #e2e8f0" }}>
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Partial Repiping</h3>
-                  <p style={{ fontSize: "0.95rem", color: "#64748b", margin: 0 }}><strong>When it fits:</strong> We recommend this when the same pipe branch has failed multiple times or shows widespread corrosion that makes spot repairs a short-term fix. <br/><strong>Limitations:</strong> We plan a new pipe route through your walls or attic and reconnect all fixtures served by the failing branch.</p>
+                  <p style={{ fontSize: "0.95rem", color: "#64748b", margin: 0 }}><strong>When it fits:</strong> A long or altered branch has failed more than once or includes enough questionable material to outweigh another spot repair. <br/><strong>Limitations:</strong> Additions and large floor plans can increase route length and require openings in several rooms or utility areas.</p>
                 </div>
               </div>
             </div>
@@ -298,13 +298,13 @@ export default function NorthTucsonCasasAdobes() {
               <Link href="/water-line-pressure-testing-tucson" style={{ textDecoration: "none", color: "inherit", display: "block" }}>
                 <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", height: "100%", transition: "transform 0.2s, box-shadow 0.2s", cursor: "pointer", backgroundColor: "#fff" }} className="hover-lift">
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--brand-red)", marginBottom: "1rem" }}>Pressure Testing</h3>
-                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>We run calibrated pressure tests on your hot and cold lines separately to confirm exactly which system is leaking.</p>
+                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>Staged pressure testing helps distinguish an interior hot- or cold-water loss from a long private service-line problem.</p>
                 </div>
               </Link>
               <Link href="/water-line-rerouting-tucson" style={{ textDecoration: "none", color: "inherit", display: "block" }}>
                 <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", height: "100%", transition: "transform 0.2s, box-shadow 0.2s", cursor: "pointer", backgroundColor: "#fff" }} className="hover-lift">
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--brand-red)", marginBottom: "1rem" }}>Water-Line Rerouting</h3>
-                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>We install a brand-new water line through your walls or attic, permanently bypassing the failing under-slab pipe.</p>
+                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>Design a bypass around additions and finished floors using the most practical garage, wall, ceiling, or attic path.</p>
                 </div>
               </Link>
             </div>

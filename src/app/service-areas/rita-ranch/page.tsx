@@ -132,7 +132,7 @@ export default function RitaRanchSoutheastTucson() {
           <div className="container">
             <h2 style={{ fontSize: "2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem", textAlign: "center" }}>Neighborhoods Served Around Rita Ranch & Southeast Tucson</h2>
             <p style={{ textAlign: "center", color: "#4a4a4a", marginBottom: "3rem", maxWidth: "800px", margin: "0 auto 3rem" }}>
-              We provide professional <strong>slab leak detection in Rita Ranch Tucson</strong> and surrounding areas. We cover the main communities naturally without creating a separate request for every neighborhood.
+              We provide slab leak detection throughout Rita Ranch and Southeast Tucson. Homeowners can submit one request with the property address, and we will confirm coverage for the neighborhood and ZIP code before scheduling.
             </p>
             
             
@@ -155,13 +155,13 @@ export default function RitaRanchSoutheastTucson() {
             <div>
               <h2 style={{ fontSize: "2.2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>What We Know About Rita Ranch Properties</h2>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                The rapid development of Rita Ranch in the 1990s means most homes share a similar structural profile: post-tension concrete slabs. These slabs are crisscrossed with high-tension steel cables. Hitting one of these cables with a jackhammer while blindly searching for a water leak is incredibly dangerous and can ruin the foundation.
+                Rita Ranch and Southeast Tucson contain late-twentieth-century subdivisions, newer planned neighborhoods, and properties near controlled-access areas. Copper and PEX are common possibilities, but remodels and prior repairs can create mixed systems. ZIP codes 85707 and 85708 require address-level confirmation because they can include Davis-Monthan, institutional, or restricted properties.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                Coupled with this is the era's heavy use of Polybutylene (PB) piping. This specific type of plastic pipe is now known to fail catastrophically as it ages. When a PB pipe ruptures under a post-tension slab, you need a plumbing team that understands both the material risks and the structural dangers.
+                You might notice a <a href="/hot-water-slab-leak-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>warm floor</a> near a bathroom while the water heater runs more frequently. The meter may also move after toilets, irrigation, and appliances have been ruled out. Before planning an <strong><a href="/under-slab-pipe-repair-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>under-slab pipe repair</a></strong> at an 85730 property, the technician should isolate the affected system and narrow the pipe route with pressure and locating tests.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                We use precise acoustic listeners to pinpoint the exact failure location. Once confirmed, we almost always recommend bypassing the slab entirely and installing a brand new, reliable PEX water line through the attic to secure your home's water supply permanently.
+                Single-story plans may allow a failed branch to be rerouted through a garage, wall, or insulated attic instead of opening tile. Tucson Water generally places responsibility for the private line after its meter on the property owner, but the serving utility must be confirmed for the address before a Civano, Old Spanish Trail, or 85747 leak is assigned.
               </p>
             </div>
             <div>
@@ -222,11 +222,11 @@ export default function RitaRanchSoutheastTucson() {
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>1. Review the symptoms</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We ask you when the problem started, which rooms are affected, whether the floor feels warm, and whether water is actively spreading. Your observations help us target the right area fast.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We review water-heater cycling, warm-floor location, irrigation schedules, meter behavior, and whether symptoms occur near a garage manifold or interior wet wall.</p>
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>2. Check visible sources</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We check your toilets, faucets, appliance connections, irrigation system, and any accessible service lines to rule out visible leaks before going under the slab.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We rule out landscape irrigation, toilets, softeners, appliance connections, and garage or exterior plumbing before isolating the home’s hot and cold branches.</p>
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>3. Confirm water loss</h3>
@@ -234,15 +234,15 @@ export default function RitaRanchSoutheastTucson() {
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>4. Isolate the affected system</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We test your hot and cold lines separately using calibrated pressure gauges, which tells us exactly which system is losing water and how fast.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>The hot system and accessible cold branches are isolated at their actual valves, with repeat readings used to distinguish ongoing loss from normal pressure variation.</p>
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>5. Locate the suspected route</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We deploy acoustic, electronic, and thermal detection equipment as needed. No single method works perfectly in every home, and we are upfront about that.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We trace the isolated line across the single-story plan and compare acoustic, thermal, and moisture evidence around bathrooms, kitchens, and garage transitions.</p>
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>6. Compare repair options</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We walk you through your repair options — direct spot repair, water-line rerouting, or partial repiping — with honest cost comparisons so you can make the right decision for your home.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We compare controlled slab access with garage, wall, and insulated-attic routes, taking tile continuity and the number of fixtures on the branch into account.</p>
               </div>
             </div>
           </div>
@@ -265,7 +265,7 @@ export default function RitaRanchSoutheastTucson() {
               <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
                 <div style={{ backgroundColor: "#f8fafc", padding: "1.5rem", borderRadius: "8px", border: "1px solid #e2e8f0" }}>
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Spot Repair</h3>
-                  <p style={{ fontSize: "0.95rem", color: "#64748b", margin: 0 }}><strong>When it fits:</strong> We confirm the failure is isolated to a single point and the surrounding pipe is still in good condition. Best for for repair. <br/><strong>Limitations:</strong> A <strong>slab leak repair Southeast Tucson</strong> usually requires controlled floor and concrete access near the damaged section.</p>
+                  <p style={{ fontSize: "0.95rem", color: "#64748b", margin: 0 }}><strong>When it fits:</strong> Testing indicates one accessible failure and the adjacent pipe remains suitable for a localized repair. <br/><strong>Limitations:</strong> Direct repair in Southeast Tucson normally requires controlled access through the floor and concrete near the damaged section.</p>
                 </div>
                 <div style={{ backgroundColor: "#f8fafc", padding: "1.5rem", borderRadius: "8px", border: "1px solid #e2e8f0" }}>
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Water-Line Rerouting</h3>
@@ -273,7 +273,7 @@ export default function RitaRanchSoutheastTucson() {
                 </div>
                 <div style={{ backgroundColor: "#f8fafc", padding: "1.5rem", borderRadius: "8px", border: "1px solid #e2e8f0" }}>
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Partial Repiping</h3>
-                  <p style={{ fontSize: "0.95rem", color: "#64748b", margin: 0 }}><strong>When it fits:</strong> We recommend this when the same pipe branch has failed multiple times or shows widespread corrosion that makes spot repairs a short-term fix. <br/><strong>Limitations:</strong> We plan a new pipe route through your walls or attic and reconnect all fixtures served by the failing branch.</p>
+                  <p style={{ fontSize: "0.95rem", color: "#64748b", margin: 0 }}><strong>When it fits:</strong> A branch serving several fixtures has failed repeatedly or its slab route is impractical to repair in place. <br/><strong>Limitations:</strong> Single-story attic access can help, but pipes need heat protection and walls must still be opened where fixtures reconnect.</p>
                 </div>
               </div>
             </div>
@@ -298,13 +298,13 @@ export default function RitaRanchSoutheastTucson() {
               <Link href="/water-line-pressure-testing-tucson" style={{ textDecoration: "none", color: "inherit", display: "block" }}>
                 <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", height: "100%", transition: "transform 0.2s, box-shadow 0.2s", cursor: "pointer", backgroundColor: "#fff" }} className="hover-lift">
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--brand-red)", marginBottom: "1rem" }}>Pressure Testing</h3>
-                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>We run calibrated pressure tests on your hot and cold lines separately to confirm exactly which system is leaking.</p>
+                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>Separate hot- and cold-line pressure tests help narrow the affected branch before a slab or attic route is considered.</p>
                 </div>
               </Link>
               <Link href="/water-line-rerouting-tucson" style={{ textDecoration: "none", color: "inherit", display: "block" }}>
                 <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", height: "100%", transition: "transform 0.2s, box-shadow 0.2s", cursor: "pointer", backgroundColor: "#fff" }} className="hover-lift">
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--brand-red)", marginBottom: "1rem" }}>Water-Line Rerouting</h3>
-                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>We install a brand-new water line through your walls or attic, permanently bypassing the failing under-slab pipe.</p>
+                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>Use a garage, wall, or insulated attic route to bypass a Rita Ranch branch without disturbing a long run of tile.</p>
                 </div>
               </Link>
             </div>

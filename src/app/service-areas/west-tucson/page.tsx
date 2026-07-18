@@ -155,13 +155,13 @@ export default function WestTucsonPictureRocks() {
             <div>
               <h2 style={{ fontSize: "2.2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>What We Know About West Tucson Properties</h2>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                West Tucson is renowned for its rocky soil and thick layers of caliche. Because caliche acts like natural concrete, water from a leaking pipe often cannot drain down into the earth. Instead, it travels sideways, surfacing yards away from the actual broken pipe.
+                West Tucson includes older urban homes, hillside development near Starr Pass, manufactured housing, and large desert lots toward Picture Rocks. Plumbing may include galvanized or copper in established homes, PEX or CPVC repairs, PVC exterior service piping, or private-well components farther west. The system must be identified before an 85743 water loss is classified.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                Additionally, many homes near Starr Pass or the Tucson Mountains feature custom, split-level foundations. Plumbing routes in these homes are complex. Before any jackhammers are brought in, we perform rigorous isolation testing to confirm exactly which line is compromised.
+                A compact west-side lot may have a short meter-to-house route, while a Picture Rocks parcel can have a long private line or pressure system. Starr Pass slopes can also move visible moisture away from its source. Those differences change the sequence for exterior checks, pressure testing, and interior locating.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                For rural properties further west, such as Picture Rocks, high water usage might actually be caused by a long exterior yard line failing, rather than an under-slab leak. We trace these lines accurately to save you money on unnecessary indoor repairs.
+                Tucson Water generally assigns the private line after its meter to the owner, but utility and well arrangements vary across this broad area. The provider, meter boundary, foundation type, pool and irrigation systems, and private-line route should be verified before repair near Starr Pass, 85745, or Picture Rocks is assigned.
               </p>
             </div>
             <div>
@@ -222,11 +222,11 @@ export default function WestTucsonPictureRocks() {
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>1. Review the symptoms</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We ask you when the problem started, which rooms are affected, whether the floor feels warm, and whether water is actively spreading. Your observations help us target the right area fast.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We document whether the property uses a utility meter or well, the distance to the house, slope, pool and irrigation timing, and where moisture or sound appears.</p>
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>2. Check visible sources</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We check your toilets, faucets, appliance connections, irrigation system, and any accessible service lines to rule out visible leaks before going under the slab.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We check long private service lines, pool autofill, irrigation, well equipment, yard plumbing, toilets, and accessible exterior connections before interior isolation.</p>
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>3. Confirm water loss</h3>
@@ -234,15 +234,15 @@ export default function WestTucsonPictureRocks() {
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>4. Isolate the affected system</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We test your hot and cold lines separately using calibrated pressure gauges, which tells us exactly which system is losing water and how fast.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>Interior hot and cold branches are tested separately, while well or long service-line behavior is evaluated on its own so exterior loss is not misclassified.</p>
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>5. Locate the suspected route</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We deploy acoustic, electronic, and thermal detection equipment as needed. No single method works perfectly in every home, and we are upfront about that.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>The locating plan accounts for desert soil, long runs, elevation changes, floor construction, and whether the confirmed line is outside or beneath the building.</p>
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>6. Compare repair options</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We walk you through your repair options — direct spot repair, water-line rerouting, or partial repiping — with honest cost comparisons so you can make the right decision for your home.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We separate exterior-line, well-system, direct-access, and rerouting options so the estimate reflects the actual source rather than a standard slab-repair package.</p>
               </div>
             </div>
           </div>
@@ -265,7 +265,7 @@ export default function WestTucsonPictureRocks() {
               <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
                 <div style={{ backgroundColor: "#f8fafc", padding: "1.5rem", borderRadius: "8px", border: "1px solid #e2e8f0" }}>
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Spot Repair</h3>
-                  <p style={{ fontSize: "0.95rem", color: "#64748b", margin: 0 }}><strong>When it fits:</strong> We confirm the failure is isolated to a single point and the surrounding pipe is still in good condition. Best for for repair. <br/><strong>Limitations:</strong> We cut a controlled opening in the floor near the damaged section — as small as possible to minimize disruption.</p>
+                  <p style={{ fontSize: "0.95rem", color: "#64748b", margin: 0 }}><strong>When it fits:</strong> Testing indicates one isolated failure, and reaching it directly is more practical than installing a new route. <br/><strong>Limitations:</strong> Spot repair requires a controlled opening through the finished floor and concrete, with restoration addressed separately in the scope.</p>
                 </div>
                 <div style={{ backgroundColor: "#f8fafc", padding: "1.5rem", borderRadius: "8px", border: "1px solid #e2e8f0" }}>
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Water-Line Rerouting</h3>
@@ -273,7 +273,7 @@ export default function WestTucsonPictureRocks() {
                 </div>
                 <div style={{ backgroundColor: "#f8fafc", padding: "1.5rem", borderRadius: "8px", border: "1px solid #e2e8f0" }}>
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Partial Repiping</h3>
-                  <p style={{ fontSize: "0.95rem", color: "#64748b", margin: 0 }}><strong>When it fits:</strong> We recommend this when the same pipe branch has failed multiple times or shows widespread corrosion that makes spot repairs a short-term fix. <br/><strong>Limitations:</strong> We plan a new pipe route through your walls or attic and reconnect all fixtures served by the failing branch.</p>
+                  <p style={{ fontSize: "0.95rem", color: "#64748b", margin: 0 }}><strong>When it fits:</strong> A building branch—not a well or exterior service line—has repeated failures or an inaccessible slab route. <br/><strong>Limitations:</strong> Hillside, manufactured, and rural properties may need exterior or under-floor solutions rather than a standard attic bypass.</p>
                 </div>
               </div>
             </div>
@@ -292,19 +292,19 @@ export default function WestTucsonPictureRocks() {
               <Link href="/slab-leak-repair-tucson" style={{ textDecoration: "none", color: "inherit", display: "block" }}>
                 <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", height: "100%", transition: "transform 0.2s, box-shadow 0.2s", cursor: "pointer", backgroundColor: "#fff" }} className="hover-lift">
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--brand-red)", marginBottom: "1rem" }}>Slab Leak Repair</h3>
-                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>Perform an <strong>under-slab pipe repair</strong> by repairing or bypassing a confirmed failure.</p>
+                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>Address a confirmed West Tucson pipe failure through controlled direct repair or a planned bypass route.</p>
                 </div>
               </Link>
               <Link href="/water-line-pressure-testing-tucson" style={{ textDecoration: "none", color: "inherit", display: "block" }}>
                 <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", height: "100%", transition: "transform 0.2s, box-shadow 0.2s", cursor: "pointer", backgroundColor: "#fff" }} className="hover-lift">
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--brand-red)", marginBottom: "1rem" }}>Pressure Testing</h3>
-                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>We run calibrated pressure tests on your hot and cold lines separately to confirm exactly which system is leaking.</p>
+                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>We pressure-test interior hot and cold lines separately after checking well, pool, irrigation, and long service-line sources.</p>
                 </div>
               </Link>
               <Link href="/water-line-rerouting-tucson" style={{ textDecoration: "none", color: "inherit", display: "block" }}>
                 <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", height: "100%", transition: "transform 0.2s, box-shadow 0.2s", cursor: "pointer", backgroundColor: "#fff" }} className="hover-lift">
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--brand-red)", marginBottom: "1rem" }}>Water-Line Rerouting</h3>
-                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>We install a brand-new water line through your walls or attic, permanently bypassing the failing under-slab pipe.</p>
+                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>Select a wall, attic, exterior, or under-floor bypass that matches the West Tucson structure and confirmed source of loss.</p>
                 </div>
               </Link>
             </div>

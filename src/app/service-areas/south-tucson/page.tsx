@@ -72,7 +72,7 @@ const faqSchema = {
       "name": "Does the plumber also repair tile or concrete?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Not always. The written scope should state whether we closes concrete and whether tile, flooring, drywall, paint, or other finishes are included."
+        "text": "Not always. The written scope should state whether concrete closure is included and identify who is responsible for tile, flooring, drywall, paint, or other finish restoration."
       }
     },
     {
@@ -132,7 +132,7 @@ export default function SouthTucson() {
           <div className="container">
             <h2 style={{ fontSize: "2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem", textAlign: "center" }}>Neighborhoods Served Around South Tucson</h2>
             <p style={{ textAlign: "center", color: "#4a4a4a", marginBottom: "3rem", maxWidth: "800px", margin: "0 auto 3rem" }}>
-              We provide professional <strong>slab leak detection in South Tucson AZ</strong> and surrounding areas. Our service area covers the main communities naturally without creating a separate request for every neighborhood.
+              We provide slab leak detection in South Tucson and nearby communities. Enter the full service address once, and we will confirm coverage and scheduling even when the property is close to a city or ZIP-code boundary.
             </p>
             
             
@@ -155,13 +155,13 @@ export default function SouthTucson() {
             <div>
               <h2 style={{ fontSize: "2.2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>What We Know About South Tucson Properties</h2>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                Many properties in South Tucson were built in the 1940s through the 1970s. It is incredibly common to find original galvanized steel supply lines that are heavily corroded, sometimes patched together with sections of copper from past renovations. 
+                South Tucson includes older detached homes, rentals, duplexes, small multifamily properties, and mixed commercial-residential buildings. Plumbing may include galvanized or copper lines with later CPVC, PEX, or copper repairs. At an 85714 property, a meter may serve one unit or several spaces, so ownership and pipe routing must be established first.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                When these older, mixed-material systems are buried beneath a concrete slab, finding a leak without destroying the floor requires highly sensitive acoustic equipment. Our technicians are trained to trace these older lines and distinguish between an active leak and normal pipe reverberation.
+                Older additions and altered unit layouts can send pipes through slabs, walls, ceilings, or exterior service corridors. Before planning an <strong><a href="/under-slab-pipe-repair-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>under-slab pipe repair</a></strong> in 85706, the scope should identify the affected unit, shutoff arrangement, access route, and responsibility for floor or wall restoration.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                Because the plumbing is often past its lifespan, we frequently recommend partial or full water line rerouting. Installing a new PEX plumbing system in the walls or attic prevents you from having to tear up your slab again when the next section of old pipe inevitably fails.
+                Tucson Water generally maintains its side from the main to the meter and assigns the private line after the meter to the owner, although the exact provider must be checked. That boundary is important for rentals and shared-meter properties in Sunnyside, Midvale Park, and Pueblo Gardens before a repair cost is assigned.
               </p>
             </div>
             <div>
@@ -222,11 +222,11 @@ export default function SouthTucson() {
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>1. Review the symptoms</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We ask you when the problem started, which rooms are affected, whether the floor feels warm, and whether water is actively spreading. Your observations help us target the right area fast.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We identify the affected unit, shared fixtures, meter behavior, shutoff access, and whether water is actively spreading into an occupied or adjoining space.</p>
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>2. Check visible sources</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We check your toilets, faucets, appliance connections, irrigation system, and any accessible service lines to rule out visible leaks before going under the slab.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>Shared meters, toilets, evaporative cooling, laundry connections, irrigation, and exterior service lines are checked before a leak is assigned beneath one unit.</p>
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>3. Confirm water loss</h3>
@@ -234,15 +234,15 @@ export default function SouthTucson() {
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>4. Isolate the affected system</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We test your hot and cold lines separately using calibrated pressure gauges, which tells us exactly which system is losing water and how fast.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We isolate the lines that can be separated safely and document which unit or branch loses pressure, recognizing that older shared systems may need staged testing.</p>
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>5. Locate the suspected route</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We deploy acoustic, electronic, and thermal detection equipment as needed. No single method works perfectly in every home, and we are upfront about that.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>The route is traced through original rooms, additions, shared walls, or slabs, with equipment chosen around access, occupancy, and floor construction.</p>
               </div>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>6. Compare repair options</h3>
-                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>We walk you through your repair options — direct spot repair, water-line rerouting, or partial repiping — with honest cost comparisons so you can make the right decision for your home.</p>
+                <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6" }}>The written comparison addresses tenant or owner coordination, water shutoff time, access through occupied rooms, and responsibility for concrete and finish repairs.</p>
               </div>
             </div>
           </div>
@@ -265,7 +265,7 @@ export default function SouthTucson() {
               <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
                 <div style={{ backgroundColor: "#f8fafc", padding: "1.5rem", borderRadius: "8px", border: "1px solid #e2e8f0" }}>
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Spot Repair</h3>
-                  <p style={{ fontSize: "0.95rem", color: "#64748b", margin: 0 }}><strong>When it fits:</strong> We confirm the failure is isolated to a single point and the surrounding pipe is still in good condition. Best for for an <strong>under-slab pipe repair code 85706</strong>. <br/><strong>Limitations:</strong> We cut a controlled opening in the floor near the damaged section — as small as possible to minimize disruption.</p>
+                  <p style={{ fontSize: "0.95rem", color: "#64748b", margin: 0 }}><strong>When it fits:</strong> The failure is confined to one section and testing does not suggest a broader branch-line problem. At an 85706 property, direct access should be compared with rerouting based on flooring and pipe condition. <br/><strong>Limitations:</strong> Spot repair requires a controlled opening through the floor and concrete.</p>
                 </div>
                 <div style={{ backgroundColor: "#f8fafc", padding: "1.5rem", borderRadius: "8px", border: "1px solid #e2e8f0" }}>
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Water-Line Rerouting</h3>
@@ -273,7 +273,7 @@ export default function SouthTucson() {
                 </div>
                 <div style={{ backgroundColor: "#f8fafc", padding: "1.5rem", borderRadius: "8px", border: "1px solid #e2e8f0" }}>
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.5rem" }}>Partial Repiping</h3>
-                  <p style={{ fontSize: "0.95rem", color: "#64748b", margin: 0 }}><strong>When it fits:</strong> We recommend this when the same pipe branch has failed multiple times or shows widespread corrosion that makes spot repairs a short-term fix. <br/><strong>Limitations:</strong> We plan a new pipe route through your walls or attic and reconnect all fixtures served by the failing branch.</p>
+                  <p style={{ fontSize: "0.95rem", color: "#64748b", margin: 0 }}><strong>When it fits:</strong> An older shared or private branch has repeated failures and can be separated from plumbing that remains serviceable. <br/><strong>Limitations:</strong> Occupied units, shared shutoffs, additions, and landlord approval can affect routing, work hours, and fixture reconnection.</p>
                 </div>
               </div>
             </div>
@@ -292,19 +292,19 @@ export default function SouthTucson() {
               <Link href="/slab-leak-repair-tucson" style={{ textDecoration: "none", color: "inherit", display: "block" }}>
                 <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", height: "100%", transition: "transform 0.2s, box-shadow 0.2s", cursor: "pointer", backgroundColor: "#fff" }} className="hover-lift">
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--brand-red)", marginBottom: "1rem" }}>Slab Leak Repair</h3>
-                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>Request a comprehensive <strong>slab leak repair South Tucson</strong> to bypass or fix a confirmed pipe failure beneath the slab.</p>
+                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>Compare direct repair and rerouting options for a confirmed under-slab pipe failure at a South Tucson property.</p>
                 </div>
               </Link>
               <Link href="/emergency-slab-leak-service-tucson" style={{ textDecoration: "none", color: "inherit", display: "block" }}>
                 <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", height: "100%", transition: "transform 0.2s, box-shadow 0.2s", cursor: "pointer", backgroundColor: "#fff" }} className="hover-lift">
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--brand-red)", marginBottom: "1rem" }}>Emergency Slab Leak Service</h3>
-                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>Immediate <strong>emergency slab leak service South Tucson</strong> response for actively spreading water.</p>
+                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>Request urgent South Tucson service when water is actively spreading, pressure drops suddenly, or the main supply must remain shut off.</p>
                 </div>
               </Link>
               <Link href="/water-line-rerouting-tucson" style={{ textDecoration: "none", color: "inherit", display: "block" }}>
                 <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", height: "100%", transition: "transform 0.2s, box-shadow 0.2s", cursor: "pointer", backgroundColor: "#fff" }} className="hover-lift">
                   <h3 style={{ fontSize: "1.2rem", fontWeight: "700", color: "var(--brand-red)", marginBottom: "1rem" }}>Water-Line Rerouting</h3>
-                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>We install a brand-new water line through your walls or attic, permanently bypassing the failing under-slab pipe.</p>
+                  <p style={{ color: "#4a4a4a", fontSize: "0.95rem", lineHeight: "1.6", margin: 0 }}>Plan a bypass through accessible walls, ceilings, or exterior service space while coordinating shutoffs for occupied or shared-meter properties.</p>
                 </div>
               </Link>
             </div>
