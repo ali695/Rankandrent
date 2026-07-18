@@ -719,3 +719,9 @@ img {
 .zip-badge:hover svg {
   color: var(--white);
 }
+
+/* Blog Hover Effects */
+.blog-card { transition: transform 0.3s ease; }
+.blog-card:hover { transform: translateY(-5px); }
+.blog-image { transition: transform 0.5s ease; }
+.blog-card:hover .blog-image { transform: scale(1.05); }

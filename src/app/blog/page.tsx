@@ -105,7 +105,7 @@ export default function BlogLandingPage() {
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: "2.5rem" }}>
               
               {blogPosts.map((post) => (
-                <article key={post.id} style={{ backgroundColor: "var(--white)", borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 15px rgba(0,0,0,0.05)", display: "flex", flexDirection: "column", transition: "transform 0.3s ease", cursor: "pointer" }} onMouseOver={(e) => (e.currentTarget.style.transform = 'translateY(-5px)')} onMouseOut={(e) => (e.currentTarget.style.transform = 'translateY(0)')}>
+                <article key={post.id} className="blog-card" style={{ backgroundColor: "var(--white)", borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 15px rgba(0,0,0,0.05)", display: "flex", flexDirection: "column", cursor: "pointer" }}>
                   <Link href={post.link} style={{ textDecoration: "none", color: "inherit", display: "flex", flexDirection: "column", height: "100%" }}>
                     
                     {/* Image Placeholder / Wrapper */}
@@ -113,9 +113,8 @@ export default function BlogLandingPage() {
                       <img 
                         src={post.image} 
                         alt={post.title} 
-                        style={{ width: "100%", height: "100%", objectFit: "cover", transition: "transform 0.5s ease" }}
-                        onMouseOver={(e) => (e.currentTarget.style.transform = 'scale(1.05)')}
-                        onMouseOut={(e) => (e.currentTarget.style.transform = 'scale(1)')}
+                        className="blog-image"
+                        style={{ width: "100%", height: "100%", objectFit: "cover" }}
                       />
                       <div style={{ position: "absolute", top: "1rem", right: "1rem", backgroundColor: "var(--brand-red)", color: "var(--white)", padding: "0.25rem 0.75rem", borderRadius: "999px", fontSize: "0.85rem", fontWeight: "bold" }}>
                         {post.category}
