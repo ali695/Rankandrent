@@ -1,6 +1,5 @@
 import { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import { blogArticles } from "@/data/blogArticles";
 import BlogList from "@/components/BlogList";
 export const metadata: Metadata = {
@@ -13,18 +12,17 @@ export const metadata: Metadata = {
     url: "https://tucsonslableakpros.com/blog/",
     siteName: "Tucson Leak Pros",
     locale: "en_US",
-    images: [{ url: "/images/blog/understanding-slab-leaks.png", width: 1536, height: 1024, alt: "Tucson slab leak homeowner resource center" }],
+    images: [{ url: "/images/blog/understanding-slab-leaks.webp", width: 1536, height: 1024, alt: "Tucson slab leak homeowner resource center" }],
   },
-  twitter: { card: "summary_large_image", title: "Tucson Slab Leak Blog", description: "Practical homeowner guides about hidden water loss, detection and repair.", images: ["/images/blog/understanding-slab-leaks.png"] },
+  twitter: { card: "summary_large_image", title: "Tucson Slab Leak Blog", description: "Practical homeowner guides about hidden water loss, detection and repair.", images: ["/images/blog/understanding-slab-leaks.webp"] },
 };
 
-const categories = ["All", ...Array.from(new Set(blogArticles.map((article) => article.category)))];
 
 export default function BlogLandingPage() {
   return (
     <main>
       <section className="blog-index-hero" style={{ alignItems: "center", textAlign: "center", justifyContent: "center" }}>
-        <Image src="/images/blog/understanding-slab-leaks.png" alt="Water lines beneath a tiled concrete slab in a Tucson home" fill sizes="100vw" priority style={{ objectFit: "cover" }} />
+        <Image src="/images/blog/understanding-slab-leaks.webp" alt="Water lines beneath a tiled concrete slab in a Tucson home" fill sizes="100vw" priority style={{ objectFit: "cover" }} />
         <div className="blog-index-overlay" style={{ background: "rgba(0, 0, 0, 0.6)" }} />
         <div className="container blog-index-content" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
           <h1 style={{ textAlign: "center", maxWidth: "900px", margin: "0 auto 1rem", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: "800" }}>Tucson Slab Leak Blog</h1>
@@ -34,7 +32,7 @@ export default function BlogLandingPage() {
 
       <section className="blog-index-shell">
         <div className="container">
-          <BlogList articles={blogArticles} categories={categories} />
+          <BlogList articles={blogArticles} />
         </div>
       </section>
     </main>

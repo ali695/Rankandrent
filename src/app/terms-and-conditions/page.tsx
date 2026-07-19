@@ -1,9 +1,12 @@
 import React from 'react';
 import { Metadata } from 'next';
+import { pageSocialMetadata } from '@/lib/metadata';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/terms-and-conditions/" },
   title: 'Terms and Conditions | Tucson Leak Pros',
   description: 'Terms and Conditions for using Tucson Leak Pros services and website.',
+  ...pageSocialMetadata('Terms and Conditions | Tucson Leak Pros', 'Terms and Conditions for using Tucson Leak Pros services and website.', '/terms-and-conditions/'),
 };
 
 export default function TermsAndConditions() {

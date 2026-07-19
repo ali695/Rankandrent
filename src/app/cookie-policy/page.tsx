@@ -1,9 +1,12 @@
 import React from 'react';
 import { Metadata } from 'next';
+import { pageSocialMetadata } from '@/lib/metadata';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cookie-policy/" },
   title: 'Cookie Policy | Tucson Leak Pros',
   description: 'Learn about how we use cookies to improve your experience on our website.',
+  ...pageSocialMetadata('Cookie Policy | Tucson Leak Pros', 'Learn about how we use cookies to improve your experience on our website.', '/cookie-policy/'),
 };
 
 export default function CookiePolicy() {

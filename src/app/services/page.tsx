@@ -1,10 +1,10 @@
 import React from 'react';
 import { Metadata } from 'next';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
-import FaqCategory from '@/components/FaqCategory';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/" },
   title: 'Slab Leak Services Tucson, AZ | Detection & Repair',
   description: 'Explore slab leak detection, pipe repair, pressure testing, under-slab repair and water-line rerouting services available across Tucson.',
   openGraph: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     images: [
       {
-        url: "/images/services_hub_hero.jpg",
+        url: "/images/services_hub_hero.webp",
         width: 1200,
         height: 630,
         alt: "Slab Leak Services Tucson, AZ | Detection & Repair",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Slab Leak Services Tucson, AZ | Detection & Repair",
     description: "Explore slab leak detection, pipe repair, pressure testing, under-slab repair and water-line rerouting services available across Tucson.",
-    images: ["/images/services_hub_hero.jpg"],
+    images: ["/images/services_hub_hero.webp"],
   },
 };
 
@@ -88,61 +88,61 @@ const servicesList = [
   { 
     title: 'Slab Leak Detection', 
     desc: "Confirms water loss and pinpoints the exact underground location before any floors are broken.", 
-    img: "slab_leak_detection.jpg", 
+    img: "slab_leak_detection.webp",
     link: "/slab-leak-detection-tucson/" 
   },
   { 
     title: 'Slab Leak Repair', 
     desc: "Professional under-slab plumbing repair using direct access or spot fixes to restore your line safely.", 
-    img: "slab_leak_repair.jpg", 
+    img: "slab_leak_repair.webp",
     link: "/slab-leak-repair-tucson/" 
   },
   { 
     title: 'Water-Line Rerouting', 
     desc: "Bypass the leaking pipe beneath the concrete and run a brand new line through the walls or attic.", 
-    img: "water_line_rerouting.jpg", 
+    img: "water_line_rerouting.webp",
     link: "/water-line-rerouting-tucson/" 
   },
   { 
     title: 'Under-Slab Pipe Repair', 
     desc: "Controlled concrete openings for pipe repair, replacing the damaged pipe section beneath the foundation.", 
-    img: "under_slab_pipe_repair.jpg", 
+    img: "under_slab_pipe_repair.webp",
     link: "/under-slab-pipe-repair-tucson/" 
   },
   { 
     title: 'Electronic Leak Detection', 
     desc: "Acoustic line tracing and sound amplification to locate hidden leaks without opening floors.", 
-    img: "electronic_leak_detection.jpg", 
+    img: "electronic_leak_detection.webp",
     link: "/electronic-leak-detection-tucson/" 
   },
   { 
     title: 'Partial Repiping', 
     desc: "Replace an entire deteriorated plumbing branch for repeated slab leaks, avoiding whole-home repiping.", 
-    img: "partial_repiping.jpg", 
+    img: "partial_repiping.webp",
     link: "/partial-repiping-tucson/" 
   },
   { 
     title: 'Emergency Slab Leak Service', 
     desc: "Urgent response for active water spreading from floors or rapid water-meter movement emergencies.", 
-    img: "emergency_slab_leak_service.jpg", 
+    img: "emergency_slab_leak_service.webp",
     link: "/emergency-slab-leak-service-tucson/" 
   },
   { 
     title: 'Hot-Water Slab Leak Detection', 
     desc: "Specialized detection for warm flooring, sudden water heater issues, and hot-line pressure loss.", 
-    img: "hot_water_slab_leak.jpg", 
+    img: "hot_water_slab_leak.webp",
     link: "/hot-water-slab-leak-tucson/" 
   },
   { 
     title: 'Cold-Water Slab Leak Detection', 
     desc: "Identify hidden water loss and unexplained meter movement without the obvious heat symptoms.", 
-    img: "cold_water_slab_leak.jpg", 
+    img: "cold_water_slab_leak.webp",
     link: "/cold-water-slab-leak-tucson/" 
   },
   { 
     title: 'Water-Line Pressure Testing', 
     desc: "Static pressure drops confirm a plumbing leak exists before we deploy electronic locating gear.", 
-    img: "pressure_testing.jpg", 
+    img: "pressure_testing.webp",
     link: "/water-line-pressure-testing-tucson/" 
   }
 ];
@@ -158,7 +158,7 @@ export default function ServicesPage() {
         {/* 1. Hero Section with Form (matching the brand colors) */}
         <section style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "650px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img title="Hero Cold Water Leak Tucson" src="/images/hero_cold_water_leak.jpg" alt="Tucson cold water leak experts" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img title="Hero Cold Water Leak Tucson" src="/images/hero_cold_water_leak.webp" alt="Tucson cold water leak experts" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
@@ -233,7 +233,7 @@ export default function ServicesPage() {
               </div>
             </div>
             <div style={{ display: "flex" }}>
-              <img title="Slab Leak Repair Tucson" src="/images/slab_leak_repair.jpg" alt="Tucson slab leak repair services" style={{ width: "100%", height: "100%", minHeight: "400px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
+              <img title="Slab Leak Repair Tucson" src="/images/slab_leak_repair.webp" alt="Tucson slab leak repair services" style={{ width: "100%", height: "100%", minHeight: "400px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
             </div>
           </div>
         </section>
@@ -242,7 +242,7 @@ export default function ServicesPage() {
         <section style={{ backgroundColor: "#f8fafc", padding: "5rem 0" }}>
           <div className="container split-grid" style={{ alignItems: "center" }}>
             <div style={{ display: "flex" }}>
-              <img title="Cold Water Slab Leak Tucson" src="/images/cold_water_slab_leak.jpg" alt="Tucson cold water slab leak services" style={{ width: "100%", height: "100%", minHeight: "400px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
+              <img title="Cold Water Slab Leak Tucson" src="/images/cold_water_slab_leak.webp" alt="Tucson cold water slab leak services" style={{ width: "100%", height: "100%", minHeight: "400px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
             </div>
             <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", paddingLeft: "3rem" }}>
               <span style={{ color: "var(--brand-red)", fontWeight: "700", textTransform: "uppercase", letterSpacing: "1px", display: "block", marginBottom: "0.5rem", fontSize: "0.85rem" }}>THE PROCESS</span>
@@ -368,7 +368,7 @@ export default function ServicesPage() {
         <section id="contact" style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           {/* Dark Overlay Background */}
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img title="Section Thermal Camera Tucson" src="/images/section_thermal_camera.jpg" alt="Residential thermal camera in Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img title="Section Thermal Camera Tucson" src="/images/section_thermal_camera.webp" alt="Residential thermal camera in Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>

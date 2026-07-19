@@ -5,6 +5,7 @@ import ZipCheckerForm from '@/components/ZipCheckerForm';
 import ZigZagBlocks from '@/components/ZigZagBlocks';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/partial-repiping-tucson/" },
   title: 'Partial Repiping Tucson | Replace Damaged Water Lines',
   description: 'Replace selected plumbing branches or recurring problem sections without automatically repiping the entire Tucson home.',
   openGraph: {
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     images: [
       {
-        url: "/images/services_hub_hero.jpg",
+        url: "/images/services_hub_hero.webp",
         width: 1200,
         height: 630,
         alt: "Partial Repiping Tucson | Replace Damaged Water Lines",
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Partial Repiping Tucson | Replace Damaged Water Lines",
     description: "Replace selected plumbing branches or recurring problem sections without automatically repiping the entire Tucson home.",
-    images: ["/images/services_hub_hero.jpg"],
+    images: ["/images/services_hub_hero.webp"],
   },
 };
 
@@ -94,7 +95,7 @@ export default function PartialRepiping() {
         {/* Hero Section */}
         <section style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img title="Hero Water Line Rerouting Tucson" src="/images/hero_water_line_rerouting.jpg" alt="Tucson water line rerouting experts" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img title="Hero Water Line Rerouting Tucson" src="/images/hero_water_line_rerouting.webp" alt="Tucson water line rerouting experts" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
@@ -143,7 +144,7 @@ export default function PartialRepiping() {
               </p>
             </div>
             <div style={{ display: "flex" }}>
-              <img title="Slab Leak Repair Tucson" src="/images/slab_leak_repair.jpg" alt="Tucson slab leak repair services" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
+              <img title="Slab Leak Repair Tucson" src="/images/slab_leak_repair.webp" alt="Tucson slab leak repair services" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
             </div>
           </div>
         </section>
@@ -176,7 +177,7 @@ export default function PartialRepiping() {
           {
             heading: "Partial Repiping Materials and Warranty",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We use PEX (cross-linked polyethylene) for the majority of <a href="/partial-repiping-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>partial repiping</a> projects in Tucson. PEX offers several advantages over copper in under-slab and through-wall applications: it resists the corrosion that causes slab leaks in the first place, handles thermal expansion without stress cracking, and requires fewer joints — meaning fewer potential failure points.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>All pipe materials we use are rated for potable water and comply with current Arizona plumbing codes. Each connection is pressure-tested individually before the wall cavities are closed, and the entire new branch receives a final system-wide pressure verification before the project is considered complete.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The completed repiping work comes with a labor warranty covering our workmanship and connections, while the PEX pipe itself carries a manufacturer warranty of 25 years or more. We provide full documentation of the work performed, materials used, and test results for your records and for any future home inspections or insurance needs.</p></>,
-            imageSrc: "/images/partial_repiping.jpg",
+            imageSrc: "/images/partial_repiping.webp",
             imageAlt: "Partial Repiping Materials",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
@@ -184,7 +185,7 @@ export default function PartialRepiping() {
           {
             heading: "When Partial Repiping Makes Sense",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A partial repipe is the perfect middle ground between a simple <a href="/under-slab-pipe-repair-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>under-slab pipe repair</a> and a whole-home repipe. If you have experienced a leak on a specific branch line—for instance, the <a href="/hot-water-slab-leak-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>hot water line</a> feeding your master bathroom—but the rest of your home's plumbing appears healthy, a partial repipe targets the known problem area.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Instead of breaking your bathroom floor to fix one hole, we cap off the entire failing line under the slab. We then run a brand new PEX line through the attic and drop it down the wall to feed your shower and sinks. This permanently eliminates the risk of that specific line ever leaking under your foundation again.</p></>,
-            imageSrc: "/images/hero_partial_repiping.jpg",
+            imageSrc: "/images/hero_partial_repiping.webp",
             imageAlt: "When partial repiping makes sense",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
@@ -192,7 +193,7 @@ export default function PartialRepiping() {
           {
             heading: "Minimizing Wall Damage",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Because we are only replacing a specific section of your plumbing, the structural impact on your home is minimal. We don't need to tear out ceilings or open every wall in your house. By carefully mapping the route from the water source to the fixtures, we strategically plan small access panels, unlike a full <a href="/water-line-rerouting-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>water-line reroute</a>.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Most of the new pipe is routed securely through the attic where it is out of sight. The only drywall that needs to be cut is typically behind toilets or inside vanity cabinets where the new line connects to your angle stops. These small cuts are easily patched and painted, leaving your home looking untouched.</p></>,
-            imageSrc: "/images/slab_leak_detection_vs_repair.jpg",
+            imageSrc: "/images/slab_leak_detection_vs_repair.webp",
             imageAlt: "Minimizing wall damage",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
@@ -200,7 +201,7 @@ export default function PartialRepiping() {
           {
             heading: "Future-Proofing Your Plumbing",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Every partial repipe we perform is designed with the future in mind. If we are rerouting the hot water line to your kitchen today, we install accessible manifolds and shut-off valves that make future upgrades easy.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>If another under-slab line fails in a different part of the house five years from now, our technicians can simply tie a new PEX line into the accessible manifold we built during this repair. It transforms a scattered, buried plumbing system into a modern, manageable, overhead network piece by piece, helping manage the long-term <a href="/slab-leak-repair-cost-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak repair cost</a>.</p></>,
-            imageSrc: "/images/slab_leak_repair.jpg",
+            imageSrc: "/images/slab_leak_repair.webp",
             imageAlt: "Future proofing plumbing",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
@@ -215,7 +216,7 @@ export default function PartialRepiping() {
               <FaqCategory 
                 title="FAQ: Partial Repiping"
                 iconName="MessageCircleQuestion"
-                faqs={faqSchema.mainEntity.map((faq: any, idx: number) => ({
+                faqs={faqSchema.mainEntity.map((faq, idx: number) => ({
                   id: `faq-${idx}`,
                   question: faq.name,
                   answer: faq.acceptedAnswer.text

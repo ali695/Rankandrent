@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 import ContactForm from '@/components/ContactForm';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/contact/" },
   title: 'Contact Tucson Leak Pros | Request Slab Leak Help',
   description: 'Contact Tucson Leak Pros about a suspected slab leak. Provide your ZIP code and symptoms to check local service availability.',
   openGraph: {
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     images: [
       {
-        url: "/images/services_hub_hero.jpg",
+        url: "/images/services_hub_hero.webp",
         width: 1200,
         height: 630,
         alt: "Contact Tucson Leak Pros | Request Slab Leak Help",
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Contact Tucson Leak Pros | Request Slab Leak Help",
     description: "Contact Tucson Leak Pros about a suspected slab leak. Provide your ZIP code and symptoms to check local service availability.",
-    images: ["/images/services_hub_hero.jpg"],
+    images: ["/images/services_hub_hero.webp"],
   },
 };
 
@@ -45,7 +46,7 @@ export default function Contact() {
         <section style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "550px", display: "flex", alignItems: "center" }}>
           {/* Dark Overlay Background */}
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img title="Slab Leak Detection Tucson" src="/images/slab_leak_detection.jpg" alt="Tucson slab leak detection services" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img title="Slab Leak Detection Tucson" src="/images/slab_leak_detection.webp" alt="Tucson slab leak detection services" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
@@ -139,7 +140,7 @@ export default function Contact() {
         <section style={{ backgroundColor: "#334155", color: "var(--white)" }}>
           <div className="split-grid" style={{ gap: 0 }}>
             <div style={{ display: "flex" }}>
-              <img title="Hot Water Slab Leak Tucson" src="/images/hot_water_slab_leak.jpg" alt="Tucson hot water slab leak services" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover" }} />
+              <img title="Hot Water Slab Leak Tucson" src="/images/hot_water_slab_leak.webp" alt="Tucson hot water slab leak services" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover" }} />
             </div>
             <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", padding: "4rem 5%", maxWidth: "800px", marginRight: "auto" }}>
               <span style={{ color: "var(--brand-red)", fontWeight: "700", textTransform: "uppercase", letterSpacing: "1px", display: "block", marginBottom: "0.5rem", fontSize: "0.85rem" }}>URGENT ACTION</span>

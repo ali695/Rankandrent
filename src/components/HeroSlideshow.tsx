@@ -12,7 +12,8 @@ export default function HeroSlideshow({ images, intervalMs = 5000 }: HeroSlidesh
 
   useEffect(() => {
     if (!images || images.length <= 1) return;
-    
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, intervalMs);
@@ -28,7 +29,8 @@ export default function HeroSlideshow({ images, intervalMs = 5000 }: HeroSlidesh
         <img
           key={image.src}
           src={image.src}
-          alt={image.alt}
+          alt=""
+          aria-hidden="true"
           style={{
             position: 'absolute',
             top: 0,

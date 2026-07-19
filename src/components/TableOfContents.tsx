@@ -49,7 +49,7 @@ export default function TableOfContents({ items }: { items: TocItem[] }) {
 
       window.scrollTo({
         top: offsetPosition,
-        behavior: 'smooth'
+        behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'
       });
     }
   };
@@ -70,7 +70,7 @@ export default function TableOfContents({ items }: { items: TocItem[] }) {
                   display: 'flex',
                   gap: '0.5rem',
                   textDecoration: 'none',
-                  color: isActive ? '#f59e0b' : '#334155',
+                  color: isActive ? '#b91c1c' : '#334155',
                   fontSize: item.level === 1 ? '0.95rem' : '0.9rem',
                   paddingLeft: item.level === 2 ? '1.5rem' : '0',
                   lineHeight: '1.4',
@@ -79,7 +79,7 @@ export default function TableOfContents({ items }: { items: TocItem[] }) {
                 }}
                 className="toc-link"
               >
-                <span style={{ minWidth: item.level === 1 ? '1rem' : '1.5rem', color: isActive ? '#f59e0b' : '#64748b' }}>
+                <span style={{ minWidth: item.level === 1 ? '1rem' : '1.5rem', color: isActive ? '#b91c1c' : '#64748b' }}>
                   {itemIndex}.
                 </span>
                 <span>{item.title}</span>
@@ -117,9 +117,13 @@ export default function TableOfContents({ items }: { items: TocItem[] }) {
         border: '1px solid #94a3b8',
         backgroundColor: '#f8f7f2'
       }}>
-        <div 
+        <button
+          type="button"
           onClick={() => setIsOpen(!isOpen)}
+          aria-expanded={isOpen}
+          aria-controls="table-of-contents-links"
           style={{
+            width: '100%',
             display: 'flex',
             justifyContent: 'space-between',
             alignItems: 'center',
@@ -127,15 +131,19 @@ export default function TableOfContents({ items }: { items: TocItem[] }) {
             borderBottom: isOpen ? '1px solid #94a3b8' : 'none',
             cursor: 'pointer',
             fontWeight: '600',
-            color: '#334155'
+            color: '#334155',
+            backgroundColor: 'transparent',
+            borderTop: 0,
+            borderLeft: 0,
+            borderRight: 0
           }}
         >
           <span>Content</span>
           {isOpen ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
-        </div>
+        </button>
         
         {isOpen && (
-          <div style={{ padding: '1.25rem 1rem' }}>
+          <div id="table-of-contents-links" style={{ padding: '1.25rem 1rem' }}>
             {renderItems(items)}
           </div>
         )}
@@ -143,10 +151,10 @@ export default function TableOfContents({ items }: { items: TocItem[] }) {
 
       <style dangerouslySetInnerHTML={{__html: `
         .toc-link:hover {
-          color: #f59e0b !important;
+          color: #b91c1c !important;
         }
         .toc-link:hover span {
-          color: #f59e0b !important;
+          color: #b91c1c !important;
         }
       `}} />
     </div>

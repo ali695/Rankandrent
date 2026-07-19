@@ -1,9 +1,12 @@
 import React from 'react';
 import { Metadata } from 'next';
+import { pageSocialMetadata } from '@/lib/metadata';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/accessibility/" },
   title: 'Accessibility Statement | Tucson Leak Pros',
   description: 'Our commitment to digital accessibility for all users.',
+  ...pageSocialMetadata('Accessibility Statement | Tucson Leak Pros', 'Our commitment to digital accessibility for all users.', '/accessibility/'),
 };
 
 export default function Accessibility() {

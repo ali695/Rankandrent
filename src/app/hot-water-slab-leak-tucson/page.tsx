@@ -3,12 +3,13 @@ import { Metadata } from 'next';
 import ZigZagBlocks from '@/components/ZigZagBlocks';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import { Thermometer, Volume2, ArrowDownToLine, Activity, Search, Gauge, Wrench, ShieldAlert, MessageCircleQuestion } from 'lucide-react';
+import { Thermometer, Volume2, ArrowDownToLine, Activity, Search, Gauge, Wrench, ShieldAlert } from 'lucide-react';
 import Link from 'next/link';
 import ZipCodeDirectory from '@/components/ZipCodeDirectory';
 import FaqCategory from '@/components/FaqCategory';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/hot-water-slab-leak-tucson/" },
   title: 'Hot-Water Slab Leak Tucson | Warm Floor Detection',
   description: 'Warm flooring or frequent water-heater operation may point to a hidden hot-water line leak. Explore detection and repair options in Tucson.',
   openGraph: {
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     images: [
       {
-        url: "/images/services_hub_hero.jpg",
+        url: "/images/services_hub_hero.webp",
         width: 1200,
         height: 630,
         alt: "Hot-Water Slab Leak Tucson | Warm Floor Detection",
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Hot-Water Slab Leak Tucson | Warm Floor Detection",
     description: "Warm flooring or frequent water-heater operation may point to a hidden hot-water line leak. Explore detection and repair options in Tucson.",
-    images: ["/images/services_hub_hero.jpg"],
+    images: ["/images/services_hub_hero.webp"],
   },
 };
 
@@ -119,7 +120,7 @@ export default function HotWaterSlabLeak() {
         {/* Section 1: Hero */}
         <section style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img src="/images/hero_hot_water_leak.jpg" alt="Tucson hero hot water leak experts" title="Hero Hot Water Leak Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img src="/images/hero_hot_water_leak.webp" alt="Tucson hero hot water leak experts" title="Hero Hot Water Leak Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
@@ -403,7 +404,7 @@ export default function HotWaterSlabLeak() {
                 The strongest diagnosis combines controlled meter readings, hot-side isolation, pressure behavior, pipe tracing, and repeatable thermal or acoustic evidence. See <a href="/how-slab-leak-detection-works/" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>how slab leak detection works</a> before deciding where any access opening belongs.
               </p>
             </>,
-            imageSrc: "/images/section_thermal_camera.jpg",
+            imageSrc: "/images/section_thermal_camera.webp",
             imageAlt: "Thermal camera checking a Tucson floor for a hot-water slab leak pattern",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
@@ -422,7 +423,7 @@ export default function HotWaterSlabLeak() {
                 Pipe material, repair history, the number of affected branches, and restoration costs all influence the choice. Compare complete scopes rather than treating direct repair or rerouting as automatically superior. Written estimates should explain testing, access, restoration responsibility, warranty terms, and any conditions that could change the price.
               </p>
             </>,
-            imageSrc: "/images/blog/repair-vs-reroute.png",
+            imageSrc: "/images/blog/repair-vs-reroute.webp",
             imageAlt: "Comparison of direct hot-water slab repair and water-line rerouting",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
@@ -453,7 +454,7 @@ export default function HotWaterSlabLeak() {
         {/* Section 10: Final CTA */}
         <section id="contact" style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img src="/images/hot_water_slab_leak.jpg" alt="Tucson hot water slab leak services" title="Hot Water Slab Leak Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img src="/images/hot_water_slab_leak.webp" alt="Tucson hot water slab leak services" title="Hot Water Slab Leak Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>

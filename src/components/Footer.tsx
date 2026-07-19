@@ -1,4 +1,4 @@
-import { ShieldCheck, Award, ThumbsUp, CheckCircle, Star } from 'lucide-react';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -15,7 +15,7 @@ export default function Footer() {
           </p>
           <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
              <a href="tel:5205550199" className="btn-primary" style={{ padding: "0.75rem 1.25rem", fontSize: "0.85rem" }}>CALL NOW</a>
-             <a href="/contact/" className="btn-secondary" style={{ padding: "0.75rem 1.25rem", fontSize: "0.85rem" }}>REQUEST LEAK DETECTION</a>
+             <Link href="/contact/" className="btn-secondary" style={{ padding: "0.75rem 1.25rem", fontSize: "0.85rem" }}>REQUEST LEAK DETECTION</Link>
           </div>
         </div>
 
@@ -45,7 +45,7 @@ export default function Footer() {
             <li><a href="/slab-leak-vs-foundation-problem/" style={{ color: "inherit", textDecoration: "none" }}>Slab Leak vs. Foundation Problem</a></li>
             <li><a href="/how-slab-leak-detection-works/" style={{ color: "inherit", textDecoration: "none" }}>How Detection Works</a></li>
             <li><a href="/slab-leak-faq/" style={{ color: "inherit", textDecoration: "none" }}>Slab Leak FAQ</a></li>
-            <li><a href="/blog/" style={{ color: "inherit", textDecoration: "none" }}>Our Blog</a></li>
+            <li><Link href="/blog/" style={{ color: "inherit", textDecoration: "none" }}>Our Blog</Link></li>
           </ul>
         </div>
 
@@ -86,7 +86,7 @@ export default function Footer() {
       
 
       {/* Sub Footer */}
-      <div className="container" style={{ borderTop: "1px solid #3f3f46", paddingTop: "2rem", display: "flex", flexDirection: "column", gap: "1rem", fontSize: "0.8rem", color: "#71717a", textAlign: "center" }}>
+      <div className="container" style={{ borderTop: "1px solid #3f3f46", paddingTop: "2rem", display: "flex", flexDirection: "column", gap: "1rem", fontSize: "0.8rem", color: "#a1a1aa", textAlign: "center" }}>
         
         <div style={{ display: "flex", justifyContent: "center", gap: "1.5rem", flexWrap: "wrap" }}>
           <a href="/privacy-policy/" style={{ color: "inherit", textDecoration: "none" }}>Privacy Policy</a>

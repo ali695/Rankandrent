@@ -3,14 +3,17 @@ import { Metadata } from 'next';
 import ZigZagBlocks from '@/components/ZigZagBlocks';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import { Search, MapPin, Wrench, Layers, Clock, Calculator, HelpCircle, Pickaxe, MessageCircleQuestion } from 'lucide-react';
+import { Search, MapPin, Wrench, Layers, Clock, Calculator, HelpCircle, Pickaxe } from 'lucide-react';
 import Link from 'next/link';
 import ZipCodeDirectory from '@/components/ZipCodeDirectory';
 import FaqCategory from '@/components/FaqCategory';
+import { pageSocialMetadata } from '@/lib/metadata';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/slab-leak-repair-cost-tucson/" },
   title: 'Slab Leak Repair Cost Tucson | Price Factors Explained',
   description: 'Understand how leak location, detection, pipe condition, floor access, repair method and restoration affect slab leak repair costs in Tucson.',
+  ...pageSocialMetadata('Slab Leak Repair Cost Tucson | Price Factors Explained', 'Understand how leak location, detection, pipe condition, floor access, repair method and restoration affect slab leak repair costs in Tucson.', '/slab-leak-repair-cost-tucson/'),
 };
 
 const faqSchema = {
@@ -98,7 +101,7 @@ export default function SlabLeakRepairCost() {
         {/* Section 1: Hero */}
         <section style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img src="/images/hero_partial_repiping.jpg" alt="Tucson slab leak repair cost estimates" title="Hero Partial Repiping Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img src="/images/hero_partial_repiping.webp" alt="Tucson slab leak repair cost estimates" title="Hero Partial Repiping Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
@@ -353,7 +356,7 @@ export default function SlabLeakRepairCost() {
                 Finally, compare warranty coverage and the exact pipe section included. A proposal for one spot repair is a different scope from a <a href="/partial-repiping-tucson/" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>partial repipe</a> serving several fixtures. A clear written scope is more useful than choosing from headline prices alone.
               </p>
             </>,
-            imageSrc: "/images/blog/cost-estimate.png",
+            imageSrc: "/images/blog/cost-estimate.webp",
             imageAlt: "Homeowner comparing detailed Tucson slab leak repair estimates",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
@@ -372,7 +375,7 @@ export default function SlabLeakRepairCost() {
                 Repair history matters as well. One isolated failure in otherwise serviceable pipe may support a targeted repair, while repeated leaks on the same aging branch may justify comparing a broader replacement. The appropriate decision balances confirmed location, access, finishes, pipe condition, disruption, and the work included—not merely the size of the first access hole.
               </p>
             </>,
-            imageSrc: "/images/blog/direct-slab-repair.png",
+            imageSrc: "/images/blog/direct-slab-repair.webp",
             imageAlt: "Direct slab opening evaluated against total repair and restoration cost",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
@@ -403,7 +406,7 @@ export default function SlabLeakRepairCost() {
         {/* Section 10: Final CTA */}
         <section id="contact" style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img src="/images/hero_home.jpg" alt="Tucson hero home" title="Hero Home Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img src="/images/hero_home.webp" alt="Tucson hero home" title="Hero Home Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>

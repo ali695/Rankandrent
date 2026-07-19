@@ -5,6 +5,7 @@ import ZipCheckerForm from '@/components/ZipCheckerForm';
 import ZigZagBlocks from '@/components/ZigZagBlocks';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/water-line-rerouting-tucson/" },
   title: 'Water-Line Rerouting Tucson | Slab Leak Pipe Bypass',
   description: 'Explore water-line rerouting in Tucson to bypass a leaking under-slab pipe through a more accessible wall, ceiling or attic route.',
   openGraph: {
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     images: [
       {
-        url: "/images/services_hub_hero.jpg",
+        url: "/images/services_hub_hero.webp",
         width: 1200,
         height: 630,
         alt: "Water-Line Rerouting Tucson | Slab Leak Pipe Bypass",
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Water-Line Rerouting Tucson | Slab Leak Pipe Bypass",
     description: "Explore water-line rerouting in Tucson to bypass a leaking under-slab pipe through a more accessible wall, ceiling or attic route.",
-    images: ["/images/services_hub_hero.jpg"],
+    images: ["/images/services_hub_hero.webp"],
   },
 };
 
@@ -102,7 +103,7 @@ export default function WaterLineRerouting() {
         {/* Hero Section */}
         <section style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img title="Section Damp Floor Tucson" src="/images/section_damp_floor.jpg" alt="Residential damp floor in Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img title="Section Damp Floor Tucson" src="/images/section_damp_floor.webp" alt="Residential damp floor in Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
@@ -151,7 +152,7 @@ export default function WaterLineRerouting() {
               </p>
             </div>
             <div style={{ display: "flex" }}>
-              <img title="Section Water Meter Tucson" src="/images/section_water_meter.jpg" alt="Residential water meter in Tucson" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
+              <img title="Section Water Meter Tucson" src="/images/section_water_meter.webp" alt="Residential water meter in Tucson" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
             </div>
           </div>
         </section>
@@ -184,7 +185,7 @@ export default function WaterLineRerouting() {
           {
             heading: "The Rerouting Process Step by Step",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A typical <a href="/water-line-rerouting-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>water-line reroute</a> takes one to two days depending on the number of lines being replaced and the layout of your home. We start by mapping the existing plumbing to identify which lines need rerouting and planning the most efficient path for the new pipe through your walls or attic space.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The new PEX line is run from the water main or meter connection to each fixture supply point, secured with proper hangers and insulated where it passes through unconditioned attic space. Each connection is pressure-tested individually before we move to the next. Once all new lines are confirmed leak-free, we disconnect the old under-slab pipe at both ends and cap it off.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The result is a completely new water supply system that is accessible, maintainable, and built to handle extreme temperature swings for decades. Your water pressure is restored, and you never have to worry about that old pipe failing again.</p></>,
-            imageSrc: "/images/water_line_rerouting.jpg",
+            imageSrc: "/images/water_line_rerouting.webp",
             imageAlt: "Water line rerouting process",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
@@ -192,7 +193,7 @@ export default function WaterLineRerouting() {
           {
             heading: "Why We Use PEX for Rerouting",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>When moving your plumbing out of the slab and into the walls and attic, we almost exclusively use high-grade PEX (cross-linked polyethylene) piping. Unlike rigid copper, PEX is highly flexible. This allows us to "fish" the pipe through long wall cavities and complex attic framing with minimal drywall removal.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>PEX is also completely immune to the soil corrosion and hard water scaling that destroys copper pipes in Arizona. Furthermore, because it can bend around corners, PEX installations require far fewer fittings and joints than a comparable copper system. Fewer joints mean fewer potential points of failure.</p></>,
-            imageSrc: "/images/partial_repiping.jpg",
+            imageSrc: "/images/partial_repiping.webp",
             imageAlt: "Using PEX for rerouting",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
@@ -200,7 +201,7 @@ export default function WaterLineRerouting() {
           {
             heading: "Protecting Pipes in Unconditioned Attics",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Running water lines through a Tucson attic presents a unique challenge: extreme heat. Summer attic temperatures can routinely exceed 140 degrees, which can heat the water sitting in your cold-water lines to uncomfortable temperatures.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>To combat this, we meticulously insulate all new PEX lines routed through unconditioned spaces. We use thick, high-R-value foam insulation wrap, securing it tightly at every joint and hanger. This not only keeps your <a href="/cold-water-slab-leak-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>cold water leak</a> risks at bay, but it also protects hot water lines from losing thermal energy during the winter months.</p></>,
-            imageSrc: "/images/hero_water_line_rerouting.jpg",
+            imageSrc: "/images/hero_water_line_rerouting.webp",
             imageAlt: "Pipe insulation in attic",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
@@ -208,7 +209,7 @@ export default function WaterLineRerouting() {
           {
             heading: "Minimizing Drywall Damage",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Many homeowners worry that a reroute means tearing down entire walls of drywall. While some drywall access is unavoidable to connect the new overhead lines to your lower sink and shower valves, we use specialized techniques, such as <a href="/partial-repiping-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>partial repiping</a> drops, to keep cuts to an absolute minimum.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We map out the exact stud bays housing your plumbing fixtures. We make small, precise access squares—usually behind toilets or under bathroom vanities where they are less visible. Once the new PEX is dropped down from the attic and connected to your angle stops, the small drywall squares can be easily patched, taped, and painted.</p></>,
-            imageSrc: "/images/slab_leak_detection_vs_repair.jpg",
+            imageSrc: "/images/slab_leak_detection_vs_repair.webp",
             imageAlt: "Minimizing drywall damage",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
@@ -223,7 +224,7 @@ export default function WaterLineRerouting() {
               <FaqCategory 
                 title="Water-Line Rerouting FAQ"
                 iconName="MessageCircleQuestion"
-                faqs={faqSchema.mainEntity.map((faq: any, idx: number) => ({
+                faqs={faqSchema.mainEntity.map((faq, idx: number) => ({
                   id: `faq-${idx}`,
                   question: faq.name,
                   answer: faq.acceptedAnswer.text
@@ -240,7 +241,7 @@ export default function WaterLineRerouting() {
         {/* Bottom CTA */}
         <section id="contact" style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img title="Slab Leak Repair Tucson" src="/images/slab_leak_repair.jpg" alt="Tucson slab leak repair services" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img title="Slab Leak Repair Tucson" src="/images/slab_leak_repair.webp" alt="Tucson slab leak repair services" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>

@@ -5,6 +5,7 @@ import ZipCheckerForm from '@/components/ZipCheckerForm';
 import ZigZagBlocks from '@/components/ZigZagBlocks';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/water-line-pressure-testing-tucson/" },
   title: 'Water-Line Pressure Testing Tucson | Leak Isolation',
   description: 'Confirm hidden water loss and isolate affected hot or cold plumbing lines with residential water-line pressure testing in Tucson.',
   openGraph: {
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     images: [
       {
-        url: "/images/services_hub_hero.jpg",
+        url: "/images/services_hub_hero.webp",
         width: 1200,
         height: 630,
         alt: "Water-Line Pressure Testing Tucson | Leak Isolation",
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Water-Line Pressure Testing Tucson | Leak Isolation",
     description: "Confirm hidden water loss and isolate affected hot or cold plumbing lines with residential water-line pressure testing in Tucson.",
-    images: ["/images/services_hub_hero.jpg"],
+    images: ["/images/services_hub_hero.webp"],
   },
 };
 
@@ -94,7 +95,7 @@ export default function WaterLinePressureTesting() {
         {/* Hero Section */}
         <section style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img title="Under Slab Pipe Repair Tucson" src="/images/under_slab_pipe_repair.jpg" alt="Tucson under slab pipe repair services" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img title="Under Slab Pipe Repair Tucson" src="/images/under_slab_pipe_repair.webp" alt="Tucson under slab pipe repair services" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
@@ -143,7 +144,7 @@ export default function WaterLinePressureTesting() {
               </p>
             </div>
             <div style={{ display: "flex" }}>
-              <img title="Section Thermal Camera Tucson" src="/images/section_thermal_camera.jpg" alt="Residential thermal camera in Tucson" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
+              <img title="Section Thermal Camera Tucson" src="/images/section_thermal_camera.webp" alt="Residential thermal camera in Tucson" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
             </div>
           </div>
         </section>
@@ -174,7 +175,7 @@ export default function WaterLinePressureTesting() {
           {
             heading: "Understanding Your Pressure Test Results",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>After the test, we walk you through the results in plain language. You will see the starting pressure, the duration of the test, and the final reading for each line. If a line held pressure, it is confirmed leak-free and can be ruled out. If a line dropped, we calculate the rate of water loss and explain what that means.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A pressure drop of more than 5 PSI over 15 minutes typically indicates a significant leak that needs prompt attention from our <a href="/emergency-slab-leak-service-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>emergency response</a> team. A drop of 1 to 3 PSI over the same period suggests a smaller failure that is still wasting water but may not require emergency service. We use these numbers to help you prioritize the next steps.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The full test report is documented and provided to you in writing. This documentation is valuable for insurance claims, home sale disclosures, and future plumbing reference. It also serves as the baseline for the <a href="/electronic-leak-detection-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>acoustic leak detection</a> phase, giving the technician a clear target line to investigate.</p></>,
-            imageSrc: "/images/pressure_testing.jpg",
+            imageSrc: "/images/pressure_testing.webp",
             imageAlt: "Understanding pressure test results",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
@@ -182,7 +183,7 @@ export default function WaterLinePressureTesting() {
           {
             heading: "Isolating Hot vs. Cold Lines",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>One of the most important aspects of a professional <a href="/water-line-pressure-testing-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>pressure test</a> is isolating the different branches of your plumbing. A house-wide pressure drop tells us there is a leak, but it doesn't tell us where to start looking. By isolating the system, we save hours of diagnostic time.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We first isolate the hot water system by closing the valve at your water heater. We then apply pressure to the hot lines independently. If the pressure holds, we know your hot water system is safe, and we immediately shift our focus to the cold water manifold. This isolation technique narrows the search area by 50% instantly.</p></>,
-            imageSrc: "/images/section_pressure_gauge.jpg",
+            imageSrc: "/images/section_pressure_gauge.webp",
             imageAlt: "Isolating hot and cold lines",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
@@ -190,7 +191,7 @@ export default function WaterLinePressureTesting() {
           {
             heading: "Ruling Out Fixture Leaks First",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Not every loss of water pressure means you have a cracked pipe under your foundation. Before we attach our testing gauges, our technicians perform a thorough sweep of the exposed plumbing in your home. A running toilet flapper or a dripping shower cartridge can cause a false positive during a pressure test.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We shut off the angle stops to all toilets, washing machines, and refrigerator ice makers. By removing these common culprits from the testing equation, we ensure that any pressure drop registered on our gauge is exclusively due to a failure in the hard piping hidden in your walls or slab.</p></>,
-            imageSrc: "/images/section_water_meter.jpg",
+            imageSrc: "/images/section_water_meter.webp",
             imageAlt: "Ruling out fixture leaks",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
@@ -198,7 +199,7 @@ export default function WaterLinePressureTesting() {
           {
             heading: "Using Gas for Micro-Leak Testing",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Sometimes, a pipe develops a pinhole leak so small that water pressure drops incredibly slowly, making <a href="/slab-leak-detection-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak detection</a> difficult. In these micro-leak scenarios, we escalate our testing methods by draining the water from the line and injecting an inert tracer gas (usually a mix of nitrogen and hydrogen).</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Because hydrogen molecules are smaller than water molecules, the gas escapes through the tiny pipe crack and permeates up through the concrete slab and flooring. We then use highly sensitive electronic gas "sniffers" to detect where the gas is surfacing, pinpointing the leak location accurately before beginning any <a href="/slab-leak-repair-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak repair</a>.</p></>,
-            imageSrc: "/images/electronic_leak_detection.jpg",
+            imageSrc: "/images/electronic_leak_detection.webp",
             imageAlt: "Tracer gas leak testing",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
@@ -213,7 +214,7 @@ export default function WaterLinePressureTesting() {
               <FaqCategory 
                 title="FAQ: Water-Line Pressure Testing"
                 iconName="MessageCircleQuestion"
-                faqs={faqSchema.mainEntity.map((faq: any, idx: number) => ({
+                faqs={faqSchema.mainEntity.map((faq, idx: number) => ({
                   id: `faq-${idx}`,
                   question: faq.name,
                   answer: faq.acceptedAnswer.text

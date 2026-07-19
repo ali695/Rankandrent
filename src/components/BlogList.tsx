@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { BlogArticle } from "@/data/blogArticles";
 
-export default function BlogList({ articles, categories }: { articles: BlogArticle[], categories: string[] }) {
+export default function BlogList({ articles }: { articles: BlogArticle[] }) {
   const [visibleCount, setVisibleCount] = useState(9);
 
   const showMore = () => {
@@ -61,6 +61,7 @@ export default function BlogList({ articles, categories }: { articles: BlogArtic
       {visibleCount < articles.length && (
         <div style={{ textAlign: "center", marginTop: "3rem" }}>
           <button 
+            type="button"
             onClick={showMore}
             className="btn-primary" 
             style={{ 

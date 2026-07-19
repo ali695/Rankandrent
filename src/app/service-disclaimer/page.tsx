@@ -1,9 +1,12 @@
 import React from 'react';
 import { Metadata } from 'next';
+import { pageSocialMetadata } from '@/lib/metadata';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/service-disclaimer/" },
   title: 'Service Disclaimer | Tucson Leak Pros',
   description: 'Service Disclaimer for Tucson Leak Pros.',
+  ...pageSocialMetadata('Service Disclaimer | Tucson Leak Pros', 'Service Disclaimer for Tucson Leak Pros.', '/service-disclaimer/'),
 };
 
 export default function ServiceDisclaimer() {

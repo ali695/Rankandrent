@@ -5,6 +5,7 @@ export const dynamic = 'force-static'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://tucsonslableakpros.com'
+  const contentUpdatedAt = new Date('2026-07-19')
   
   // Core Pages
   const routes = [
@@ -68,7 +69,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return allPaths.map((route) => ({
     url: `${baseUrl}${route}`,
-    lastModified: new Date(),
+    lastModified: contentUpdatedAt,
     changeFrequency: 'weekly',
     priority: route === '' ? 1 : route.startsWith('/blog/') ? 0.7 : 0.8,
   }))

@@ -2,15 +2,18 @@ import React from 'react';
 import { Metadata } from 'next';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import { Thermometer, Droplets, Gauge, Volume2, ArrowDownToLine, Activity, Search, AlertTriangle, MessageCircleQuestion } from 'lucide-react';
+import { Thermometer, Droplets, Gauge, Volume2, ArrowDownToLine, Activity, Search, AlertTriangle } from 'lucide-react';
 import Link from 'next/link';
 import ZipCodeDirectory from '@/components/ZipCodeDirectory';
 import FaqCategory from '@/components/FaqCategory';
 import ZigZagBlocks from '@/components/ZigZagBlocks';
+import { pageSocialMetadata } from '@/lib/metadata';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/signs-of-a-slab-leak/" },
   title: 'Signs of a Slab Leak | Tucson Homeowner Guide',
   description: 'Learn the warning signs of a slab leak, including warm floors, meter movement, damp flooring, running-water sounds and pressure loss.',
+  ...pageSocialMetadata('Signs of a Slab Leak | Tucson Homeowner Guide', 'Learn the warning signs of a slab leak, including warm floors, meter movement, damp flooring, running-water sounds and pressure loss.', '/signs-of-a-slab-leak/'),
 };
 
 const faqSchema = {
@@ -98,7 +101,7 @@ export default function SignsOfSlabLeak() {
         {/* Section 1: Hero */}
         <section style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img src="/images/slab_leak_detection.jpg" alt="Tucson slab leak detection experts checking for signs of a slab leak" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img src="/images/slab_leak_detection.webp" alt="Tucson slab leak detection experts checking for signs of a slab leak" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
@@ -208,7 +211,7 @@ export default function SignsOfSlabLeak() {
                 <p style={{ color: "#4a4a4a", lineHeight: "1.7" }}>Water may follow a pipe trench, crack, slab edge, or finish layer before becoming visible. Unexplained damp carpet, loose flooring, or swollen baseboards should be mapped, while wall, drain, roof, irrigation, and HVAC sources are checked separately.</p>
               </div>
               <div>
-                <img src="/images/section_damp_floor.jpg" alt="Residential section damp floor in Tucson" title="Section Damp Floor Tucson" style={{ width: "100%", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
+                <img src="/images/section_damp_floor.webp" alt="Residential section damp floor in Tucson" title="Section Damp Floor Tucson" style={{ width: "100%", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
               </div>
             </div>
 
@@ -222,7 +225,7 @@ export default function SignsOfSlabLeak() {
                 <p style={{ color: "#4a4a4a", lineHeight: "1.7" }}>A bill increase is useful only after comparing consumption units, billing-cycle length, irrigation, pool filling, guests, and appliance use. If those do not explain the change, a controlled meter check and staged isolation can narrow hidden water loss.</p>
               </div>
               <div style={{ order: 1 }}>
-                <img src="/images/cold_water_slab_leak.jpg" alt="Tucson cold water slab leak services" title="Cold Water Slab Leak Tucson" style={{ width: "100%", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
+                <img src="/images/cold_water_slab_leak.webp" alt="Tucson cold water slab leak services" title="Cold Water Slab Leak Tucson" style={{ width: "100%", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
               </div>
             </div>
             
@@ -236,7 +239,7 @@ export default function SignsOfSlabLeak() {
                 <p style={{ color: "#4a4a4a", lineHeight: "1.7" }}>Water near a slab edge may come from an <a href="/under-slab-pipe-repair-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>under-slab line</a>, the meter-to-house service line, irrigation, pool equipment, drainage, or runoff. Meter and valve isolation should identify the system before any excavation.</p>
               </div>
               <div>
-                <img src="/images/section_pressure_gauge.jpg" alt="Residential section pressure gauge in Tucson" title="Section Pressure Gauge Tucson" style={{ width: "100%", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
+                <img src="/images/section_pressure_gauge.webp" alt="Residential section pressure gauge in Tucson" title="Section Pressure Gauge Tucson" style={{ width: "100%", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
               </div>
             </div>
 
@@ -262,7 +265,7 @@ export default function SignsOfSlabLeak() {
               </p>
             </div>
             <div>
-              <img src="/images/section_water_meter.jpg" alt="Residential section water meter in Tucson" title="Section Water Meter Tucson" style={{ width: "100%", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
+              <img src="/images/section_water_meter.webp" alt="Residential section water meter in Tucson" title="Section Water Meter Tucson" style={{ width: "100%", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
             </div>
           </div>
         </section>
@@ -396,7 +399,7 @@ export default function SignsOfSlabLeak() {
               <Link href="/slab-leak-detection-tucson/" style={{ textDecoration: "none", color: "inherit" }}>
                 <div style={{ border: "1px solid #e2e8f0", borderRadius: "8px", overflow: "hidden", transition: "transform 0.2s" }} className="hover-lift">
                   <div style={{ height: "200px", overflow: "hidden" }}>
-                    <img src="/images/slab_leak_detection.jpg" alt="Tucson slab leak detection services" title="Slab Leak Detection Tucson" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                    <img src="/images/slab_leak_detection.webp" alt="Tucson slab leak detection services" title="Slab Leak Detection Tucson" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                   </div>
                   <div style={{ padding: "1.5rem", backgroundColor: "var(--white)" }}>
                     <h3 style={{ fontSize: "1.25rem", fontWeight: "800", color: "var(--brand-red)", marginBottom: "0.5rem" }}>Slab Leak Detection</h3>
@@ -408,7 +411,7 @@ export default function SignsOfSlabLeak() {
               <Link href="/electronic-leak-detection-tucson/" style={{ textDecoration: "none", color: "inherit" }}>
                 <div style={{ border: "1px solid #e2e8f0", borderRadius: "8px", overflow: "hidden", transition: "transform 0.2s" }} className="hover-lift">
                   <div style={{ height: "200px", overflow: "hidden" }}>
-                    <img src="/images/electronic_leak_detection.jpg" alt="Tucson electronic leak detection services" title="Electronic Leak Detection Tucson" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                    <img src="/images/electronic_leak_detection.webp" alt="Tucson electronic leak detection services" title="Electronic Leak Detection Tucson" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                   </div>
                   <div style={{ padding: "1.5rem", backgroundColor: "var(--white)" }}>
                     <h3 style={{ fontSize: "1.25rem", fontWeight: "800", color: "var(--brand-red)", marginBottom: "0.5rem" }}>Electronic Leak Detection</h3>
@@ -420,7 +423,7 @@ export default function SignsOfSlabLeak() {
               <Link href="/emergency-slab-leak-service-tucson/" style={{ textDecoration: "none", color: "inherit" }}>
                 <div style={{ border: "1px solid #e2e8f0", borderRadius: "8px", overflow: "hidden", transition: "transform 0.2s" }} className="hover-lift">
                   <div style={{ height: "200px", overflow: "hidden" }}>
-                    <img src="/images/emergency_slab_leak_service.jpg" alt="Tucson emergency slab leak service" title="Emergency Slab Leak Service Tucson" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                    <img src="/images/emergency_slab_leak_service.webp" alt="Tucson emergency slab leak service" title="Emergency Slab Leak Service Tucson" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                   </div>
                   <div style={{ padding: "1.5rem", backgroundColor: "var(--white)" }}>
                     <h3 style={{ fontSize: "1.25rem", fontWeight: "800", color: "var(--brand-red)", marginBottom: "0.5rem" }}>Emergency Slab Leak Service</h3>
@@ -448,7 +451,7 @@ export default function SignsOfSlabLeak() {
                 Mark warm, damp, or noisy areas on a simple floor plan and include nearby fixtures. This gives the plumber a useful starting point for <a href="/water-line-pressure-testing-tucson/" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>water-line pressure testing</a> while preventing one visible symptom from being mistaken for the pipe failure location.
               </p>
             </>,
-            imageSrc: "/images/section_water_meter.jpg",
+            imageSrc: "/images/section_water_meter.webp",
             imageAlt: "Homeowner documenting a Tucson water meter reading before slab leak testing",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
@@ -467,7 +470,7 @@ export default function SignsOfSlabLeak() {
                 No single clue proves the route or break point. The goal is to establish which system is losing water, trace the likely pipe path, and then compare sound, temperature, moisture, and pressure evidence. That sequence produces a more defensible repair plan than opening concrete at the first warm or damp spot.
               </p>
             </>,
-            imageSrc: "/images/blog/detection-report.png",
+            imageSrc: "/images/blog/detection-report.webp",
             imageAlt: "Slab leak test findings and pipe route documented for repair planning",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
@@ -498,7 +501,7 @@ export default function SignsOfSlabLeak() {
         {/* Section 12: Final CTA */}
         <section id="contact" style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img src="/images/hero_slab_leak_repair.jpg" alt="Tucson hero slab leak repair experts" title="Hero Slab Leak Repair Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img src="/images/hero_slab_leak_repair.webp" alt="Tucson hero slab leak repair experts" title="Hero Slab Leak Repair Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>

@@ -2,15 +2,18 @@ import React from 'react';
 import { Metadata } from 'next';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import { Home, Droplets, AlertTriangle, ArrowRight, CheckCircle2, XCircle, Search, MessageCircleQuestion } from 'lucide-react';
+import { Home, Droplets, AlertTriangle, ArrowRight, CheckCircle2, Search } from 'lucide-react';
 import Link from 'next/link';
 import ZipCodeDirectory from '@/components/ZipCodeDirectory';
 import FaqCategory from '@/components/FaqCategory';
 import ZigZagBlocks from '@/components/ZigZagBlocks';
+import { pageSocialMetadata } from '@/lib/metadata';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/slab-leak-vs-foundation-problem/" },
   title: 'Slab Leak vs. Foundation Problem | Know the Difference',
   description: 'Compare plumbing slab leak symptoms with structural foundation problems and learn whether to contact a plumber or foundation specialist.',
+  ...pageSocialMetadata('Slab Leak vs. Foundation Problem | Know the Difference', 'Compare plumbing slab leak symptoms with structural foundation problems and learn whether to contact a plumber or foundation specialist.', '/slab-leak-vs-foundation-problem/'),
 };
 
 const faqSchema = {
@@ -98,7 +101,7 @@ export default function SlabLeakVsFoundation() {
         {/* Section 1: Hero Split Visual */}
         <section style={{ display: "flex", flexWrap: "wrap", minHeight: "600px" }}>
           <div style={{ flex: "1 1 50%", position: "relative", minHeight: "300px" }}>
-            <img src="/images/under_slab_pipe_repair.jpg" alt="Under slab plumbing pipe leaking" title="Slab Leak Pipe" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+            <img src="/images/under_slab_pipe_repair.webp" alt="Under slab plumbing pipe leaking" title="Slab Leak Pipe" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
             <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "2rem", background: "linear-gradient(transparent, rgba(0,0,0,0.8))" }}>
               <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
                 <Droplets size={32} color="var(--brand-red)" />
@@ -107,7 +110,7 @@ export default function SlabLeakVsFoundation() {
             </div>
           </div>
           <div style={{ flex: "1 1 50%", position: "relative", minHeight: "300px" }}>
-            <img src="/images/hero_home.jpg" alt="Home exterior indicating structural foundation cracks" title="Foundation Problem" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+            <img src="/images/hero_home.webp" alt="Home exterior indicating structural foundation cracks" title="Foundation Problem" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
             <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "2rem", background: "linear-gradient(transparent, rgba(0,0,0,0.8))" }}>
               <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
                 <Home size={32} color="var(--brand-red)" />
@@ -373,7 +376,7 @@ export default function SlabLeakVsFoundation() {
                 Keep the reports separate and share them between qualified professionals when the symptoms overlap. A documented <a href="/slab-leak-detection-tucson/" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak detection</a> result helps define the plumbing work, while the appropriate structural professional determines whether movement or repair outside the plumbing scope requires attention.
               </p>
             </>,
-            imageSrc: "/images/blog/foundation-vs-leak.png",
+            imageSrc: "/images/blog/foundation-vs-leak.webp",
             imageAlt: "Comparison of plumbing leak evidence and foundation movement evidence",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
@@ -392,7 +395,7 @@ export default function SlabLeakVsFoundation() {
                 When both sets of symptoms are present, address active water first and document conditions before finishes are removed. Then coordinate the plumbing findings with the structural assessment. This sequence protects the property while avoiding the assumption that <a href="/slab-leak-repair-tucson/" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak repair</a> will automatically resolve a separate concrete, soil, or foundation concern.
               </p>
             </>,
-            imageSrc: "/images/blog/detection-report.png",
+            imageSrc: "/images/blog/detection-report.webp",
             imageAlt: "Documented plumbing findings prepared for coordinated property assessment",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
@@ -423,7 +426,7 @@ export default function SlabLeakVsFoundation() {
         {/* Section 9: Final CTA */}
         <section id="contact" style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img src="/images/slab_leak_detection.jpg" alt="Tucson slab leak plumbing assessment" title="Plumbing Assessment Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img src="/images/slab_leak_detection.webp" alt="Tucson slab leak plumbing assessment" title="Plumbing Assessment Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>

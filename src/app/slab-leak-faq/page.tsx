@@ -2,13 +2,14 @@ import React from 'react';
 import { Metadata } from 'next';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
-import { Search, SearchCheck, Thermometer, Gauge, Clock, ShieldAlert, Calculator, Hammer, MessageCircleQuestion, Phone, Mail, Droplets, Wrench, MapPin, Home } from 'lucide-react';
+import { Search, SearchCheck, Thermometer, ShieldAlert, Calculator, Phone, Mail, Droplets, Wrench, MapPin } from 'lucide-react';
 import Link from 'next/link';
 import ZipCodeDirectory from '@/components/ZipCodeDirectory';
 import FaqCategory from '@/components/FaqCategory';
 import { faqCategories } from '@/data/faqs';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/slab-leak-faq/" },
   title: 'Slab Leak FAQ | 70 Tucson Questions Answered',
   description: 'Find clear answers to 70 common questions about slab leak symptoms, detection, repair, costs, emergencies, insurance and Tucson service areas.',
   openGraph: {
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     images: [
       {
-        url: "/images/services_hub_hero.jpg",
+        url: "/images/services_hub_hero.webp",
         width: 1200,
         height: 630,
         alt: "Slab Leak FAQ | 70 Tucson Questions Answered",
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Slab Leak FAQ | 70 Tucson Questions Answered",
     description: "Find clear answers to 70 common questions about slab leak symptoms, detection, repair, costs, emergencies, insurance and Tucson service areas.",
-    images: ["/images/services_hub_hero.jpg"],
+    images: ["/images/services_hub_hero.webp"],
   },
 };
 
@@ -47,7 +48,7 @@ export default function SlabLeakFaq() {
         {/* Section 1: Hero with Search UI */}
         <section style={{ position: "relative", padding: "6rem 0", color: "var(--white)", overflow: "hidden", minHeight: "500px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img src="/images/services_hub_hero.jpg" alt="Tucson slab leak FAQ background" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img src="/images/services_hub_hero.webp" alt="Tucson slab leak FAQ background" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10, textAlign: "center", maxWidth: "800px" }}>
@@ -269,14 +270,14 @@ export default function SlabLeakFaq() {
         {/* Section 10: Final CTA and lead form */}
         <section id="contact" style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img src="/images/slab_leak_detection.jpg" alt="Tucson slab leak plumbing assessment" title="Plumbing Assessment Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img src="/images/slab_leak_detection.webp" alt="Tucson slab leak plumbing assessment" title="Plumbing Assessment Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
             <div className="hero-grid">
               <div style={{ color: "var(--white)", paddingRight: "2rem" }}>
                 <div style={{ color: "var(--white)", fontSize: "1.5rem", fontWeight: "900", letterSpacing: "-1px", marginBottom: "1rem", display: "flex", alignItems: "center", gap: "0.5rem" }}>
-                  <img src="/images/logo_icon.svg" alt="" style={{ height: "32px", width: "auto", filter: "brightness(0) invert(1)" }} />
+                  <Droplets size={32} aria-hidden="true" />
                   TUCSON<span style={{ color: "var(--brand-red)" }}>LEAK</span>PROS
                 </div>
                 <h2 style={{ color: "var(--white)", marginBottom: "1.5rem", fontSize: "3.5rem", lineHeight: "1.1", fontWeight: "800" }}>

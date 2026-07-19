@@ -1,9 +1,12 @@
 import React from 'react';
 import { Metadata } from 'next';
+import { pageSocialMetadata } from '@/lib/metadata';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/privacy-policy/" },
   title: 'Privacy Policy | Tucson Leak Pros',
   description: 'Privacy Policy for Tucson Leak Pros. Learn how we collect, use, and protect your data.',
+  ...pageSocialMetadata('Privacy Policy | Tucson Leak Pros', 'Privacy Policy for Tucson Leak Pros. Learn how we collect, use, and protect your data.', '/privacy-policy/'),
 };
 
 export default function PrivacyPolicy() {

@@ -373,6 +373,22 @@ p {
   gap: 1rem;
 }
 
+.zigzag-copy-left {
+  padding-left: 3rem;
+}
+
+.zigzag-copy-right {
+  padding-right: 3rem;
+}
+
+@media (max-width: 768px) {
+  .zigzag-copy-left,
+  .zigzag-copy-right {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 /* Make images universally responsive inside grids if needed */
 img {
   max-width: 100%;
@@ -522,7 +538,8 @@ img {
   flex-direction: column;
 }
 
-.nav-item:hover .dropdown-menu {
+.nav-item:hover .dropdown-menu,
+.nav-item:focus-within .dropdown-menu {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
@@ -549,6 +566,18 @@ img {
   color: var(--white);
   cursor: pointer;
   padding: 0.5rem;
+}
+
+.mobile-submenu-button {
+  width: 100%;
+  justify-content: space-between;
+  background: transparent;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
 }
 
 @media (max-width: 1024px) {
@@ -870,4 +899,67 @@ img {
 .premium-card:hover { 
   transform: translateY(-10px); 
   box-shadow: 0 30px 60px -12px rgba(0,0,0,0.18), 0 12px 24px -6px rgba(0,0,0,0.1); 
+}
+/* Keyboard navigation */
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 9999;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  background: var(--white);
+  color: var(--dark-charcoal);
+  font-weight: 700;
+  transform: translateY(-150%);
+  transition: transform 0.15s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+:where(a, button, input, select, textarea):focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.not-found-page {
+  min-height: 60vh;
+  display: grid;
+  place-items: center;
+  padding: 5rem 0;
+  background: var(--light-gray);
+}
+
+.not-found-content {
+  max-width: 720px;
+  text-align: center;
+}
+
+.not-found-code {
+  margin: 0 0 0.5rem;
+  color: var(--brand-red);
+  font-size: clamp(3rem, 10vw, 6rem);
+  font-weight: 900;
+  line-height: 1;
+}
+
+.not-found-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
 }

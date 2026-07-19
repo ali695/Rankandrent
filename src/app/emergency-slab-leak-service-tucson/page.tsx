@@ -5,6 +5,7 @@ import FaqCategory from '@/components/FaqCategory';
 import ContactForm from '@/components/ContactForm';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/emergency-slab-leak-service-tucson/" },
   title: 'Emergency Slab Leak Service Tucson, AZ',
   description: 'Get help with active water spreading, rapid meter movement, sudden pressure loss or another urgent suspected slab leak in Tucson.',
   openGraph: {
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     images: [
       {
-        url: "/images/services_hub_hero.jpg",
+        url: "/images/services_hub_hero.webp",
         width: 1200,
         height: 630,
         alt: "Emergency Slab Leak Service Tucson, AZ",
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Emergency Slab Leak Service Tucson, AZ",
     description: "Get help with active water spreading, rapid meter movement, sudden pressure loss or another urgent suspected slab leak in Tucson.",
-    images: ["/images/services_hub_hero.jpg"],
+    images: ["/images/services_hub_hero.webp"],
   },
 };
 
@@ -94,7 +95,7 @@ export default function EmergencySlabLeakService() {
         {/* Hero Section */}
         <section style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img title="Hero Emergency Leak Tucson" src="/images/hero_emergency_leak.jpg" alt="Tucson emergency leak experts" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img title="Hero Emergency Leak Tucson" src="/images/hero_emergency_leak.webp" alt="Tucson emergency leak experts" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
@@ -190,7 +191,7 @@ export default function EmergencySlabLeakService() {
               </ul>
             </div>
             <div style={{ display: "flex", justifyContent: "center" }}>
-               <img title="Cold Water Slab Leak Tucson" src="/images/cold_water_slab_leak.jpg" alt="Tucson cold water slab leak services" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.5)" }} />
+               <img title="Cold Water Slab Leak Tucson" src="/images/cold_water_slab_leak.webp" alt="Tucson cold water slab leak services" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.5)" }} />
             </div>
           </div>
         </section>
@@ -199,7 +200,7 @@ export default function EmergencySlabLeakService() {
           {
             heading: "Rapid Emergency Slab Leak Repair",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>When water is actively damaging your foundation or flooring, every minute counts. An <a href="/emergency-slab-leak-service-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>emergency response</a> requires a plumber who can arrive quickly, shut off the affected line, and begin damage mitigation before moisture spreads into drywall, cabinetry, or subflooring.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We dispatch experienced technicians who carry pressure-testing gauges, acoustic listening gear, and common repair fittings on every truck. That means the initial assessment and line isolation happen in the same visit — no waiting for a second appointment while water continues to pool beneath your slab.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Most residential emergencies in Tucson involve copper lines that have corroded at joints or developed pinhole failures. We evaluate the damaged section on-site and recommend either a direct <a href="/under-slab-pipe-repair-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>spot repair</a> or, when the pipe condition warrants it, a <a href="/water-line-rerouting-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>water-line reroute</a> through the attic to permanently bypass the failing segment.</p></>,
-            imageSrc: "/images/hero_emergency_leak.jpg",
+            imageSrc: "/images/hero_emergency_leak.webp",
             imageAlt: "Emergency slab leak repair",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
@@ -207,7 +208,7 @@ export default function EmergencySlabLeakService() {
           {
             heading: "Isolating the Leak to Restore Your Water",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The first priority in an emergency is stopping the water damage while minimizing disruption to your daily life. Shutting off the main water valve stops the leak, but it also leaves your family without running water for toilets, showers, and cooking.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Our technicians work quickly to identify exactly which line is leaking using <a href="/electronic-leak-detection-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>electronic leak detection</a>. If possible, we will cap or bypass the specific branch line feeding the leak. This allows us to turn the main water back on to the rest of the house, giving you functional bathrooms and sinks while we plan and execute the permanent repair.</p></>,
-            imageSrc: "/images/section_pressure_gauge.jpg",
+            imageSrc: "/images/section_pressure_gauge.webp",
             imageAlt: "Isolating the leak",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
@@ -215,7 +216,7 @@ export default function EmergencySlabLeakService() {
           {
             heading: "Targeted Concrete Access and Repair",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Once the active leak is isolated and the water supply is stabilized, we assess the fastest path to a permanent fix. A direct <a href="/slab-leak-repair-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak repair</a> involves opening a small section of concrete directly above the failure point, replacing the damaged pipe segment with new copper or PEX, and pressure-testing the line before closing up.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Spot repair works best when the leak is in a single, accessible location and the surrounding pipe is still in good condition. For homes with tile flooring, we carefully cut the concrete to minimize surface damage. Once the plumbing repair is complete, the concrete is patched and the floor can be re-tiled.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>This targeted approach keeps the overall cost significantly lower than a full reroute. In many cases, we can complete the repair within a single day, restoring your water pressure and giving you peace of mind.</p></>,
-            imageSrc: "/images/under_slab_pipe_repair.jpg",
+            imageSrc: "/images/under_slab_pipe_repair.webp",
             imageAlt: "Targeted concrete access",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
@@ -223,7 +224,7 @@ export default function EmergencySlabLeakService() {
           {
             heading: "Clear Estimates During a Crisis",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>During a plumbing emergency, the last thing you need is pricing surprises. We provide a detailed estimate that breaks down every <a href="/slab-leak-repair-cost-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak repair cost</a> — from the detection fee and concrete access to the pipe repair, pressure verification, and surface patching. You see exactly what you are paying for before any concrete is cut.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Our estimates also factor in your specific flooring type. Homes with standard concrete and vinyl flooring have lower restoration costs, while custom tile, travertine, or stamped concrete may require specialized cutting. We document these variables upfront so there are no hidden charges after the repair is done.</p></>,
-            imageSrc: "/images/emergency_slab_leak_service.jpg",
+            imageSrc: "/images/emergency_slab_leak_service.webp",
             imageAlt: "Clear emergency estimates",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
@@ -238,7 +239,7 @@ export default function EmergencySlabLeakService() {
               <FaqCategory 
                 title="Emergency FAQ"
                 iconName="MessageCircleQuestion"
-                faqs={faqSchema.mainEntity.map((faq: any, idx: number) => ({
+                faqs={faqSchema.mainEntity.map((faq, idx: number) => ({
                   id: `faq-${idx}`,
                   question: faq.name,
                   answer: faq.acceptedAnswer.text

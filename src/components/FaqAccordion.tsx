@@ -23,14 +23,6 @@ export default function FaqAccordion({ question, answer, isOpen, onToggle, id }:
     }
   }, [isOpen]);
 
-  // Handle keyboard events (Enter/Space)
-  const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter' || e.key === ' ') {
-      e.preventDefault();
-      onToggle();
-    }
-  };
-
   return (
     <div 
       style={{ 
@@ -48,8 +40,8 @@ export default function FaqAccordion({ question, answer, isOpen, onToggle, id }:
       )}
 
       <button
+        type="button"
         onClick={onToggle}
-        onKeyDown={handleKeyDown}
         aria-expanded={isOpen}
         aria-controls={`faq-answer-${id}`}
         id={`faq-question-${id}`}
@@ -84,6 +76,7 @@ export default function FaqAccordion({ question, answer, isOpen, onToggle, id }:
         id={`faq-answer-${id}`}
         role="region"
         aria-labelledby={`faq-question-${id}`}
+        aria-hidden={!isOpen}
         style={{
           height: height === undefined ? 'auto' : `${height}px`,
           overflow: "hidden",

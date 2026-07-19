@@ -5,6 +5,7 @@ import ZigZagBlocks from '@/components/ZigZagBlocks';
 import FaqCategory from '@/components/FaqCategory';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/slab-leak-detection-tucson/" },
   title: 'Slab Leak Detection Tucson, AZ | Locate Hidden Leaks',
   description: 'Locate suspected water-line leaks beneath concrete using pressure testing, line isolation and professional leak detection methods in Tucson.',
   openGraph: {
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     images: [
       {
-        url: "/images/services_hub_hero.jpg",
+        url: "/images/services_hub_hero.webp",
         width: 1200,
         height: 630,
         alt: "Slab Leak Detection Tucson, AZ | Locate Hidden Leaks",
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Slab Leak Detection Tucson, AZ | Locate Hidden Leaks",
     description: "Locate suspected water-line leaks beneath concrete using pressure testing, line isolation and professional leak detection methods in Tucson.",
-    images: ["/images/services_hub_hero.jpg"],
+    images: ["/images/services_hub_hero.webp"],
   },
 };
 
@@ -102,7 +103,7 @@ export default function SlabLeakDetection() {
         {/* Hero Section */}
         <section style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img title="Pressure Testing Tucson" src="/images/pressure_testing.jpg" alt="Tucson pressure testing services" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img title="Pressure Testing Tucson" src="/images/pressure_testing.webp" alt="Tucson pressure testing services" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
@@ -154,7 +155,7 @@ export default function SlabLeakDetection() {
               </p>
             </div>
             <div style={{ display: "flex" }}>
-              <img title="Water Line Rerouting Tucson" src="/images/water_line_rerouting.jpg" alt="Tucson water line rerouting services" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
+              <img title="Water Line Rerouting Tucson" src="/images/water_line_rerouting.webp" alt="Tucson water line rerouting services" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
             </div>
           </div>
         </section>
@@ -211,7 +212,7 @@ export default function SlabLeakDetection() {
           {
             heading: "Professional Slab Leak Detection in Tucson",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Detecting a leak beneath a concrete slab is not something you can do with a visual inspection. Our detection process starts with a static <a href="/water-line-pressure-testing-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>pressure test</a> that confirms whether your hot-water line, cold-water line, or both are actually losing pressure. This step alone eliminates guesswork and prevents unnecessary concrete openings.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Once the leaking line is identified, we use <a href="/electronic-leak-detection-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>electronic leak detection</a> equipment — including acoustic amplifiers and electromagnetic line tracers — to map the pipe route through your slab and pinpoint the exact failure location. The result is a marked spot on your floor, typically accurate to within a few inches.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>This precision matters because it determines whether a direct <a href="/under-slab-pipe-repair-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>under-slab pipe repair</a> is feasible or if a <a href="/water-line-rerouting-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>water-line reroute</a> through the attic would be more cost-effective. We walk you through each option, including estimated costs and timelines, before any concrete is touched.</p></>,
-            imageSrc: "/images/electronic_leak_detection.jpg",
+            imageSrc: "/images/electronic_leak_detection.webp",
             imageAlt: "Professional Slab Leak Detection in Tucson",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
@@ -219,7 +220,7 @@ export default function SlabLeakDetection() {
           {
             heading: "Protecting Your Home's Flooring During Detection",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>One of our primary goals during the detection phase is preserving your property. If your home has expensive tile, travertine, or custom hardwood floors, we know how stressful the idea of breaking concrete can be. That is exactly why we rely on non-invasive electronic mapping before we ever recommend picking up a jackhammer.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>By tracing the exact path of the leaking pipe acoustically and electromagnetically, we can often find the leak without removing a single tile. If the leak is located under an expensive floor finish, this precise location data allows us to recommend bypassing that specific line entirely (<a href="/partial-repiping-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>partial repiping</a>) rather than destroying your floor to reach the pipe.</p></>,
-            imageSrc: "/images/section_damp_floor.jpg",
+            imageSrc: "/images/section_damp_floor.webp",
             imageAlt: "Protecting flooring during leak detection",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
@@ -227,7 +228,7 @@ export default function SlabLeakDetection() {
           {
             heading: "Understanding the Diagnostic Report",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>After we complete our detection process, we don't just hand you a bill and leave. We provide a comprehensive diagnostic report that explains exactly what we found. This report includes the verified pressure drops on your system, the exact location of the marked leak, and an assessment of the overall pipe condition we observed.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>This report is crucial for your homeowners insurance. Many insurance policies in Arizona cover the cost of accessing the leak (breaking the concrete and replacing the floor), even if they do not cover the repair of the plumbing pipe itself. Having a professional, documented detection report ensures your claim starts on solid ground.</p></>,
-            imageSrc: "/images/slab_leak_service_process.jpg",
+            imageSrc: "/images/slab_leak_service_process.webp",
             imageAlt: "Diagnostic report process",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
@@ -235,7 +236,7 @@ export default function SlabLeakDetection() {
           {
             heading: "Clear, Upfront Repair Options",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Once we know exactly where the leak is and which line is compromised, we lay out your repair options. We will provide a transparent estimate that breaks down the <a href="/slab-leak-repair-cost-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak repair cost</a> of a direct spot repair (breaking the concrete to fix the pipe) versus the cost of rerouting the line above ground.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We explain the pros and cons of each method based on the age of your plumbing and the location of the leak. Our goal is to give you all the information you need to make the best long-term decision for your home, without any high-pressure sales tactics.</p></>,
-            imageSrc: "/images/slab_leak_detection_vs_repair.jpg",
+            imageSrc: "/images/slab_leak_detection_vs_repair.webp",
             imageAlt: "Upfront repair options",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
@@ -250,7 +251,7 @@ export default function SlabLeakDetection() {
               <FaqCategory 
                 title="Frequently Asked Questions"
                 iconName="MessageCircleQuestion"
-                faqs={faqSchema.mainEntity.map((faq: any, idx: number) => ({
+                faqs={faqSchema.mainEntity.map((faq, idx: number) => ({
                   id: `detection-faq-${idx}`,
                   question: faq.name,
                   answer: faq.acceptedAnswer.text
@@ -267,7 +268,7 @@ export default function SlabLeakDetection() {
         {/* Bottom CTA */}
         <section id="contact" style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img title="Section Water Meter Tucson" src="/images/section_water_meter.jpg" alt="Residential water meter in Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img title="Section Water Meter Tucson" src="/images/section_water_meter.webp" alt="Residential water meter in Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>

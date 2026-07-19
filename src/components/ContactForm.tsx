@@ -27,19 +27,19 @@ export default function ContactForm() {
       <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
         <div className="responsive-flex">
           <div style={{ flex: 1 }}>
-            <label style={{ display: "block", marginBottom: "0.25rem", fontWeight: "bold", fontSize: "0.9rem" }}>Full Name</label>
-            <input type="text" name="name" className="form-control" style={{ marginBottom: 0 }} placeholder="John Doe" value={formData.name} onChange={handleChange} required />
+            <label htmlFor="contact-name" style={{ display: "block", marginBottom: "0.25rem", fontWeight: "bold", fontSize: "0.9rem" }}>Full Name</label>
+            <input id="contact-name" type="text" name="name" autoComplete="name" className="form-control" style={{ marginBottom: 0 }} placeholder="John Doe" value={formData.name} onChange={handleChange} required />
           </div>
           <div style={{ flex: 1 }}>
-            <label style={{ display: "block", marginBottom: "0.25rem", fontWeight: "bold", fontSize: "0.9rem" }}>Phone Number</label>
-            <input type="tel" name="phone" className="form-control" style={{ marginBottom: 0 }} placeholder="(520) 555-0123" value={formData.phone} onChange={handleChange} required />
+            <label htmlFor="contact-phone" style={{ display: "block", marginBottom: "0.25rem", fontWeight: "bold", fontSize: "0.9rem" }}>Phone Number</label>
+            <input id="contact-phone" type="tel" name="phone" autoComplete="tel" className="form-control" style={{ marginBottom: 0 }} placeholder="(520) 555-0123" value={formData.phone} onChange={handleChange} required />
           </div>
         </div>
 
         <div className="responsive-flex">
           <div style={{ flex: 1 }}>
-            <label style={{ display: "block", marginBottom: "0.25rem", fontWeight: "bold", fontSize: "0.9rem" }}>ZIP code</label>
-            <select name="zip" className="form-control" style={{ marginBottom: 0 }} value={formData.zip} onChange={handleChange} required>
+            <label htmlFor="contact-zip" style={{ display: "block", marginBottom: "0.25rem", fontWeight: "bold", fontSize: "0.9rem" }}>ZIP code</label>
+            <select id="contact-zip" name="zip" autoComplete="postal-code" className="form-control" style={{ marginBottom: 0 }} value={formData.zip} onChange={handleChange} required>
               <option value="">Select ZIP code...</option>
               <option value="85701">85701 (Central Tucson)</option>
               <option value="85704">85704 (Casas Adobes)</option>
@@ -70,8 +70,8 @@ export default function ContactForm() {
             </select>
           </div>
           <div style={{ flex: 1 }}>
-            <label style={{ display: "block", marginBottom: "0.25rem", fontWeight: "bold", fontSize: "0.9rem" }}>Main symptom</label>
-            <select name="symptom" className="form-control" style={{ marginBottom: 0 }} value={formData.symptom} onChange={handleChange} required>
+            <label htmlFor="contact-symptom" style={{ display: "block", marginBottom: "0.25rem", fontWeight: "bold", fontSize: "0.9rem" }}>Main symptom</label>
+            <select id="contact-symptom" name="symptom" className="form-control" style={{ marginBottom: 0 }} value={formData.symptom} onChange={handleChange} required>
               <option value="">Select...</option>
               <option value="Warm flooring">Warm flooring</option>
               <option value="Damp flooring">Damp flooring</option>
@@ -83,8 +83,8 @@ export default function ContactForm() {
         </div>
 
         <div>
-          <label style={{ display: "block", marginBottom: "0.25rem", fontWeight: "bold", fontSize: "0.9rem" }}>Additional Details</label>
-          <textarea name="message" className="form-control" style={{ marginBottom: 0 }} rows={3} placeholder="Please describe any damages or specific concerns..." value={formData.message} onChange={handleChange}></textarea>
+          <label htmlFor="contact-message" style={{ display: "block", marginBottom: "0.25rem", fontWeight: "bold", fontSize: "0.9rem" }}>Additional Details</label>
+          <textarea id="contact-message" name="message" className="form-control" style={{ marginBottom: 0 }} rows={3} placeholder="Please describe any damages or specific concerns..." value={formData.message} onChange={handleChange}></textarea>
         </div>
 
         <button type="submit" style={{ width: "100%", padding: "1.25rem", fontSize: "1.1rem", fontWeight: "bold", backgroundColor: "var(--brand-red)", color: "var(--white)", border: "none", borderRadius: "8px", cursor: "pointer", marginTop: "0.5rem" }}>SUBMIT REQUEST</button>

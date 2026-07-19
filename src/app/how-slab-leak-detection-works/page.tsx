@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/how-slab-leak-detection-works/" },
   title: 'How Slab Leak Detection Works in Tucson',
   description: 'See how meter checks, pressure testing, line isolation and electronic locating help identify hidden water-line leaks beneath concrete.',
   openGraph: {
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     images: [
       {
-        url: "/images/services_hub_hero.jpg",
+        url: "/images/services_hub_hero.webp",
         width: 1200,
         height: 630,
         alt: "How Slab Leak Detection Works in Tucson",
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "How Slab Leak Detection Works in Tucson",
     description: "See how meter checks, pressure testing, line isolation and electronic locating help identify hidden water-line leaks beneath concrete.",
-    images: ["/images/services_hub_hero.jpg"],
+    images: ["/images/services_hub_hero.webp"],
   },
 };
 
@@ -66,7 +67,7 @@ export default function HowItWorks() {
         {/* Hero Section */}
         <section style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img title="Hero Under Slab Pipe Repair Tucson" src="/images/hero_under_slab_pipe_repair.jpg" alt="Tucson under slab pipe repair experts" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img title="Hero Under Slab Pipe Repair Tucson" src="/images/hero_under_slab_pipe_repair.webp" alt="Tucson under slab pipe repair experts" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
@@ -99,7 +100,7 @@ export default function HowItWorks() {
                We have a dedicated team serving the <a href="/service-areas/south-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>South Tucson</a> community.</p>
             </div>
             <div style={{ display: "flex" }}>
-              <img title="Section Water Meter Tucson" src="/images/section_water_meter.jpg" alt="Residential water meter in Tucson" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
+              <img title="Section Water Meter Tucson" src="/images/section_water_meter.webp" alt="Residential water meter in Tucson" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
             </div>
           </div>
         </section>
@@ -154,7 +155,7 @@ export default function HowItWorks() {
         <section style={{ backgroundColor: "#334155", color: "var(--white)" }}>
           <div className="split-grid" style={{ gap: 0 }}>
             <div style={{ display: "flex" }}>
-              <img title="Emergency Slab Leak Service Tucson" src="/images/emergency_slab_leak_service.jpg" alt="Tucson emergency slab leak service services" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover" }} />
+              <img title="Emergency Slab Leak Service Tucson" src="/images/emergency_slab_leak_service.webp" alt="Tucson emergency slab leak service services" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover" }} />
             </div>
             <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", padding: "4rem 5%", maxWidth: "800px", marginRight: "auto" }}>
               <span style={{ color: "var(--brand-red)", fontWeight: "700", textTransform: "uppercase", letterSpacing: "1px", display: "block", marginBottom: "0.5rem", fontSize: "0.85rem" }}>AFTER DETECTION</span>
@@ -178,7 +179,7 @@ export default function HowItWorks() {
         <section id="contact" style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           {/* Dark Overlay Background */}
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img title="Electronic Leak Detection Tucson" src="/images/electronic_leak_detection.jpg" alt="Tucson electronic leak detection services" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img title="Electronic Leak Detection Tucson" src="/images/electronic_leak_detection.webp" alt="Tucson electronic leak detection services" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>

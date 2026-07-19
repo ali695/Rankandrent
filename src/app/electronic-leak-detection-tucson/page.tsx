@@ -5,6 +5,7 @@ import ZipCheckerForm from '@/components/ZipCheckerForm';
 import ZigZagBlocks from '@/components/ZigZagBlocks';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/electronic-leak-detection-tucson/" },
   title: 'Electronic Leak Detection Tucson | Acoustic Testing',
   description: 'Learn how electronic and acoustic testing can help narrow down hidden pressurized water-line leaks beneath tile and concrete floors.',
   openGraph: {
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     images: [
       {
-        url: "/images/services_hub_hero.jpg",
+        url: "/images/services_hub_hero.webp",
         width: 1200,
         height: 630,
         alt: "Electronic Leak Detection Tucson | Acoustic Testing",
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Electronic Leak Detection Tucson | Acoustic Testing",
     description: "Learn how electronic and acoustic testing can help narrow down hidden pressurized water-line leaks beneath tile and concrete floors.",
-    images: ["/images/services_hub_hero.jpg"],
+    images: ["/images/services_hub_hero.webp"],
   },
 };
 
@@ -94,7 +95,7 @@ export default function ElectronicLeakDetection() {
         {/* Hero Section */}
         <section style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img title="Hero Slab Leak Repair Tucson" src="/images/hero_slab_leak_repair.jpg" alt="Tucson slab leak repair experts" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img title="Hero Slab Leak Repair Tucson" src="/images/hero_slab_leak_repair.webp" alt="Tucson slab leak repair experts" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
@@ -167,7 +168,7 @@ export default function ElectronicLeakDetection() {
               </p>
             </div>
             <div style={{ display: "flex", justifyContent: "center" }}>
-               <img title="Emergency Slab Leak Service Tucson" src="/images/emergency_slab_leak_service.jpg" alt="Emergency slab leak detection equipment in Tucson" style={{ width: "100%", height: "100%", minHeight: "400px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.5)" }} />
+               <img title="Emergency Slab Leak Service Tucson" src="/images/emergency_slab_leak_service.webp" alt="Emergency slab leak detection equipment in Tucson" style={{ width: "100%", height: "100%", minHeight: "400px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.5)" }} />
             </div>
           </div>
         </section>
@@ -176,7 +177,7 @@ export default function ElectronicLeakDetection() {
           {
             heading: "Acoustic Detection for Hidden Pipe Leaks",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A hidden pipe leak beneath concrete can run for weeks before visible symptoms appear. By the time you notice damp flooring, warm spots, or an unusually high water bill, the leak may have already saturated the soil beneath your home and begun affecting your foundation. <a href="/electronic-leak-detection-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>Acoustic leak detection</a> finds these hidden failures before the damage compounds.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Our acoustic equipment amplifies underground sounds up to 100x, allowing the technician to distinguish between a pinhole leak, a joint failure, and normal water flow through adjacent pipes. The intensity and pitch of the sound change as the microphone moves closer to the leak source, giving us a reliable gradient to follow.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>This non-invasive approach means we can locate your leak without drilling exploratory holes or tearing up flooring. For homes with expensive tile, stone, or polished concrete floors, this makes a significant difference — both in cost and in preserving the appearance of your home.</p></>,
-            imageSrc: "/images/electronic_leak_detection.jpg",
+            imageSrc: "/images/electronic_leak_detection.webp",
             imageAlt: "Acoustic detection",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
@@ -184,7 +185,7 @@ export default function ElectronicLeakDetection() {
           {
             heading: "Electromagnetic Pipe Tracing",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Acoustic listening is incredibly accurate, but it works best when we know exactly where the pipes are laid beneath your foundation. Because plumbing blueprints are rarely accurate (or available) for older Tucson homes, we use electromagnetic line tracers to map your system first.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We induce a safe electrical signal into your copper water lines and use a receiver wand to trace the signal above the floor. This allows us to draw a precise map of your underground plumbing on the surface of your tile or concrete. Once we know the path of the pipe, our <a href="/slab-leak-detection-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak detection</a> sweeps become significantly faster and more accurate.</p></>,
-            imageSrc: "/images/slab_leak_detection.jpg",
+            imageSrc: "/images/slab_leak_detection.webp",
             imageAlt: "Electromagnetic pipe tracing",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
@@ -192,7 +193,7 @@ export default function ElectronicLeakDetection() {
           {
             heading: "Thermal Imaging Supplements",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>When dealing with a <a href="/hot-water-slab-leak-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>hot water slab leak</a>, thermal imaging cameras are an invaluable secondary tool. Hot water escaping from a ruptured under-slab line will eventually heat the surrounding soil and transfer that thermal energy up through the concrete foundation.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>By scanning your floors with an infrared camera, our technicians can visually identify the "plume" of heat spreading beneath the surface. While thermal imaging cannot pinpoint the exact millimeter of the leak on its own (since water spreads as it rises), it immediately directs our acoustic tools to the correct 3-foot radius, drastically speeding up the detection process.</p></>,
-            imageSrc: "/images/section_thermal_camera.jpg",
+            imageSrc: "/images/section_thermal_camera.webp",
             imageAlt: "Thermal imaging leak detection",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
@@ -200,7 +201,7 @@ export default function ElectronicLeakDetection() {
           {
             heading: "Data-Driven Repair Recommendations",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The ultimate goal of electronic leak detection isn't just to find the leak; it's to gather the data needed to recommend the best repair strategy. Once we mark the exact location of the failure, we evaluate where it sits in relation to your home's layout.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>If the leak is located under a kitchen island, custom cabinetry, or an expensive hardwood floor, breaking the concrete might cost thousands in restoration fees. In those scenarios, our detection data allows us to confidently recommend abandoning the underground line and <a href="/water-line-rerouting-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>rerouting a new pipe</a> through the attic, saving your floors and providing a permanent fix.</p></>,
-            imageSrc: "/images/slab_leak_detection_vs_repair.jpg",
+            imageSrc: "/images/slab_leak_detection_vs_repair.webp",
             imageAlt: "Data driven repair options",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
@@ -215,7 +216,7 @@ export default function ElectronicLeakDetection() {
               <FaqCategory 
                 title="FAQ: Electronic Leak Detection"
                 iconName="MessageCircleQuestion"
-                faqs={faqSchema.mainEntity.map((faq: any, idx: number) => ({
+                faqs={faqSchema.mainEntity.map((faq, idx: number) => ({
                   id: `faq-${idx}`,
                   question: faq.name,
                   answer: faq.acceptedAnswer.text

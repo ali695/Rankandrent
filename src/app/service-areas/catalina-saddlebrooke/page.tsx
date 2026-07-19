@@ -6,6 +6,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/service-areas/catalina-saddlebrooke/" },
   title: 'Slab Leak Detection Catalina & SaddleBrooke, AZ',
   description: 'Check slab leak detection, pressure testing and repair availability for homes in Catalina, SaddleBrooke and ZIP code 85739.',
   openGraph: {
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     images: [
       {
-        url: "/images/services_hub_hero.jpg",
+        url: "/images/services_hub_hero.webp",
         width: 1200,
         height: 630,
         alt: "Slab Leak Detection Catalina & SaddleBrooke, AZ",
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Slab Leak Detection Catalina & SaddleBrooke, AZ",
     description: "Check slab leak detection, pressure testing and repair availability for homes in Catalina, SaddleBrooke and ZIP code 85739.",
-    images: ["/images/services_hub_hero.jpg"],
+    images: ["/images/services_hub_hero.webp"],
   },
 };
 
@@ -95,7 +96,7 @@ export default function CatalinaSaddleBrooke() {
         {/* Hero Section */}
         <section style={{ position: "relative", padding: "8rem 0 6rem", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <Image title="Slab leak detection Catalina AZ" src="/images/catalina_saddlebrooke_hero.jpg" alt="Slab leak technician serving Catalina and SaddleBrooke" fill sizes="100vw" style={{ objectFit: "cover", opacity: 0.4 }} priority />
+            <Image title="Slab leak detection Catalina AZ" src="/images/saddlebrooke_hero.webp" alt="Slab leak technician serving Catalina and SaddleBrooke" fill sizes="100vw" style={{ objectFit: "cover", opacity: 0.4 }} priority />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
@@ -137,7 +138,7 @@ export default function CatalinaSaddleBrooke() {
             
             
             <div style={{ position: "relative", width: "100%", height: "300px", marginBottom: "2rem", borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.05)" }}>
-              <Image src="/images/catalina_saddlebrooke_hero.jpg" alt="Residential slab leak service area in Catalina and SaddleBrooke" fill sizes="(max-width: 768px) 100vw, 1200px" style={{ objectFit: "cover" }} />
+              <Image src="/images/saddlebrooke_hero.webp" alt="Residential slab leak service area in Catalina and SaddleBrooke" fill sizes="(max-width: 768px) 100vw, 1200px" style={{ objectFit: "cover" }} />
             </div>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "1rem" }}>
               {['Catalina', 'SaddleBrooke', 'Eagle Crest Ranch area', 'Oracle Junction vicinity', 'Communities along the Oracle Road corridor', 'Foothill properties north of Oro Valley'].map((area) => (
@@ -217,7 +218,7 @@ export default function CatalinaSaddleBrooke() {
             
             
             <div style={{ position: "relative", width: "100%", height: "400px", marginBottom: "3rem", borderRadius: "12px", overflow: "hidden", boxShadow: "0 10px 30px rgba(0,0,0,0.1)" }}>
-              <Image src="/images/electronic_leak_detection.jpg" alt="Plumbing technician performing electronic leak detection in Catalina and SaddleBrooke" fill sizes="(max-width: 768px) 100vw, 1200px" style={{ objectFit: "cover" }} />
+              <Image src="/images/electronic_leak_detection.webp" alt="Plumbing technician performing electronic leak detection in Catalina and SaddleBrooke" fill sizes="(max-width: 768px) 100vw, 1200px" style={{ objectFit: "cover" }} />
             </div>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", borderTop: "4px solid var(--brand-red)" }}>
@@ -319,7 +320,7 @@ export default function CatalinaSaddleBrooke() {
               <FaqCategory 
                 title="Frequently Asked Questions"
                 iconName="MessageCircleQuestion"
-                faqs={faqSchema.mainEntity.map((faq: any, idx: number) => ({
+                faqs={faqSchema.mainEntity.map((faq, idx: number) => ({
                   id: `faq-${idx}`,
                   question: faq.name,
                   answer: faq.acceptedAnswer.text
@@ -337,7 +338,7 @@ export default function CatalinaSaddleBrooke() {
         <section id="contact" style={{ backgroundColor: "#18181b", color: "var(--white)", padding: "5rem 0", textAlign: "center" }}>
           <div className="container" style={{ maxWidth: "800px" }}>
             <div style={{ position: "relative", width: "100%", height: "300px", marginBottom: "2rem", borderRadius: "12px", overflow: "hidden" }}>
-              <Image src="/images/hero_emergency_leak.jpg" alt="Requesting slab leak service at a Catalina and SaddleBrooke property" fill sizes="(max-width: 768px) 100vw, 800px" style={{ objectFit: "cover" }} />
+              <Image src="/images/hero_emergency_leak.webp" alt="Requesting slab leak service at a Catalina and SaddleBrooke property" fill sizes="(max-width: 768px) 100vw, 800px" style={{ objectFit: "cover" }} />
             </div>
             <h2 style={{ fontSize: "2.5rem", fontWeight: "800", marginBottom: "1.5rem", color: "var(--white)" }}>Request Slab Leak Service in Catalina and SaddleBrooke</h2>
             <p style={{ fontSize: "1.1rem", color: "#a1a1aa", marginBottom: "3rem", lineHeight: "1.6" }}>

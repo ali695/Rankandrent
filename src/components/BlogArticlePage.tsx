@@ -29,7 +29,7 @@ export default function BlogArticlePage({ article }: { article: BlogArticle }) {
     description: article.description,
     image: `https://tucsonslableakpros.com${article.heroImage}`,
     datePublished: "2026-07-19",
-    dateModified: "2026-07-20",
+    dateModified: "2026-07-19",
     author: { "@type": "Organization", name: "Tucson Leak Pros" },
     publisher: { "@type": "Organization", name: "Tucson Leak Pros" },
     mainEntityOfPage: `https://tucsonslableakpros.com/blog/${article.slug}/`,

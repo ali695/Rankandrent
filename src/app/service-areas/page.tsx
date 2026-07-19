@@ -4,6 +4,7 @@ import ZipCheckerForm from '@/components/ZipCheckerForm';
 import ZipCodeDirectory from '@/components/ZipCodeDirectory';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/service-areas/" },
   title: 'Slab Leak Service Areas in Tucson, AZ',
   description: 'Check slab leak service availability across Tucson, Oro Valley, Catalina Foothills, Rita Ranch and surrounding ZIP codes.',
   openGraph: {
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     images: [
       {
-        url: "/images/services_hub_hero.jpg",
+        url: "/images/services_hub_hero.webp",
         width: 1200,
         height: 630,
         alt: "Slab Leak Service Areas in Tucson, AZ",
@@ -25,7 +26,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Slab Leak Service Areas in Tucson, AZ",
     description: "Check slab leak service availability across Tucson, Oro Valley, Catalina Foothills, Rita Ranch and surrounding ZIP codes.",
-    images: ["/images/services_hub_hero.jpg"],
+    images: ["/images/services_hub_hero.webp"],
   },
 };
 
@@ -55,7 +56,7 @@ export default function ServiceAreas() {
         <section style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           {/* Dark Overlay Background */}
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img title="Hero Hot Water Leak Tucson" src="/images/hero_hot_water_leak.jpg" alt="Tucson hot water leak experts" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img title="Hero Hot Water Leak Tucson" src="/images/hero_hot_water_leak.webp" alt="Tucson hot water leak experts" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
@@ -98,7 +99,7 @@ export default function ServiceAreas() {
               {/* Card 1 */}
               <div className="location-card" style={{ backgroundColor: "var(--white)", border: "1px solid var(--border-light)", borderRadius: "8px", overflow: "hidden", display: "flex", flexDirection: "column", borderTop: "4px solid var(--brand-red)", boxShadow: "0 4px 6px rgba(0,0,0,0.05)" }}>
                 <div style={{ position: "relative", paddingTop: "60%" }}>
-                  <img title="Section Water Meter Tucson" src="/images/section_water_meter.jpg" alt="Residential water meter in Tucson" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", backgroundColor: "#e4e4e7" }} />
+                  <img title="Section Water Meter Tucson" src="/images/section_water_meter.webp" alt="Residential water meter in Tucson" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", backgroundColor: "#e4e4e7" }} />
                 </div>
                 <div style={{ padding: "1.5rem", display: "flex", flexDirection: "column", flexGrow: 1 }}>
                   <h3 style={{ marginBottom: "0.5rem", color: "var(--dark-charcoal)", fontSize: "1.3rem" }}>Central Tucson</h3>
@@ -110,7 +111,7 @@ export default function ServiceAreas() {
               {/* Card 2 */}
               <div className="location-card" style={{ backgroundColor: "var(--white)", border: "1px solid var(--border-light)", borderRadius: "8px", overflow: "hidden", display: "flex", flexDirection: "column", borderTop: "4px solid var(--brand-red)", boxShadow: "0 4px 6px rgba(0,0,0,0.05)" }}>
                 <div style={{ position: "relative", paddingTop: "60%" }}>
-                  <img title="Section Thermal Camera Tucson" src="/images/section_thermal_camera.jpg" alt="Residential thermal camera in Tucson" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", backgroundColor: "#e4e4e7" }} />
+                  <img title="Section Thermal Camera Tucson" src="/images/section_thermal_camera.webp" alt="Residential thermal camera in Tucson" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", backgroundColor: "#e4e4e7" }} />
                 </div>
                 <div style={{ padding: "1.5rem", display: "flex", flexDirection: "column", flexGrow: 1 }}>
                   <h3 style={{ marginBottom: "0.5rem", color: "var(--dark-charcoal)", fontSize: "1.3rem" }}>North Tucson & Casas Adobes</h3>
@@ -122,7 +123,7 @@ export default function ServiceAreas() {
               {/* Card 3 */}
               <div className="location-card" style={{ backgroundColor: "var(--white)", border: "1px solid var(--border-light)", borderRadius: "8px", overflow: "hidden", display: "flex", flexDirection: "column", borderTop: "4px solid var(--brand-red)", boxShadow: "0 4px 6px rgba(0,0,0,0.05)" }}>
                 <div style={{ position: "relative", paddingTop: "60%" }}>
-                  <img title="Slab Leak Service Process Tucson" src="/images/slab_leak_service_process.jpg" alt="Tucson slab leak service process services" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", backgroundColor: "#e4e4e7" }} />
+                  <img title="Slab Leak Service Process Tucson" src="/images/slab_leak_service_process.webp" alt="Tucson slab leak service process services" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", backgroundColor: "#e4e4e7" }} />
                 </div>
                 <div style={{ padding: "1.5rem", display: "flex", flexDirection: "column", flexGrow: 1 }}>
                   <h3 style={{ marginBottom: "0.5rem", color: "var(--dark-charcoal)", fontSize: "1.3rem" }}>Oro Valley</h3>
@@ -134,7 +135,7 @@ export default function ServiceAreas() {
               {/* Card 4 */}
               <div className="location-card" style={{ backgroundColor: "var(--white)", border: "1px solid var(--border-light)", borderRadius: "8px", overflow: "hidden", display: "flex", flexDirection: "column", borderTop: "4px solid var(--brand-red)", boxShadow: "0 4px 6px rgba(0,0,0,0.05)" }}>
                 <div style={{ position: "relative", paddingTop: "60%" }}>
-                  <img title="Partial Repiping Tucson" src="/images/partial_repiping.jpg" alt="Tucson partial repiping services" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", backgroundColor: "#e4e4e7" }} />
+                  <img title="Partial Repiping Tucson" src="/images/partial_repiping.webp" alt="Tucson partial repiping services" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", backgroundColor: "#e4e4e7" }} />
                 </div>
                 <div style={{ padding: "1.5rem", display: "flex", flexDirection: "column", flexGrow: 1 }}>
                   <h3 style={{ marginBottom: "0.5rem", color: "var(--dark-charcoal)", fontSize: "1.3rem" }}>Catalina Foothills</h3>
@@ -146,7 +147,7 @@ export default function ServiceAreas() {
               {/* Card 5 */}
               <div className="location-card" style={{ backgroundColor: "var(--white)", border: "1px solid var(--border-light)", borderRadius: "8px", overflow: "hidden", display: "flex", flexDirection: "column", borderTop: "4px solid var(--brand-red)", boxShadow: "0 4px 6px rgba(0,0,0,0.05)" }}>
                 <div style={{ position: "relative", paddingTop: "60%" }}>
-                  <img title="Water Line Rerouting Tucson" src="/images/water_line_rerouting.jpg" alt="Tucson water line rerouting services" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", backgroundColor: "#e4e4e7" }} />
+                  <img title="Water Line Rerouting Tucson" src="/images/water_line_rerouting.webp" alt="Tucson water line rerouting services" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", backgroundColor: "#e4e4e7" }} />
                 </div>
                 <div style={{ padding: "1.5rem", display: "flex", flexDirection: "column", flexGrow: 1 }}>
                   <h3 style={{ marginBottom: "0.5rem", color: "var(--dark-charcoal)", fontSize: "1.3rem" }}>East Tucson</h3>
@@ -158,7 +159,7 @@ export default function ServiceAreas() {
               {/* Card 6 */}
               <div className="location-card" style={{ backgroundColor: "var(--white)", border: "1px solid var(--border-light)", borderRadius: "8px", overflow: "hidden", display: "flex", flexDirection: "column", borderTop: "4px solid var(--brand-red)", boxShadow: "0 4px 6px rgba(0,0,0,0.05)" }}>
                 <div style={{ position: "relative", paddingTop: "60%" }}>
-                  <img title="Slab Leak Detection Vs Repair Tucson" src="/images/slab_leak_detection_vs_repair.jpg" alt="Tucson slab leak detection vs repair services" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", backgroundColor: "#e4e4e7" }} />
+                  <img title="Slab Leak Detection Vs Repair Tucson" src="/images/slab_leak_detection_vs_repair.webp" alt="Tucson slab leak detection vs repair services" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", backgroundColor: "#e4e4e7" }} />
                 </div>
                 <div style={{ padding: "1.5rem", display: "flex", flexDirection: "column", flexGrow: 1 }}>
                   <h3 style={{ marginBottom: "0.5rem", color: "var(--dark-charcoal)", fontSize: "1.3rem" }}>Rita Ranch</h3>
@@ -207,7 +208,7 @@ export default function ServiceAreas() {
         <section id="contact" style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           {/* Dark Overlay Background */}
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img title="Electronic Leak Detection Tucson" src="/images/electronic_leak_detection.jpg" alt="Tucson electronic leak detection services" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img title="Electronic Leak Detection Tucson" src="/images/electronic_leak_detection.webp" alt="Tucson electronic leak detection services" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>

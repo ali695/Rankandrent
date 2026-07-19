@@ -6,6 +6,7 @@ import HeroSlideshow from '@/components/HeroSlideshow';
 import { blogArticles } from '@/data/blogArticles';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/" },
   title: 'Slab Leak Detection & Repair Tucson, AZ | Tucson Leak Pros',
   description: 'Suspect a hidden pipe leak? Request slab leak detection, pressure testing, pipe repair or water-line rerouting across Tucson, Arizona.',
   openGraph: {
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     images: [
       {
-        url: "/images/services_hub_hero.jpg",
+        url: "/images/services_hub_hero.webp",
         width: 1200,
         height: 630,
         alt: "Slab Leak Detection & Repair Tucson, AZ | Tucson Leak Pros",
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Slab Leak Detection & Repair Tucson, AZ | Tucson Leak Pros",
     description: "Suspect a hidden pipe leak? Request slab leak detection, pressure testing, pipe repair or water-line rerouting across Tucson, Arizona.",
-    images: ["/images/services_hub_hero.jpg"],
+    images: ["/images/services_hub_hero.webp"],
   },
 };
 
@@ -35,7 +36,7 @@ const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Tucson Leak Pros",
-  "image": "https://tucsonslableakpros.com/images/services_hub_hero.jpg",
+  "image": "https://tucsonslableakpros.com/images/services_hub_hero.webp",
   "telephone": "(520) 555-0199",
   "address": {
     "@type": "PostalAddress",
@@ -74,10 +75,10 @@ export default function Home() {
         <section style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "650px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b", overflow: "hidden" }}>
             <HeroSlideshow images={[
-              { src: '/images/services_hub_hero.jpg', alt: 'Premium slab leak expert inspecting floor' },
-              { src: '/images/hero_home.jpg', alt: 'Tucson home exterior' },
-              { src: '/images/electronic_leak_detection.jpg', alt: 'Electronic leak detection equipment' },
-              { src: '/images/slab_leak_repair.jpg', alt: 'Professional slab leak repair' }
+              { src: '/images/services_hub_hero.webp', alt: 'Premium slab leak expert inspecting floor' },
+              { src: '/images/hero_home.webp', alt: 'Tucson home exterior' },
+              { src: '/images/electronic_leak_detection.webp', alt: 'Electronic leak detection equipment' },
+              { src: '/images/slab_leak_repair.webp', alt: 'Professional slab leak repair' }
             ]} />
           </div>
           
@@ -152,7 +153,7 @@ export default function Home() {
               </div>
             </div>
             <div style={{ display: "flex" }}>
-              <img title="Partial Repiping Tucson" src="/images/partial_repiping.jpg" alt="Tucson partial repiping services" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
+              <img title="Partial Repiping Tucson" src="/images/partial_repiping.webp" alt="Tucson partial repiping services" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
             </div>
           </div>
         </section>
@@ -167,12 +168,12 @@ export default function Home() {
             
             <div className="card-grid" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "2rem" }}>
               {[
-                { name: "Central Tucson", img: "slab_leak_detection.jpg", link: "/service-areas/central-tucson/", desc: "Expert slab leak detection and historic home pipe repair services in Central Tucson." },
-                { name: "North Tucson", img: "electronic_leak_detection.jpg", link: "/service-areas/north-tucson/", desc: "Advanced electronic leak detection and post-tension slab repair across North Tucson." },
-                { name: "Oro Valley", img: "pressure_testing.jpg", link: "/service-areas/oro-valley/", desc: "Professional water-line routing, pressure testing, and emergency leak services in Oro Valley." },
-                { name: "Catalina Foothills", img: "cold_water_slab_leak.jpg", link: "/service-areas/catalina-foothills/", desc: "Comprehensive under-slab pipe repair and leak diagnostics for Catalina Foothills estates." },
-                { name: "East Tucson", img: "slab_leak_repair.jpg", link: "/service-areas/east-tucson/", desc: "Fast-response hot and cold water slab leak repair and repiping in East Tucson." },
-                { name: "Rita Ranch", img: "under_slab_pipe_repair.jpg", link: "/service-areas/rita-ranch/", desc: "Precision leak locating and non-invasive pipe rerouting solutions for Rita Ranch homes." }
+                { name: "Central Tucson", img: "slab_leak_detection.webp", link: "/service-areas/central-tucson/", desc: "Expert slab leak detection and historic home pipe repair services in Central Tucson." },
+                { name: "North Tucson", img: "electronic_leak_detection.webp", link: "/service-areas/north-tucson/", desc: "Advanced electronic leak detection and post-tension slab repair across North Tucson." },
+                { name: "Oro Valley", img: "pressure_testing.webp", link: "/service-areas/oro-valley/", desc: "Professional water-line routing, pressure testing, and emergency leak services in Oro Valley." },
+                { name: "Catalina Foothills", img: "cold_water_slab_leak.webp", link: "/service-areas/catalina-foothills/", desc: "Comprehensive under-slab pipe repair and leak diagnostics for Catalina Foothills estates." },
+                { name: "East Tucson", img: "slab_leak_repair.webp", link: "/service-areas/east-tucson/", desc: "Fast-response hot and cold water slab leak repair and repiping in East Tucson." },
+                { name: "Rita Ranch", img: "under_slab_pipe_repair.webp", link: "/service-areas/rita-ranch/", desc: "Precision leak locating and non-invasive pipe rerouting solutions for Rita Ranch homes." }
               ].map(area => (
                 <div key={area.name} className="premium-card location-card" style={{ overflow: "hidden", display: "flex", flexDirection: "column", borderTop: "4px solid var(--brand-red)" }}>
                   <div style={{ position: "relative", paddingTop: "60%" }}>
@@ -196,7 +197,7 @@ export default function Home() {
         <section style={{ backgroundColor: "#334155", color: "var(--white)" }}>
           <div className="split-grid" style={{ gap: 0 }}>
             <div style={{ display: "flex" }}>
-              <img title="Hot Water Slab Leak Tucson" src="/images/hot_water_slab_leak.jpg" alt="Tucson hot water slab leak services" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover" }} />
+              <img title="Hot Water Slab Leak Tucson" src="/images/hot_water_slab_leak.webp" alt="Tucson hot water slab leak services" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover" }} />
             </div>
             <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", padding: "4rem 5%", maxWidth: "800px", marginRight: "auto" }}>
               <span style={{ color: "var(--brand-red)", fontWeight: "700", textTransform: "uppercase", letterSpacing: "1px", display: "block", marginBottom: "0.5rem", fontSize: "0.85rem" }}>EMERGENCY PROTOCOL</span>
@@ -226,12 +227,12 @@ export default function Home() {
             
             <div className="card-grid" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
               {[
-                { title: 'Electronic Leak Detection', desc: "Confirms water loss and pinpoints the exact underground location.", img: "electronic_leak_detection.jpg", link: "/slab-leak-detection-tucson/" },
-                { title: 'Slab Leak Repair', desc: "Professional repairs including spot fixes and full bypassing.", img: "slab_leak_repair.jpg", link: "/slab-leak-repair-tucson/" },
-                { title: 'Water-Line Rerouting', desc: "Abandon the leaking pipe and run a brand new line through the walls.", img: "water_line_rerouting.jpg", link: "/water-line-rerouting-tucson/" },
-                { title: 'Hot Water Slab Leaks', desc: "Diagnosing warm flooring and reduced hot-water availability.", img: "hot_water_slab_leak.jpg", link: "/hot-water-slab-leak-tucson/" },
-                { title: 'Cold Water Slab Leaks', desc: "Tracking hidden water loss and unexplained meter movement.", img: "cold_water_slab_leak.jpg", link: "/cold-water-slab-leak-tucson/" },
-                { title: 'Pressure Testing', desc: "Confirms whether a line is actively losing pressure before opening floors.", img: "pressure_testing.jpg", link: "/water-line-pressure-testing-tucson/" }
+                { title: 'Electronic Leak Detection', desc: "Confirms water loss and pinpoints the exact underground location.", img: "electronic_leak_detection.webp", link: "/slab-leak-detection-tucson/" },
+                { title: 'Slab Leak Repair', desc: "Professional repairs including spot fixes and full bypassing.", img: "slab_leak_repair.webp", link: "/slab-leak-repair-tucson/" },
+                { title: 'Water-Line Rerouting', desc: "Abandon the leaking pipe and run a brand new line through the walls.", img: "water_line_rerouting.webp", link: "/water-line-rerouting-tucson/" },
+                { title: 'Hot Water Slab Leaks', desc: "Diagnosing warm flooring and reduced hot-water availability.", img: "hot_water_slab_leak.webp", link: "/hot-water-slab-leak-tucson/" },
+                { title: 'Cold Water Slab Leaks', desc: "Tracking hidden water loss and unexplained meter movement.", img: "cold_water_slab_leak.webp", link: "/cold-water-slab-leak-tucson/" },
+                { title: 'Pressure Testing', desc: "Confirms whether a line is actively losing pressure before opening floors.", img: "pressure_testing.webp", link: "/water-line-pressure-testing-tucson/" }
               ].map(svc => (
                 <div key={svc.title} className="premium-card location-card" style={{ overflow: "hidden", display: "flex", flexDirection: "column" }}>
                   <img title="Emergency Slab Leak Service Tucson" src={`/images/${svc.img}`} alt={svc.title} style={{ width: "100%", height: "200px", objectFit: "cover", borderBottom: "4px solid var(--dark-charcoal)" }} />
@@ -285,7 +286,7 @@ export default function Home() {
             </div>
             {/* Right Image Half */}
             <div style={{ minHeight: "500px", position: "relative" }}>
-              <img src="/images/why_choose_us_plumber.jpg" alt="Professional plumber performing leak detection" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }} />
+              <img src="/images/why_choose_us_plumber.webp" alt="Professional plumber performing leak detection" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }} />
             </div>
           </div>
         </section>
@@ -390,7 +391,7 @@ export default function Home() {
         <section id="contact" style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           {/* Dark Overlay Background */}
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img title="Water Line Rerouting Tucson" src="/images/water_line_rerouting.jpg" alt="Tucson water line rerouting services" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img title="Water Line Rerouting Tucson" src="/images/water_line_rerouting.webp" alt="Tucson water line rerouting services" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>

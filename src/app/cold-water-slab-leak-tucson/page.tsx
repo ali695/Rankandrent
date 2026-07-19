@@ -3,12 +3,13 @@ import { Metadata } from 'next';
 import ZigZagBlocks from '@/components/ZigZagBlocks';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import { Droplets, Gauge, Volume2, ArrowDownToLine, Activity, Search, MapPin, SearchCheck, MessageCircleQuestion } from 'lucide-react';
+import { Droplets, Gauge, Volume2, ArrowDownToLine, Activity, Search, MapPin, SearchCheck } from 'lucide-react';
 import Link from 'next/link';
 import ZipCodeDirectory from '@/components/ZipCodeDirectory';
 import FaqCategory from '@/components/FaqCategory';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cold-water-slab-leak-tucson/" },
   title: 'Cold-Water Slab Leak Tucson | Detection & Repair',
   description: 'Investigate unexplained water use, pressure loss or damp flooring caused by a possible cold-water line leak beneath a Tucson home.',
   openGraph: {
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     images: [
       {
-        url: "/images/services_hub_hero.jpg",
+        url: "/images/services_hub_hero.webp",
         width: 1200,
         height: 630,
         alt: "Cold-Water Slab Leak Tucson | Detection & Repair",
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Cold-Water Slab Leak Tucson | Detection & Repair",
     description: "Investigate unexplained water use, pressure loss or damp flooring caused by a possible cold-water line leak beneath a Tucson home.",
-    images: ["/images/services_hub_hero.jpg"],
+    images: ["/images/services_hub_hero.webp"],
   },
 };
 
@@ -119,7 +120,7 @@ export default function ColdWaterSlabLeak() {
         {/* Section 1: Hero */}
         <section style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img src="/images/hero_cold_water_leak.jpg" alt="Tucson hero cold water leak experts" title="Hero Cold Water Leak Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img src="/images/hero_cold_water_leak.webp" alt="Tucson hero cold water leak experts" title="Hero Cold Water Leak Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
@@ -376,7 +377,7 @@ export default function ColdWaterSlabLeak() {
                 That is why <a href="/electronic-leak-detection-tucson/" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>electronic leak detection</a> follows isolation and pressure testing. Listening equipment is more useful after the affected water system and likely pipe route have been established.
               </p>
             </>,
-            imageSrc: "/images/cold_water_slab_leak.jpg",
+            imageSrc: "/images/cold_water_slab_leak.webp",
             imageAlt: "Inspection for concealed cold-water slab leak symptoms in a Tucson home",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
@@ -395,7 +396,7 @@ export default function ColdWaterSlabLeak() {
                 Once outdoor and service-line losses are reasonably excluded, <a href="/water-line-pressure-testing-tucson/" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>pressure testing the cold-water system</a> can document whether that defined section loses pressure. Pipe tracing and acoustic comparison can then narrow the search without treating the meter alone as a slab leak locator.
               </p>
             </>,
-            imageSrc: "/images/blog/pressure-testing.png",
+            imageSrc: "/images/blog/pressure-testing.webp",
             imageAlt: "Pressure gauge used to isolate a cold-water plumbing leak",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
@@ -426,7 +427,7 @@ export default function ColdWaterSlabLeak() {
         {/* Section 11: Final CTA */}
         <section id="contact" style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img src="/images/cold_water_slab_leak.jpg" alt="Tucson cold water slab leak services" title="Cold Water Slab Leak Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img src="/images/cold_water_slab_leak.webp" alt="Tucson cold water slab leak services" title="Cold Water Slab Leak Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>

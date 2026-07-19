@@ -5,6 +5,7 @@ import ZipCheckerForm from '@/components/ZipCheckerForm';
 import ZigZagBlocks from '@/components/ZigZagBlocks';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/under-slab-pipe-repair-tucson/" },
   title: 'Under-Slab Pipe Repair Tucson, AZ',
   description: 'Repair a confirmed leaking water line beneath concrete using controlled access, pipe-section replacement and post-repair pressure testing.',
   openGraph: {
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     images: [
       {
-        url: "/images/services_hub_hero.jpg",
+        url: "/images/services_hub_hero.webp",
         width: 1200,
         height: 630,
         alt: "Under-Slab Pipe Repair Tucson, AZ",
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Under-Slab Pipe Repair Tucson, AZ",
     description: "Repair a confirmed leaking water line beneath concrete using controlled access, pipe-section replacement and post-repair pressure testing.",
-    images: ["/images/services_hub_hero.jpg"],
+    images: ["/images/services_hub_hero.webp"],
   },
 };
 
@@ -102,7 +103,7 @@ export default function UnderSlabPipeRepair() {
         {/* Hero Section */}
         <section style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img title="Slab Leak Service Process Tucson" src="/images/slab_leak_service_process.jpg" alt="Tucson slab leak service process services" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img title="Slab Leak Service Process Tucson" src="/images/slab_leak_service_process.webp" alt="Tucson slab leak service process services" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
@@ -154,7 +155,7 @@ export default function UnderSlabPipeRepair() {
               </p>
             </div>
             <div style={{ display: "flex" }}>
-              <img title="Slab Leak Repair Tucson" src="/images/slab_leak_repair.jpg" alt="Tucson slab leak repair services" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
+              <img title="Slab Leak Repair Tucson" src="/images/slab_leak_repair.webp" alt="Tucson slab leak repair services" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
             </div>
           </div>
         </section>
@@ -188,7 +189,7 @@ export default function UnderSlabPipeRepair() {
           {
             heading: "Precision Concrete Access",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The most visible part of an <a href="/under-slab-pipe-repair-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>under-slab pipe repair</a> is the concrete opening. We use precision concrete saws to cut clean edges rather than recklessly jackhammering, which reduces vibration damage to surrounding tile and minimizes the messy cleanup involved. The opening is sized just large enough to safely access the pipe — typically 18 to 24 inches wide.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>For homes with tile floors, we measure carefully to align our cuts with your existing grout lines whenever possible. This foresight makes the eventual floor restoration blend much more naturally with the surrounding surface, saving your flooring contractor significant time and saving you money.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Before making any cuts, we set up heavy plastic containment barriers. Breaking concrete generates fine silica dust, and our containment protocols ensure that this dust doesn't circulate through your HVAC system or coat your furniture.</p></>,
-            imageSrc: "/images/under_slab_pipe_repair.jpg",
+            imageSrc: "/images/under_slab_pipe_repair.webp",
             imageAlt: "Precision concrete access",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
@@ -196,7 +197,7 @@ export default function UnderSlabPipeRepair() {
           {
             heading: "Replacing the Failed Pipe Section",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Once the concrete is removed and the soil is excavated, we expose the leaking pipe. We cut out the damaged section entirely—we do not rely on temporary clamps, epoxy patches, or rubber sleeves. Those are band-aids, not plumbing repairs. Proper <a href="/slab-leak-repair-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak repair</a> demands permanent solutions.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We splice in a brand-new section of high-grade Type L copper or flexible PEX tubing, securing the connections with code-approved methods designed for direct burial. If we are brazing copper underground, we take extreme care to flush the line and ensure the joints are flawless before they are buried again.</p></>,
-            imageSrc: "/images/slab_leak_repair.jpg",
+            imageSrc: "/images/slab_leak_repair.webp",
             imageAlt: "Replacing failed pipe",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
@@ -204,7 +205,7 @@ export default function UnderSlabPipeRepair() {
           {
             heading: "Rigorous Pressure Testing Before Backfill",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The most critical step in an under-slab repair happens before the concrete is patched. Once the new pipe is installed, we turn the water main back on and repressurize your home's entire system. We monitor the exposed repair joint under full municipal water pressure.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We attach a sensitive <a href="/water-line-pressure-testing-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>pressure gauge</a> to verify that the system is holding perfectly steady. If the needle drops even a fraction of a PSI, it means there is another leak nearby or the new joint isn't secure. We never backfill dirt or pour concrete until the pressure test passes flawlessly.</p></>,
-            imageSrc: "/images/pressure_testing.jpg",
+            imageSrc: "/images/pressure_testing.webp",
             imageAlt: "Pressure testing before backfill",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
@@ -212,7 +213,7 @@ export default function UnderSlabPipeRepair() {
           {
             heading: "Backfilling and Concrete Restoration",
             content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>After the plumbing repair passes inspection, we begin the restoration phase. We carefully backfill the hole using clean sand or fine gravel immediately around the pipe. This protects the new copper or PEX from sharp rocks in the native Tucson soil that could cause friction damage during thermal expansion.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Finally, we pour high-strength concrete to match the exact thickness of your existing slab. We trowel the surface smooth and level so your flooring contractor has a perfect canvas to reinstall your tile, wood, or carpeting.</p></>,
-            imageSrc: "/images/slab_leak_service_process.jpg",
+            imageSrc: "/images/slab_leak_service_process.webp",
             imageAlt: "Concrete restoration",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
@@ -227,7 +228,7 @@ export default function UnderSlabPipeRepair() {
               <FaqCategory 
                 title="Under-Slab Repair FAQ"
                 iconName="MessageCircleQuestion"
-                faqs={faqSchema.mainEntity.map((faq: any, idx: number) => ({
+                faqs={faqSchema.mainEntity.map((faq, idx: number) => ({
                   id: `faq-${idx}`,
                   question: faq.name,
                   answer: faq.acceptedAnswer.text
@@ -244,7 +245,7 @@ export default function UnderSlabPipeRepair() {
         {/* Bottom CTA */}
         <section id="contact" style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img title="Section Damp Floor Tucson" src="/images/section_damp_floor.jpg" alt="Residential damp floor in Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img title="Section Damp Floor Tucson" src="/images/section_damp_floor.webp" alt="Residential damp floor in Tucson" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>

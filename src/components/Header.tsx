@@ -34,11 +34,11 @@ export default function Header() {
       {/* Main Nav */}
       <div style={{ backgroundColor: "var(--dark-charcoal)", position: "relative" }}>
         <div className="container" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "1rem" }}>
-          <div style={{ color: "var(--white)", fontSize: "1.5rem", fontWeight: "900", letterSpacing: "-1px" }}>
+          <Link href="/" aria-label="Tucson Leak Pros home" style={{ color: "var(--white)", fontSize: "1.5rem", fontWeight: "900", letterSpacing: "-1px", textDecoration: "none" }}>
             TUCSON<span style={{ color: "var(--brand-red)" }}>LEAK</span>PROS
-          </div>
+          </Link>
           
-          <button className="mobile-menu-btn" onClick={toggleMobileMenu} aria-label="Toggle Navigation">
+          <button type="button" className="mobile-menu-btn" onClick={toggleMobileMenu} aria-label={isMobileMenuOpen ? "Close navigation" : "Open navigation"} aria-expanded={isMobileMenuOpen} aria-controls="mobile-navigation">
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               {isMobileMenuOpen ? (
                 <>
@@ -80,10 +80,10 @@ export default function Header() {
             </div>
 
             <div className="nav-item">
-              <span className="nav-link">
+              <Link href="/signs-of-a-slab-leak/" className="nav-link">
                 Slab Leak Guide
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-              </span>
+              </Link>
               <div className="dropdown-menu">
                 <Link href="/signs-of-a-slab-leak/" className="dropdown-link">Signs of a Slab Leak</Link>
                 <Link href="/hot-water-slab-leak-tucson/" className="dropdown-link">Hot-Water Slab Leaks</Link>
@@ -127,16 +127,16 @@ export default function Header() {
           
           {/* Mobile Dropdown Nav */}
           {isMobileMenuOpen && (
-            <div className="mobile-dropdown">
+            <nav id="mobile-navigation" className="mobile-dropdown" aria-label="Mobile navigation">
               <Link href="/" className="mobile-nav-link" onClick={toggleMobileMenu}>Home</Link>
               
-              <div style={{ cursor: "pointer" }} onClick={() => toggleSubmenu('services')}>
-                <span className="mobile-nav-link" style={{ display: "flex", justifyContent: "space-between" }}>
+              <div>
+                <button type="button" className="mobile-nav-link mobile-submenu-button" onClick={() => toggleSubmenu('services')} aria-expanded={openSubmenu === 'services'} aria-controls="mobile-services-menu">
                   Services
-                  <span>{openSubmenu === 'services' ? '-' : '+'}</span>
-                </span>
+                  <span aria-hidden="true">{openSubmenu === 'services' ? '−' : '+'}</span>
+                </button>
                 {openSubmenu === 'services' && (
-                  <div style={{ backgroundColor: "#1c1c1e" }}>
+                  <div id="mobile-services-menu" style={{ backgroundColor: "#1c1c1e" }}>
                     <Link href="/slab-leak-detection-tucson/" className="mobile-nav-sublink" onClick={toggleMobileMenu}>Slab Leak Detection</Link>
                     <Link href="/slab-leak-repair-tucson/" className="mobile-nav-sublink" onClick={toggleMobileMenu}>Slab Leak Repair</Link>
                     <Link href="/emergency-slab-leak-service-tucson/" className="mobile-nav-sublink" onClick={toggleMobileMenu}>Emergency Service</Link>
@@ -145,13 +145,13 @@ export default function Header() {
                 )}
               </div>
 
-              <div style={{ cursor: "pointer" }} onClick={() => toggleSubmenu('guide')}>
-                <span className="mobile-nav-link" style={{ display: "flex", justifyContent: "space-between" }}>
+              <div>
+                <button type="button" className="mobile-nav-link mobile-submenu-button" onClick={() => toggleSubmenu('guide')} aria-expanded={openSubmenu === 'guide'} aria-controls="mobile-guide-menu">
                   Slab Leak Guide
-                  <span>{openSubmenu === 'guide' ? '-' : '+'}</span>
-                </span>
+                  <span aria-hidden="true">{openSubmenu === 'guide' ? '−' : '+'}</span>
+                </button>
                 {openSubmenu === 'guide' && (
-                  <div style={{ backgroundColor: "#1c1c1e" }}>
+                  <div id="mobile-guide-menu" style={{ backgroundColor: "#1c1c1e" }}>
                     <Link href="/signs-of-a-slab-leak/" className="mobile-nav-sublink" onClick={toggleMobileMenu}>Signs of a Slab Leak</Link>
                     <Link href="/slab-leak-repair-cost-tucson/" className="mobile-nav-sublink" onClick={toggleMobileMenu}>Repair Cost</Link>
                     <Link href="/slab-leak-faq/" className="mobile-nav-sublink" onClick={toggleMobileMenu}>FAQs</Link>
@@ -159,13 +159,13 @@ export default function Header() {
                 )}
               </div>
 
-              <div style={{ cursor: "pointer" }} onClick={() => toggleSubmenu('areas')}>
-                <span className="mobile-nav-link" style={{ display: "flex", justifyContent: "space-between" }}>
+              <div>
+                <button type="button" className="mobile-nav-link mobile-submenu-button" onClick={() => toggleSubmenu('areas')} aria-expanded={openSubmenu === 'areas'} aria-controls="mobile-areas-menu">
                   Service Areas
-                  <span>{openSubmenu === 'areas' ? '-' : '+'}</span>
-                </span>
+                  <span aria-hidden="true">{openSubmenu === 'areas' ? '−' : '+'}</span>
+                </button>
                 {openSubmenu === 'areas' && (
-                  <div style={{ backgroundColor: "#1c1c1e" }}>
+                  <div id="mobile-areas-menu" style={{ backgroundColor: "#1c1c1e" }}>
                     <Link href="/service-areas/central-tucson/" className="mobile-nav-sublink" onClick={toggleMobileMenu}>Central Tucson</Link>
                     <Link href="/service-areas/oro-valley/" className="mobile-nav-sublink" onClick={toggleMobileMenu}>Oro Valley</Link>
                     <Link href="/service-areas/catalina-foothills/" className="mobile-nav-sublink" onClick={toggleMobileMenu}>Catalina Foothills</Link>
@@ -177,7 +177,7 @@ export default function Header() {
               <Link href="/how-slab-leak-detection-works/" className="mobile-nav-link" onClick={toggleMobileMenu}>How It Works</Link>
               <Link href="/blog/" className="mobile-nav-link" onClick={toggleMobileMenu}>Blog</Link>
               <Link href="/contact/" className="mobile-nav-link" onClick={toggleMobileMenu} style={{ borderBottom: "none" }}>Contact</Link>
-            </div>
+            </nav>
           )}
         </div>
       </div>
