@@ -28,19 +28,7 @@ export default function BlogLandingPage() {
         <div className="blog-index-overlay" style={{ background: "rgba(0, 0, 0, 0.6)" }} />
         <div className="container blog-index-content" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
           <h1 style={{ textAlign: "center", maxWidth: "900px", margin: "0 auto 1rem", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: "800" }}>Tucson Slab Leak<br />Questions and Answers</h1>
-          <p style={{ textAlign: "center", maxWidth: "700px", margin: "0 auto 2.5rem", fontSize: "1.1rem", color: "#e4e4e7" }}>Find quick answers to common questions regarding slab leak signs,<br />detection, repair costs, and emergency steps.</p>
-          
-          <form action="/blog" method="GET" style={{ width: "100%", maxWidth: "600px", display: "flex", boxShadow: "0 10px 30px rgba(0,0,0,0.3)", borderRadius: "6px", overflow: "hidden", margin: "0 auto" }}>
-            <input 
-              type="text" 
-              name="q"
-              placeholder="Search FAQs (e.g. 'cost', 'insurance', 'warm floor')..." 
-              style={{ flexGrow: 1, padding: "1.2rem 1.5rem", border: "none", fontSize: "1rem", outline: "none", color: "var(--dark-charcoal)" }}
-            />
-            <button type="submit" style={{ backgroundColor: "var(--brand-red)", color: "var(--white)", border: "none", padding: "0 1.5rem", cursor: "pointer", display: "flex", alignItems: "center", justifyItems: "center" }}>
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-            </button>
-          </form>
+          <p style={{ textAlign: "center", maxWidth: "700px", margin: "0 auto", fontSize: "1.1rem", color: "#e4e4e7" }}>Find quick answers to common questions regarding slab leak signs,<br />detection, repair costs, and emergency steps.</p>
         </div>
       </section>
 
