@@ -5,16 +5,23 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "node scripts/validate-static-export.mjs",
+    "build:cloudflare": "npm run build",
     "start": "next start",
     "lint": "eslint",
     "check": "npm run lint && npm run build"
+  },
+  "engines": {
+    "node": ">=22.16.0"
+  },
+  "overrides": {
+    "postcss": "8.5.20"
   },
   "dependencies": {
     "lucide-react": "^1.25.0",
     "next": "16.2.10",
     "react": "19.2.7",
-    "react-dom": "19.2.7",
-    "sharp": "^0.35.3"
+    "react-dom": "19.2.7"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
