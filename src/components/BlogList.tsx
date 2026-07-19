@@ -14,9 +14,7 @@ export default function BlogList({ articles, categories }: { articles: BlogArtic
 
   return (
     <>
-      <div className="blog-category-list" aria-label="Article topics">
-        {categories.map((category) => <span key={category}>{category}</span>)}
-      </div>
+
 
       <div className="blog-index-grid" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: "2.5rem" }}>
         {articles.slice(0, visibleCount).map((article) => (
