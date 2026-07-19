@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { blogArticles } from "@/data/blogArticles";
-
+import BlogList from "@/components/BlogList";
 export const metadata: Metadata = {
   title: "Tucson Slab Leak Blog | Practical Homeowner Guides",
   description: "Read clear Tucson slab-leak guides covering symptoms, water meters, detection, pressure testing, repair, rerouting, costs, insurance and restoration.",
@@ -35,25 +35,7 @@ export default function BlogLandingPage() {
 
       <section className="blog-index-shell">
         <div className="container">
-          <div className="blog-category-list" aria-label="Article topics">
-            {categories.map((category) => <span key={category}>{category}</span>)}
-          </div>
-
-          <div className="blog-index-grid">
-            {blogArticles.map((article, index) => (
-              <article key={article.slug} className={`blog-index-card ${index === 0 ? "blog-index-featured" : ""}`}>
-                <Link href={`/blog/${article.slug}`} className="blog-index-image">
-                  <Image src={article.heroImage} alt={article.heroAlt} fill sizes={index === 0 ? "(max-width: 768px) 100vw, 55vw" : "(max-width: 768px) 100vw, 33vw"} style={{ objectFit: "cover" }} />
-                </Link>
-                <div className="blog-index-card-content">
-                  <div className="blog-index-card-meta"><span>{article.category}</span><span>{article.readTime}</span></div>
-                  <h2><Link href={`/blog/${article.slug}`}>{article.title}</Link></h2>
-                  <p>{article.description}</p>
-                  <Link href={`/blog/${article.slug}`} className="blog-read-link">Read guide <span aria-hidden="true">→</span></Link>
-                </div>
-              </article>
-            ))}
-          </div>
+          <BlogList articles={blogArticles} categories={categories} />
         </div>
       </section>
     </main>
