@@ -24,7 +24,8 @@ export default function FaqAccordion({ question, answer, isOpen, onToggle, id }:
   }, [isOpen]);
 
   return (
-    <div 
+    <div
+      className="faq-card"
       style={{ 
         backgroundColor: "var(--white)", 
         border: "1px solid #e2e8f0", 
@@ -40,6 +41,7 @@ export default function FaqAccordion({ question, answer, isOpen, onToggle, id }:
       )}
 
       <button
+        className="faq-toggle"
         type="button"
         onClick={onToggle}
         aria-expanded={isOpen}
@@ -50,8 +52,6 @@ export default function FaqAccordion({ question, answer, isOpen, onToggle, id }:
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          padding: "1.25rem 1.5rem",
-          paddingLeft: isOpen ? "2rem" : "1.5rem",
           backgroundColor: "transparent",
           border: "none",
           textAlign: "left",
@@ -60,10 +60,10 @@ export default function FaqAccordion({ question, answer, isOpen, onToggle, id }:
           transition: "padding 0.2s ease"
         }}
       >
-        <span style={{ fontSize: "1.1rem", fontWeight: isOpen ? "800" : "600", paddingRight: "1rem" }}>
+        <span className="faq-question" style={{ fontWeight: isOpen ? "800" : "600" }}>
           {question}
         </span>
-        <span style={{ flexShrink: 0 }}>
+        <span className="faq-toggle-icon">
           {isOpen ? (
             <Minus size={24} color="var(--brand-red)" />
           ) : (
@@ -83,7 +83,7 @@ export default function FaqAccordion({ question, answer, isOpen, onToggle, id }:
           transition: "height 0.3s ease-in-out",
         }}
       >
-        <div ref={contentRef} style={{ padding: "0 1.5rem 1.5rem 1.5rem", paddingLeft: isOpen ? "2rem" : "1.5rem", color: "#4a4a4a", fontSize: "1.05rem", lineHeight: "1.6" }}>
+        <div ref={contentRef} className="faq-answer" style={{ paddingLeft: isOpen ? "2rem" : "1.5rem" }}>
           {answer}
         </div>
       </div>

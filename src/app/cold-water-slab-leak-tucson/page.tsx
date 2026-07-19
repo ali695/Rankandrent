@@ -244,7 +244,7 @@ export default function ColdWaterSlabLeak() {
             <h2 style={{ textAlign: "center", fontSize: "2.2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "3rem" }}>
               Cold-Water Slab Leak vs. Other Hidden Household Leaks
             </h2>
-            <div style={{ overflowX: "auto" }}>
+            <div className="responsive-table-wrap" role="region" aria-label="Cold-water slab leak comparison table" tabIndex={0}>
               <table style={{ width: "100%", borderCollapse: "collapse", minWidth: "600px", borderRadius: "8px", overflow: "hidden", boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)" }}>
                 <thead>
                   <tr style={{ backgroundColor: "var(--dark-charcoal)", color: "var(--white)" }}>

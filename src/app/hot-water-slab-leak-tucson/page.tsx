@@ -302,7 +302,7 @@ export default function HotWaterSlabLeak() {
               </div>
             </div>
 
-            <div style={{ overflowX: "auto" }}>
+            <div className="responsive-table-wrap" role="region" aria-label="Hot-water slab leak repair comparison table" tabIndex={0}>
               <table style={{ width: "100%", borderCollapse: "collapse", minWidth: "600px", borderRadius: "8px", overflow: "hidden", boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)" }}>
                 <thead>
                   <tr style={{ backgroundColor: "var(--dark-charcoal)", color: "var(--white)" }}>

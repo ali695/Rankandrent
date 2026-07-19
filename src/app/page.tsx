@@ -101,7 +101,7 @@ export default function Home() {
                   </li>
                   <li style={{ display: "flex", alignItems: "center", gap: "0.75rem", fontSize: "1.1rem", fontWeight: "600" }}>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--brand-red)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                    Trusted by Tucson Homeowners
+                    Documented Testing & Repair Options
                   </li>
                 </ul>
               </div>
@@ -350,44 +350,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* 8. Customer Reviews Section */}
-        <section style={{ backgroundColor: "#f1f5f9", padding: "5rem 0", overflow: "hidden" }}>
-          <div className="container">
-            <div style={{ textAlign: "center", maxWidth: "800px", margin: "0 auto", marginBottom: "4rem" }}>
-              <span style={{ color: "var(--brand-red)", fontWeight: "700", textTransform: "uppercase", letterSpacing: "1px", display: "block", marginBottom: "0.5rem", fontSize: "0.85rem" }}>TESTIMONIALS</span>
-              <h2 style={{ fontSize: "2.2rem", fontWeight: "800", color: "var(--dark-charcoal)" }}>What Our Customers Say</h2>
-            </div>
-          </div>
-            
-          <div className="review-marquee-wrapper">
-            <div className="review-marquee-content">
-              {[
-                { name: "Michael R.", area: "Oro Valley, AZ", text: "I noticed a huge spike in my water bill but saw no water anywhere. These guys came out, used their acoustic gear, and found a tiny pinhole leak under my kitchen island. They saved me from tearing up my entire tile floor." },
-                { name: "Sarah J.", area: "Central Tucson, AZ", text: "Woke up to a warm floor in the hallway. They arrived same-day, isolated the hot water line, and rerouted a new pipe through the attic instead of jackhammering the slab. Incredible service and completely transparent pricing." },
-                { name: "David T.", area: "Rita Ranch, AZ", text: "Highly professional from start to finish. They didn't guess; they proved exactly where the leak was before offering solutions. If you suspect a slab leak, do not call a regular plumber, call these specialists first." },
-                { name: "Jessica W.", area: "Catalina Foothills, AZ", text: "The team was so respectful of our home. They put down protective mats everywhere and used electronic equipment to find the leak fast. The repair was done perfectly in just one afternoon." },
-                { name: "Robert L.", area: "East Tucson, AZ", text: "I was terrified of the cost, but their pressure testing confirmed the exact problem line immediately. The reroute was clean and their final invoice matched the quote exactly. Fantastic job." },
-                // Duplicate for seamless infinite scroll
-                { name: "Michael R.", area: "Oro Valley, AZ", text: "I noticed a huge spike in my water bill but saw no water anywhere. These guys came out, used their acoustic gear, and found a tiny pinhole leak under my kitchen island. They saved me from tearing up my entire tile floor." },
-                { name: "Sarah J.", area: "Central Tucson, AZ", text: "Woke up to a warm floor in the hallway. They arrived same-day, isolated the hot water line, and rerouted a new pipe through the attic instead of jackhammering the slab. Incredible service and completely transparent pricing." },
-                { name: "David T.", area: "Rita Ranch, AZ", text: "Highly professional from start to finish. They didn't guess; they proved exactly where the leak was before offering solutions. If you suspect a slab leak, do not call a regular plumber, call these specialists first." },
-                { name: "Jessica W.", area: "Catalina Foothills, AZ", text: "The team was so respectful of our home. They put down protective mats everywhere and used electronic equipment to find the leak fast. The repair was done perfectly in just one afternoon." },
-                { name: "Robert L.", area: "East Tucson, AZ", text: "I was terrified of the cost, but their pressure testing confirmed the exact problem line immediately. The reroute was clean and their final invoice matched the quote exactly. Fantastic job." }
-              ].map((review, i) => (
-                <div key={i} className="review-card">
-                  <div style={{ color: "#fbbf24", fontSize: "1.5rem", marginBottom: "1rem" }}>★★★★★</div>
-                  <p style={{ fontSize: "1rem", color: "#4a4a4a", lineHeight: "1.6", fontStyle: "italic", marginBottom: "1.5rem", flexGrow: 1 }}>"{review.text}"</p>
-                  <div>
-                    <strong style={{ display: "block", color: "var(--dark-charcoal)", fontSize: "1.1rem" }}>{review.name}</strong>
-                    <span style={{ fontSize: "0.85rem", color: "#94a3b8", fontWeight: "600" }}>{review.area}</span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* 9. Bottom CTA (Matches Hero) */}
+        {/* 8. Bottom CTA (Matches Hero) */}
         <section id="contact" style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           {/* Dark Overlay Background */}
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>

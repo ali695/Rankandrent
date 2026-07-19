@@ -46,11 +46,6 @@ const organizationSchema = {
     "contactType": "customer service",
     "areaServed": "US",
     "availableLanguage": "en"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "124"
   }
 };
 

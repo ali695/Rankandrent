@@ -5,6 +5,7 @@ import { BlogArticle, blogArticles } from "@/data/blogArticles";
 
 export default function BlogArticlePage({ article }: { article: BlogArticle }) {
   const tocItems = [
+    { id: "key-takeaways", title: "Key Takeaways", level: 1 },
     ...article.sections.map((section) => ({ id: section.id, title: section.title, level: 1 })),
     { id: "related-reading", title: "Related Reading", level: 1 },
     { id: "frequently-asked-questions", title: "Frequently Asked Questions", level: 1 },
@@ -71,12 +72,7 @@ export default function BlogArticlePage({ article }: { article: BlogArticle }) {
       <section className="article-shell">
         <div className="container article-layout">
           <article className="article-content">
-            <div className="article-answer-box">
-              <strong>Quick answer</strong>
-              <p>{article.description}</p>
-            </div>
-
-            <section className="article-takeaways" aria-labelledby="key-takeaways">
+            <section className="article-section article-key-takeaways" aria-labelledby="key-takeaways">
               <h2 id="key-takeaways">Key Takeaways</h2>
               <ul>{article.keyTakeaways.map((item) => <li key={item}>{item}</li>)}</ul>
             </section>
@@ -87,7 +83,12 @@ export default function BlogArticlePage({ article }: { article: BlogArticle }) {
                 {section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
                 {section.bullets && <ul>{section.bullets.map((item) => <li key={item}>{item}</li>)}</ul>}
                 {section.table && (
-                  <div className="article-table-wrap">
+                  <div
+                    className="article-table-wrap"
+                    role="region"
+                    aria-label={`${section.table.caption} table`}
+                    tabIndex={0}
+                  >
                     <table>
                       <caption>{section.table.caption}</caption>
                       <thead><tr>{section.table.headers.map((header) => <th key={header} scope="col">{header}</th>)}</tr></thead>
@@ -123,6 +124,10 @@ export default function BlogArticlePage({ article }: { article: BlogArticle }) {
               </div>
             </section>
 
+            <section className="article-toc-section" aria-label="Article table of contents">
+              <TableOfContents items={tocItems} />
+            </section>
+
             <section className="article-next-step" aria-labelledby="next-step">
               <h2 id="next-step">Practical Next Step</h2>
               <p>Document what you observed, rule out visible and automatic water uses, and avoid approving invasive work until the affected system and proposed access are explained in writing.</p>
@@ -132,15 +137,6 @@ export default function BlogArticlePage({ article }: { article: BlogArticle }) {
               </div>
             </section>
           </article>
-
-          <aside className="article-sidebar" aria-label="Article navigation">
-            <TableOfContents items={tocItems} />
-            <div className="article-sidebar-card">
-              <strong>Need help interpreting the signs?</strong>
-              <p>Describe the symptoms and property location before choosing a repair method.</p>
-              <Link href="/request-slab-leak-inspection">Request an inspection</Link>
-            </div>
-          </aside>
         </div>
       </section>
 

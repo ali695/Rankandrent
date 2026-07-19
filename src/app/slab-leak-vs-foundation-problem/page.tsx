@@ -179,7 +179,7 @@ export default function SlabLeakVsFoundation() {
             <p style={{ textAlign: "center", color: "#4a4a4a", fontSize: "1.1rem", maxWidth: "800px", margin: "0 auto 3rem", lineHeight: "1.7" }}>
               Some observations suggest which discipline should assess the property first, but symptoms can overlap. Use documented plumbing tests and a separate structural evaluation instead of treating one crack, damp spot, sound, or meter reading as a complete diagnosis.
             </p>
-            <div style={{ overflowX: "auto" }}>
+            <div className="responsive-table-wrap" role="region" aria-label="Slab leak and foundation problem signs table" tabIndex={0}>
               <table style={{ width: "100%", borderCollapse: "collapse", minWidth: "800px", borderRadius: "8px", overflow: "hidden", boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)" }}>
                 <thead>
                   <tr style={{ backgroundColor: "var(--dark-charcoal)", color: "var(--white)" }}>
