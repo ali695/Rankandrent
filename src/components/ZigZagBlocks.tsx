@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export type ZigZagBlock = {
   kicker?: string;
@@ -20,46 +21,42 @@ export default function ZigZagBlocks({ blocks }: { blocks: ZigZagBlock[] }) {
         const isDarkBg = block.backgroundColor.includes('var(--dark-charcoal)') || block.backgroundColor === '#18181b' || block.backgroundColor === '#1c1c1e';
         const headingColor = isDarkBg ? 'var(--white)' : 'var(--dark-charcoal)';
 
+        const media = (
+          <div className="zigzag-media">
+            <Image
+              src={block.imageSrc}
+              alt={block.imageAlt}
+              fill
+              sizes="(max-width: 1024px) calc(100vw - 2.5rem), 560px"
+              style={{ objectFit: 'cover' }}
+            />
+          </div>
+        );
+
+        const copy = (
+          <div className="zigzag-copy">
+            {block.kicker && <span className="zigzag-kicker">{block.kicker}</span>}
+            <h2 className="zigzag-heading" style={{ color: headingColor }}>{block.heading}</h2>
+            <div className="zigzag-copy-body">{block.content}</div>
+            {block.buttonText && block.buttonLink && (
+              <div className="zigzag-action">
+                <Link href={block.buttonLink} className="btn-primary">
+                  {block.buttonText}
+                </Link>
+              </div>
+            )}
+          </div>
+        );
+
         return (
-          <section key={idx} style={{ backgroundColor: block.backgroundColor, padding: "6rem 0" }}>
-            <div className="container split-grid" style={{ alignItems: "center" }}>
-              {block.imageOnLeft ? (
-                <>
-                  <div style={{ display: "flex", width: "100%" }}>
-                    <img src={block.imageSrc} alt={block.imageAlt} style={{ width: "100%", aspectRatio: "1/1", objectFit: "cover", borderRadius: "16px", boxShadow: "0 20px 40px rgba(0,0,0,0.1)" }} />
-                  </div>
-                  <div className="zigzag-copy zigzag-copy-left" style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
-                    {block.kicker && <span style={{ color: "var(--brand-red)", fontWeight: "700", textTransform: "uppercase", letterSpacing: "1px", display: "block", marginBottom: "0.5rem", fontSize: "0.85rem" }}>{block.kicker}</span>}
-                    <h2 style={{ fontSize: "2.5rem", fontWeight: "800", marginBottom: "1.5rem", color: headingColor, lineHeight: "1.2" }}>{block.heading}</h2>
-                    {block.content}
-                    {block.buttonText && block.buttonLink && (
-                      <div style={{ marginTop: "2rem" }}>
-                        <Link href={block.buttonLink} className="btn-primary" style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem" }}>
-                          {block.buttonText}
-                        </Link>
-                      </div>
-                    )}
-                  </div>
-                </>
-              ) : (
-                <>
-                  <div className="zigzag-copy zigzag-copy-right" style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
-                    {block.kicker && <span style={{ color: "var(--brand-red)", fontWeight: "700", textTransform: "uppercase", letterSpacing: "1px", display: "block", marginBottom: "0.5rem", fontSize: "0.85rem" }}>{block.kicker}</span>}
-                    <h2 style={{ fontSize: "2.5rem", fontWeight: "800", marginBottom: "1.5rem", color: headingColor, lineHeight: "1.2" }}>{block.heading}</h2>
-                    {block.content}
-                    {block.buttonText && block.buttonLink && (
-                      <div style={{ marginTop: "2rem" }}>
-                        <Link href={block.buttonLink} className="btn-primary" style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem" }}>
-                          {block.buttonText}
-                        </Link>
-                      </div>
-                    )}
-                  </div>
-                  <div style={{ display: "flex", width: "100%" }}>
-                    <img src={block.imageSrc} alt={block.imageAlt} style={{ width: "100%", aspectRatio: "1/1", objectFit: "cover", borderRadius: "16px", boxShadow: "0 20px 40px rgba(0,0,0,0.1)" }} />
-                  </div>
-                </>
-              )}
+          <section
+            key={idx}
+            className="zigzag-section"
+            data-theme={isDarkBg ? 'dark' : 'light'}
+            style={{ backgroundColor: block.backgroundColor }}
+          >
+            <div className={`container zigzag-grid ${block.imageOnLeft ? 'zigzag-image-left' : 'zigzag-image-right'}`}>
+              {block.imageOnLeft ? <>{media}{copy}</> : <>{copy}{media}</>}
             </div>
           </section>
         );
