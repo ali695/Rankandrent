@@ -27,8 +27,8 @@ export default function BlogLandingPage() {
         <Image src="/images/blog/understanding-slab-leaks.png" alt="Water lines beneath a tiled concrete slab in a Tucson home" fill sizes="100vw" priority style={{ objectFit: "cover" }} />
         <div className="blog-index-overlay" style={{ background: "rgba(0, 0, 0, 0.6)" }} />
         <div className="container blog-index-content" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-          <h1 style={{ textAlign: "center", maxWidth: "900px", margin: "0 auto 1rem", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: "800" }}>Tucson Slab Leak<br />Questions and Answers</h1>
-          <p style={{ textAlign: "center", maxWidth: "700px", margin: "0 auto", fontSize: "1.1rem", color: "#e4e4e7" }}>Find quick answers to common questions regarding slab leak signs,<br />detection, repair costs, and emergency steps.</p>
+          <h1 style={{ textAlign: "center", maxWidth: "900px", margin: "0 auto 1rem", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: "800" }}>Tucson Slab Leak Blog</h1>
+          <p style={{ textAlign: "center", maxWidth: "800px", margin: "0 auto", fontSize: "1.1rem", color: "#e4e4e7" }}>Clear answers about warning signs, water-meter checks, professional detection,<br />repair choices, costs, insurance questions and restoration.</p>
         </div>
       </section>
 
