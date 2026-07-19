@@ -6,6 +6,7 @@ import { Thermometer, Droplets, Gauge, Volume2, ArrowDownToLine, Activity, Searc
 import Link from 'next/link';
 import ZipCodeDirectory from '@/components/ZipCodeDirectory';
 import FaqCategory from '@/components/FaqCategory';
+import ZigZagBlocks from '@/components/ZigZagBlocks';
 
 export const metadata: Metadata = {
   title: 'Signs of a Slab Leak | Tucson Homeowner Guide',
@@ -431,6 +432,47 @@ export default function SignsOfSlabLeak() {
             </div>
           </div>
         </section>
+
+        <ZigZagBlocks blocks={[
+          {
+            kicker: "Prepare for Testing",
+            heading: "How to Document Slab Leak Symptoms Before Testing",
+            content: <>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
+                A short, accurate record helps a technician separate a plumbing loss from normal household water use. Note when each symptom started, whether it is constant or intermittent, and whether it changes after showers, laundry, irrigation, or pool equipment runs. Photograph damp flooring, discolored baseboards, and the water-meter reading so changes can be compared instead of relying on memory.
+              </p>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
+                For a controlled meter observation, stop known water uses and confirm that toilets, ice makers, water treatment equipment, irrigation, and pool autofill are not operating. Record the starting display, wait without using water, and photograph the ending display. Movement confirms metered flow during that period, but it does not identify whether the source is beneath the slab.
+              </p>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: 0, lineHeight: "1.7" }}>
+                Mark warm, damp, or noisy areas on a simple floor plan and include nearby fixtures. This gives the plumber a useful starting point for <a href="/water-line-pressure-testing-tucson/" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>water-line pressure testing</a> while preventing one visible symptom from being mistaken for the pipe failure location.
+              </p>
+            </>,
+            imageSrc: "/images/section_water_meter.jpg",
+            imageAlt: "Homeowner documenting a Tucson water meter reading before slab leak testing",
+            imageOnLeft: true,
+            backgroundColor: "#f8fafc"
+          },
+          {
+            kicker: "Read the Pattern",
+            heading: "How Multiple Clues Point to the Affected Water Line",
+            content: <>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
+                Slab leak symptoms are most useful when several independent observations agree. A warm floor combined with unexplained meter flow and repeated water-heater cycling supports testing the hot-water system. Meter movement without a warm area may justify checking toilets, appliances, the service line, irrigation, and the <a href="/cold-water-slab-leak-tucson/" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>cold-water plumbing</a>.
+              </p>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
+                Isolation changes a broad suspicion into a defined test boundary. When the hot-water supply is isolated, the technician can compare meter behavior and pressure loss before moving to thermal or acoustic tools. Outdoor branches and pool systems may need separate isolation because a buried yard leak can produce the same meter evidence as an under-slab pipe.
+              </p>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: 0, lineHeight: "1.7" }}>
+                No single clue proves the route or break point. The goal is to establish which system is losing water, trace the likely pipe path, and then compare sound, temperature, moisture, and pressure evidence. That sequence produces a more defensible repair plan than opening concrete at the first warm or damp spot.
+              </p>
+            </>,
+            imageSrc: "/images/blog/detection-report.png",
+            imageAlt: "Slab leak test findings and pipe route documented for repair planning",
+            imageOnLeft: false,
+            backgroundColor: "var(--white)"
+          }
+        ]} />
 
         {/* Section 11: FAQs */}
         <section style={{ backgroundColor: "#f8fafc", padding: "5rem 0" }}>

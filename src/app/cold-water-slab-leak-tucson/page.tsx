@@ -361,6 +361,47 @@ export default function ColdWaterSlabLeak() {
           </div>
         </section>
 
+        <ZigZagBlocks blocks={[
+          {
+            kicker: "Hidden Symptoms",
+            heading: "Why Cold-Water Slab Leaks Can Be Harder to Notice",
+            content: <>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
+                A cold-water leak does not normally create the warm floor pattern associated with a leaking hot line. Water may remain below the slab, travel through a pipe trench, or emerge at a wall or foundation edge away from the failure. In dry Tucson conditions, surface moisture can also evaporate before it creates an obvious puddle.
+              </p>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
+                The first evidence may be a meter that advances during a controlled no-use period, a repeatable pressure drop, an unexplained change in consumption, or a sound that continues after fixtures stop. Each clue has alternatives: toilets can cycle silently, irrigation valves can seep, pool autofill can operate unnoticed, and a service-line leak may stay outdoors.
+              </p>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: 0, lineHeight: "1.7" }}>
+                That is why <a href="/electronic-leak-detection-tucson/" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>electronic leak detection</a> follows isolation and pressure testing. Listening equipment is more useful after the affected water system and likely pipe route have been established.
+              </p>
+            </>,
+            imageSrc: "/images/cold_water_slab_leak.jpg",
+            imageAlt: "Inspection for concealed cold-water slab leak symptoms in a Tucson home",
+            imageOnLeft: true,
+            backgroundColor: "#f8fafc"
+          },
+          {
+            kicker: "Isolation Strategy",
+            heading: "How Technicians Separate Indoor Plumbing from Outdoor Water Use",
+            content: <>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
+                The water meter records flow through the metered service, not the location of a leak. A technician first controls expected uses and notes whether the meter continues to advance. The home&apos;s main shutoff, when present and functioning, can then help distinguish the private service line from plumbing downstream of that valve.
+              </p>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
+                Irrigation branches, hose connections, water treatment equipment, evaporative coolers, pools, and detached structures must be considered according to how the property is piped. Some branches split before the building shutoff, so closing one valve does not always remove every outdoor source from the test. The actual plumbing layout controls what each isolation step proves.
+              </p>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: 0, lineHeight: "1.7" }}>
+                Once outdoor and service-line losses are reasonably excluded, <a href="/water-line-pressure-testing-tucson/" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>pressure testing the cold-water system</a> can document whether that defined section loses pressure. Pipe tracing and acoustic comparison can then narrow the search without treating the meter alone as a slab leak locator.
+              </p>
+            </>,
+            imageSrc: "/images/blog/pressure-testing.png",
+            imageAlt: "Pressure gauge used to isolate a cold-water plumbing leak",
+            imageOnLeft: false,
+            backgroundColor: "var(--white)"
+          }
+        ]} />
+
         {/* Section 10: FAQs */}
         <section style={{ backgroundColor: "var(--white)", padding: "5rem 0" }}>
           <div className="container">

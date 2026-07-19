@@ -338,6 +338,47 @@ export default function SlabLeakRepairCost() {
           </div>
         </section>
 
+        <ZigZagBlocks blocks={[
+          {
+            kicker: "Estimate Review",
+            heading: "How to Compare Slab Leak Repair Estimates Line by Line",
+            content: <>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
+                Two estimates can show different totals because they include different work. Start by confirming whether each proposal covers diagnosis, pipe tracing, access, the plumbing repair or reroute, pressure testing after completion, debris removal, concrete closure, and finish restoration. An estimate that stops at the pipe repair should not be compared directly with one that includes flooring or drywall work.
+              </p>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
+                Check allowances and exclusions closely. Tile matching, cabinet removal, hazardous-material testing, permit requirements, after-hours work, and concealed conditions may be outside the quoted price. Ask who coordinates each trade and which changes require written approval. This reduces the chance that a low initial figure becomes a series of unplanned additions.
+              </p>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: 0, lineHeight: "1.7" }}>
+                Finally, compare warranty coverage and the exact pipe section included. A proposal for one spot repair is a different scope from a <a href="/partial-repiping-tucson/" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>partial repipe</a> serving several fixtures. A clear written scope is more useful than choosing from headline prices alone.
+              </p>
+            </>,
+            imageSrc: "/images/blog/cost-estimate.png",
+            imageAlt: "Homeowner comparing detailed Tucson slab leak repair estimates",
+            imageOnLeft: true,
+            backgroundColor: "#f8fafc"
+          },
+          {
+            kicker: "Total Project Cost",
+            heading: "Why the Smallest Opening Is Not Always the Lowest-Cost Option",
+            content: <>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
+                A direct opening can be economical when the leak is beneath accessible flooring and the surrounding finishes are easy to replace. The same opening may be costly below custom cabinets, stone flooring, a shower assembly, or a room where matching material is unavailable. Detection should therefore inform both the pipe repair and the restoration plan.
+              </p>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
+                Rerouting can avoid concrete demolition, but it introduces a different scope: finding a practical path, opening walls or ceilings, protecting pipe in hot or exposed spaces, reconnecting fixtures, and restoring access points. Review the full <a href="/water-line-rerouting-tucson/" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>water-line rerouting</a> plan before assuming it costs less.
+              </p>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: 0, lineHeight: "1.7" }}>
+                Repair history matters as well. One isolated failure in otherwise serviceable pipe may support a targeted repair, while repeated leaks on the same aging branch may justify comparing a broader replacement. The appropriate decision balances confirmed location, access, finishes, pipe condition, disruption, and the work included—not merely the size of the first access hole.
+              </p>
+            </>,
+            imageSrc: "/images/blog/direct-slab-repair.png",
+            imageAlt: "Direct slab opening evaluated against total repair and restoration cost",
+            imageOnLeft: false,
+            backgroundColor: "var(--white)"
+          }
+        ]} />
+
         {/* Section 9: FAQs */}
         <section style={{ backgroundColor: "var(--white)", padding: "5rem 0" }}>
           <div className="container">

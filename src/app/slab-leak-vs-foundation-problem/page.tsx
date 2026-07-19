@@ -6,6 +6,7 @@ import { Home, Droplets, AlertTriangle, ArrowRight, CheckCircle2, XCircle, Searc
 import Link from 'next/link';
 import ZipCodeDirectory from '@/components/ZipCodeDirectory';
 import FaqCategory from '@/components/FaqCategory';
+import ZigZagBlocks from '@/components/ZigZagBlocks';
 
 export const metadata: Metadata = {
   title: 'Slab Leak vs. Foundation Problem | Know the Difference',
@@ -356,6 +357,47 @@ export default function SlabLeakVsFoundation() {
             </div>
           </div>
         </section>
+
+        <ZigZagBlocks blocks={[
+          {
+            kicker: "Separate the Evidence",
+            heading: "How Plumbing Evidence and Structural Evidence Are Collected",
+            content: <>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
+                A plumbing assessment asks whether a defined water system is losing water under controlled conditions. Useful evidence includes meter behavior, hot- and cold-side isolation, static pressure results, traced pipe routes, moisture observations, and repeatable acoustic or thermal patterns. These findings can support a repair location, but they do not measure foundation movement or determine structural capacity.
+              </p>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
+                A structural assessment examines a different set of information: crack geometry, vertical or horizontal displacement, floor elevations, wall and opening behavior, drainage, soil conditions, and changes over time. A crack near a damp area may deserve both assessments, but proximity alone does not establish that a leaking pipe caused the crack.
+              </p>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: 0, lineHeight: "1.7" }}>
+                Keep the reports separate and share them between qualified professionals when the symptoms overlap. A documented <a href="/slab-leak-detection-tucson/" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak detection</a> result helps define the plumbing work, while the appropriate structural professional determines whether movement or repair outside the plumbing scope requires attention.
+              </p>
+            </>,
+            imageSrc: "/images/blog/foundation-vs-leak.png",
+            imageAlt: "Comparison of plumbing leak evidence and foundation movement evidence",
+            imageOnLeft: true,
+            backgroundColor: "#f8fafc"
+          },
+          {
+            kicker: "Choose the First Call",
+            heading: "Which Professional Should Assess the Property First?",
+            content: <>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
+                Start with a plumber when water is actively spreading, the meter records unexplained flow, the water heater cycles without demand, a supply-water sound persists, or pressure testing indicates loss. Control an active leak promptly, especially when water is approaching electrical equipment or damaging finishes.
+              </p>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
+                Start with a qualified structural professional when the primary concern is progressive cracking, measurable displacement, sloping floors, or sticking doors and windows without evidence of water loss. A plumber can report plumbing test results but should not certify foundation performance unless separately qualified to provide that opinion.
+              </p>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: 0, lineHeight: "1.7" }}>
+                When both sets of symptoms are present, address active water first and document conditions before finishes are removed. Then coordinate the plumbing findings with the structural assessment. This sequence protects the property while avoiding the assumption that <a href="/slab-leak-repair-tucson/" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak repair</a> will automatically resolve a separate concrete, soil, or foundation concern.
+              </p>
+            </>,
+            imageSrc: "/images/blog/detection-report.png",
+            imageAlt: "Documented plumbing findings prepared for coordinated property assessment",
+            imageOnLeft: false,
+            backgroundColor: "var(--white)"
+          }
+        ]} />
 
         {/* Section 8: FAQs */}
         <section style={{ backgroundColor: "var(--white)", padding: "5rem 0" }}>

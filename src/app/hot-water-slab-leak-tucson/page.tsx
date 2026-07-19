@@ -388,6 +388,47 @@ export default function HotWaterSlabLeak() {
           </div>
         </section>
 
+        <ZigZagBlocks blocks={[
+          {
+            kicker: "System Behavior",
+            heading: "How a Hot-Water Slab Leak Changes the Plumbing System",
+            content: <>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
+                A hot-water line remains under pressure even when no faucet is open. If that line develops a leak below the slab, replacement water can continually enter the water heater and force it to recover more often. Homeowners may notice longer burner or heating-element cycles, less available hot water, or energy use that changes without a clear change in household routines.
+              </p>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
+                Escaping hot water can warm the soil and concrete, but the surface pattern may be wider or displaced from the failed pipe. Floor coverings, pipe depth, soil moisture, and nearby ducts affect where heat appears. A thermal scan therefore shows temperature differences; it does not see through concrete or independently prove the exact break location.
+              </p>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: 0, lineHeight: "1.7" }}>
+                The strongest diagnosis combines controlled meter readings, hot-side isolation, pressure behavior, pipe tracing, and repeatable thermal or acoustic evidence. See <a href="/how-slab-leak-detection-works/" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>how slab leak detection works</a> before deciding where any access opening belongs.
+              </p>
+            </>,
+            imageSrc: "/images/section_thermal_camera.jpg",
+            imageAlt: "Thermal camera checking a Tucson floor for a hot-water slab leak pattern",
+            imageOnLeft: true,
+            backgroundColor: "#f8fafc"
+          },
+          {
+            kicker: "Repair Planning",
+            heading: "What Determines Direct Repair or Hot-Line Rerouting",
+            content: <>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
+                Direct access may be practical when the failed section is confidently located beneath an open area with replaceable flooring. The full scope should still address concrete cutting, excavation, pipe repair, testing, slab closure, and finish restoration. A small plumbing opening can become an expensive project when it sits below cabinets, stone, a shower, or finished living space.
+              </p>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
+                A <a href="/water-line-rerouting-tucson/" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>hot-water line reroute</a> can avoid opening the slab by abandoning the leaking segment and installing an accessible route. The plumber must confirm which fixtures the line serves, where the new pipe can travel, how it will be insulated and protected, and whether walls or ceilings require access.
+              </p>
+              <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: 0, lineHeight: "1.7" }}>
+                Pipe material, repair history, the number of affected branches, and restoration costs all influence the choice. Compare complete scopes rather than treating direct repair or rerouting as automatically superior. Written estimates should explain testing, access, restoration responsibility, warranty terms, and any conditions that could change the price.
+              </p>
+            </>,
+            imageSrc: "/images/blog/repair-vs-reroute.png",
+            imageAlt: "Comparison of direct hot-water slab repair and water-line rerouting",
+            imageOnLeft: false,
+            backgroundColor: "var(--white)"
+          }
+        ]} />
+
         {/* Section 9: FAQs */}
         <section style={{ backgroundColor: "#f8fafc", padding: "5rem 0" }}>
           <div className="container">
