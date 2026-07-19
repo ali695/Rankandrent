@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next'
+import { blogArticles } from '@/data/blogArticles'
 
 export const dynamic = 'force-static'
 
@@ -61,12 +62,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/cookie-policy',
   ]
 
-  const allPaths = [...routes, ...services, ...info, ...serviceAreas, ...legal]
+  const articles = blogArticles.map((article) => `/blog/${article.slug}`)
+
+  const allPaths = [...routes, ...services, ...info, ...serviceAreas, ...articles, ...legal]
 
   return allPaths.map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
     changeFrequency: 'weekly',
-    priority: route === '' ? 1 : 0.8,
+    priority: route === '' ? 1 : route.startsWith('/blog/') ? 0.7 : 0.8,
   }))
 }
