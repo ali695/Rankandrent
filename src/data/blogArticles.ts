@@ -1,3 +1,5 @@
+import { blogArticleExpansions } from "@/data/blogArticleExpansions";
+
 export type BlogTable = {
   caption: string;
   headers: string[];
@@ -17,6 +19,12 @@ export type BlogFaq = {
   answer: string;
 };
 
+export type BlogContextLink = {
+  href: string;
+  label: string;
+  description: string;
+};
+
 export type BlogArticle = {
   slug: string;
   title: string;
@@ -32,12 +40,13 @@ export type BlogArticle = {
   relatedArea?: { href: string; label: string };
   keyTakeaways: string[];
   sections: BlogSection[];
+  contextualLinks: BlogContextLink[];
   faqs: BlogFaq[];
 };
 
 const publicationDate = "July 19, 2026";
 
-export const blogArticles: BlogArticle[] = [
+const baseBlogArticles: Omit<BlogArticle, "contextualLinks">[] = [
   {
     slug: "understanding-slab-leaks",
     title: "Understanding Slab Leaks: A Tucson Homeowner’s Guide",
@@ -863,5 +872,21 @@ export const blogArticles: BlogArticle[] = [
     ]
   }
 ];
+
+export const blogArticles: BlogArticle[] = baseBlogArticles.map((article) => {
+  const expansion = blogArticleExpansions[article.slug];
+
+  if (!expansion) {
+    throw new Error(`Missing editorial expansion for blog article: ${article.slug}`);
+  }
+
+  return {
+    ...article,
+    updated: "July 20, 2026",
+    readTime: expansion.readTime,
+    sections: [...article.sections, ...expansion.sections],
+    contextualLinks: expansion.contextualLinks,
+  };
+});
 
 export const blogArticleBySlug = new Map(blogArticles.map((article) => [article.slug, article]));

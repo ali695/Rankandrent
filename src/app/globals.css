@@ -55,6 +55,12 @@
 .article-faq-list details { margin-bottom: 0.85rem; padding: 1rem 1.25rem; border: 1px solid #e2e8f0; border-radius: 8px; background: #fff; }
 .article-faq-list summary { cursor: pointer; color: #0f172a; font-weight: 750; }
 .article-faq-list details p { margin: 1rem 0 0; }
+.article-context-links { padding: 1.75rem; border: 1px solid #fecaca; border-left: 4px solid var(--brand-red); border-radius: 10px; background: #fffafa; }
+.article-context-links > p { margin-bottom: 1.25rem; }
+.article-context-links ul { display: grid; gap: 1rem; margin: 0; padding: 0; list-style: none; }
+.article-context-links li { display: grid; gap: 0.25rem; }
+.article-context-links a { color: #b91c1c; font-weight: 800; text-underline-offset: 3px; }
+.article-context-links span { color: #475569; font-size: 0.96rem; line-height: 1.6; }
 .article-next-step { padding: 2.25rem; scroll-margin-top: 110px; border-radius: 12px; color: #fff; background: #18181b; }
 .article-next-step h2 { color: #fff; }
 .article-next-step p { color: #d4d4d8; }

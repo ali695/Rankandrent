@@ -6,13 +6,20 @@ import { BlogArticle, blogArticles } from "@/data/blogArticles";
 export default function BlogArticlePage({ article }: { article: BlogArticle }) {
   const tocItems = [
     ...article.sections.map((section) => ({ id: section.id, title: section.title, level: 1 })),
+    { id: "related-reading", title: "Related Reading", level: 1 },
     { id: "frequently-asked-questions", title: "Frequently Asked Questions", level: 1 },
     { id: "next-step", title: "Practical Next Step", level: 1 },
   ];
 
-  const related = blogArticles
-    .filter((candidate) => candidate.slug !== article.slug)
-    .sort((a, b) => Number(b.category === article.category) - Number(a.category === article.category))
+  const explicitlyLinkedSlugs = article.contextualLinks
+    .map((link) => link.href.match(/^\/blog\/([^/]+)\/?$/)?.[1])
+    .filter((slug): slug is string => Boolean(slug));
+  const related = [
+    ...explicitlyLinkedSlugs.map((slug) => blogArticles.find((candidate) => candidate.slug === slug)),
+    ...blogArticles.filter((candidate) => candidate.slug !== article.slug && candidate.category === article.category),
+  ]
+    .filter((candidate): candidate is BlogArticle => candidate !== undefined && candidate.slug !== article.slug)
+    .filter((candidate, index, candidates) => candidates.findIndex((item) => item.slug === candidate.slug) === index)
     .slice(0, 3);
 
   const articleSchema = {
@@ -22,7 +29,7 @@ export default function BlogArticlePage({ article }: { article: BlogArticle }) {
     description: article.description,
     image: `https://tucsonslableakpros.com${article.heroImage}`,
     datePublished: "2026-07-19",
-    dateModified: "2026-07-19",
+    dateModified: "2026-07-20",
     author: { "@type": "Organization", name: "Tucson Leak Pros" },
     publisher: { "@type": "Organization", name: "Tucson Leak Pros" },
     mainEntityOfPage: `https://tucsonslableakpros.com/blog/${article.slug}/`,
@@ -90,6 +97,19 @@ export default function BlogArticlePage({ article }: { article: BlogArticle }) {
                 )}
               </section>
             ))}
+
+            <section className="article-section article-context-links" aria-labelledby="related-reading">
+              <h2 id="related-reading">Related Reading and Services</h2>
+              <p>Use these supporting resources to move from the current question to the next useful diagnostic or repair decision.</p>
+              <ul>
+                {article.contextualLinks.map((link) => (
+                  <li key={`${link.href}-${link.label}`}>
+                    <Link href={link.href}>{link.label}</Link>
+                    <span>{link.description}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
 
             <section className="article-section" aria-labelledby="frequently-asked-questions">
               <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
