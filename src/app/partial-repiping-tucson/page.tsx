@@ -63,7 +63,7 @@ const faqSchema = {
       "name": "Can only one water line be repiped?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. We can replace one plumbing branch without whole-home repipe if the rest of the plumbing is in good condition."
+        "text": "Often, one confirmed branch can be replaced while the rest of the system remains in service. The decision depends on pipe condition, shared connections, failure history, and a workable replacement route."
       }
     },
     {
@@ -71,7 +71,7 @@ const faqSchema = {
       "name": "Does partial repiping require wall access?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. While we avoid breaking the concrete floor, running the new partial plumbing repipe usually requires drywall access in walls or ceilings."
+        "text": "Usually. Avoiding the slab shifts access to walls, ceilings, cabinets, or an attic. The route plan should show expected openings and state who handles drywall, texture, paint, and insulation restoration."
       }
     },
     {
@@ -104,10 +104,9 @@ export default function PartialRepiping() {
                 <span style={{ color: "var(--brand-red)", fontWeight: "700", textTransform: "uppercase", letterSpacing: "1px", display: "block", marginBottom: "0.5rem", fontSize: "0.9rem" }}>SOLVE REPEATED SLAB LEAKS</span>
                 <h1 style={{ color: "var(--white)", marginBottom: "1.5rem", fontSize: "3.5rem", lineHeight: "1.1", fontWeight: "800" }}>Partial Repiping Tucson</h1>
                 <p style={{ fontSize: "1.1rem", marginBottom: "1rem", maxWidth: "600px", color: "#e4e4e7", lineHeight: "1.6" }}>
-                  Tired of paying for repeated slab leak repairs on the exact same plumbing line? It might be time to replace that branch entirely.
-                 Our experts are highly trained in <a href="/water-line-pressure-testing-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>pressure testing</a>.</p>
+                  When the same plumbing route has failed more than once, replacing the affected branch may deserve comparison with another spot repair. The decision should start with documented leak history and <a href="/water-line-pressure-testing-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>pressure-testing</a> or detection findings.</p>
                 <p style={{ fontSize: "1.1rem", marginBottom: "2rem", maxWidth: "600px", color: "#e4e4e7", lineHeight: "1.6" }}>
-                  <strong>Partial repiping Tucson</strong> allows you to <strong>replace one plumbing branch without whole-home repipe</strong>. We abandon the failing under-slab section and install a permanent new route.
+                  Partial repiping in Tucson replaces a defined branch or group of lines without automatically repiping the whole home. The old section is disconnected from service, and a new route is installed, tested, and documented.
                  You may also need <a href="/signs-of-a-slab-leak/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>signs of a slab leak</a> depending on the severity of the issue.</p>
                 
                 <ul style={{ listStyle: "none", padding: 0, marginBottom: "2rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
@@ -135,12 +134,12 @@ export default function PartialRepiping() {
         <section style={{ backgroundColor: "var(--white)", padding: "5rem 0" }}>
           <div className="container split-grid" style={{ alignItems: "center" }}>
             <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", paddingRight: "3rem" }}>
-              <h2 style={{ fontSize: "2.2rem", fontWeight: "800", marginBottom: "1.5rem", color: "var(--dark-charcoal)", lineHeight: "1.2" }}>Stop Paying for Repeated Repairs</h2>
+              <h2 style={{ fontSize: "2.2rem", fontWeight: "800", marginBottom: "1.5rem", color: "var(--dark-charcoal)", lineHeight: "1.2" }}>When Replacing a Branch Is Worth Comparing</h2>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                A <strong>slab leak repiping Tucson</strong> strategy makes financial sense when you have <strong>repeated slab leaks on same plumbing line</strong>. If you are constantly hiring plumbers for spot repairs, <strong>partial house repiping Tucson</strong> provides a permanent fix.
+                A partial repipe may make financial sense when a confirmed branch has failed repeatedly, direct access would damage difficult finishes, or several fixtures share an aging route. One past leak alone does not prove that the whole branch must be replaced.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                We <strong>repipe damaged plumbing branch</strong> sections by routing a new, durable pipe through the attic or walls. Whether you need a <strong>cold-water branch replacement</strong> or you need to <strong>replace pipes beneath slab</strong>, we design the best <strong>replacement plumbing route Tucson</strong>.
+                Compare the remaining pipe condition, number of connections, attic or wall path, access openings, restoration, testing, warranty, and total cost. A clear proposal should show which fixtures the new branch will serve and which buried section will be abandoned.
               </p>
             </div>
             <div style={{ display: "flex" }}>
@@ -162,12 +161,12 @@ export default function PartialRepiping() {
             </div>
             
             <div>
-              <h2 style={{ fontSize: "2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>Plumber for Selected Pipe Replacement Tucson</h2>
+              <h2 style={{ fontSize: "2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>Define Exactly What the Partial Repipe Includes</h2>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.6" }}>
-                Our <strong>partial plumbing repipe Tucson</strong> professionals will handle the <strong>partial home repiping through walls and ceiling</strong> safely. We <strong>replace cold-water branch beneath foundation</strong> by abandoning it and pulling new lines overhead.
+                “Partial repipe” can mean one fixture branch, one hot- or cold-water group, or several related lines. The estimate should name every fixture and connection included, the pipe size and material, the route, access points, and test procedure.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.6" }}>
-                If you have a <strong>partial repiping after failed pressure test</strong> scenario, don't worry. We will <strong>abandon multiple damaged under-slab lines</strong> and get your home secure again.
+                A failed or unclear pressure test is not enough by itself to define the scope. Ask how the affected branches were identified and whether a spot repair, single-line reroute, broader partial repipe, or whole-home evaluation is being recommended—and why.
               </p>
             </div>
           </div>
@@ -175,8 +174,8 @@ export default function PartialRepiping() {
 
                         <ZigZagBlocks blocks={[
           {
-            heading: "Partial Repiping Materials and Warranty",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We use PEX (cross-linked polyethylene) for the majority of <a href="/partial-repiping-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>partial repiping</a> projects in Tucson. PEX offers several advantages over copper in under-slab and through-wall applications: it resists the corrosion that causes slab leaks in the first place, handles thermal expansion without stress cracking, and requires fewer joints — meaning fewer potential failure points.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>All pipe materials we use are rated for potable water and comply with current Arizona plumbing codes. Each connection is pressure-tested individually before the wall cavities are closed, and the entire new branch receives a final system-wide pressure verification before the project is considered complete.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The completed repiping work comes with a labor warranty covering our workmanship and connections, while the PEX pipe itself carries a manufacturer warranty of 25 years or more. We provide full documentation of the work performed, materials used, and test results for your records and for any future home inspections or insurance needs.</p></>,
+            heading: "Materials, Testing, and Warranty Questions",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>PEX and copper are both considered for <a href="/partial-repiping-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>partial repiping</a>. PEX flexibility may reduce directional fittings on some routes, while copper may suit particular exposed or transition details. Material choice should match local requirements, water conditions, temperature and pressure ratings, and manufacturer instructions.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Ask for the product name, pipe size, joining system, supports, insulation, protection at framing, and documented test method. These installation details matter as much as the material label.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Labor and manufacturer warranties vary by provider and product. Request both in writing, including duration, exclusions, transferability, required registration, covered fittings, and who handles access and finish restoration if a warranty claim occurs.</p></>,
             imageSrc: "/images/partial_repiping.webp",
             imageAlt: "Partial Repiping Materials",
             imageOnLeft: true,
@@ -184,23 +183,23 @@ export default function PartialRepiping() {
           },
           {
             heading: "When Partial Repiping Makes Sense",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A partial repipe is the perfect middle ground between a simple <a href="/under-slab-pipe-repair-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>under-slab pipe repair</a> and a whole-home repipe. If you have experienced a leak on a specific branch line—for instance, the <a href="/hot-water-slab-leak-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>hot water line</a> feeding your master bathroom—but the rest of your home's plumbing appears healthy, a partial repipe targets the known problem area.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Instead of breaking your bathroom floor to fix one hole, we cap off the entire failing line under the slab. We then run a brand new PEX line through the attic and drop it down the wall to feed your shower and sinks. This permanently eliminates the risk of that specific line ever leaking under your foundation again.</p></>,
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A partial repipe sits between a limited <a href="/under-slab-pipe-repair-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>under-slab pipe repair</a> and a whole-home repipe. It can target a known branch—for example, a <a href="/hot-water-slab-leak-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>hot-water line</a> serving several fixtures—while leaving unrelated piping in service.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The comparison should include failure history, nearby pipe condition, access and restoration, route length, fixture downtime, and total project cost. Replacing the branch removes that buried section from active service, but it does not eliminate leaks from other pipes or connections.</p></>,
             imageSrc: "/images/hero_partial_repiping.webp",
             imageAlt: "When partial repiping makes sense",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
           },
           {
-            heading: "Minimizing Wall Damage",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Because we are only replacing a specific section of your plumbing, the structural impact on your home is minimal. We don't need to tear out ceilings or open every wall in your house. By carefully mapping the route from the water source to the fixtures, we strategically plan small access panels, unlike a full <a href="/water-line-rerouting-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>water-line reroute</a>.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Most of the new pipe is routed securely through the attic where it is out of sight. The only drywall that needs to be cut is typically behind toilets or inside vanity cabinets where the new line connects to your angle stops. These small cuts are easily patched and painted, leaving your home looking untouched.</p></>,
+            heading: "Planning Wall and Ceiling Access",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Replacing only selected lines usually requires fewer openings than a whole-home project, but access cannot be promised as minimal before the route is mapped. Framing, fire blocks, insulation, fixture valves, cabinets, and required supports can change the plan.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Ask the provider to mark expected wall and ceiling openings for the <a href="/water-line-rerouting-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>replacement route</a>. The written scope should state who moves belongings and appliances, protects occupied rooms, replaces insulation, patches drywall, matches texture, and paints.</p></>,
             imageSrc: "/images/slab_leak_detection_vs_repair.webp",
             imageAlt: "Minimizing wall damage",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
           },
           {
-            heading: "Future-Proofing Your Plumbing",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Every partial repipe we perform is designed with the future in mind. If we are rerouting the hot water line to your kitchen today, we install accessible manifolds and shut-off valves that make future upgrades easy.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>If another under-slab line fails in a different part of the house five years from now, our technicians can simply tie a new PEX line into the accessible manifold we built during this repair. It transforms a scattered, buried plumbing system into a modern, manageable, overhead network piece by piece, helping manage the long-term <a href="/slab-leak-repair-cost-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak repair cost</a>.</p></>,
+            heading: "Document the New Branch for Future Work",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A partial repipe can improve access to the lines it replaces, especially when shut-offs or a serviceable manifold are part of the approved design. These features are project choices, not automatic parts of every repipe.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Keep a route drawing, photos before wall closure, product information, connection locations, test results, permits when applicable, and warranty documents. Good records make future diagnosis and estimates clearer, helping a homeowner compare long-term options and <a href="/slab-leak-repair-cost-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak repair costs</a> without guessing where the new branch runs.</p></>,
             imageSrc: "/images/slab_leak_repair.webp",
             imageAlt: "Future proofing plumbing",
             imageOnLeft: false,

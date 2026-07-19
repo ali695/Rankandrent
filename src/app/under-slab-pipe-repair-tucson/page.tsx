@@ -113,9 +113,9 @@ export default function UnderSlabPipeRepair() {
                 <h1 style={{ color: "var(--white)", marginBottom: "1.5rem", fontSize: "3.5rem", lineHeight: "1.1", fontWeight: "800" }}>Under-Slab Pipe Repair Tucson</h1>
                 <p style={{ fontSize: "1.1rem", marginBottom: "1rem", maxWidth: "600px", color: "#e4e4e7", lineHeight: "1.6" }}>
                   Under-slab pipe repair addresses a confirmed water-line failure beneath a concrete floor by safely exposing the pipe. 
-                 For more information, learn about our <a href="/slab-leak-repair-cost-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>slab leak repair cost</a> process.</p>
+                 Review the factors that shape <a href="/slab-leak-repair-cost-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>slab leak repair cost</a> before comparing estimates.</p>
                 <p style={{ fontSize: "1.1rem", marginBottom: "2rem", maxWidth: "600px", color: "#e4e4e7", lineHeight: "1.6" }}>
-                  Our <strong>direct-access <a href="/slab-leak-repair-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>slab leak repair</a></strong> involves removing a <strong>controlled concrete opening for pipe repair</strong>, replacing the failed section, and testing the plumbing before the opening is closed.
+                  A <strong>direct-access <a href="/slab-leak-repair-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>slab leak repair</a></strong> uses a controlled concrete opening to expose a confirmed failure, replace the affected section, and test the plumbing before backfill and closure.
                 </p>
                 
                 <ul style={{ listStyle: "none", padding: 0, marginBottom: "2rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
@@ -145,13 +145,13 @@ export default function UnderSlabPipeRepair() {
             <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", paddingRight: "3rem" }}>
               <h2 style={{ fontSize: "2.2rem", fontWeight: "800", marginBottom: "1.5rem", color: "var(--dark-charcoal)", lineHeight: "1.2" }}>Direct Access to a Confirmed Pipe Failure</h2>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                Opening a slab should be a planned repair step, not a search method. If you need <strong>under-slab plumbing repair Tucson</strong> services, the exact spot needs to be narrowed down first. Once confirmed, we can perform a <strong>pipe repair beneath concrete Tucson</strong>.
+                Opening a slab should be a planned repair step, not a search method. Detection should first narrow the source and affected line. The provider should explain the evidence used to select the access point before concrete is cut.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                The work area is protected before a <strong>small floor opening for pipe repair</strong> is created. Concrete depth, reinforcement, flooring, and nearby utilities must be considered. Once the pipe is visible, our <strong>plumber to repair pipe beneath foundation</strong> will cut out the damaged copper or PEX and braze/fit a new section.
+                The work area is protected before a limited floor opening is created. Concrete depth, reinforcement, flooring, nearby utilities, and safe working space determine its size. Once exposed, the failed pipe section and surrounding condition can be assessed.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", fontStyle: "italic", lineHeight: "1.7" }}>
-                We handle <strong>concrete floor pipe repair</strong> safely. Just remember that <strong>flooring restoration after slab leak</strong> (like replacing the aesthetic tile) might be a separate job.
+                The written scope should identify the pipe material, joining method, test procedure, backfill, concrete patch, and whether finish flooring restoration is included or handled separately.
               </p>
             </div>
             <div style={{ display: "flex" }}>
@@ -168,7 +168,7 @@ export default function UnderSlabPipeRepair() {
               <ul style={{ listStyle: "none", padding: 0, display: "flex", flexDirection: "column", gap: "1rem", color: "#4a4a4a", fontSize: "1.05rem", lineHeight: "1.6" }}>
                 <li style={{ position: "relative", paddingLeft: "1.5rem" }}><span style={{ position: "absolute", left: 0, color: "var(--brand-red)", fontWeight: "bold" }}>•</span> The failure appears isolated to one spot (<strong>replace damaged pipe section under slab</strong>).</li>
                 <li style={{ position: "relative", paddingLeft: "1.5rem" }}><span style={{ position: "absolute", left: 0, color: "var(--brand-red)", fontWeight: "bold" }}>•</span> <strong>Pipe repair below tile flooring Tucson</strong> where you have extra replacement tiles on hand.</li>
-                <li style={{ position: "relative", paddingLeft: "1.5rem" }}><span style={{ position: "absolute", left: 0, color: "var(--brand-red)", fontWeight: "bold" }}>•</span> The affected line has been accurately located, meaning we only need a <strong>small floor opening for pipe repair</strong>.</li>
+                <li style={{ position: "relative", paddingLeft: "1.5rem" }}><span style={{ position: "absolute", left: 0, color: "var(--brand-red)", fontWeight: "bold" }}>•</span> Multiple detection findings support a limited access area over the affected line.</li>
                 <li style={{ position: "relative", paddingLeft: "1.5rem" }}><span style={{ position: "absolute", left: 0, color: "var(--brand-red)", fontWeight: "bold" }}>•</span> The expected opening is acceptable compared with routing lines through walls or ceilings (<strong>under-slab repair or <a href="/water-line-rerouting-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>water-line rerouting</a></strong> decision).</li>
               </ul>
             </div>
@@ -176,10 +176,10 @@ export default function UnderSlabPipeRepair() {
             <div>
               <h2 style={{ fontSize: "2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>What the Repair Work May Involve</h2>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.6" }}>
-                We <strong>open concrete for slab leak repair</strong> carefully. Flooring is removed first, followed by a limited concrete opening. The pipe is exposed safely so adjacent lines are not damaged. 
+                Flooring is removed first, followed by a controlled concrete opening. The access plan should account for nearby pipes, reinforcement, utilities, dust control, and the working room needed for a reliable connection.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.6" }}>
-                We perform the <strong>under-slab copper pipe repair Tucson</strong>, or PEX repair, and then run a <strong>pressure test after pipe repair</strong> before burying it. Finally, a <strong>concrete patch after slab leak</strong> is applied so the plumbing remains protected and supported.
+                After the pipe section is replaced using an appropriate material and joining method, the provider tests the repair under documented conditions. Backfill and a concrete patch follow only after the joint and affected line have been checked.
               </p>
             </div>
           </div>
@@ -187,32 +187,32 @@ export default function UnderSlabPipeRepair() {
 
                         <ZigZagBlocks blocks={[
           {
-            heading: "Precision Concrete Access",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The most visible part of an <a href="/under-slab-pipe-repair-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>under-slab pipe repair</a> is the concrete opening. We use precision concrete saws to cut clean edges rather than recklessly jackhammering, which reduces vibration damage to surrounding tile and minimizes the messy cleanup involved. The opening is sized just large enough to safely access the pipe — typically 18 to 24 inches wide.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>For homes with tile floors, we measure carefully to align our cuts with your existing grout lines whenever possible. This foresight makes the eventual floor restoration blend much more naturally with the surrounding surface, saving your flooring contractor significant time and saving you money.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Before making any cuts, we set up heavy plastic containment barriers. Breaking concrete generates fine silica dust, and our containment protocols ensure that this dust doesn't circulate through your HVAC system or coat your furniture.</p></>,
+            heading: "Planning Concrete Access and Dust Controls",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The most visible part of an <a href="/under-slab-pipe-repair-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>under-slab pipe repair</a> is the concrete opening. Its size cannot be promised before exposure because slab depth, reinforcement, pipe depth, flooring, and working clearance all matter.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Where practical, the access plan may follow grout lines or another repairable finish boundary. The provider should mark the proposed area, explain how nearby utilities were considered, and state whether exploratory findings could change the opening.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Cutting or breaking concrete can create respirable silica dust. Ask about wet cutting or vacuum controls, containment, ventilation, personal protective equipment, and protection of the occupied area. Containment reduces migration but does not justify a dust-free guarantee.</p></>,
             imageSrc: "/images/under_slab_pipe_repair.webp",
             imageAlt: "Precision concrete access",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
           },
           {
-            heading: "Replacing the Failed Pipe Section",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Once the concrete is removed and the soil is excavated, we expose the leaking pipe. We cut out the damaged section entirely—we do not rely on temporary clamps, epoxy patches, or rubber sleeves. Those are band-aids, not plumbing repairs. Proper <a href="/slab-leak-repair-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak repair</a> demands permanent solutions.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We splice in a brand-new section of high-grade Type L copper or flexible PEX tubing, securing the connections with code-approved methods designed for direct burial. If we are brazing copper underground, we take extreme care to flush the line and ensure the joints are flawless before they are buried again.</p></>,
+            heading: "Assessing and Replacing the Failed Section",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>After the pipe is exposed, the provider can inspect the failure and nearby pipe. The repair scope may change if the opening reveals a damaged fitting, abrasion, poor support, or deterioration beyond the originally marked point.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The replacement material and joining method must suit the existing system, burial conditions, local requirements, and product instructions. Ask the estimate to name the pipe and fittings, describe corrosion or abrasion protection, and distinguish a temporary isolation measure from the completed <a href="/slab-leak-repair-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak repair</a>.</p></>,
             imageSrc: "/images/slab_leak_repair.webp",
             imageAlt: "Replacing failed pipe",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
           },
           {
-            heading: "Rigorous Pressure Testing Before Backfill",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The most critical step in an under-slab repair happens before the concrete is patched. Once the new pipe is installed, we turn the water main back on and repressurize your home's entire system. We monitor the exposed repair joint under full municipal water pressure.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We attach a sensitive <a href="/water-line-pressure-testing-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>pressure gauge</a> to verify that the system is holding perfectly steady. If the needle drops even a fraction of a PSI, it means there is another leak nearby or the new joint isn't secure. We never backfill dirt or pour concrete until the pressure test passes flawlessly.</p></>,
+            heading: "Testing Before the Repair Is Covered",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The exposed connection should be inspected and tested before it is buried. The appropriate method, pressure, duration, and isolation steps depend on the system, repair material, local requirements, and provider procedure.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A <a href="/water-line-pressure-testing-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>pressure test</a> must be interpreted in context. Temperature change, trapped air, valves, fixtures, and gauge resolution can affect readings. Request the start and finish readings, test duration, isolated section, visual inspection result, and explanation of any change before approving backfill.</p></>,
             imageSrc: "/images/pressure_testing.webp",
             imageAlt: "Pressure testing before backfill",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
           },
           {
-            heading: "Backfilling and Concrete Restoration",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>After the plumbing repair passes inspection, we begin the restoration phase. We carefully backfill the hole using clean sand or fine gravel immediately around the pipe. This protects the new copper or PEX from sharp rocks in the native Tucson soil that could cause friction damage during thermal expansion.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Finally, we pour high-strength concrete to match the exact thickness of your existing slab. We trowel the surface smooth and level so your flooring contractor has a perfect canvas to reinstall your tile, wood, or carpeting.</p></>,
+            heading: "Backfill, Concrete Patch, and Finish Work",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Backfill should support and protect the repaired pipe without placing damaging debris against it. The method and material depend on the pipe system, excavation, and project requirements. Documentation should note any sleeve, wrapping, bedding, or support used.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The concrete patch should restore the opening according to the approved scope, but finish flooring is a separate trade on many projects. Confirm who handles tile matching, wood or carpet replacement, baseboards, curing time, furniture movement, and cleanup before work starts.</p></>,
             imageSrc: "/images/slab_leak_service_process.webp",
             imageAlt: "Concrete restoration",
             imageOnLeft: false,

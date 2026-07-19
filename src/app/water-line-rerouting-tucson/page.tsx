@@ -63,7 +63,7 @@ const faqSchema = {
       "name": "Can only one leaking line be rerouted?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Often, yes. We can reroute one plumbing branch after slab leak without requiring a whole-home repipe."
+        "text": "Often, one confirmed branch can be rerouted without repiping the entire home. The provider should first map which fixtures share that branch and where the replacement line can connect."
       }
     },
     {
@@ -71,7 +71,7 @@ const faqSchema = {
       "name": "What happens to the old pipe under the slab?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We abandon damaged under-slab pipe, fully disconnecting it from the system so it no longer carries water."
+        "text": "The old section is normally taken out of service by disconnecting and capping it at the appropriate points. The written scope should identify what will be abandoned and how it will be verified."
       }
     },
     {
@@ -87,7 +87,7 @@ const faqSchema = {
       "name": "Can a hot-water line be rerouted through the attic?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, we can reroute hot-water line through wall or attic, but heat, insulation, and support must be considered to protect the new pipe."
+        "text": "A hot-water line may be routed through a wall, ceiling, or attic when the path is suitable. Material limits, supports, insulation, heat exposure, access, and local requirements all need to be considered."
       }
     }
   ]
@@ -112,24 +112,23 @@ export default function WaterLineRerouting() {
                 <span style={{ color: "var(--brand-red)", fontWeight: "700", textTransform: "uppercase", letterSpacing: "1px", display: "block", marginBottom: "0.5rem", fontSize: "0.9rem" }}>BYPASS DAMAGED UNDER-SLAB LINES</span>
                 <h1 style={{ color: "var(--white)", marginBottom: "1.5rem", fontSize: "3.5rem", lineHeight: "1.1", fontWeight: "800" }}>Water-Line Rerouting Tucson</h1>
                 <p style={{ fontSize: "1.1rem", marginBottom: "1rem", maxWidth: "600px", color: "#e4e4e7", lineHeight: "1.6" }}>
-                  Don't destroy your expensive tile floor for a pipe that might leak again. <strong>Water-line rerouting Tucson</strong> homeowners trust replaces the function of a leaking pipe without breaking the floor.
-                 If you live in <a href="/service-areas/north-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>North Tucson</a>, our specialists can be dispatched immediately.</p>
+                  Water-line rerouting bypasses a confirmed leaking section below the slab by creating a replacement path through a wall, ceiling, or attic. It can avoid opening finished flooring, although drywall and connection access are usually still required.
+                 Homes in <a href="/service-areas/north-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>North Tucson</a> vary in layout, so the route must be planned around framing, utilities, and fixture locations.</p>
                 <p style={{ fontSize: "1.1rem", marginBottom: "2rem", maxWidth: "600px", color: "#e4e4e7", lineHeight: "1.6" }}>
-                  A <strong>slab leak reroute Tucson</strong> isolates the damaged route and runs a new pipe through an accessible area like a wall or attic. This <strong>plumbing line bypass Tucson</strong> can save your floors and offer a more permanent solution.
-                 We proudly provide these services to homeowners in <a href="/service-areas/rita-ranch/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>Rita Ranch</a>.</p>
+                  The old line is disconnected from the active system, and the new line is supported, protected, connected, and tested. In <a href="/service-areas/rita-ranch/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>Rita Ranch</a> and elsewhere in Tucson, the best option depends on access, pipe history, finish restoration, and the condition of nearby plumbing.</p>
                 
                 <ul style={{ listStyle: "none", padding: 0, marginBottom: "2rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
                   <li style={{ display: "flex", alignItems: "center", gap: "0.75rem", fontSize: "1.1rem", fontWeight: "600" }}>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--brand-red)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                    Bypass leaking under-slab pipe
+                    Isolate the confirmed leaking branch
                   </li>
                   <li style={{ display: "flex", alignItems: "center", gap: "0.75rem", fontSize: "1.1rem", fontWeight: "600" }}>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--brand-red)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                    Reroute pipe through attic Tucson
+                    Plan an accessible replacement route
                   </li>
                   <li style={{ display: "flex", alignItems: "center", gap: "0.75rem", fontSize: "1.1rem", fontWeight: "600" }}>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--brand-red)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                    Abandon leaking pipe under slab
+                    Test and document the completed line
                   </li>
                 </ul>
               </div>
@@ -145,10 +144,10 @@ export default function WaterLineRerouting() {
             <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", paddingRight: "3rem" }}>
               <h2 style={{ fontSize: "2.2rem", fontWeight: "800", marginBottom: "1.5rem", color: "var(--dark-charcoal)", lineHeight: "1.2" }}>A Replacement Water-Line Route</h2>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                A <strong>slab leak pipe rerouting</strong> is considered when direct slab access would damage valuable flooring, or when the pipe condition suggests one spot repair isn't enough. We <strong>reroute water pipe around slab</strong> to remove the damaged segment from service.
+                Slab leak pipe rerouting is considered when direct access would seriously affect finished flooring, when the same route has failed before, or when an accessible replacement path offers a clearer repair scope. The confirmed damaged section is removed from active service.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                When you <strong>reroute plumbing through wall</strong> cavities or opt for an <strong>overhead plumbing reroute</strong>, the new line must avoid heat, freezing risk, and electrical conflicts. We handle both <strong>hot-water line rerouting Tucson</strong> and <strong>cold-water line rerouting Tucson</strong>.
+                A route through wall cavities, ceilings, or an attic must account for framing, electrical and mechanical systems, heat exposure, pipe supports, insulation, and future access. Hot- and cold-water lines may need different material and routing details.
               </p>
             </div>
             <div style={{ display: "flex" }}>
@@ -163,19 +162,19 @@ export default function WaterLineRerouting() {
             <div>
               <h2 style={{ fontSize: "2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>Rerouting vs Spot Repair</h2>
               <ul style={{ listStyle: "none", padding: 0, display: "flex", flexDirection: "column", gap: "1rem", color: "#4a4a4a", fontSize: "1.05rem", lineHeight: "1.6" }}>
-                <li style={{ position: "relative", paddingLeft: "1.5rem" }}><span style={{ position: "absolute", left: 0, color: "var(--brand-red)", fontWeight: "bold" }}>•</span> <strong>Water-line rerouting vs spot repair:</strong> Rerouting is better when the under-slab route is long or the pipe shows wider deterioration.</li>
+                <li style={{ position: "relative", paddingLeft: "1.5rem" }}><span style={{ position: "absolute", left: 0, color: "var(--brand-red)", fontWeight: "bold" }}>•</span> <strong>Pipe condition:</strong> A single isolated failure may suit spot repair; repeated failures or broader deterioration may support rerouting.</li>
                 <li style={{ position: "relative", paddingLeft: "1.5rem" }}><span style={{ position: "absolute", left: 0, color: "var(--brand-red)", fontWeight: "bold" }}>•</span> <strong><a href="/slab-leak-repair-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>Slab leak repair</a> without opening concrete floor:</strong> Rerouting shifts restoration from the floor to smaller drywall patches.</li>
-                <li style={{ position: "relative", paddingLeft: "1.5rem" }}><span style={{ position: "absolute", left: 0, color: "var(--brand-red)", fontWeight: "bold" }}>•</span> <strong>Pipe rerouting instead of slab spot repair:</strong> Essential if the same line has failed before.</li>
+                <li style={{ position: "relative", paddingLeft: "1.5rem" }}><span style={{ position: "absolute", left: 0, color: "var(--brand-red)", fontWeight: "bold" }}>•</span> <strong>Repair history:</strong> A previous failure on the same route is useful evidence, but it does not make rerouting automatic.</li>
               </ul>
             </div>
             
             <div>
-              <h2 style={{ fontSize: "2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>Plumber for Water-Line Rerouting Tucson AZ</h2>
+              <h2 style={{ fontSize: "2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>Planning a Replacement Water-Line Route</h2>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.6" }}>
-                Whether you need to <strong>bypass damaged pipe under house slab</strong> or are considering <strong>rerouting vs <a href="/partial-repiping-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>repiping</a></strong> entirely, you need a professional <strong>replacement pipe route Tucson</strong> evaluation.
+                The proposal should show where the new line begins and ends, which fixtures it serves, the planned pipe material and size, and every expected access opening. Compare that limited reroute with <a href="/partial-repiping-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>partial repiping</a> if more than one branch is affected.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.6" }}>
-                We help homeowners <strong>abandon damaged under-slab pipe and replace it</strong> with a safer <strong>replacement water line through ceiling Tucson</strong>.
+                Also confirm whether drywall patching, texture, paint, insulation replacement, permits, and fixture reconnection are included. These details often determine the complete project cost more than the pipe alone.
               </p>
             </div>
           </div>
@@ -184,15 +183,15 @@ export default function WaterLineRerouting() {
                         <ZigZagBlocks blocks={[
           {
             heading: "The Rerouting Process Step by Step",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A typical <a href="/water-line-rerouting-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>water-line reroute</a> takes one to two days depending on the number of lines being replaced and the layout of your home. We start by mapping the existing plumbing to identify which lines need rerouting and planning the most efficient path for the new pipe through your walls or attic space.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The new PEX line is run from the water main or meter connection to each fixture supply point, secured with proper hangers and insulated where it passes through unconditioned attic space. Each connection is pressure-tested individually before we move to the next. Once all new lines are confirmed leak-free, we disconnect the old under-slab pipe at both ends and cap it off.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The result is a completely new water supply system that is accessible, maintainable, and built to handle extreme temperature swings for decades. Your water pressure is restored, and you never have to worry about that old pipe failing again.</p></>,
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A <a href="/water-line-rerouting-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>water-line reroute</a> begins by confirming the leaking branch and mapping the fixtures it serves. The provider then plans a route that limits access work while respecting framing, utilities, material requirements, and serviceability.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The approved pipe is installed with the required supports and protection. Insulation may be needed in unconditioned areas. Connections are tested under a documented procedure before the old under-slab section is disconnected and capped.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Project time depends on route length, number of fixture connections, attic or wall access, inspections, and finish restoration. The final documentation should identify the new route, test results, abandoned section, and any remaining work.</p></>,
             imageSrc: "/images/water_line_rerouting.webp",
             imageAlt: "Water line rerouting process",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
           },
           {
-            heading: "Why We Use PEX for Rerouting",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>When moving your plumbing out of the slab and into the walls and attic, we almost exclusively use high-grade PEX (cross-linked polyethylene) piping. Unlike rigid copper, PEX is highly flexible. This allows us to "fish" the pipe through long wall cavities and complex attic framing with minimal drywall removal.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>PEX is also completely immune to the soil corrosion and hard water scaling that destroys copper pipes in Arizona. Furthermore, because it can bend around corners, PEX installations require far fewer fittings and joints than a comparable copper system. Fewer joints mean fewer potential points of failure.</p></>,
+            heading: "Comparing PEX and Copper for a Reroute",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>PEX is flexible, so some routes can be installed with fewer directional fittings and smaller access openings than rigid copper. Copper is rigid, familiar to many installers, and may fit particular exposed or connection details. Neither material is right for every path.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Selection should follow local requirements, manufacturer instructions, temperature and pressure ratings, water conditions, and the provider's installation plan. Ask for the product name, joining method, warranty terms, and explanation of how the pipe will be protected from heat, abrasion, fasteners, and ultraviolet exposure.</p></>,
             imageSrc: "/images/partial_repiping.webp",
             imageAlt: "Using PEX for rerouting",
             imageOnLeft: false,
@@ -200,7 +199,7 @@ export default function WaterLineRerouting() {
           },
           {
             heading: "Protecting Pipes in Unconditioned Attics",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Running water lines through a Tucson attic presents a unique challenge: extreme heat. Summer attic temperatures can routinely exceed 140 degrees, which can heat the water sitting in your cold-water lines to uncomfortable temperatures.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>To combat this, we meticulously insulate all new PEX lines routed through unconditioned spaces. We use thick, high-R-value foam insulation wrap, securing it tightly at every joint and hanger. This not only keeps your <a href="/cold-water-slab-leak-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>cold water leak</a> risks at bay, but it also protects hot water lines from losing thermal energy during the winter months.</p></>,
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>An unconditioned Tucson attic can become very hot, and standing water in an overhead line may warm before a fixture is opened. Heat exposure also matters when selecting pipe, fittings, supports, and clearances.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The route and insulation should match the design, manufacturer instructions, and local requirements. Insulation can reduce heat transfer and energy loss, but it does not prevent a <a href="/cold-water-slab-leak-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>cold-water leak</a>. Proper supports, protection at framing penetrations, and accessible connections remain essential.</p></>,
             imageSrc: "/images/hero_water_line_rerouting.webp",
             imageAlt: "Pipe insulation in attic",
             imageOnLeft: true,
@@ -208,7 +207,7 @@ export default function WaterLineRerouting() {
           },
           {
             heading: "Minimizing Drywall Damage",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Many homeowners worry that a reroute means tearing down entire walls of drywall. While some drywall access is unavoidable to connect the new overhead lines to your lower sink and shower valves, we use specialized techniques, such as <a href="/partial-repiping-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>partial repiping</a> drops, to keep cuts to an absolute minimum.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We map out the exact stud bays housing your plumbing fixtures. We make small, precise access squares—usually behind toilets or under bathroom vanities where they are less visible. Once the new PEX is dropped down from the attic and connected to your angle stops, the small drywall squares can be easily patched, taped, and painted.</p></>,
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A reroute trades slab and flooring access for openings along the replacement path. The number and size of openings depend on framing, fixture connections, fire blocking, insulation, and the pipe's required bend and support details.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Ask the provider to mark expected openings before work begins and explain whether exploratory access could reveal additional needs. For a larger <a href="/partial-repiping-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>partial repipe</a>, confirm which walls and fixtures are included. The estimate should state who patches, textures, and paints the drywall.</p></>,
             imageSrc: "/images/slab_leak_detection_vs_repair.webp",
             imageAlt: "Minimizing drywall damage",
             imageOnLeft: false,
@@ -247,10 +246,10 @@ export default function WaterLineRerouting() {
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
             <div className="hero-grid">
               <div style={{ color: "var(--white)", paddingRight: "2rem" }}>
-                <span style={{ color: "var(--brand-red)", fontWeight: "700", textTransform: "uppercase", letterSpacing: "1px", display: "block", marginBottom: "0.5rem", fontSize: "0.9rem" }}>READY FOR A NEW ROUTE?</span>
+                <span style={{ color: "var(--brand-red)", fontWeight: "700", textTransform: "uppercase", letterSpacing: "1px", display: "block", marginBottom: "0.5rem", fontSize: "0.9rem" }}>REVIEW THE COMPLETE ROUTE</span>
                 <h2 style={{ color: "var(--white)", marginBottom: "1.5rem", fontSize: "3.5rem", lineHeight: "1.1", fontWeight: "800" }}>Compare Rerouting Options in Tucson</h2>
                 <p style={{ fontSize: "1.1rem", marginBottom: "2rem", maxWidth: "600px", color: "#e4e4e7", lineHeight: "1.6" }}>
-                  Ask us to map a proposed route and explain exactly what access points are needed before we begin work.
+                  Request a route plan that shows fixture connections, expected access, pipe material, testing, restoration, and the old section being removed from service.
                 </p>
               </div>
 

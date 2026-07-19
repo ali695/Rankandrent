@@ -55,7 +55,7 @@ const faqSchema = {
       "name": "Is a slab leak an emergency?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If you have water spreading from the floor, rapid water-meter movement, or sudden pressure loss, it is a plumbing emergency that requires immediate mitigation, starting with shutting off the water supply."
+        "text": "Water spreading from the floor, rapid meter movement after all fixtures are off, or a major pressure loss needs urgent attention. If it is safe, close the home's private main shut-off and keep clear of wet electrical equipment."
       }
     },
     {
@@ -63,7 +63,7 @@ const faqSchema = {
       "name": "Should I shut off water for a slab leak?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. If there is active water coming through the floor, locate your main house shut-off valve immediately to stop the flow until an urgent slab leak plumber Tucson arrives."
+        "text": "If water is actively spreading and you can safely identify the home's private main shut-off, close it. Do not operate a utility-owned meter valve unless the utility or a qualified professional tells you to do so."
       }
     },
     {
@@ -71,7 +71,7 @@ const faqSchema = {
       "name": "Should I turn off the water heater?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If you suspect an active hot-water slab leak Tucson, turning off the water to the heater and shutting down its power/gas safely can prevent damage. Follow manufacturer guidelines."
+        "text": "A suspected hot-water leak may require the heater to be shut down, but gas and electric equipment must be handled correctly. Follow the manufacturer's instructions or ask a qualified professional for guidance."
       }
     },
     {
@@ -79,7 +79,7 @@ const faqSchema = {
       "name": "Can slab leak repair happen on the first visit?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Emergency visits focus on mitigation, isolation, and detection. Actual concrete removal and repair planning usually happen after the leak is accurately located."
+        "text": "Sometimes, but it should not be assumed. The first visit may focus on stopping water loss, identifying the affected line, and collecting enough evidence to plan a direct repair or reroute."
       }
     }
   ]
@@ -104,10 +104,10 @@ export default function EmergencySlabLeakService() {
                 <span style={{ color: "var(--brand-red)", fontWeight: "700", textTransform: "uppercase", letterSpacing: "1px", display: "block", marginBottom: "0.5rem", fontSize: "0.9rem" }}>URGENT WATER-LOSS ASSISTANCE</span>
                 <h1 style={{ color: "var(--white)", marginBottom: "1.5rem", fontSize: "3.5rem", lineHeight: "1.1", fontWeight: "800" }}>Emergency Slab Leak Repair Tucson</h1>
                 <p style={{ fontSize: "1.1rem", marginBottom: "1rem", maxWidth: "600px", color: "#e4e4e7", lineHeight: "1.6" }}>
-                  A burst pipe under slab Tucson can quickly turn into a flooding emergency. If you have active water spreading across your tile floor or sudden pressure loss, you need urgent help.
+                  Water spreading across a floor, a meter moving rapidly with every fixture off, or a major pressure change can signal an active plumbing leak. The source may be below the slab, inside a wall, or near a fixture, so the first goal is to limit damage and identify the affected line.
                 </p>
                 <p style={{ fontSize: "1.1rem", marginBottom: "2rem", maxWidth: "600px", color: "#e4e4e7", lineHeight: "1.6" }}>
-                  Our network provides emergency water leak repair Tucson residents rely on to isolate the system, mitigate water damage, and locate the hidden plumbing leak fast.
+                  Request urgent plumbing availability and describe what you can see, hear, and measure. A qualified provider can explain the callout fee, expected arrival window, initial safety steps, and whether detection or repair can begin during the visit.
                 </p>
                 
                 <ul style={{ listStyle: "none", padding: 0, marginBottom: "2rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
@@ -117,17 +117,17 @@ export default function EmergencySlabLeakService() {
                   </li>
                   <li style={{ display: "flex", alignItems: "center", gap: "0.75rem", fontSize: "1.1rem", fontWeight: "600" }}>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--brand-red)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                    Emergency hidden leak detection
+                    Evidence-based hidden-leak checks
                   </li>
                   <li style={{ display: "flex", alignItems: "center", gap: "0.75rem", fontSize: "1.1rem", fontWeight: "600" }}>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--brand-red)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                    Urgent <a href="/under-slab-pipe-repair-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>under-slab pipe repair</a>
+                    Repair or rerouting options after diagnosis
                   </li>
                 </ul>
               </div>
 
               <div style={{ backgroundColor: "var(--white)", borderRadius: "12px", padding: "2rem", boxShadow: "0 20px 40px rgba(0,0,0,0.2)" }}>
-                <h3 style={{ fontSize: "1.5rem", fontWeight: "700", marginBottom: "1rem", color: "var(--dark-charcoal)", textAlign: "center" }}>Request Emergency Dispatch</h3>
+                <h3 style={{ fontSize: "1.5rem", fontWeight: "700", marginBottom: "1rem", color: "var(--dark-charcoal)", textAlign: "center" }}>Request Urgent Availability</h3>
                 <ContactForm />
               </div>
             </div>
@@ -142,17 +142,17 @@ export default function EmergencySlabLeakService() {
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "2rem" }}>
               <div style={{ padding: "2rem", backgroundColor: "#f8fafc", borderRadius: "8px", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.3rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>Water Spreading From Floor</h3>
-                <p style={{ color: "#4a4a4a", lineHeight: "1.6" }}>If you see <strong>water spreading across tile floor Tucson</strong> or standing water near baseboards, you need an <strong>emergency plumber for pipe leak beneath concrete</strong>.</p>
+                <p style={{ color: "#4a4a4a", lineHeight: "1.6" }}>Active water at flooring, baseboards, cabinets, or wall edges needs prompt attention. Keep people away from wet electrical areas and close the private house shut-off if it is safe to do so.</p>
               </div>
               
               <div style={{ padding: "2rem", backgroundColor: "#f8fafc", borderRadius: "8px", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.3rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>Rapid Meter Movement</h3>
-                <p style={{ color: "#4a4a4a", lineHeight: "1.6" }}>A <strong>rapid water-meter movement emergency Tucson</strong> means high-pressure water is actively flowing under your home, threatening your foundation.</p>
+                <p style={{ color: "#4a4a4a", lineHeight: "1.6" }}>If the meter continues moving quickly after faucets, irrigation, appliances, and toilets are off, water is still being used or lost. The meter confirms flow, not the leak's location.</p>
               </div>
 
               <div style={{ padding: "2rem", backgroundColor: "#f8fafc", borderRadius: "8px", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.3rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>Sudden Pressure Loss</h3>
-                <p style={{ color: "#4a4a4a", lineHeight: "1.6" }}>A <strong>sudden water pressure loss slab leak</strong> across your home indicates a massive line failure. This requires <strong>urgent hidden water-line leak repair Tucson</strong>.</p>
+                <p style={{ color: "#4a4a4a", lineHeight: "1.6" }}>A large, sudden pressure change can have several causes, including a supply interruption, valve problem, or active leak. Check for utility notices, then request urgent diagnosis if the cause is unclear.</p>
               </div>
             </div>
           </div>
@@ -164,28 +164,28 @@ export default function EmergencySlabLeakService() {
             <div>
               <h2 style={{ fontSize: "2.2rem", fontWeight: "800", marginBottom: "1.5rem", color: "var(--white)" }}>What to Do When Water Comes Through the Floor</h2>
               <p style={{ fontSize: "1.1rem", color: "#a1a1aa", marginBottom: "2rem", lineHeight: "1.6" }}>
-                If you are dealing with a suspected slab leak with active water damage, take immediate action to protect your property before the <strong>urgent slab leak plumber Tucson</strong> arrives.
+                If a suspected slab leak is causing active water damage, focus on personal safety and stopping the flow. Do not cut concrete or open electrical panels to investigate.
               </p>
               <ul style={{ listStyle: "none", padding: 0, display: "flex", flexDirection: "column", gap: "1rem" }}>
                 <li style={{ display: "flex", alignItems: "flex-start", gap: "1rem" }}>
                   <span style={{ color: "var(--brand-red)", fontWeight: "bold", fontSize: "1.2rem" }}>1.</span>
                   <div>
                     <strong style={{ display: "block", fontSize: "1.1rem", marginBottom: "0.25rem" }}>Shut off the main water valve</strong>
-                    <span style={{ color: "#a1a1aa" }}>Locate the valve where water enters the house or at the street meter.</span>
+                    <span style={{ color: "#a1a1aa" }}>Use the home's private main shut-off only if you can identify and reach it safely. Leave a utility-owned meter valve alone unless authorized.</span>
                   </div>
                 </li>
                 <li style={{ display: "flex", alignItems: "flex-start", gap: "1rem" }}>
                   <span style={{ color: "var(--brand-red)", fontWeight: "bold", fontSize: "1.2rem" }}>2.</span>
                   <div>
                     <strong style={{ display: "block", fontSize: "1.1rem", marginBottom: "0.25rem" }}>Avoid electrical hazards</strong>
-                    <span style={{ color: "#a1a1aa" }}>Keep away from water near electrical outlets.</span>
+                    <span style={{ color: "#a1a1aa" }}>Keep away from water near outlets, appliances, or the electrical panel. Contact emergency services if there is an immediate electrical danger.</span>
                   </div>
                 </li>
                 <li style={{ display: "flex", alignItems: "flex-start", gap: "1rem" }}>
                   <span style={{ color: "var(--brand-red)", fontWeight: "bold", fontSize: "1.2rem" }}>3.</span>
                   <div>
-                    <strong style={{ display: "block", fontSize: "1.1rem", marginBottom: "0.25rem" }}>Call for urgent <a href="/slab-leak-detection-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>slab leak detection</a> near me Tucson</strong>
-                    <span style={{ color: "#a1a1aa" }}>We will dispatch a professional to isolate the line safely.</span>
+                    <strong style={{ display: "block", fontSize: "1.1rem", marginBottom: "0.25rem" }}>Request urgent <a href="/slab-leak-detection-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>slab leak detection</a></strong>
+                    <span style={{ color: "#a1a1aa" }}>Tell the provider when the issue began, whether the meter moves, and which areas are wet, warm, or losing pressure.</span>
                   </div>
                 </li>
               </ul>
@@ -198,32 +198,32 @@ export default function EmergencySlabLeakService() {
 
                         <ZigZagBlocks blocks={[
           {
-            heading: "Rapid Emergency Slab Leak Repair",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>When water is actively damaging your foundation or flooring, every minute counts. An <a href="/emergency-slab-leak-service-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>emergency response</a> requires a plumber who can arrive quickly, shut off the affected line, and begin damage mitigation before moisture spreads into drywall, cabinetry, or subflooring.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We dispatch experienced technicians who carry pressure-testing gauges, acoustic listening gear, and common repair fittings on every truck. That means the initial assessment and line isolation happen in the same visit — no waiting for a second appointment while water continues to pool beneath your slab.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Most residential emergencies in Tucson involve copper lines that have corroded at joints or developed pinhole failures. We evaluate the damaged section on-site and recommend either a direct <a href="/under-slab-pipe-repair-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>spot repair</a> or, when the pipe condition warrants it, a <a href="/water-line-rerouting-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>water-line reroute</a> through the attic to permanently bypass the failing segment.</p></>,
+            heading: "What an Urgent Plumbing Visit Should Cover",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>An urgent visit should begin with safety, water-loss control, and a clear description of what the provider can complete that day. Arrival times and after-hours coverage vary, so ask about availability and the callout fee before authorizing service.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The initial checks may include the meter, fixture shut-offs, pressure behavior, moisture readings, and <a href="/electronic-leak-detection-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>electronic leak detection</a>. No single reading proves that a pipe below the slab has failed. The provider should explain which observations support the diagnosis.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Once the affected branch is reasonably identified, compare a direct <a href="/under-slab-pipe-repair-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>under-slab repair</a> with a <a href="/water-line-rerouting-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>water-line reroute</a>. The right choice depends on pipe condition, access, finishes, and whether the same route has failed before.</p></>,
             imageSrc: "/images/hero_emergency_leak.webp",
             imageAlt: "Emergency slab leak repair",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
           },
           {
-            heading: "Isolating the Leak to Restore Your Water",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The first priority in an emergency is stopping the water damage while minimizing disruption to your daily life. Shutting off the main water valve stops the leak, but it also leaves your family without running water for toilets, showers, and cooking.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Our technicians work quickly to identify exactly which line is leaking using <a href="/electronic-leak-detection-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>electronic leak detection</a>. If possible, we will cap or bypass the specific branch line feeding the leak. This allows us to turn the main water back on to the rest of the house, giving you functional bathrooms and sinks while we plan and execute the permanent repair.</p></>,
+            heading: "Can the Affected Branch Be Isolated?",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Closing the main stops incoming water, but it also removes service throughout the home. In some plumbing layouts, a qualified plumber can isolate or temporarily bypass only the affected branch. In others, shared lines or inaccessible valves make that impractical.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Ask which fixtures will remain out of service, whether a temporary measure is code-compliant, and what must happen before the main can be reopened. Branch isolation limits ongoing loss; it does not replace accurate diagnosis or a planned repair.</p></>,
             imageSrc: "/images/section_pressure_gauge.webp",
             imageAlt: "Isolating the leak",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
           },
           {
-            heading: "Targeted Concrete Access and Repair",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Once the active leak is isolated and the water supply is stabilized, we assess the fastest path to a permanent fix. A direct <a href="/slab-leak-repair-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak repair</a> involves opening a small section of concrete directly above the failure point, replacing the damaged pipe segment with new copper or PEX, and pressure-testing the line before closing up.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Spot repair works best when the leak is in a single, accessible location and the surrounding pipe is still in good condition. For homes with tile flooring, we carefully cut the concrete to minimize surface damage. Once the plumbing repair is complete, the concrete is patched and the floor can be re-tiled.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>This targeted approach keeps the overall cost significantly lower than a full reroute. In many cases, we can complete the repair within a single day, restoring your water pressure and giving you peace of mind.</p></>,
+            heading: "Choosing the Repair After Stabilization",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>After active water loss is controlled, the next decision is whether to open the slab or bypass the failed section. A direct <a href="/slab-leak-repair-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak repair</a> provides access to a confirmed failure point. A reroute avoids that floor opening but creates access work along a new wall, ceiling, or attic path.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A spot repair may make sense for one accessible failure when the surrounding pipe appears serviceable. Repeated leaks, difficult flooring, or a practical replacement route may support rerouting. Detection findings and pipe history should drive that comparison.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Access size, repair time, and finish restoration depend on the location and construction. Ask the estimate to separate water mitigation, detection, plumbing, concrete or drywall work, and flooring restoration so the full scope is visible.</p></>,
             imageSrc: "/images/under_slab_pipe_repair.webp",
             imageAlt: "Targeted concrete access",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
           },
           {
-            heading: "Clear Estimates During a Crisis",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>During a plumbing emergency, the last thing you need is pricing surprises. We provide a detailed estimate that breaks down every <a href="/slab-leak-repair-cost-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak repair cost</a> — from the detection fee and concrete access to the pipe repair, pressure verification, and surface patching. You see exactly what you are paying for before any concrete is cut.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Our estimates also factor in your specific flooring type. Homes with standard concrete and vinyl flooring have lower restoration costs, while custom tile, travertine, or stamped concrete may require specialized cutting. We document these variables upfront so there are no hidden charges after the repair is done.</p></>,
+            heading: "Separate Emergency Work From the Full Repair",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>An emergency authorization may cover only the callout, diagnosis, and temporary isolation. Before concrete is cut or a new route is installed, request a written <a href="/slab-leak-repair-cost-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak repair estimate</a> for the permanent work.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Useful line items include after-hours fees, detection, access, pipe and fittings, testing, concrete or drywall closure, flooring, drying, and permit costs when applicable. Also confirm which company is responsible for each phase and what workmanship or material warranty is offered in writing.</p></>,
             imageSrc: "/images/emergency_slab_leak_service.webp",
             imageAlt: "Clear emergency estimates",
             imageOnLeft: false,

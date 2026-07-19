@@ -63,7 +63,7 @@ const faqSchema = {
       "name": "Can pressure testing locate the exact leak?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. A water-line leak test confirms the existence of the leak. We then use acoustic or electronic tracing to pinpoint the exact location."
+        "text": "No. A properly controlled test can show whether an isolated section behaves as expected, but it does not identify the leak's exact location. Acoustic, moisture, thermal, or tracing results may be used to narrow the search."
       }
     },
     {
@@ -71,7 +71,7 @@ const faqSchema = {
       "name": "Can hot and cold lines be tested separately?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Hot and cold line isolation is standard procedure. We test hot- and cold-water lines separately to determine which water line is leaking."
+        "text": "They may be tested separately when the plumbing layout and valves allow reliable isolation. The provider should explain which section was isolated and whether any shared connections could affect the result."
       }
     },
     {
@@ -79,7 +79,7 @@ const faqSchema = {
       "name": "Can pressure testing damage pipes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We test using normal static water pressure. The goal is to observe the natural pressure loss, not over-pressurize the system."
+        "text": "The test method and pressure must suit the plumbing system, materials, equipment, and applicable requirements. A qualified provider should state the test pressure, duration, gauge range, and safety limits before starting."
       }
     }
   ]
@@ -104,10 +104,10 @@ export default function WaterLinePressureTesting() {
                 <span style={{ color: "var(--brand-red)", fontWeight: "700", textTransform: "uppercase", letterSpacing: "1px", display: "block", marginBottom: "0.5rem", fontSize: "0.9rem" }}>PLUMBING LINE ISOLATION</span>
                 <h1 style={{ color: "var(--white)", marginBottom: "1.5rem", fontSize: "3.5rem", lineHeight: "1.1", fontWeight: "800" }}>Water-Line Pressure Testing Tucson</h1>
                 <p style={{ fontSize: "1.1rem", marginBottom: "1rem", maxWidth: "600px", color: "#e4e4e7", lineHeight: "1.6" }}>
-                  Before anyone tears into your floor, you need proof that a leak exists and exactly which line is losing pressure.
+                  Before a floor is opened, controlled testing can help show whether a pressurized supply section is likely losing integrity. It does not prove the leak's exact location by itself.
                 </p>
                 <p style={{ fontSize: "1.1rem", marginBottom: "2rem", maxWidth: "600px", color: "#e4e4e7", lineHeight: "1.6" }}>
-                  <strong>Plumbing pressure testing Tucson</strong> relies on <strong>hot and cold line isolation</strong> to confirm a <strong>hidden pipe leak testing</strong> accurately. We run a <strong>pressure-drop test Tucson</strong> to stop the guessing.
+                  Water-line pressure testing in Tucson should document the isolated section, starting and ending readings, duration, water temperature, fixture status, and test conditions. Those details make the result useful for the next diagnostic step.
                 </p>
                 
                 <ul style={{ listStyle: "none", padding: 0, marginBottom: "2rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
@@ -135,12 +135,12 @@ export default function WaterLinePressureTesting() {
         <section style={{ backgroundColor: "var(--white)", padding: "5rem 0" }}>
           <div className="container split-grid" style={{ alignItems: "center" }}>
             <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", paddingRight: "3rem" }}>
-              <h2 style={{ fontSize: "2.2rem", fontWeight: "800", marginBottom: "1.5rem", color: "var(--dark-charcoal)", lineHeight: "1.2" }}>Plumbing Line Isolation Tucson</h2>
+              <h2 style={{ fontSize: "2.2rem", fontWeight: "800", marginBottom: "1.5rem", color: "var(--dark-charcoal)", lineHeight: "1.2" }}>Isolating the Section Being Tested</h2>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
                 A <strong>pressure test for suspected slab leak Tucson</strong> begins with <strong>system isolation</strong>. The technician will perform <strong>shutoff valve testing</strong> and connect a <strong>plumbing pressure gauge</strong> to measure <strong>static water pressure</strong>. 
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                By conducting a <strong>hot-line test</strong> and a <strong>cold-line test</strong> independently, we can <strong>determine which water line is leaking</strong>. If <strong>water pressure drops when fixtures are off</strong>, it's a proven loss of integrity.
+                Where valves and layout permit, hot and cold sections may be observed separately. A pressure change can support a leak diagnosis, but temperature, trapped air, valve leakage, fixtures, the regulator, and gauge accuracy must also be considered.
               </p>
             </div>
             <div style={{ display: "flex" }}>
@@ -155,17 +155,17 @@ export default function WaterLinePressureTesting() {
             <div>
               <h2 style={{ fontSize: "2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>Confirm Hidden Water Loss</h2>
               <p style={{ color: "#4a4a4a", fontSize: "1.05rem", lineHeight: "1.6", marginBottom: "1rem" }}>
-                <strong>Pressure testing before <a href="/electronic-leak-detection-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>electronic leak detection</a></strong> is mandatory. We <strong>confirm hidden water loss with pressure test</strong> data so we aren't wasting time listening for a leak that might just be a running toilet.
+                A pressure test can be useful before <a href="/electronic-leak-detection-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>electronic leak detection</a>, but it is not the only valid first step. Meter checks, fixture isolation, visible inspection, and the plumbing layout may provide the needed direction.
               </p>
               <p style={{ color: "#4a4a4a", fontSize: "1.05rem", lineHeight: "1.6" }}>
-                Our <strong>residential plumbing pressure test</strong> also ensures that the home's <strong>pressure regulator</strong> isn't the root cause of the issue.
+                The provider should also consider the pressure regulator, shut-off valves, appliances, irrigation, and fixture leaks. These can change pressure behavior without proving an under-slab pipe failure.
               </p>
             </div>
             
             <div>
               <h2 style={{ fontSize: "2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>Testing After Repairs</h2>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.6" }}>
-                After we perform a <a href="/slab-leak-repair-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>slab leak repair</a>, we run a <strong>pressure test after slab leak repair</strong> to guarantee the new line holds strong. We use <strong>fixture isolation</strong> to ensure every faucet and shower receives the correct flow.
+                After a <a href="/slab-leak-repair-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>slab leak repair</a>, the exposed connection and affected section should be checked before closure. Pressure testing, visual inspection, and fixture-flow checks answer different questions and should be documented separately.
               </p>
             </div>
           </div>
@@ -173,32 +173,32 @@ export default function WaterLinePressureTesting() {
 
                         <ZigZagBlocks blocks={[
           {
-            heading: "Understanding Your Pressure Test Results",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>After the test, we walk you through the results in plain language. You will see the starting pressure, the duration of the test, and the final reading for each line. If a line held pressure, it is confirmed leak-free and can be ruled out. If a line dropped, we calculate the rate of water loss and explain what that means.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A pressure drop of more than 5 PSI over 15 minutes typically indicates a significant leak that needs prompt attention from our <a href="/emergency-slab-leak-service-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>emergency response</a> team. A drop of 1 to 3 PSI over the same period suggests a smaller failure that is still wasting water but may not require emergency service. We use these numbers to help you prioritize the next steps.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The full test report is documented and provided to you in writing. This documentation is valuable for insurance claims, home sale disclosures, and future plumbing reference. It also serves as the baseline for the <a href="/electronic-leak-detection-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>acoustic leak detection</a> phase, giving the technician a clear target line to investigate.</p></>,
+            heading: "How to Read a Pressure Test Report",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A useful report records the isolated section, fixture and valve status, gauge range, starting pressure, ending pressure, duration, water or ambient temperature, and any pressure added by the test equipment. It should also note visible leakage and equipment limitations.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>There is no universal pressure-drop number that grades every residential leak as small, large, or urgent. System volume, trapped air, thermal change, valve condition, gauge resolution, and test procedure affect the reading. Active water spreading or an electrical hazard is urgent regardless of a specific gauge threshold.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Ask for the provider's interpretation and the next test needed to confirm it. Written results can guide <a href="/electronic-leak-detection-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>electronic leak detection</a>, but insurance coverage and disclosure requirements depend on the policy and transaction.</p></>,
             imageSrc: "/images/pressure_testing.webp",
             imageAlt: "Understanding pressure test results",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
           },
           {
-            heading: "Isolating Hot vs. Cold Lines",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>One of the most important aspects of a professional <a href="/water-line-pressure-testing-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>pressure test</a> is isolating the different branches of your plumbing. A house-wide pressure drop tells us there is a leak, but it doesn't tell us where to start looking. By isolating the system, we save hours of diagnostic time.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We first isolate the hot water system by closing the valve at your water heater. We then apply pressure to the hot lines independently. If the pressure holds, we know your hot water system is safe, and we immediately shift our focus to the cold water manifold. This isolation technique narrows the search area by 50% instantly.</p></>,
+            heading: "Comparing Hot- and Cold-Water Sections",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Separating sections can make a <a href="/water-line-pressure-testing-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>pressure test</a> easier to interpret. The result depends on whether the valves truly isolate the section and whether recirculation lines, mixing valves, appliances, or cross-connections remain connected.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Closing a water-heater valve is not automatically a complete hot-side test procedure. Gas and electric equipment also require safe handling. A qualified provider should explain the isolation points, test medium, applied pressure, and why the setup is suitable for that home.</p></>,
             imageSrc: "/images/section_pressure_gauge.webp",
             imageAlt: "Isolating hot and cold lines",
             imageOnLeft: false,
             backgroundColor: "var(--white)"
           },
           {
-            heading: "Ruling Out Fixture Leaks First",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Not every loss of water pressure means you have a cracked pipe under your foundation. Before we attach our testing gauges, our technicians perform a thorough sweep of the exposed plumbing in your home. A running toilet flapper or a dripping shower cartridge can cause a false positive during a pressure test.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We shut off the angle stops to all toilets, washing machines, and refrigerator ice makers. By removing these common culprits from the testing equation, we ensure that any pressure drop registered on our gauge is exclusively due to a failure in the hard piping hidden in your walls or slab.</p></>,
+            heading: "Check Fixtures and Connected Equipment First",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A running toilet, irrigation valve, refrigerator, water treatment unit, evaporative cooler, hose bib, or dripping fixture can create water use that resembles a hidden supply leak. Visible and meter checks should identify these common alternatives first.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Fixture shut-offs can help isolate equipment, but old angle stops may not seal fully and some branches may lack individual valves. A remaining pressure change is evidence to investigate; it is not automatic proof that hard piping below the slab has failed.</p></>,
             imageSrc: "/images/section_water_meter.webp",
             imageAlt: "Ruling out fixture leaks",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
           },
           {
-            heading: "Using Gas for Micro-Leak Testing",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Sometimes, a pipe develops a pinhole leak so small that water pressure drops incredibly slowly, making <a href="/slab-leak-detection-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak detection</a> difficult. In these micro-leak scenarios, we escalate our testing methods by draining the water from the line and injecting an inert tracer gas (usually a mix of nitrogen and hydrogen).</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Because hydrogen molecules are smaller than water molecules, the gas escapes through the tiny pipe crack and permeates up through the concrete slab and flooring. We then use highly sensitive electronic gas "sniffers" to detect where the gas is surfacing, pinpointing the leak location accurately before beginning any <a href="/slab-leak-repair-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak repair</a>.</p></>,
+            heading: "When a Specialist Suggests Tracer Gas",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A trained specialist may suggest tracer-gas testing when water-based and acoustic methods do not produce clear findings. It is a separate diagnostic method, not a routine step for every suspected slab leak.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The line must be prepared and tested with compatible equipment, a suitable tracer mixture, controlled pressure, ventilation, and manufacturer safety procedures. Gas can travel through soil and building gaps, so a surface reading still requires interpretation before any <a href="/slab-leak-repair-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak repair</a> opening is selected.</p></>,
             imageSrc: "/images/electronic_leak_detection.webp",
             imageAlt: "Tracer gas leak testing",
             imageOnLeft: false,

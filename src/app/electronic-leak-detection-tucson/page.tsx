@@ -55,7 +55,7 @@ const faqSchema = {
       "name": "How accurate is electronic leak detection?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Highly accurate when performed by a professional. It drastically narrows the location of the leak, reducing the amount of flooring that needs to be removed for repair."
+        "text": "It can narrow a search area, but accuracy depends on pipe material, leak flow, depth, floor construction, background noise, and operator interpretation. A sound diagnosis combines electronic findings with other evidence."
       }
     },
     {
@@ -63,7 +63,7 @@ const faqSchema = {
       "name": "Can acoustic detection find a slab leak?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Acoustic listening devices and ground microphones are the primary tools used to hear the frequency of water escaping from a pressurized pipe beneath concrete."
+        "text": "It can help locate a pressurized leak when the escaping water creates a detectable signal. Results vary with pipe material, leak size, distance, soil, slab construction, and background noise."
       }
     },
     {
@@ -71,7 +71,7 @@ const faqSchema = {
       "name": "Does electronic leak detection damage flooring?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Electronic detection is entirely non-invasive. The goal is to locate the leak safely without opening any concrete or removing tile."
+        "text": "The scanning stage usually does not require opening the floor. However, access may be needed for valves, test connections, or the eventual repair, and uncertain results may require another diagnostic method."
       }
     },
     {
@@ -79,7 +79,7 @@ const faqSchema = {
       "name": "Can acoustic equipment find cold-water leaks?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. While hot water leaks might also show up on thermal imaging, acoustic equipment detects the sound of pressurized water escaping, which works for both hot and cold lines."
+        "text": "It may detect either hot- or cold-water leaks when the line is pressurized and the sound reaches the sensor. Thermal imaging can add evidence for some hot-water leaks but does not see through concrete or show the pipe itself."
       }
     }
   ]
@@ -104,20 +104,20 @@ export default function ElectronicLeakDetection() {
                 <span style={{ color: "var(--brand-red)", fontWeight: "700", textTransform: "uppercase", letterSpacing: "1px", display: "block", marginBottom: "0.5rem", fontSize: "0.9rem" }}>NON-INVASIVE SLAB LEAK LOCATING</span>
                 <h1 style={{ color: "var(--white)", marginBottom: "1.5rem", fontSize: "3.5rem", lineHeight: "1.1", fontWeight: "800" }}>Electronic Leak Detection Tucson</h1>
                 <p style={{ fontSize: "1.1rem", marginBottom: "1rem", maxWidth: "600px", color: "#e4e4e7", lineHeight: "1.6" }}>
-                  Finding a leak under concrete used to mean destroying the floor until the pipe was found. Not anymore. 
+                  Electronic tools can help narrow a suspected leak before a repair opening is planned. They reduce guesswork, but no instrument guarantees an exact point in every building.
                 </p>
                 <p style={{ fontSize: "1.1rem", marginBottom: "2rem", maxWidth: "600px", color: "#e4e4e7", lineHeight: "1.6" }}>
-                  Modern <strong>electronic <a href="/slab-leak-detection-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>slab leak detection</a> Tucson</strong> relies on <strong>acoustic testing for pipe leak beneath concrete</strong> and <strong>electronic sound amplification</strong> to pinpoint the hidden failure accurately.
+                  Electronic <a href="/slab-leak-detection-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>slab leak detection in Tucson</a> may combine acoustic listening, line tracing, moisture readings, thermal patterns, meter observations, and pressure behavior. Agreement between methods creates a stronger basis for repair.
                 </p>
                 
                 <ul style={{ listStyle: "none", padding: 0, marginBottom: "2rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
                   <li style={{ display: "flex", alignItems: "center", gap: "0.75rem", fontSize: "1.1rem", fontWeight: "600" }}>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--brand-red)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                    Acoustic leak detection Tucson
+                    Acoustic listening for pressurized leaks
                   </li>
                   <li style={{ display: "flex", alignItems: "center", gap: "0.75rem", fontSize: "1.1rem", fontWeight: "600" }}>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--brand-red)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                    Non-destructive leak detection Tucson
+                    Floor scanning before repair access
                   </li>
                   <li style={{ display: "flex", alignItems: "center", gap: "0.75rem", fontSize: "1.1rem", fontWeight: "600" }}>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--brand-red)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
@@ -131,25 +131,25 @@ export default function ElectronicLeakDetection() {
           </div>
         </section>
 
-        {/* The Technology We Use */}
+        {/* Detection Tools */}
         <section style={{ backgroundColor: "var(--white)", padding: "5rem 0" }}>
           <div className="container">
-            <h2 style={{ fontSize: "2.2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "3rem", textAlign: "center" }}>Electronic Equipment to Locate Slab Leak Tucson</h2>
+            <h2 style={{ fontSize: "2.2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "3rem", textAlign: "center" }}>Tools Used to Narrow a Hidden Leak</h2>
             
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
               <div style={{ padding: "2rem", backgroundColor: "#f8fafc", borderRadius: "8px", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.3rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>Acoustic Listening Device</h3>
-                <p style={{ color: "#4a4a4a", lineHeight: "1.6" }}>An <strong>acoustic leak detector for under-slab pipe</strong> utilizes a highly sensitive <strong>ground microphone</strong>. It amplifies the sound of pressurized water escaping through the concrete, helping us <strong>listen for water leak beneath tile floor</strong>.</p>
+                <p style={{ color: "#4a4a4a", lineHeight: "1.6" }}>A ground microphone can amplify vibration created by water escaping a pressurized pipe. Pipe material, flow, depth, soil, flooring, and mechanical noise affect what the operator can hear.</p>
               </div>
               
               <div style={{ padding: "2rem", backgroundColor: "#f8fafc", borderRadius: "8px", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.3rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>Line Tracing</h3>
-                <p style={{ color: "#4a4a4a", lineHeight: "1.6" }}>Before listening, we must know where the pipes run. <strong>Electronic water-line locating service Tucson</strong> uses radio frequency to trace the copper or metallic lines beneath the foundation.</p>
+                <p style={{ color: "#4a4a4a", lineHeight: "1.6" }}>A compatible signal transmitter and receiver may help trace conductive piping. The method does not work the same way on every material, and the marked route should be treated as an estimate.</p>
               </div>
 
               <div style={{ padding: "2rem", backgroundColor: "#f8fafc", borderRadius: "8px", borderTop: "4px solid var(--brand-red)" }}>
                 <h3 style={{ fontSize: "1.3rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>Thermal & Moisture Testing</h3>
-                <p style={{ color: "#4a4a4a", lineHeight: "1.6" }}>In specific cases, such as an active hot water leak, a <strong>thermal imaging</strong> camera or <strong>moisture meter</strong> can supplement the acoustic data to map out the heat pattern beneath the floor.</p>
+                <p style={{ color: "#4a4a4a", lineHeight: "1.6" }}>A thermal camera records surface temperatures, while a moisture meter checks material conditions. Either can support the search, but heat and moisture may spread away from the pipe failure.</p>
               </div>
             </div>
           </div>
@@ -159,12 +159,12 @@ export default function ElectronicLeakDetection() {
         <section style={{ backgroundColor: "#18181b", color: "var(--white)", padding: "5rem 0" }}>
           <div className="container split-grid" style={{ alignItems: "center" }}>
             <div>
-              <h2 style={{ fontSize: "2.2rem", fontWeight: "800", marginBottom: "1.5rem", color: "var(--white)" }}>Why Pressure Testing is Needed Before Acoustic Detection</h2>
+              <h2 style={{ fontSize: "2.2rem", fontWeight: "800", marginBottom: "1.5rem", color: "var(--white)" }}>Confirm the Affected System Before Listening</h2>
               <p style={{ fontSize: "1.1rem", color: "#a1a1aa", marginBottom: "1.5rem", lineHeight: "1.6" }}>
-                You cannot simply put on headphones and find a leak. <strong>Electronic detection for pressurized pipe leak</strong> requires the system to be properly isolated first. 
+                Acoustic listening is more useful when basic checks first show that a pressurized supply line is a likely source. Fixtures, irrigation, appliances, drains, and the utility side should not be confused with an under-slab leak.
               </p>
               <p style={{ fontSize: "1.1rem", color: "#a1a1aa", marginBottom: "2rem", lineHeight: "1.6" }}>
-                A <strong>hidden pipe leak locator</strong> will first separate your hot and cold water systems, hook up a pressure gauge, and prove which line is actually losing pressure. Only then do we use our <strong>electronic sound amplification</strong> gear to trace that specific line.
+                Depending on the plumbing layout, a provider may isolate hot and cold sections, observe the meter, or run a <a href="/water-line-pressure-testing-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>water-line pressure test</a>. The provider should explain what each test rules in or out before interpreting the acoustic signal.
               </p>
             </div>
             <div style={{ display: "flex", justifyContent: "center" }}>
@@ -176,7 +176,7 @@ export default function ElectronicLeakDetection() {
                         <ZigZagBlocks blocks={[
           {
             heading: "Acoustic Detection for Hidden Pipe Leaks",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A hidden pipe leak beneath concrete can run for weeks before visible symptoms appear. By the time you notice damp flooring, warm spots, or an unusually high water bill, the leak may have already saturated the soil beneath your home and begun affecting your foundation. <a href="/electronic-leak-detection-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>Acoustic leak detection</a> finds these hidden failures before the damage compounds.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Our acoustic equipment amplifies underground sounds up to 100x, allowing the technician to distinguish between a pinhole leak, a joint failure, and normal water flow through adjacent pipes. The intensity and pitch of the sound change as the microphone moves closer to the leak source, giving us a reliable gradient to follow.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>This non-invasive approach means we can locate your leak without drilling exploratory holes or tearing up flooring. For homes with expensive tile, stone, or polished concrete floors, this makes a significant difference — both in cost and in preserving the appearance of your home.</p></>,
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A hidden supply leak may first appear as meter movement, a warm or damp area, changing pressure, or unexplained water use. These signs justify diagnosis, but they do not identify the exact source on their own.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}><a href="/electronic-leak-detection-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>Acoustic leak detection</a> compares sound at multiple points along a suspected route. Pipe material, leak flow, depth, soil, slab, flooring, distance, and background noise all affect the signal. Sound alone generally cannot prove whether the failure is a pinhole, joint, or another defect.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The scan itself usually leaves flooring intact. Its purpose is to reduce the access area and improve the repair plan. If findings conflict or remain weak, further testing is more responsible than promising an exact location.</p></>,
             imageSrc: "/images/electronic_leak_detection.webp",
             imageAlt: "Acoustic detection",
             imageOnLeft: true,
@@ -184,7 +184,7 @@ export default function ElectronicLeakDetection() {
           },
           {
             heading: "Electromagnetic Pipe Tracing",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Acoustic listening is incredibly accurate, but it works best when we know exactly where the pipes are laid beneath your foundation. Because plumbing blueprints are rarely accurate (or available) for older Tucson homes, we use electromagnetic line tracers to map your system first.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We induce a safe electrical signal into your copper water lines and use a receiver wand to trace the signal above the floor. This allows us to draw a precise map of your underground plumbing on the surface of your tile or concrete. Once we know the path of the pipe, our <a href="/slab-leak-detection-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak detection</a> sweeps become significantly faster and more accurate.</p></>,
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Listening points are more useful when the likely pipe route is known. Plans, visible supply points, manifolds, construction clues, and compatible electronic tracing can help estimate that route.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A transmitter and receiver can follow a signal on some conductive lines, but plastic pipe, electrical interference, depth, and nearby metal can limit results. Surface markings are diagnostic estimates rather than a survey-grade map. They should be compared with the other <a href="/slab-leak-detection-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak detection</a> findings.</p></>,
             imageSrc: "/images/slab_leak_detection.webp",
             imageAlt: "Electromagnetic pipe tracing",
             imageOnLeft: false,
@@ -192,15 +192,15 @@ export default function ElectronicLeakDetection() {
           },
           {
             heading: "Thermal Imaging Supplements",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>When dealing with a <a href="/hot-water-slab-leak-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>hot water slab leak</a>, thermal imaging cameras are an invaluable secondary tool. Hot water escaping from a ruptured under-slab line will eventually heat the surrounding soil and transfer that thermal energy up through the concrete foundation.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>By scanning your floors with an infrared camera, our technicians can visually identify the "plume" of heat spreading beneath the surface. While thermal imaging cannot pinpoint the exact millimeter of the leak on its own (since water spreads as it rises), it immediately directs our acoustic tools to the correct 3-foot radius, drastically speeding up the detection process.</p></>,
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>For a suspected <a href="/hot-water-slab-leak-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>hot-water slab leak</a>, a thermal camera may show an unusual surface-temperature pattern. It measures infrared energy at the surface; it does not look through concrete or display the pipe.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Heat can travel through concrete, flooring, air leaks, sunlight, ducts, and appliances. Escaping water can also move through soil before the pattern reaches the floor. For that reason, thermal imaging should guide further checks rather than define a fixed repair radius.</p></>,
             imageSrc: "/images/section_thermal_camera.webp",
             imageAlt: "Thermal imaging leak detection",
             imageOnLeft: true,
             backgroundColor: "#f8fafc"
           },
           {
-            heading: "Data-Driven Repair Recommendations",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The ultimate goal of electronic leak detection isn't just to find the leak; it's to gather the data needed to recommend the best repair strategy. Once we mark the exact location of the failure, we evaluate where it sits in relation to your home's layout.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>If the leak is located under a kitchen island, custom cabinetry, or an expensive hardwood floor, breaking the concrete might cost thousands in restoration fees. In those scenarios, our detection data allows us to confidently recommend abandoning the underground line and <a href="/water-line-rerouting-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>rerouting a new pipe</a> through the attic, saving your floors and providing a permanent fix.</p></>,
+            heading: "Turning Findings Into a Repair Plan",
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The useful outcome is a written explanation of the suspected line, marked search area, tests performed, limits of the findings, and recommended next step. Ask the provider to distinguish confirmed observations from assumptions.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>If the area is below cabinetry, stone, or difficult flooring, compare direct access with <a href="/water-line-rerouting-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>rerouting the affected pipe</a>. A reroute avoids the marked floor area but creates access elsewhere. Detection results, pipe history, route feasibility, restoration cost, and warranty terms should all inform the decision.</p></>,
             imageSrc: "/images/slab_leak_detection_vs_repair.webp",
             imageAlt: "Data driven repair options",
             imageOnLeft: false,

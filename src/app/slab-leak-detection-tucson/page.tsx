@@ -63,7 +63,7 @@ const faqSchema = {
       "name": "How to detect a slab leak in Tucson?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Professionals detect a slab leak in Tucson by isolating the plumbing system, conducting a pressure loss test, and then using acoustic or electronic leak detection equipment to locate the exact source without breaking concrete."
+        "text": "A qualified provider may review meter behavior, isolate fixtures or plumbing branches, perform pressure testing, trace the pipe route, and compare acoustic, thermal, or moisture evidence. The methods used depend on the piping material, layout, leak rate, flooring, and site conditions."
       }
     },
     {
@@ -71,7 +71,7 @@ const faqSchema = {
       "name": "Can a slab leak be found without breaking concrete?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Slab leak detection should be non-destructive. Equipment is used to locate the failure before any flooring is removed."
+        "text": "Testing can often narrow a suspected area without opening the floor. No instrument can guarantee an exact point in every property, so the provider should explain the confidence of the findings before recommending access."
       }
     },
     {
@@ -79,7 +79,7 @@ const faqSchema = {
       "name": "Does a moving meter mean a slab leak?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A moving meter confirms a leak on the property, but pressure testing and isolation are required to prove the leak is beneath the slab."
+        "text": "Meter movement during a controlled no-use period shows that water is passing through the meter. It does not identify the source by itself. Toilets, irrigation, treatment equipment, the private service line, and interior branches may need to be isolated."
       }
     },
     {
@@ -87,7 +87,7 @@ const faqSchema = {
       "name": "How long does slab leak detection take?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Depending on the home's layout and the complexity of the plumbing system, an inspection and detection service typically takes a few hours."
+        "text": "The time varies with the plumbing layout, access to shutoff valves, the number of branches, pipe material, background noise, and how repeatable the evidence is. Ask the provider what testing is included before the visit."
       }
     }
   ]
@@ -115,7 +115,7 @@ export default function SlabLeakDetection() {
                   When water escapes from a pipe beneath your home, the most expensive mistake is opening the floor in the wrong place. 
                 </p>
                 <p style={{ fontSize: "1.1rem", marginBottom: "2rem", maxWidth: "600px", color: "#e4e4e7", lineHeight: "1.6" }}>
-                  As a leading slab leak detection company Tucson homeowners trust, our professional slab leak detection relies on plumbing isolation, <a href="/water-line-pressure-testing-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>pressure testing</a>, and specialized equipment to pinpoint the problem before any concrete is touched.
+                  Slab leak detection in Tucson should begin with controlled checks, not demolition. A qualified provider may use plumbing isolation, <a href="/water-line-pressure-testing-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>pressure testing</a>, pipe-route tracing, and acoustic or thermal comparisons to narrow the suspected area before repair access is discussed.
                 </p>
                 
                 <ul style={{ listStyle: "none", padding: 0, marginBottom: "2rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
@@ -148,10 +148,10 @@ export default function SlabLeakDetection() {
                 Many homeowners call for a professional inspection when they notice a <strong>warm spot on their floor</strong> (especially over tile), or when a <strong>water meter keeps spinning</strong> despite all fixtures being turned off. Other signs of a hidden leak include an unusually <strong>high water bill</strong>, or when you <strong>hear water running inside the walls</strong> when no taps are open.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                You might also experience a <strong>musty smell near baseboards</strong>, see a <strong>damp patch with no visible source</strong>, or notice <strong>water seeping up underneath tile flooring</strong>. Before removing any tile or cutting into drywall, our diagnostic technicians will confirm whether the issue is beneath the foundation.
+                Other warning signs include a <strong>musty smell near baseboards</strong>, a <strong>damp patch with no visible source</strong>, or moisture appearing at flooring edges. These symptoms can also come from fixtures, drains, appliances, irrigation, roofing, or HVAC equipment. Testing should separate those possibilities before the floor is opened.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", fontStyle: "italic", lineHeight: "1.7" }}>
-                We separate the hot system from the cold system to prove exactly which line is leaking, stopping the guesswork before it begins.
+                A useful inspection explains what each test proves, what remains uncertain, and why the collected evidence supports the next step.
               </p>
             </div>
             <div style={{ display: "flex" }}>
@@ -164,23 +164,23 @@ export default function SlabLeakDetection() {
         <section style={{ backgroundColor: "#f8fafc", padding: "5rem 0" }}>
           <div className="container split-grid">
             <div>
-              <h2 style={{ fontSize: "2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>Why Choose a Local Slab Leak Detection Tucson Pro?</h2>
+              <h2 style={{ fontSize: "2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>What a Slab Leak Inspection Should Check</h2>
               <ul style={{ listStyle: "none", padding: 0, display: "flex", flexDirection: "column", gap: "1rem", color: "#4a4a4a", fontSize: "1.05rem", lineHeight: "1.6" }}>
-                <li style={{ position: "relative", paddingLeft: "1.5rem" }}><span style={{ position: "absolute", left: 0, color: "var(--brand-red)", fontWeight: "bold" }}>•</span> <strong>Find water leak beneath concrete floor Tucson:</strong> We use specialized acoustic equipment.</li>
-                <li style={{ position: "relative", paddingLeft: "1.5rem" }}><span style={{ position: "absolute", left: 0, color: "var(--brand-red)", fontWeight: "bold" }}>•</span> <strong>Slab leak detection for warm tile floor Tucson:</strong> Pinpointing hot-water line issues accurately.</li>
-                <li style={{ position: "relative", paddingLeft: "1.5rem" }}><span style={{ position: "absolute", left: 0, color: "var(--brand-red)", fontWeight: "bold" }}>•</span> <strong>Plumber to locate a hidden slab leak Tucson:</strong> You need someone trained specifically in underground tracing.</li>
-                <li style={{ position: "relative", paddingLeft: "1.5rem" }}><span style={{ position: "absolute", left: 0, color: "var(--brand-red)", fontWeight: "bold" }}>•</span> <strong>Detect hot-water pipe leak under concrete Tucson:</strong> Distinct from cold-water lines, hot water systems require specific isolation tests.</li>
-                <li style={{ position: "relative", paddingLeft: "1.5rem" }}><span style={{ position: "absolute", left: 0, color: "var(--brand-red)", fontWeight: "bold" }}>•</span> <strong>Water meter moving with all fixtures off Tucson:</strong> The #1 indicator that a line is bleeding pressure.</li>
+                <li style={{ position: "relative", paddingLeft: "1.5rem" }}><span style={{ position: "absolute", left: 0, color: "var(--brand-red)", fontWeight: "bold" }}>•</span> <strong>Controlled meter check:</strong> Confirm that normal indoor and outdoor water use has stopped before interpreting flow.</li>
+                <li style={{ position: "relative", paddingLeft: "1.5rem" }}><span style={{ position: "absolute", left: 0, color: "var(--brand-red)", fontWeight: "bold" }}>•</span> <strong>Visible-source review:</strong> Rule out toilets, fixtures, appliances, irrigation, treatment equipment, and exposed piping.</li>
+                <li style={{ position: "relative", paddingLeft: "1.5rem" }}><span style={{ position: "absolute", left: 0, color: "var(--brand-red)", fontWeight: "bold" }}>•</span> <strong>System isolation:</strong> Compare the hot system, cold system, service line, and accessible branches as the plumbing layout permits.</li>
+                <li style={{ position: "relative", paddingLeft: "1.5rem" }}><span style={{ position: "absolute", left: 0, color: "var(--brand-red)", fontWeight: "bold" }}>•</span> <strong>Pipe-route tracing:</strong> Establish where the suspected line runs before interpreting sound or temperature patterns.</li>
+                <li style={{ position: "relative", paddingLeft: "1.5rem" }}><span style={{ position: "absolute", left: 0, color: "var(--brand-red)", fontWeight: "bold" }}>•</span> <strong>Evidence comparison:</strong> Use more than one repeatable observation before recommending concrete access.</li>
               </ul>
             </div>
             
             <div>
-              <h2 style={{ fontSize: "2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>Who Performs Slab Leak Detection in Tucson AZ?</h2>
+              <h2 style={{ fontSize: "2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>Choosing a Tucson Leak Detection Provider</h2>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.6" }}>
-                Not every plumber carries acoustic or electronic tracing tools. You need a dedicated <strong>slab leak detector Tucson</strong> specialist or <strong>water leak locator Tucson</strong> expert who performs pressure testing before declaring where the floor should be opened.
+                Ask which tests are included, who will perform them, and whether the provider supplies marked findings or a written summary. Equipment alone does not establish a reliable location; the technician must interpret the results in the context of the property&apos;s plumbing layout.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.6" }}>
-                Our <strong>under-slab water-line leak detection near me</strong> service ensures you don't break concrete blindly. We detect cold-water leaks beneath house slabs and locate leaking pipes beneath foundations across the Tucson metro area.
+                A responsible provider should distinguish a confirmed system loss from a suspected under-slab location. The final explanation should identify the tested line, the evidence collected, the limits of that evidence, and any additional verification needed before repair.
               </p>
             </div>
           </div>
@@ -194,15 +194,15 @@ export default function SlabLeakDetection() {
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
               <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #333", backgroundColor: "rgba(255,255,255,0.02)" }}>
                 <strong style={{ color: "var(--brand-red)", fontSize: "1.2rem", display: "block", marginBottom: "0.5rem" }}>1. Validate & Isolate</strong>
-                <p style={{ color: "#a1a1aa", fontSize: "1.05rem", margin: 0 }}>We confirm the meter movement and pressure loss, isolating the hot and cold lines to narrow the problem area.</p>
+                <p style={{ color: "#a1a1aa", fontSize: "1.05rem", margin: 0 }}>Review meter behavior and visible sources, then isolate the hot, cold, service, or branch lines as the property layout permits.</p>
               </div>
               <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #333", backgroundColor: "rgba(255,255,255,0.02)" }}>
                 <strong style={{ color: "var(--brand-red)", fontSize: "1.2rem", display: "block", marginBottom: "0.5rem" }}>2. Trace the Route</strong>
-                <p style={{ color: "#a1a1aa", fontSize: "1.05rem", margin: 0 }}>We map the under-slab pipe locations using line-tracing equipment so we know exactly where the water travels.</p>
+                <p style={{ color: "#a1a1aa", fontSize: "1.05rem", margin: 0 }}>Trace the suspected pipe route and note construction features that may affect how sound, heat, or moisture travels.</p>
               </div>
               <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #333", backgroundColor: "rgba(255,255,255,0.02)" }}>
                 <strong style={{ color: "var(--brand-red)", fontSize: "1.2rem", display: "block", marginBottom: "0.5rem" }}>3. Pinpoint Electronically</strong>
-                <p style={{ color: "#a1a1aa", fontSize: "1.05rem", margin: 0 }}>We listen for the frequency of escaping water or use thermal tools to detect the leak beneath the concrete safely.</p>
+                <p style={{ color: "#a1a1aa", fontSize: "1.05rem", margin: 0 }}>Compare acoustic, thermal, moisture, and pressure evidence, then document the most likely area and the confidence of the finding.</p>
               </div>
             </div>
           </div>
@@ -211,7 +211,7 @@ export default function SlabLeakDetection() {
                         <ZigZagBlocks blocks={[
           {
             heading: "Professional Slab Leak Detection in Tucson",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Detecting a leak beneath a concrete slab is not something you can do with a visual inspection. Our detection process starts with a static <a href="/water-line-pressure-testing-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>pressure test</a> that confirms whether your hot-water line, cold-water line, or both are actually losing pressure. This step alone eliminates guesswork and prevents unnecessary concrete openings.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Once the leaking line is identified, we use <a href="/electronic-leak-detection-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>electronic leak detection</a> equipment — including acoustic amplifiers and electromagnetic line tracers — to map the pipe route through your slab and pinpoint the exact failure location. The result is a marked spot on your floor, typically accurate to within a few inches.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>This precision matters because it determines whether a direct <a href="/under-slab-pipe-repair-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>under-slab pipe repair</a> is feasible or if a <a href="/water-line-rerouting-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>water-line reroute</a> through the attic would be more cost-effective. We walk you through each option, including estimated costs and timelines, before any concrete is touched.</p></>,
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A visual inspection can identify symptoms, but it cannot confirm where a concealed supply pipe failed. A controlled <a href="/water-line-pressure-testing-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>pressure test</a> may help establish whether an isolated section loses pressure under defined test conditions.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}><a href="/electronic-leak-detection-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>Electronic leak detection</a> can add pipe-route, acoustic, or thermal evidence. Its effectiveness varies with pipe material, pressure, leak size, soil, floor coverings, background noise, and the accuracy of the traced route.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>The goal is to narrow the search enough to compare a direct <a href="/under-slab-pipe-repair-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>under-slab repair</a> with a <a href="/water-line-rerouting-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>water-line reroute</a>. The provider should explain the location confidence and any conditions that could change the repair plan.</p></>,
             imageSrc: "/images/electronic_leak_detection.webp",
             imageAlt: "Professional Slab Leak Detection in Tucson",
             imageOnLeft: true,
@@ -219,7 +219,7 @@ export default function SlabLeakDetection() {
           },
           {
             heading: "Protecting Your Home's Flooring During Detection",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>One of our primary goals during the detection phase is preserving your property. If your home has expensive tile, travertine, or custom hardwood floors, we know how stressful the idea of breaking concrete can be. That is exactly why we rely on non-invasive electronic mapping before we ever recommend picking up a jackhammer.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>By tracing the exact path of the leaking pipe acoustically and electromagnetically, we can often find the leak without removing a single tile. If the leak is located under an expensive floor finish, this precise location data allows us to recommend bypassing that specific line entirely (<a href="/partial-repiping-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>partial repiping</a>) rather than destroying your floor to reach the pipe.</p></>,
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Tile, stone, wood, cabinetry, and built-in fixtures can make direct access expensive. Detection work should therefore be completed before a repair opening is selected, and the proposed access area should be compared with the cost and disruption of an alternate pipe route.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Non-invasive testing means the diagnostic steps do not begin by cutting the floor. It does not promise that every repair can avoid access. If the suspected line runs beneath a difficult finish, <a href="/partial-repiping-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>partial repiping</a> or rerouting may be worth comparing with direct repair.</p></>,
             imageSrc: "/images/section_damp_floor.webp",
             imageAlt: "Protecting flooring during leak detection",
             imageOnLeft: false,
@@ -227,7 +227,7 @@ export default function SlabLeakDetection() {
           },
           {
             heading: "Understanding the Diagnostic Report",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>After we complete our detection process, we don't just hand you a bill and leave. We provide a comprehensive diagnostic report that explains exactly what we found. This report includes the verified pressure drops on your system, the exact location of the marked leak, and an assessment of the overall pipe condition we observed.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>This report is crucial for your homeowners insurance. Many insurance policies in Arizona cover the cost of accessing the leak (breaking the concrete and replacing the floor), even if they do not cover the repair of the plumbing pipe itself. Having a professional, documented detection report ensures your claim starts on solid ground.</p></>,
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Ask what documentation is included. A useful summary may record meter observations, isolated sections, starting and ending pressure, test duration, pipe-route markings, instrument observations, photographs, and the technician&apos;s stated confidence in the suspected area.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>If you plan to make an insurance claim, contact the insurer before authorizing non-emergency access when practical. Coverage varies by policy, cause of loss, exclusions, and the difference between plumbing repair, access, drying, and finish restoration.</p></>,
             imageSrc: "/images/slab_leak_service_process.webp",
             imageAlt: "Diagnostic report process",
             imageOnLeft: true,
@@ -235,7 +235,7 @@ export default function SlabLeakDetection() {
           },
           {
             heading: "Clear, Upfront Repair Options",
-            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>Once we know exactly where the leak is and which line is compromised, we lay out your repair options. We will provide a transparent estimate that breaks down the <a href="/slab-leak-repair-cost-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak repair cost</a> of a direct spot repair (breaking the concrete to fix the pipe) versus the cost of rerouting the line above ground.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>We explain the pros and cons of each method based on the age of your plumbing and the location of the leak. Our goal is to give you all the information you need to make the best long-term decision for your home, without any high-pressure sales tactics.</p></>,
+            content: <><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>A written estimate should separate detection, plumbing work, concrete access, backfill, slab patching, finish restoration, permits when applicable, and any work assigned to another contractor. That makes the total <a href="/slab-leak-repair-cost-tucson" style={{ color: "var(--brand-red)", fontWeight: "600", textDecoration: "underline" }}>slab leak repair cost</a> easier to compare.</p><p style={{ fontSize: '1.05rem', color: '#4a4a4a', marginBottom: '1rem', lineHeight: '1.7' }}>For each option, ask which line will remain in service, what surfaces need access, how the work will be tested, who restores finishes, and what written warranty applies. The lowest plumbing price may not be the lowest complete project cost.</p></>,
             imageSrc: "/images/slab_leak_detection_vs_repair.webp",
             imageAlt: "Upfront repair options",
             imageOnLeft: false,
@@ -274,10 +274,10 @@ export default function SlabLeakDetection() {
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
             <div className="hero-grid">
               <div style={{ color: "var(--white)", paddingRight: "2rem" }}>
-                <span style={{ color: "var(--brand-red)", fontWeight: "700", textTransform: "uppercase", letterSpacing: "1px", display: "block", marginBottom: "0.5rem", fontSize: "0.9rem" }}>STOP GUESSING</span>
-                <h2 style={{ color: "var(--white)", marginBottom: "1.5rem", fontSize: "3.5rem", lineHeight: "1.1", fontWeight: "800" }}>Get Professional Slab Leak Detection in Tucson</h2>
+                <span style={{ color: "var(--brand-red)", fontWeight: "700", textTransform: "uppercase", letterSpacing: "1px", display: "block", marginBottom: "0.5rem", fontSize: "0.9rem" }}>START WITH EVIDENCE</span>
+                <h2 style={{ color: "var(--white)", marginBottom: "1.5rem", fontSize: "3.5rem", lineHeight: "1.1", fontWeight: "800" }}>Request Slab Leak Detection in Tucson</h2>
                 <p style={{ fontSize: "1.1rem", marginBottom: "2rem", maxWidth: "600px", color: "#e4e4e7", lineHeight: "1.6" }}>
-                  Provide your ZIP code, describe your symptoms (moving meter, warm floor, pressure drop), and we'll connect you with a qualified locator.
+                  Provide the property ZIP code and describe the meter, flooring, sound, pressure, or moisture changes you have observed. A provider can confirm the available testing scope before an appointment is scheduled.
                 </p>
               </div>
 
