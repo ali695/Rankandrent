@@ -16,6 +16,14 @@ export default function Header() {
     }
   };
 
+  const releaseDesktopMenuFocus = () => {
+    requestAnimationFrame(() => {
+      if (document.activeElement instanceof HTMLElement) {
+        document.activeElement.blur();
+      }
+    });
+  };
+
   return (
     <header style={{ borderBottom: "4px solid var(--brand-red)", position: "relative", zIndex: 1000 }}>
       {/* Utility Bar */}
@@ -56,7 +64,7 @@ export default function Header() {
           </button>
 
           {/* Desktop Nav */}
-          <nav className="nav-menu desktop-nav">
+          <nav className="nav-menu desktop-nav" onClickCapture={releaseDesktopMenuFocus}>
             <div className="nav-item">
               <Link href="/" className="nav-link">Home</Link>
             </div>
