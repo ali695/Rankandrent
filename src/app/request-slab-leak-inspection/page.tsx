@@ -5,6 +5,7 @@ import ContactForm from '@/components/ContactForm';
 export const metadata: Metadata = {
   alternates: { canonical: "/request-slab-leak-inspection/" },
   title: 'Request Slab Leak Detection in Tucson, AZ',
+  robots: { index: false, follow: true },
   description: 'Request help with warm flooring, hidden water loss, meter movement or a suspected pipe leak beneath your Tucson home’s concrete slab.',
   openGraph: {
     title: 'Request Slab Leak Detection in Tucson, AZ',

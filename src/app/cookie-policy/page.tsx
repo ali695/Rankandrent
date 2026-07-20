@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/cookie-policy/" },
   title: 'Cookie Policy | Tucson Leak Pros',
   description: 'Learn about how we use cookies to improve your experience on our website.',
+  robots: { index: true, follow: true },
   ...pageSocialMetadata('Cookie Policy | Tucson Leak Pros', 'Learn about how we use cookies to improve your experience on our website.', '/cookie-policy/'),
 };
 

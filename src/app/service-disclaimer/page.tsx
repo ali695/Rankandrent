@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/service-disclaimer/" },
   title: 'Service Disclaimer | Tucson Leak Pros',
   description: 'Service Disclaimer for Tucson Leak Pros.',
+  robots: { index: true, follow: true },
   ...pageSocialMetadata('Service Disclaimer | Tucson Leak Pros', 'Service Disclaimer for Tucson Leak Pros.', '/service-disclaimer/'),
 };
 

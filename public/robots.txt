@@ -1,3 +1,0 @@
-User-Agent: *
-Allow: /
-Sitemap: https://tucsonslableakpros.com/sitemap.xml

@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/accessibility/" },
   title: 'Accessibility Statement | Tucson Leak Pros',
   description: 'Our commitment to digital accessibility for all users.',
+  robots: { index: true, follow: true },
   ...pageSocialMetadata('Accessibility Statement | Tucson Leak Pros', 'Our commitment to digital accessibility for all users.', '/accessibility/'),
 };
 

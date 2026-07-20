@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/terms-and-conditions/" },
   title: 'Terms and Conditions | Tucson Leak Pros',
   description: 'Terms and Conditions for using Tucson Leak Pros services and website.',
+  robots: { index: true, follow: true },
   ...pageSocialMetadata('Terms and Conditions | Tucson Leak Pros', 'Terms and Conditions for using Tucson Leak Pros services and website.', '/terms-and-conditions/'),
 };
 
