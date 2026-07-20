@@ -40,6 +40,9 @@ const organizationSchema = {
   "name": "Tucson Leak Pros",
   "url": "https://slableakdetectortucson.pages.dev/",
   "logo": "https://slableakdetectortucson.pages.dev/images/services_hub_hero.webp",
+  "sameAs": [
+    "https://www.facebook.com/tucsonleakpros"
+  ],
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+1-520-555-0199",

@@ -362,6 +362,37 @@ p {
   color: var(--dark-charcoal);
 }
 
+.footer-facebook-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  min-height: 44px;
+  padding: 0.7rem 1.1rem;
+  border: 1px solid #52525b;
+  border-radius: 8px;
+  color: var(--white);
+  background: #27272a;
+  font-size: 0.85rem;
+  font-weight: 800;
+  line-height: 1;
+  text-decoration: none;
+  transition: border-color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
+}
+
+.footer-facebook-link svg {
+  width: 21px;
+  height: 21px;
+  flex: 0 0 21px;
+  color: #1877f2;
+}
+
+.footer-facebook-link:hover {
+  border-color: var(--brand-red);
+  background: #3f3f46;
+  transform: translateY(-1px);
+}
+
 .btn-outline {
   display: inline-block;
   background-color: transparent;

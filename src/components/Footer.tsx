@@ -1,4 +1,7 @@
 import Link from 'next/link';
+import FacebookIcon from '@/components/FacebookIcon';
+
+const facebookUrl = 'https://www.facebook.com/tucsonleakpros';
 
 export default function Footer() {
   return (
@@ -16,6 +19,16 @@ export default function Footer() {
           <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
              <a href="tel:5205550199" className="btn-primary" style={{ padding: "0.75rem 1.25rem", fontSize: "0.85rem" }}>CALL NOW</a>
              <Link href="/contact/" className="btn-secondary" style={{ padding: "0.75rem 1.25rem", fontSize: "0.85rem" }}>REQUEST LEAK DETECTION</Link>
+             <a
+               href={facebookUrl}
+               target="_blank"
+               rel="noopener noreferrer"
+               className="footer-facebook-link"
+               aria-label="Visit Tucson Leak Pros on Facebook"
+             >
+               <FacebookIcon />
+               <span>FACEBOOK</span>
+             </a>
           </div>
         </div>
 
@@ -75,6 +88,12 @@ export default function Footer() {
             <li><a href="/contact/" style={{ color: "inherit", textDecoration: "none" }}>Contact Us</a></li>
             <li><a href="/how-slab-leak-detection-works/" style={{ color: "inherit", textDecoration: "none" }}>How It Works</a></li>
             <li><a href="/service-areas/" style={{ color: "inherit", textDecoration: "none" }}>Check Service Availability</a></li>
+            <li>
+              <a href={facebookUrl} target="_blank" rel="noopener noreferrer" style={{ color: "inherit", textDecoration: "none", display: "inline-flex", alignItems: "center", gap: "0.45rem" }}>
+                <FacebookIcon style={{ width: "17px", height: "17px", color: "#1877f2" }} />
+                Facebook
+              </a>
+            </li>
             <li><a href="tel:5205550199" style={{ color: "inherit", textDecoration: "none" }}>Call Now</a></li>
             <li style={{ marginTop: "1rem", color: "var(--white)" }}><strong>Phone:</strong> (520) 555-0199</li>
             <li style={{ color: "var(--white)" }}>4751 S Irving Ave, Tucson, AZ 85714, United States</li>

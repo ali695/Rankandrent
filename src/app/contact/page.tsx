@@ -1,6 +1,9 @@
 import React from 'react';
 import { Metadata } from 'next';
 import ContactForm from '@/components/ContactForm';
+import FacebookIcon from '@/components/FacebookIcon';
+
+const facebookUrl = 'https://www.facebook.com/tucsonleakpros';
 
 export const metadata: Metadata = {
   alternates: { canonical: "/contact/" },
@@ -113,6 +116,23 @@ export default function Contact() {
                     <div>
                       <h4 style={{ margin: 0, fontSize: "1.2rem", fontWeight: "bold", color: "var(--text-color)" }}>Address</h4>
                       <p style={{ margin: 0, color: "#475569", fontSize: "1.1rem" }}>4751 S Irving Ave, Tucson, AZ 85714, United States.</p>
+                    </div>
+                  </div>
+
+                  <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem" }}>
+                    <div style={{ backgroundColor: "#e7f3ff", padding: "1rem", borderRadius: "8px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                      <FacebookIcon style={{ width: "24px", height: "24px", color: "#1877f2" }} />
+                    </div>
+                    <div style={{ minWidth: 0 }}>
+                      <h4 style={{ margin: 0, fontSize: "1.2rem", fontWeight: "bold", color: "var(--text-color)" }}>Facebook</h4>
+                      <a
+                        href={facebookUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ color: "#475569", fontSize: "1rem", fontWeight: "600", overflowWrap: "anywhere" }}
+                      >
+                        Visit Tucson Leak Pros on Facebook
+                      </a>
                     </div>
                   </div>
                 </div>
