@@ -2,6 +2,7 @@
 
 import { useId, useState } from "react";
 import Link from "next/link";
+import { AlertCircle, ArrowRight, CheckCircle2, ChevronDown, Info, MapPin } from "lucide-react";
 import { listedServiceZips, serviceAreaOptions, symptomOptions } from "@/data/serviceAreas";
 
 type CoverageResult = {
@@ -30,71 +31,89 @@ export default function ZipCheckerForm() {
   const requestHref = `/request-slab-leak-inspection/?zip=${encodeURIComponent(zip)}&symptom=${encodeURIComponent(symptom)}`;
 
   return (
-    <div className="form-card">
-      <h3 style={{ marginTop: 0, marginBottom: "0.5rem", fontSize: "1.4rem", fontWeight: "800", color: "var(--dark-charcoal)", textAlign: "center" }}>
-        Check the ZIP Directory
-      </h3>
-      <p style={{ fontSize: "0.95rem", color: "#4a4a4a", marginBottom: "1.5rem", textAlign: "center" }}>
-        Check whether the property ZIP is listed before requesting address-level confirmation.
-      </p>
+    <div className="form-card zip-checker-card">
+      <div className="zip-checker-header">
+        <span className="zip-checker-kicker">
+          <MapPin aria-hidden="true" />
+          Tucson service area
+        </span>
+        <h3>Check Service Availability</h3>
+        <p>Select the property ZIP and main symptom to see the appropriate next step.</p>
+      </div>
 
-      <form onSubmit={handleZipCheck} style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-        <div>
-          <label htmlFor={zipId} className="form-label">Property ZIP code</label>
-          <select
-            id={zipId}
-            name="zip"
-            className="form-control"
-            style={{ marginBottom: 0 }}
-            value={zip}
-            onChange={(event) => {
-              setZip(event.target.value);
-              setResult(null);
-            }}
-            required
-          >
-            <option value="">Select ZIP code…</option>
-            {serviceAreaOptions.map(({ zip: optionZip, label }) => (
-              <option key={optionZip} value={optionZip}>{optionZip} ({label})</option>
-            ))}
-            <option value="other">Other or not listed</option>
-          </select>
+      <form onSubmit={handleZipCheck} className="zip-checker-form">
+        <div className="zip-checker-field">
+          <label htmlFor={zipId} className="zip-checker-label">
+            Property ZIP code <span aria-hidden="true">*</span>
+          </label>
+          <div className="zip-checker-select-wrap">
+            <select
+              id={zipId}
+              name="zip"
+              className="zip-checker-control"
+              value={zip}
+              onChange={(event) => {
+                setZip(event.target.value);
+                setResult(null);
+              }}
+              required
+            >
+              <option value="">Select ZIP code…</option>
+              {serviceAreaOptions.map(({ zip: optionZip, label }) => (
+                <option key={optionZip} value={optionZip}>{optionZip} ({label})</option>
+              ))}
+              <option value="other">Other or not listed</option>
+            </select>
+            <ChevronDown className="zip-checker-select-icon" aria-hidden="true" />
+          </div>
         </div>
 
-        <div>
-          <label htmlFor={symptomId} className="form-label">Main symptom</label>
-          <select
-            id={symptomId}
-            name="symptom"
-            className="form-control"
-            style={{ marginBottom: 0 }}
-            value={symptom}
-            onChange={(event) => {
-              setSymptom(event.target.value);
-              setResult(null);
-            }}
-            required
-          >
-            <option value="">Select a symptom…</option>
-            {symptomOptions.map((option) => <option key={option} value={option}>{option}</option>)}
-          </select>
+        <div className="zip-checker-field">
+          <label htmlFor={symptomId} className="zip-checker-label">
+            Main symptom <span aria-hidden="true">*</span>
+          </label>
+          <div className="zip-checker-select-wrap">
+            <select
+              id={symptomId}
+              name="symptom"
+              className="zip-checker-control"
+              value={symptom}
+              onChange={(event) => {
+                setSymptom(event.target.value);
+                setResult(null);
+              }}
+              required
+            >
+              <option value="">Select a symptom…</option>
+              {symptomOptions.map((option) => <option key={option} value={option}>{option}</option>)}
+            </select>
+            <ChevronDown className="zip-checker-select-icon" aria-hidden="true" />
+          </div>
         </div>
 
-        <button type="submit" className="coverage-submit">Check directory</button>
+        <button type="submit" className="coverage-submit">
+          Check Availability
+          <ArrowRight aria-hidden="true" />
+        </button>
 
-        <div className="coverage-result" aria-live="polite">
-          {result && (
-            <>
-              <p style={{ margin: 0 }}>{result.message}</p>
-              <Link href={requestHref} className="coverage-result-link">
-                Continue to the request form
-              </Link>
-            </>
-          )}
+        <div className="coverage-live-region" aria-live="polite">
+          {result ? (
+            <div className={`coverage-result ${result.covered ? "coverage-result-covered" : "coverage-result-review"}`}>
+              {result.covered ? <CheckCircle2 aria-hidden="true" /> : <AlertCircle aria-hidden="true" />}
+              <div>
+                <p>{result.message}</p>
+                <Link href={requestHref} className="coverage-result-link">
+                  Continue to the request form
+                  <ArrowRight aria-hidden="true" />
+                </Link>
+              </div>
+            </div>
+          ) : null}
         </div>
 
-        <p style={{ fontSize: "0.75rem", color: "#64748b", textAlign: "center", margin: 0 }}>
-          A ZIP-directory result does not confirm a provider, appointment, price, or response time.
+        <p className="zip-checker-disclaimer">
+          <Info aria-hidden="true" />
+          ZIP results are preliminary. Address-level availability must still be confirmed.
         </p>
       </form>
     </div>
