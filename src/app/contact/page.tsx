@@ -2,8 +2,10 @@ import React from 'react';
 import { Metadata } from 'next';
 import ContactForm from '@/components/ContactForm';
 import FacebookIcon from '@/components/FacebookIcon';
+import InstagramIcon from '@/components/InstagramIcon';
 
 const facebookUrl = 'https://www.facebook.com/tucsonleakpros';
+const instagramUrl = 'https://www.instagram.com/slableakdetectiontucson/';
 
 export const metadata: Metadata = {
   alternates: { canonical: "/contact/" },
@@ -126,9 +128,19 @@ export default function Contact() {
                       rel="noopener noreferrer"
                       aria-label="Visit Tucson Leak Pros on Facebook"
                       title="Facebook"
-                      className="contact-facebook-link"
+                      className="contact-social-link contact-facebook-link"
                     >
                       <FacebookIcon style={{ width: "24px", height: "24px", color: "#1877f2" }} />
+                    </a>
+                    <a
+                      href={instagramUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Visit Tucson Leak Pros on Instagram"
+                      title="Instagram"
+                      className="contact-social-link contact-instagram-link"
+                    >
+                      <InstagramIcon style={{ width: "25px", height: "25px", color: "#e4405f" }} />
                     </a>
                   </div>
                 </div>

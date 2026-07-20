@@ -386,22 +386,37 @@ p {
   transform: translateY(-1px);
 }
 
-.contact-facebook-link {
+.contact-social-link {
   display: inline-flex;
   width: 56px;
   height: 56px;
   align-items: center;
   justify-content: center;
-  border: 1px solid #bfdbfe;
+  border: 1px solid transparent;
   border-radius: 8px;
-  background: #e7f3ff;
   text-decoration: none;
   transition: border-color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
+}
+
+.contact-facebook-link {
+  border-color: #bfdbfe;
+  background: #e7f3ff;
 }
 
 .contact-facebook-link:hover {
   border-color: #1877f2;
   background: #dbeafe;
+  transform: translateY(-1px);
+}
+
+.contact-instagram-link {
+  border-color: #fecdd3;
+  background: #fff1f2;
+}
+
+.contact-instagram-link:hover {
+  border-color: #e4405f;
+  background: #ffe4e6;
   transform: translateY(-1px);
 }
 
