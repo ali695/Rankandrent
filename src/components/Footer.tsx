@@ -25,9 +25,9 @@ export default function Footer() {
                rel="noopener noreferrer"
                className="footer-facebook-link"
                aria-label="Visit Tucson Leak Pros on Facebook"
+               title="Facebook"
              >
                <FacebookIcon />
-               <span>FACEBOOK</span>
              </a>
           </div>
         </div>
@@ -89,9 +89,8 @@ export default function Footer() {
             <li><a href="/how-slab-leak-detection-works/" style={{ color: "inherit", textDecoration: "none" }}>How It Works</a></li>
             <li><a href="/service-areas/" style={{ color: "inherit", textDecoration: "none" }}>Check Service Availability</a></li>
             <li>
-              <a href={facebookUrl} target="_blank" rel="noopener noreferrer" style={{ color: "inherit", textDecoration: "none", display: "inline-flex", alignItems: "center", gap: "0.45rem" }}>
+              <a href={facebookUrl} target="_blank" rel="noopener noreferrer" aria-label="Visit Tucson Leak Pros on Facebook" title="Facebook" style={{ color: "inherit", textDecoration: "none", display: "inline-flex", alignItems: "center" }}>
                 <FacebookIcon style={{ width: "17px", height: "17px", color: "#1877f2" }} />
-                Facebook
               </a>
             </li>
             <li><a href="tel:5205550199" style={{ color: "inherit", textDecoration: "none" }}>Call Now</a></li>

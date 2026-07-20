@@ -120,20 +120,16 @@ export default function Contact() {
                   </div>
 
                   <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem" }}>
-                    <div style={{ backgroundColor: "#e7f3ff", padding: "1rem", borderRadius: "8px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                    <a
+                      href={facebookUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Visit Tucson Leak Pros on Facebook"
+                      title="Facebook"
+                      className="contact-facebook-link"
+                    >
                       <FacebookIcon style={{ width: "24px", height: "24px", color: "#1877f2" }} />
-                    </div>
-                    <div style={{ minWidth: 0 }}>
-                      <h4 style={{ margin: 0, fontSize: "1.2rem", fontWeight: "bold", color: "var(--text-color)" }}>Facebook</h4>
-                      <a
-                        href={facebookUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style={{ color: "#475569", fontSize: "1rem", fontWeight: "600", overflowWrap: "anywhere" }}
-                      >
-                        Visit Tucson Leak Pros on Facebook
-                      </a>
-                    </div>
+                    </a>
                   </div>
                 </div>
               </div>
