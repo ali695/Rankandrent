@@ -153,7 +153,7 @@ export default function Home() {
               </div>
             </div>
             <div style={{ display: "flex" }}>
-              <img title="Partial Repiping Tucson" src="/images/partial_repiping.webp" alt="Tucson partial repiping services" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
+              <img title="Partial Repiping Tucson" src="/images/partial_repiping.webp" alt="Tucson partial repiping services" loading="lazy" decoding="async" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
             </div>
           </div>
         </section>
@@ -177,7 +177,7 @@ export default function Home() {
               ].map(area => (
                 <div key={area.name} className="premium-card location-card" style={{ overflow: "hidden", display: "flex", flexDirection: "column", borderTop: "4px solid var(--brand-red)" }}>
                   <div style={{ position: "relative", paddingTop: "60%" }}>
-                    <img title="Under Slab Pipe Repair Tucson" src={`/images/${area.img}`} alt={area.name} style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", backgroundColor: "#e4e4e7" }} />
+                    <img title="Under Slab Pipe Repair Tucson" src={`/images/${area.img}`} alt={area.name} loading="lazy" decoding="async" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", backgroundColor: "#e4e4e7" }} />
                   </div>
                   <div style={{ padding: "1.5rem", display: "flex", flexDirection: "column", flexGrow: 1 }}>
                     <h3 style={{ marginBottom: "0.5rem", color: "var(--dark-charcoal)", fontSize: "1.25rem" }}>{area.name}</h3>
@@ -197,7 +197,7 @@ export default function Home() {
         <section style={{ backgroundColor: "#334155", color: "var(--white)" }}>
           <div className="split-grid" style={{ gap: 0 }}>
             <div style={{ display: "flex" }}>
-              <img title="Hot Water Slab Leak Tucson" src="/images/hot_water_slab_leak.webp" alt="Tucson hot water slab leak services" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover" }} />
+              <img title="Hot Water Slab Leak Tucson" src="/images/hot_water_slab_leak.webp" alt="Tucson hot water slab leak services" loading="lazy" decoding="async" style={{ width: "100%", height: "100%", minHeight: "450px", objectFit: "cover" }} />
             </div>
             <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", padding: "4rem 5%", maxWidth: "800px", marginRight: "auto" }}>
               <span style={{ color: "var(--brand-red)", fontWeight: "700", textTransform: "uppercase", letterSpacing: "1px", display: "block", marginBottom: "0.5rem", fontSize: "0.85rem" }}>EMERGENCY PROTOCOL</span>
@@ -235,7 +235,7 @@ export default function Home() {
                 { title: 'Pressure Testing', desc: "Confirms whether a line is actively losing pressure before opening floors.", img: "pressure_testing.webp", link: "/water-line-pressure-testing-tucson/" }
               ].map(svc => (
                 <div key={svc.title} className="premium-card location-card" style={{ overflow: "hidden", display: "flex", flexDirection: "column" }}>
-                  <img title="Emergency Slab Leak Service Tucson" src={`/images/${svc.img}`} alt={svc.title} style={{ width: "100%", height: "200px", objectFit: "cover", borderBottom: "4px solid var(--dark-charcoal)" }} />
+                  <img title="Emergency Slab Leak Service Tucson" src={`/images/${svc.img}`} alt={svc.title} loading="lazy" decoding="async" style={{ width: "100%", height: "200px", objectFit: "cover", borderBottom: "4px solid var(--dark-charcoal)" }} />
                   <div style={{ padding: "1.5rem", display: "flex", flexDirection: "column", flexGrow: 1 }}>
                     <h3 style={{ marginBottom: "1rem", color: "var(--brand-red)", fontSize: "1.25rem", fontWeight: "800" }}>{svc.title}</h3>
                     <p style={{ fontSize: "0.95rem", color: "#4a4a4a", marginBottom: "1.5rem", flexGrow: 1 }}>{svc.desc}</p>
@@ -286,7 +286,7 @@ export default function Home() {
             </div>
             {/* Right Image Half */}
             <div style={{ minHeight: "500px", position: "relative" }}>
-              <img src="/images/why_choose_us_plumber.webp" alt="Professional plumber performing leak detection" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }} />
+              <img src="/images/why_choose_us_plumber.webp" alt="Professional plumber performing leak detection" loading="lazy" decoding="async" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }} />
             </div>
           </div>
         </section>
@@ -309,7 +309,9 @@ export default function Home() {
                     <div style={{ width: "100%", height: "220px", position: "relative", overflow: "hidden", backgroundColor: "#e2e8f0" }}>
                       <img 
                         src={post.heroImage} 
-                        alt={post.title} 
+                        alt={post.title}
+                        loading="lazy"
+                        decoding="async"
                         style={{ width: "100%", height: "100%", objectFit: "cover" }}
                       />
                       <div style={{ position: "absolute", top: "1rem", right: "1rem", backgroundColor: "var(--brand-red)", color: "var(--white)", padding: "0.25rem 0.75rem", borderRadius: "999px", fontSize: "0.85rem", fontWeight: "bold" }}>
@@ -354,7 +356,7 @@ export default function Home() {
         <section id="contact" style={{ position: "relative", padding: "6rem 0", overflow: "hidden", minHeight: "600px", display: "flex", alignItems: "center" }}>
           {/* Dark Overlay Background */}
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, backgroundColor: "#18181b" }}>
-            <img title="Water Line Rerouting Tucson" src="/images/water_line_rerouting.webp" alt="Tucson water line rerouting services" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
+            <img title="Water Line Rerouting Tucson" src="/images/water_line_rerouting.webp" alt="Tucson water line rerouting services" loading="lazy" decoding="async" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.35 }} />
           </div>
           
           <div className="container" style={{ position: "relative", zIndex: 10 }}>
